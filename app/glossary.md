@@ -2,12 +2,6 @@
 layout: page
 title: Glossary
 description: A collection of terms commonly used across the service lines.
-tags: reference
-eleventyComputed:
-  eleventyNavigation:
-    key: "{{ title }}"
-    excerpt: "{{ description }}"
-    parent: home
 ---
 
 A collection of terms commonly used across the service lines.
