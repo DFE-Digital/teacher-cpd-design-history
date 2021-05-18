@@ -1,0 +1,6 @@
+{
+  "tags": ["manage-cpd-delivery"],
+  "eleventyNavigation": {
+    "parent": "Manage CPD delivery"
+  }
+}

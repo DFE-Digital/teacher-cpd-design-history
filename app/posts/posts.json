@@ -4,7 +4,6 @@
   "tags": ["search-index"],
   "eleventyComputed": {
     "eleventyNavigation": {
-      "parent": "home",
       "key": "{{ title }}",
       "excerpt": "{{ description }}"
     }
