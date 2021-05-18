@@ -1,5 +1,5 @@
 ---
-title: Full registration  v1
+title: Full registration v1
 description: First draft of the full registration journey taking place on the NPQ service
 date: 2021-01-27
 ---
@@ -7,14 +7,12 @@ We iterated on the DfE first registration flow to create a flow that is entirely
 
 We chose to use the questions from Teach First as they have the most and longest questions. This will help us understand user reaction to this and to create a discussion with providers about how personalised these questions need to be.
 
-
 ## User needs
 
-<b>As a teacher </b>
+<b>As a teacher</b>
 I need to register interest and apply for an NPQ course at my chosen provider<br />
-<b>As a teacher </b> 
+<b>As a teacher</b>
 I need to provide the correct data about myself in the application form (TRN, DOB, Names)
-
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
 {{ appScreenshots({
@@ -68,7 +66,7 @@ I need to provide the correct data about myself in the application form (TRN, DO
       img: { src: "9.png" }
     }, {
       text: "Choose your NPQ",
-      
+
       img: { src: "10.png" }
     },  {
       text: "Choose your provider",
@@ -120,5 +118,3 @@ I need to provide the correct data about myself in the application form (TRN, DO
 
 ## Iterations
 This is the third iteration of the DfE first journey
-
-## User research

@@ -4,16 +4,14 @@ description: First draft sketches for registration journeys
 date: 2021-01-12
 ---
 
-This is the first sketch of a registation journey option that starts with the provider journey and then hands over to DfE to complete the TRN and final set up of the DfE account.
-
+This is the first sketch of a registration journey option that starts with the provider journey and then hands over to DfE to complete the TRN and final set up of the DfE account.
 
 ## User needs
 
-<b>As a teacher </b>
+<b>As a teacher</b>
 I need to register interest and apply for an NPQ course at my chosen provider<br />
-<b>As a teacher </b> 
+<b>As a teacher</b>
 I need to provide the correct data about myself in the application form (TRN, DOB, Names)
-
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
 {{ appScreenshots({
@@ -26,7 +24,7 @@ I need to provide the correct data about myself in the application form (TRN, DO
       img: { src: "2.png" }
     }, {
       text: "Teacher reference number check",
-      caption: "The big issue we identiied from UR is that many users don't know or have access to their TRN number. We caught this right at the start of the journey to ensure users didn't get part way through and get into difficulties because it didn't exist",
+      caption: "The big issue we identified from UR is that many users don't know or have access to their TRN number. We caught this right at the start of the journey to ensure users didn't get part way through and get into difficulties because it didn't exist",
       img: { src: "3.png" }
     }, {
       text: "Teacher reference number reminder",
@@ -56,5 +54,3 @@ I need to provide the correct data about myself in the application form (TRN, DO
 
 ## Iterations
 This is the first iteration of this journey
-
-## User research

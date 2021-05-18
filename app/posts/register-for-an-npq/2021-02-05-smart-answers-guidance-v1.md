@@ -4,24 +4,22 @@ description: Smart answers type pattern to test whether a questions and answers 
 date: 2021-02-05
 ---
 
-This is similar content to the more standard guidance type pages. In this version we are asking the users questions and using the answers to give them personalised guidance. 
+This is similar content to the more standard guidance type pages. In this version we are asking the users questions and using the answers to give them personalised guidance.
 
-We have deliberately kept the copy to the basics as we want the users to tell us what is missing/what else they need during research. 
-
+We have deliberately kept the copy to the basics as we want the users to tell us what is missing/what else they need during research.
 
 ## User needs
 
-<b>As a teacher </b>
+<b>As a teacher</b>
 To easily find and access information about NPQs<br />
-<b>As a teacher </b> 
+<b>As a teacher</b>
 To understand the benefits of an NPQ qualification<br />
-<b>As a teacher </b> 
+<b>As a teacher</b>
 To understand which NPQ is relevant to me<br />
-<b>As a teacher </b> 
+<b>As a teacher</b>
 To understand if I'm eligible for funding<br />
-<b>As a teacher </b> 
+<b>As a teacher</b>
 To understand who provides NPQs
-
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
 {{ appScreenshots({
@@ -63,5 +61,3 @@ To understand who provides NPQs
 
 ## Iterations
 This is the first iteration of this journey
-
-## User research

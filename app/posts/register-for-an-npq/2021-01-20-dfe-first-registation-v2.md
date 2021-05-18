@@ -1,23 +1,21 @@
 ---
-title: Dfe first registation  v2
+title: DfE first registration v2
 description:
 date: 2021-01-20
 ---
-This is the second iteration of a registation journey option that starts with the DfE, users enter their TRN details, create an account and then are handed over to the relevant provider. 
+This is the second iteration of a registration journey option that starts with the DfE, users enter their TRN details, create an account and then are handed over to the relevant provider.
 
 In this version we have altered:
-1. the beginning of the journey to deal with the 'name issue' - the name the user enters into the TRN fields needs to match what is stored on the DQT. We found that updating the DQT wasn't top of mind when names were changed and it could get out of synch. 
+1. the beginning of the journey to deal with the 'name issue' - the name the user enters into the TRN fields needs to match what is stored on the DQT. We found that updating the DQT wasn't top of mind when names were changed and it could get out of synch.
 2. added the ability to find your school, so that we can look up the URN of the school to check for funding eligibility
-3. added the diversity questions that the DfE need to the end of the journey  
-
+3. added the diversity questions that the DfE need to the end of the journey
 
 ## User needs
 
-<b>As a teacher </b>
+<b>As a teacher</b>
 I need to register interest and apply for an NPQ course at my chosen provider<br />
-<b>As a teacher </b> 
+<b>As a teacher</b>
 I need to provide the correct data about myself in the application form (TRN, DOB, Names)
-
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
 {{ appScreenshots({
@@ -105,5 +103,3 @@ I need to provide the correct data about myself in the application form (TRN, DO
 
 ## Iterations
 This is the second iteration of this journey
-
-## User research
