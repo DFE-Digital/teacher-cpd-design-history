@@ -1,13 +1,13 @@
 ---
 tags: false
 layout: collection
-title: Manage induction for early career teachers
+title: Manage training for early career teachers
 description: ECF only - school facing
 pagination:
-  data: collections.manage-induction
+  data: collections.manage-training
   reverse: true
   size: 50
-permalink: "manage-induction/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
+permalink: "manage-training/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
 eleventyComputed:
   eleventyNavigation:
     key: "{{ title }}"
