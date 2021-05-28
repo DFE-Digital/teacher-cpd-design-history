@@ -2,7 +2,7 @@
 tags: false
 layout: collection
 title: Manage training for early career teachers
-description: ECF only - school facing
+description: This service helps schools in England setup, manage and run ECF inductions for each new cohort of early career teachers.
 pagination:
   data: collections.manage-training
   reverse: true
