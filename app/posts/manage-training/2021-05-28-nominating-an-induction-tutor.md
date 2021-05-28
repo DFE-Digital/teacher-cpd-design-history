@@ -27,8 +27,9 @@ From speaking to the [Get help with tech](https://get-help-with-tech.education.g
 
 The nomination journey works as follows;
 1. We send an email to the school’s main GIAS contact, with a unique link to nominate their induction tutor.
-2. On clicking this link, the user arrives on the Digital service to nominate their induction tutor, with their school already preselected by virtue of a token in the URL. ie. the unique link both verifies that the user is the recipient (or at least was forwarded) the official email, and allows us to identify the school they are nominating a tutor for.
-3. Once nomination is successful, the school admin staff have no further responsibilities on the service and the newly nominated induction tutor is notified via email.
+2. On clicking this link, the user arrives on the digital service to nominate their induction tutor, with their school already preselected by virtue of a token in the URL. ie. the unique link both verifies that the user is the recipient (or at least was forwarded) the official email, and allows us to identify the school they are nominating a tutor for.
+3. They enter the full name and email address of the induction Tutor
+4. If nomination is successful, the school admin staff have no further responsibilities on the service and the newly nominated induction tutor is notified via email.
 
 **Wireframe journey:**
 [https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457354086350072&cot=14](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457354086350072&cot=14).
