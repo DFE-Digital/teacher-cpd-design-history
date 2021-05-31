@@ -10,7 +10,7 @@ Managing the induction of Early Career Teachers usually falls to one person in a
 
 Given most of the "Manage training for early career teachers" service is built around the Induction Tutor, it was important that we knew who they were, what school they worked for and how we can contact them. Although we could access an administrative email address for the majority of schools via GIAS data, we didn't want to burden the school admin staff with further tasks that were time sensitive or not relevant to their job.
 
-## First version
+## How it worked: the first version
 An early iteration of the nomination journey allowed anyone to nominate an induction tutor for a school by;
 
 1. arriving on the platform (from a variety of different comms channels)
@@ -20,7 +20,7 @@ An early iteration of the nomination journey allowed anyone to nominate an induc
 
 Our plan for verifying that an induction tutor legitimately worked at a school was to compare the email domain of the school's main contact on GIAS, with the domain of the nominated induction tutor. However, from analysing GIAS data we discovered that domains across school contacts were rarely consistent. ie. it could be perfectly valid for `jane.smith@coastalacademies.co.uk` to be the Induction Tutor for `Acorn Primary School`.
 
-## Second version
+## How it worts: the second version
 Learning that this validation method wouldn't work, we looked at the feasibility of sending an email to the main contact on GIAS, with a unique link to nominate the school induction tutor.
 
 From speaking to the [Get help with tech](https://get-help-with-tech.education.gov.uk/) team, we learned that the launch of their service was incentivising schools to update their data in GIAS.
