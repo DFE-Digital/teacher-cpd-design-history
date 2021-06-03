@@ -39,8 +39,7 @@ The journey also contained screens to account for scenarios where the user could
 {{ appScreenshots({
   items: [{
       text: "Email: Sign in to manage induction",
-      img: { src: "03-sign-in-to-manage-induction.png" },
-      caption: ""
+      img: { src: "03-sign-in-to-manage-induction.png" }
     }, {
       text: "Start page: Manage training for early career teachers",
       img: { src: "02-manage-training-for-early-career-teachers.png" }
@@ -61,6 +60,7 @@ The journey also contained screens to account for scenarios where the user could
       img: { src: "08-privacy-policy.png" }
     }, {
       text: "Error: This link has expired",
-      img: { src: "07-b-this-link-has-expired.png" }
+      img: { src: "07-b-this-link-has-expired.png" },
+      caption: "The unique sign in link that's emailed to users, has a token which is only valid for 1 hour. If this token has expired, the user sees this page."
     }]
 }) }}
