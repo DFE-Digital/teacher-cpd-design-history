@@ -25,7 +25,7 @@ Learning that this validation method wouldn't work, we looked at the feasibility
 
 From speaking to the [Get help with tech](https://get-help-with-tech.education.gov.uk/) team, we learned that the launch of their service was incentivising schools to update their data in GIAS.
 
-The nomination journey works as follows;
+The journey works as follows;
 1. We send an email to the school’s main GIAS contact, with a unique link to nominate their induction tutor.
 2. On clicking this link, the user arrives on the digital service to nominate their induction tutor, with their school already preselected by virtue of a token in the URL. ie. the unique link both verifies that the user is the recipient (or at least was forwarded) the official email, and allows us to identify the school they are nominating a tutor for.
 3. They enter the full name and email address of the induction Tutor

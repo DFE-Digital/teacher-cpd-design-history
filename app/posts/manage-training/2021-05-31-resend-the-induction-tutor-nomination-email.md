@@ -6,14 +6,14 @@ date: 2021-05-31
 
 **How a school triggers the resending of the nomination email, incase it gets missed or the unique link expires.**
 
-We needed to allow schools to resend [the original nomination email] to the main GIAS contact, to cater for a few different scenarios;
+We needed to allow schools to resend [the original nomination email](/manage-training/nominating-an-induction-tutor/#email-important-nqt-induction-changes) to the main GIAS contact, to cater for a few different scenarios;
 
 1. The original nomination email was ignored, lost or deleted
 2. The unique link in the original email had expired and a new link needed to be generated
 3. A school was unsure if it had nominated someone previously, and tried to sign in
 
 ## How it works
-The resend journey works as follows;
+The journey works as follows;
 1. The user starts the journey, by clicking a link on the [How to get an account for this service](#how-to-get-an-account-for-this-service) page
 2. They search and select the local authority where the school is based
 3. They search and select the school they want
@@ -29,7 +29,7 @@ The resend journey works as follows;
 ### Why we first ask for the local authority
 There are ~25,000 eligible schools in England and many of which have similar sounding names; there are for example, ~50 schools called "St Mary's". When using an [accessible autocomplete field](https://github.com/alphagov/accessible-autocomplete), this means the user has to manually scroll through a long list of results. By asking the user to select the local authority first, means we can narrow down the subsequent list school results. This built upon similar findings that the NPQ team also discovered.
 
-We decided to use *local authority* instead of *postcode* as through testing, we learnt that this was universally known across users, whereas some couldn't recall a school's postcode when prompted. For us to narrow down the results, the specifics of a street address weren't also needed.
+We decided to use *local authority* instead of *postcode* as through testing, we learnt that this was universally known across users, whereas some couldn't recall a school's postcode when prompted (especially for schools split across different sites). For us to narrow down the results, the specifics of a street address weren't also needed.
 
 
 ### Potential issues with this journey
