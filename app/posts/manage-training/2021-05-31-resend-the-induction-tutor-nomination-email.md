@@ -14,7 +14,7 @@ We needed to allow schools to resend [the original nomination email] to the main
 
 ## How it works
 The resend journey works as follows;
-1. The user starts the journey, by clicking a link on the [Check if you have an account] page
+1. The user starts the journey, by clicking a link on the [How to get an account for this service](#how-to-get-an-account-for-this-service) page
 2. They search and select the local authority where the school is based
 3. They search and select the school they want
 4. The user confirms the schools details
@@ -56,8 +56,11 @@ The purpose for each error state is detailed under the relevant screenshot below
       img: { src: "01-how-to-get-an-account-for-this-service.png" },
       caption: "The user arrives here either from either two places in the sign in journey: 1). the Enter your email address page 2). the check your email page"
     }, {
-      text: "Nominate an induction tutor (chose local authority)",
-      img: { src: "02-nominate-an-induction-tutor.png" }
+      text: "Send your school a link to nominate an induction tutor",
+      img: { src: "02-1-send-induction-tutor-link.png" }
+    }, {
+      text: "What is your school’s local authority?",
+      img: { src: "02-find-school-location.png" }
     }, {
       text: "Find your school",
       img: { src: "03-find-your-school.png" }
