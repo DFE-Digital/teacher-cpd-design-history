@@ -13,7 +13,7 @@ The journey works as follows;
 2. They follow a link in the email and arrive on the service start page for "Manage training for early career teachers"
 3. They follow a password-less sign in journey, where authentication involves the user clicking on a unique link sent to their email address, instead of entering in a password
 4. Once authentication is successful, the user is signed in and presented with the privacy policy. This privacy policy only appears the first time a user signs in, or if an amendment to the policy has been made since they last viewed it.
-5. If the user hasn't yet chosen a programme for this upcoming cohort, they are redirected to the [School choosing an induction programme journey].
+5. If the user hasn't yet chosen a programme for this upcoming cohort, they are redirected to the [School choosing an induction programme for a cohort](/manage-training/school-choosing-an-induction-programme/) journey.
 
 
 **Wireframe journey:**
