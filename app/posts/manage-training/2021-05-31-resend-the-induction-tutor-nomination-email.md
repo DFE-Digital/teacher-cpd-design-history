@@ -6,6 +6,9 @@ date: 2021-05-31
 
 How a school triggers the resending of the nomination email, incase it gets missed or the unique link expires.
 
+
+## Why we need this journey
+
 We needed to allow schools to resend [the original nomination email](/manage-training/nominating-an-induction-tutor/#email-important-nqt-induction-changes) to the main GIAS contact, to cater for a few different scenarios;
 
 1. The original nomination email was ignored, lost or deleted
