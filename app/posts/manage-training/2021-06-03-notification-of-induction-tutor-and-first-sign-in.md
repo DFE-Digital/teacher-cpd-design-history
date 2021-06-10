@@ -4,7 +4,7 @@ description: How a newly nominated school induction tutor gets notified and the 
 date: 2021-06-03
 ---
 
-**How a newly nominated school induction tutor gets notified and the journey they follow when signing in for the first time**
+How a newly nominated school induction tutor gets notified and the journey they follow when signing in for the first time
 
 
 ## How it works

@@ -4,7 +4,7 @@ description: How a school sets up each cohort to use either an approved training
 date: 2021-06-09
 ---
 
-**How a school sets up each cohort to use either an approved training provider (FIP) or use the DfE accredited materials (CIP).**
+How a school sets up each cohort to use either an approved training provider (FIP) or use the DfE accredited materials (CIP).
 
 
 ## How it works

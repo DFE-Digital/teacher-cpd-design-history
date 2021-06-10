@@ -4,7 +4,7 @@ description: How a school nominates an induction tutor, to make decisions on its
 date: 2021-05-27
 ---
 
-**How a school nominates an induction tutor, to make decisions on its behalf**
+How a school nominates an induction tutor, to make decisions on its behalf
 
 Managing the induction of Early Career Teachers usually falls to one person in a school, called an Induction Lead or Tutor. Thankfully this role and responsibility is already established in most schools.
 
