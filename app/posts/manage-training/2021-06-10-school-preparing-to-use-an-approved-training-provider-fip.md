@@ -57,7 +57,7 @@ Aware that training providers were financially incentivised to recruit schools, 
     }, {
       text: "Sign up with a training provider (done)",
       img: { src: "04-b-sign-up-with-a-training-provider.png" },
-      caption: "Once a training provider recruits a school and tells DfE, this task is changed to **done** and the providers information is played back to the user. For 14 days the user also has the option to report a mistake."
+      caption: "Once a training provider recruits a school and tells DfE, this task is changed to **done** and the providers information is played back to the user. For 14 days the user also has the option to report a mistake. They are also [notified about this via email](manage-training/2021-06-10-notify-school-been-recruited-by-provider)."
     }, {
       text: "Add early career teachers and mentors",
       img: { src: "05-add-ects-and-mentors.png" }
