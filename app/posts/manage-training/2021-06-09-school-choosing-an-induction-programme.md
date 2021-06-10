@@ -1,10 +1,10 @@
 ---
 title: School choosing an induction programme for a cohort
-description: Each cohort needs to be setup to use either an approved training provider (FIP) or use the DfE accredited materials (CIP). This journey walks the induction tutor how they confirm that choice.
+description: How a school sets up each cohort to use either an approved training provider (FIP) or use the DfE accredited materials (CIP).
 date: 2021-06-09
 ---
 
-**Each cohort needs to be setup to use either an approved training provider (FIP) or use the DfE accredited materials (CIP). This journey walks the induction tutor how they make and confirm that choice.**
+**How a school sets up each cohort to use either an approved training provider (FIP) or use the DfE accredited materials (CIP).**
 
 
 ## How it works
