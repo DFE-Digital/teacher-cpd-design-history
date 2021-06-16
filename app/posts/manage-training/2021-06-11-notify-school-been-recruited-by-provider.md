@@ -34,6 +34,9 @@ The launch of public BETA has shown that schools need to see the name of both th
 
 Lead Providers sometimes outsource the recruitment to Delivery Partners, meaning schools can have a relationship or familiarity with one but not the other.
 
+### What we've leared through Public BETA so far (up to mid June)
+So far only a small handful of schools have reported a mistake using this journey. The data currently suggests that these schools belong to Multi Academy Trusts (MATs). This could indicate that the provider has recruited the MAT but perhaps not all schools in the MAT are aware of the partnership. To avoid these situations, it would be worth working with training providers to ensure MATs communicate the partnership to all their schools, before the Lead Providers report the partnerships to DfE.
+
 
 ## Error states
 The journey also contained screens to account for scenarios where the user could not continue. These were;
