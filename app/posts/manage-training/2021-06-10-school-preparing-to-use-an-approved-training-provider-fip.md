@@ -1,6 +1,6 @@
 ---
 title: School preparing to use an approved training provider (or the FIP)
-description: How a school has who's chosen to use a training provider, performs tasks such as signing up with a training provider and adding participants (ie. teachers and mentors).
+description: How a school that's using a training provider, performs tasks such as signing up with a training provider and adding participants (ie. teachers and mentors).
 date: 2021-06-10
 ---
 
@@ -12,15 +12,16 @@ The journey works as follows;
 1. On signing in, the user selects the cohort they want to manage
 2. Assuming they have already [chosen the programme they want to do for this cohort](/manage-training/school-choosing-an-induction-programme/), they are presented with a list of tasks to perform
 3. The first task of *choose your induction programme* is already marked as **done**. The user is presented with information on this page on the decision they made, and what their options are if they want to change that decision.
-4. If second task of *sign up with a training provider* has the status of **to do** the following page gives instruction on how they can do this, along with advice on who they may need to talk to in their school network. If the task has the status of **done** the following page plays back who their training provider is and also a link to [report if your school has been signed up incorrectly].
+4. If second task of *sign up with a training provider* has the status of **to do** the following page gives instruction on how they can do this, along with advice on who they may need to talk to in their school network. If the task has the status of **done** the following page plays back who their training provider is and also a link to [report if your school has been signed up incorrectly](/manage-training/notify-school-been-recruited-by-provider/).
 5. The third task of *Add early career teachers and mentors* currently just provides the user with details on what information they need to gather when this functionality is finally released (~ July 2021)
 
 
 **Wireframe journey:**
-[https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355306758748&cot=14](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355306758748&cot=14)
+[https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355308879313&cot=14](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355308879313&cot=14)
 
 **Journey on prototype**
-[https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/fip/fip-choose-cohort](https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/fip/fip-choose-cohort)
+[https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/cip/cip-choose-cohort](https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/cip/cip-choose-cohort).
+Be sure to choose the [appropriate settings](https://dfe-ecf-register-partner.herokuapp.com/start-testing) first.
 
 ### Why we don't help schools find a training provider
 Much of the ALPHA phase looked at how might we help schools find a training provider. This included building and testing searchable directories of providers, and even processes where "proposals" could be sent to schools. However, research showed us that;
