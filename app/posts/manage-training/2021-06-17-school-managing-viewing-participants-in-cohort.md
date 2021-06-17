@@ -33,7 +33,10 @@ Through research, we've found that the mental model of a cohort (or academic yea
 
 
 ## Validation statuses
-Once [a participant is added to a cohort] their data is validated against various automated and manual sources to ensure they are a) a real person b) a qualified teacher c) eligible to receive training.
+Once [a participant is added to a cohort] their data is validated against various automated and manual sources to ensure they are;
+1. a real person
+2. a qualified teacher
+3. eligible to receive training.
 
 The status label that we assign the participant communicates to the user at what stage that validation is at, and whether any manual investigation is needed.
 

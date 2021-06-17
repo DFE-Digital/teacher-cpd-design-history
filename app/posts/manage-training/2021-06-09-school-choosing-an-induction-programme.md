@@ -12,7 +12,7 @@ The journey works as follows;
 1. On signing in for the first time, the user is presented with a brief overview of their choices and asked if they know how they want to run inductions for the upcoming cohort. Links to external guidance on GOV.UK are provided if they are unsure.
 2. The user chooses between either using an approved training provider (the Full Induction Programme / FIP) or using the DfE accredited materials (the Core Induction Programme / CIP)
 3. The user confirms their choice
-4. Their choice of programme is saved and they continue onto the respective next steps for [schools preparing to do the FIP] or [schools preparing to do the CIP]
+4. Their choice of programme is saved and they continue onto the respective next steps for [a school preparing to use an approved training provider (or the FIP)](/manage-training/school-preparing-to-use-an-approved-training-provider-fip/) or [a school preparing to use the DfE accredited materials (or the CIP)](/manage-training/school-preparing-to-use-dfe-approved-materials-cip/)
 
 
 **Wireframe journey:**
