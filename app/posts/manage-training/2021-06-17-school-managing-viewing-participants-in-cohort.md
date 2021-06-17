@@ -1,17 +1,17 @@
 ---
 title: A school managing and viewing participants in a cohort
-description: How a school who is either using a training provider or using the accredited materials (ie. FIP or CIP) accesses, views and manages individual participants in a cohort.
+description: How a school that is either using an approved training provider (FIP) or using the accredited materials (CIP) accesses, views and manages individual participants in a cohort.
 date: 2021-06-16
 ---
 
-How a school who is either using an approved training provider (FIP) or using the accredited materials (CIP) accesses, views and manages individual participants in a cohort.
+How a school that is either using an approved training provider (FIP) or using the accredited materials (CIP) accesses, views and manages individual participants in a cohort.
 
 
 ## How it works
 The journey works as follows;
 1. On signing in, the user selects the cohort they want to manage
 2. Assuming they have already [chosen the programme they want to do for this cohort](/manage-training/school-choosing-an-induction-programme/), they are presented with a list of tasks to perform
-3. Assuming the task list item "Add early career teachers and mentors", has the status **TO DO** or **IN PROGRESS**, the user clicks on this and is presented with a table of all participants in that cohort; their name, whether they are an early career teacher (ECT) or mentor, and what their validation status is
+3. Assuming the task list item "Add early career teachers and mentors", has the status <strong class="govuk-tag govuk-tag--grey">to do</strong> or <strong class="govuk-tag govuk-tag--grey">in progress</strong>, the user clicks on this and is presented with a table of all participants in that cohort; their name, whether they are an early career teacher (ECT) or mentor, and what their validation status is
 4. The user clicks into each individual participant, and can view further information on this participant; context to their validation status (ie. what does the "not started" status mean), their email address and if they are an ECT, who their mentor is
 5. If the user is viewing a individual ECT, they can also change their Mentor too
 
@@ -24,17 +24,32 @@ The journey works as follows;
 Be sure to choose the [appropriate settings](https://dfe-ecf-register-partner.herokuapp.com/start-testing) first.
 
 
-### Information architecture: why we manage participants via a cohort instead of via a global view
+## Information architecture: why we manage participants through a cohort instead of via a global view
 Put simply, there are a lot of attributes and relationships that the participant inherits by virtue of belonging to a cohort.  ie, the mentor they can have, the programme they are on and the materials they are using. Making the user (ie. the school induction tutor) aware of this is important in the early stages of setting up the cohort as it implies what the participant can and cannot do.
 
 The logic of this isn't rooted in technical restrictions, but a set of requirements that determine how much a training provider gets paid for training an individual.
 
-Through research, we've found that the mental model of a cohort (or academic year) is familiar with those who'd perform the role of the school induction tutor and hasn't yet caused any issues.
+Through research, we've found that the mental model of a cohort (or academic year) is familiar with those who'd perform the role of the school induction tutor and hasn't yet caused any issues. However, whether this mental model will cause any problems as the platform matures needs to be taken into account - [see future considerations below](#future-considerations).
+
+
+## Validation statuses
+Once [a participant is added to a cohort] their data is validated against various automated and manual sources to ensure they are a) a real person b) a qualified teacher c) eligible to receive training.
+
+The status label that we assign the participant communicates to the user at what stage that validation is at, and whether any manual investigation is needed.
+
+* <strong class="govuk-tag govuk-tag--grey">NOT STARTED</strong> - the induction tutor has added the participant, but they haven't yet added their data to be validated.
+* <strong class="govuk-tag govuk-tag--yellow">WAITING ON DQT UPDATE</strong> - the participant has added their data, we have but they need to also update the Database of Qualified Teachers (DQT) manually. This requires the participant to do an extra step, and probably be chased by the induction tutor too, if they forget.
+* <strong class="govuk-tag govuk-tag--yellow">WAITING TO BE ADDED TO DQT </strong> - the participant doesn't yet exist in DQT, so we can't automatically validate them. We are reliant on the Teaching Regulation Agency (TRA) adding them first. The reason they don't exist in DQT could be legitimate. For example; they are newly qualified or they were trained in Scotland, Ireland or abroad and waiting to be added.
+* <strong class="govuk-tag govuk-tag--yellow">WAITING ON QTS STATUS</strong> - the participant has added their data, it's been validated against DQT, but they don't yet have their Qualified Teacher Status (QTS). This could be because they are newly qualified and waiting on the TRA to make an update on their side.
+* <strong class="govuk-tag govuk-tag--red">INVESTIGATE</strong> - the participant has added their data, it's been validated against DQT but alerts were found on their profile which prevents them from being trained. This could be because they have been disqualified, or have a disciplinary pending. There is nothing for the school induction tutor to do, and will require [DfE Admin to investigate and manually override].
+* <strong class="govuk-tag govuk-tag--green">Approved</strong> - the participant has added their data, the data has been validated against DQT, there were no flags against their profile and they have QTS status.
+
 
 
 ## Future considerations
-* **How might we evolve or transition the management of users when a cohort is fully setup**. Keeping the adding and managing of users in the task list currently makes sense as it's a vital part of getting a cohort prepared for the start of training. But once training is in place, how will this task list change and where will the management of users sit?
 * **Will schools ever need a global view of participants?** From speaking to schools, multi academy trusts and training providers, we estimate that schools will be adding and managing ~ 6 participants per cohort. Knowing that the ECF programme will run for at least 3 years, and each cohort receives training for 2 years, this means that the most participants a school will manage on the platform at any given time will be ~18 (taking into account the need to setup a cohort several months before the new academic year). Ongoing research will need to be done, to see how participants are managed and if framing this management task through cohorts is an impediment. ie, "i just want to see all my participants in one place".
+* **How might we evolve or transition the management of users when a cohort is fully setup**. Keeping the adding and managing of users in the task list currently makes sense as it's a vital part of getting a cohort prepared for the start of training. But once training is in place, how will this task list change and where will the management of users sit?
+
 
 
 
@@ -48,32 +63,21 @@ Through research, we've found that the mental model of a cohort (or academic yea
       text: "Manage cohort: use DfE accredited materials",
       img: { src: "02-manage-cohort.png" }
     }, {
-      text: "Notification that the schools programme will soon change to use an approved training provider (FIP)",
-      img: { src: "09-cip-but-recruited-for-fip.png" },
-      caption: "A school can choose to use the accredited materials (CIP), but in the meantime also be recruited by a training provider (FIP). If this happens the school is [notified by email](/manage-training/notify-school-been-recruited-by-provider/) and a notification banner is also placed at the top of all pages when managing that specific cohort."
+      text: "Your early career teachers (ECTs) and mentors",
+      img: { src: "03-your-ects-mentors.png" }
     }, {
-      text: "Choose an induction programme (done)",
-      img: { src: "03-choose-induction-programme.png" },
-      caption: "This item / page is always marked as **done** as it's completed by virtue of setting up a cohort."
-    }, {
-      text: "Do you know which accredited materials you want to use?",
-      img: { src: "04-choose-training-materials.png" },
+      text: "Single view of an ECT",
+      img: { src: "04-ect-detail.png" },
       caption: ""
     }, {
-      text: "Choose study materials for your early career teachers",
-      img: { src: "05-training-materials-guidance.png" }
+      text: "Changing the mentor of an ECT",
+      img: { src: "05-edit-mentor-1.png" },
+      caption: ""
     }, {
-      text: "Which training materials do you want this cohort to use?",
-      img: { src: "06-which-materials.png" }
+      text: "Success: Single view of an ECT",
+      img: { src: "06-edit-mentor-2.png" }
     }, {
-      text: "Study materials saved",
-      img: { src: "07-saved.png" }
-    }, {
-      text: "Add early career teachers and mentors",
-      img: { src: "08-add-ects-mentors.png" }
-    }, {
-      text: "How a school's programme choice changes when they are recruited by a lead provider or report an incorrect sign up",
-      img: { src: "programme-choice-change.jpg" },
-      caption: "A logic diagram explaining how a programme choice changes when a school is recruited by a training provider, or when a school reports an incorrect sign up."
+      text: "Single view of a mentor",
+      img: { src: "07-mentor-detail.png" }
     }]
 }) }}

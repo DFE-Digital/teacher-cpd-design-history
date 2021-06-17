@@ -11,8 +11,8 @@ How a school has who's chosen to use a training provider, performs tasks such as
 The journey works as follows;
 1. On signing in, the user selects the cohort they want to manage
 2. Assuming they have already [chosen the programme they want to do for this cohort](/manage-training/school-choosing-an-induction-programme/), they are presented with a list of tasks to perform
-3. The first task of *choose your induction programme* is already marked as **done**. The user is presented with information on this page on the decision they made, and what their options are if they want to change that decision.
-4. If second task of *sign up with a training provider* has the status of **to do** the following page gives instruction on how they can do this, along with advice on who they may need to talk to in their school network. If the task has the status of **done** the following page plays back who their training provider is and also a link to [report if your school has been signed up incorrectly](/manage-training/notify-school-been-recruited-by-provider/).
+3. The first task of *choose your induction programme* is already marked as <strong class="govuk-tag govuk-tag--blue">done</strong>. The user is presented with information on this page on the decision they made, and what their options are if they want to change that decision.
+4. If second task of *sign up with a training provider* has the status of <strong class="govuk-tag govuk-tag--grey">to do</strong> the following page gives instruction on how they can do this, along with advice on who they may need to talk to in their school network. If the task has the status of <strong class="govuk-tag govuk-tag--blue">done</strong> the following page plays back who their training provider is and also a link to [report if your school has been signed up incorrectly](/manage-training/notify-school-been-recruited-by-provider/).
 5. The third task of *Add early career teachers and mentors* currently just provides the user with details on what information they need to gather when this functionality is finally released (~ July 2021)
 
 
