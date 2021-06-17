@@ -1,5 +1,5 @@
 ---
-title: School choosing an induction programme for a cohort
+title: A school choosing an induction programme for a cohort
 description: How a school sets up each cohort to use either an approved training provider (FIP) or use the DfE accredited materials (CIP).
 date: 2021-06-09
 ---

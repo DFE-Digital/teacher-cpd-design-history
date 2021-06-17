@@ -1,5 +1,5 @@
 ---
-title: School preparing to use an approved training provider (or the FIP)
+title: A school preparing to use an approved training provider (or the FIP)
 description: How a school that's using a training provider, performs tasks such as signing up with a training provider and adding participants (ie. teachers and mentors).
 date: 2021-06-10
 ---
@@ -62,5 +62,9 @@ Aware that training providers were financially incentivised to recruit schools, 
     }, {
       text: "Add early career teachers and mentors",
       img: { src: "05-add-ects-and-mentors.png" }
+    }, {
+      text: "How a school's programme choice changes when they are recruited by a lead provider or report an incorrect sign up",
+      img: { src: "programme-choice-change.jpg" },
+      caption: "A logic diagram explaining how a programme choice changes when a school is recruited by a training provider, or when a school reports an incorrect sign up."
     }]
 }) }}

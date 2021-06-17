@@ -1,5 +1,5 @@
 ---
-title: Nominating an Induction Tutor
+title: Nominating a School's induction tutor
 description: How a school nominates an induction tutor, to make decisions on its behalf
 date: 2021-05-27
 ---

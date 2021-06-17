@@ -1,5 +1,5 @@
 ---
-title: School preparing to use the DfE accredited materials (or the CIP)
+title: A school preparing to use the DfE accredited materials (or the CIP)
 description: How a school that's using the DfE accredited materials, performs tasks such as choosing their training materials and adding participants (ie. teachers and mentors).
 date: 2021-06-16
 ---
@@ -11,7 +11,7 @@ How a school that's using the DfE accredited materials, performs tasks such as c
 The journey works as follows;
 1. On signing in, the user selects the cohort they want to manage
 2. Assuming they have already [chosen the programme they want to do for this cohort](/manage-training/school-choosing-an-induction-programme/), they are presented with a list of tasks to perform
-3. The first task of *choose your induction programme* is already marked as **done**. The user is presented with information on this page on the decision they made, and what their options are if they want to change that decision.
+3. The first task of *choose your induction programme* is already marked as **done**. The user is presented with information on this page on the decision they made, and what their options are if they want to change that decision. Note how the programme choice could change [if they get recruited by a provider, or report an incorrect sign up](#how-a-schools-programme-choice-changes-when-they-are-recruited-by-a-lead-provider-or-report-an-incorrect-sign-up).
 4. If second task of *Choose your training materials* has the status of **to do** the following pages walk the user through making the choice, and linking to external guidance giving a summary of the different options. If the task has the status of **done** the following page plays back the name of the training materials they have chosen and instructions on how to change this choice.
 5. The third task of *Add early career teachers and mentors* currently just provides the user with details on what information they need to gather when this functionality is finally released (~ July 2021)
 
@@ -68,5 +68,9 @@ Given the scale of this decision and thus the amount of content needed to suffic
     }, {
       text: "Add early career teachers and mentors",
       img: { src: "08-add-ects-mentors.png" }
+    }, {
+      text: "How a school's programme choice changes when they are recruited by a lead provider or report an incorrect sign up",
+      img: { src: "programme-choice-change.jpg" },
+      caption: "A logic diagram explaining how a programme choice changes when a school is recruited by a training provider, or when a school reports an incorrect sign up."
     }]
 }) }}
