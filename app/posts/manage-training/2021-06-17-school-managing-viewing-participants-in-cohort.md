@@ -40,12 +40,33 @@ Once [a participant is added to a cohort] their data is validated against variou
 
 The status label that we assign the participant communicates to the user at what stage that validation is at, and whether any manual investigation is needed.
 
-* <strong class="govuk-tag govuk-tag--grey">NOT STARTED</strong> - the induction tutor has added the participant, but they haven't yet added their data to be validated.
-* <strong class="govuk-tag govuk-tag--yellow">WAITING ON DQT UPDATE</strong> - the participant has added their data, we have but they need to also update the Database of Qualified Teachers (DQT) manually. This requires the participant to do an extra step, and probably be chased by the induction tutor too, if they forget.
-* <strong class="govuk-tag govuk-tag--yellow">WAITING TO BE ADDED TO DQT </strong> - the participant doesn't yet exist in DQT, so we can't automatically validate them. We are reliant on the Teaching Regulation Agency (TRA) adding them first. The reason they don't exist in DQT could be legitimate. For example; they are newly qualified or they were trained in Scotland, Ireland or abroad and waiting to be added.
-* <strong class="govuk-tag govuk-tag--yellow">WAITING ON QTS STATUS</strong> - the participant has added their data, it's been validated against DQT, but they don't yet have their Qualified Teacher Status (QTS). This could be because they are newly qualified and waiting on the TRA to make an update on their side.
-* <strong class="govuk-tag govuk-tag--red">INVESTIGATE</strong> - the participant has added their data, it's been validated against DQT but alerts were found on their profile which prevents them from being trained. This could be because they have been disqualified, or have a disciplinary pending. There is nothing for the school induction tutor to do, and will require [DfE Admin to investigate and manually override].
-* <strong class="govuk-tag govuk-tag--green">Approved</strong> - the participant has added their data, the data has been validated against DQT, there were no flags against their profile and they have QTS status.
+<strong class="govuk-tag govuk-tag--grey">NOT STARTED</strong>
+The induction tutor has added the participant, but they haven't yet added their data to be validated.
+
+What we tell the user: This person has not signed in and added their details yet. We will send them more notifications to add their details but you may also want to remind them.
+
+<strong class="govuk-tag govuk-tag--yellow">WAITING ON DQT UPDATE</strong>
+The participant has added their data, we have but they need to also update the Database of Qualified Teachers (DQT) manually. This requires the participant to do an extra step, and probably be chased by the induction tutor too, if they forget.
+
+What we tell the user: We have asked this person to update their details on the Teacher Self Service.
+
+<strong class="govuk-tag govuk-tag--yellow">Waiting to be added to DQT</strong>
+The participant doesn't yet exist in DQT, so we can't automatically validate them. We are reliant on the Teaching Regulation Agency (TRA) adding them first. The reason they don't exist in DQT could be legitimate. For example; they are newly qualified or they were trained in Scotland, Ireland or abroad and waiting to be added.
+
+What we tell the user: This person is being added to the teaching database. We will notify them when this is complete.
+
+<strong class="govuk-tag govuk-tag--yellow">Waiting on QTS status</strong>
+The participant has added their data, it's been validated against DQT, but they don't yet have their Qualified Teacher Status (QTS). This could be because they are newly qualified and waiting on the TRA to make an update on their side.
+
+What we tell the user: We are checking their Qualified Teacher Status (QTS). This is usually updated in a month. You don’t need to do anything.
+
+<strong class="govuk-tag govuk-tag--red">INVESTIGATE / rejected</strong>
+The participant has added their data, it's been validated against DQT but alerts were found on their profile which prevents them from being trained. This could be because they have been disqualified, or have a disciplinary pending. There is nothing for the school induction tutor to do, and will require [DfE Admin to investigate and manually override].
+
+What we tell the user: This person cannot be verified for statutory induction. You need to contact them directly.
+
+<strong class="govuk-tag govuk-tag--green">Approved / validation finished</strong>
+The participant has added their data, the data has been validated against DQT, there were no flags against their profile and they have QTS status.
 
 
 
