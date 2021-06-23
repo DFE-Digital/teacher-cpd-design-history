@@ -18,6 +18,9 @@ The journey works as follows;
 [https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/school-add-participants-to-cohort/choose-participant-type](https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/school-add-participants-to-cohort/choose-participant-type)
 
 
+## What happens after a participant has been added?
+Validation screenshot?
+
 ## Why we do a certain thing
 
 
