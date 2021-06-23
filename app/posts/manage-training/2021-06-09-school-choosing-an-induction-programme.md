@@ -1,18 +1,19 @@
 ---
-title: A school choosing an induction programme for a cohort
-description: How a school sets up each cohort to use either an approved training provider (FIP) or use the DfE accredited materials (CIP).
+title: A school declares how they want to run inductions for a cohort
+description: How a school sets up a cohort to use an approved training provider (FIP), the DfE accredited materials (CIP), declares they are designing their own induction or states they have no ECTs starting in the academic year.
 date: 2021-06-09
 ---
 
-How a school sets up each cohort to use either an approved training provider (FIP) or use the DfE accredited materials (CIP).
-
+How a school sets up a cohort to use an approved training provider (FIP), the DfE accredited materials (CIP), declares they are designing their own induction or states they have no ECTs starting in the academic year.
 
 ## How it works
 The journey works as follows;
 1. On signing in for the first time, the user is presented with a brief overview of their choices and asked if they know how they want to run inductions for the upcoming cohort. Links to external guidance on GOV.UK are provided if they are unsure.
-2. The user chooses between either using an approved training provider (the Full Induction Programme / FIP) or using the DfE accredited materials (the Core Induction Programme / CIP)
-3. The user confirms their choice
-4. Their choice of programme is saved and they continue onto the respective next steps for [a school preparing to use an approved training provider (or the FIP)](/manage-training/school-preparing-to-use-an-approved-training-provider-fip/) or [a school preparing to use the DfE accredited materials (or the CIP)](/manage-training/school-preparing-to-use-dfe-approved-materials-cip/)
+2. The user chooses between the two DfE programmes on offer (ie. the FIP or CIP), or declares that they are running their own inductions or simply don't have any ECTs for this cohort.
+3. The user confirms their choice.
+4. Their choice of programme is saved and they continue onto the respective next steps for;
+* [a school preparing to use an approved training provider (FIP)](/manage-training/school-preparing-to-use-an-approved-training-provider-fip/)
+* [a school preparing to use the DfE accredited materials (CIP)](/manage-training/school-preparing-to-use-dfe-approved-materials-cip/)
 
 
 **Wireframe journey:**
@@ -56,14 +57,19 @@ Note that this error state currently isn't used in the live service, as schools 
       img: { src: "02-how-do-you-want-to-run-induction-programme.png" }
     }, {
       text: "Confirm your induction programme (FIP)",
-      img: { src: "03-confirm-your-induction-programme-fip.png" }
+      img: { src: "03-confirm-your-induction-programme-fip.png" },
+      caption: "The choice from the previous screen is presented back to the user"
     }, {
-      text: "Confirm your induction programme (CIP)",
-      img: { src: "04-confirm-your-induction-programme-cip.png" }
+      text: "Success: Induction programme confirmed (CIP or FIP)",
+      img: { src: "05-induction-programme-confirmed.png" },
+      caption: "This success page is the same, if the school has chosen either to use an approved training provider (FIP), the DfE accredited materials (CIP)."
     }, {
-      text: "Induction programme confirmed",
-      img: { src: "05-induction-programme-confirmed.png" }
+      text: "Success: Induction programme confirmed (Design and deliver your own programme)",
+      img: { src: "05-induction-programme-confirmed-diy.png"}
     }, {
+      text: "Success: Induction programme confirmed (No early career teachers for this cohort)",
+      img: { src: "05-induction-programme-confirmed-noects.png"}
+    },{
       text: "Error: Your school is not eligible for this programme",
       img: { src: "06-school-not-eligible.png" },
       caption: "See [note above](/manage-training/school-choosing-an-induction-programme/#error-states)"
