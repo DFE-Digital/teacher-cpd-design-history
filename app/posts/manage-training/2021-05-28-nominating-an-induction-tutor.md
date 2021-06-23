@@ -10,7 +10,7 @@ Managing the induction of Early Career Teachers usually falls to one person in a
 
 Given most of the "Manage training for early career teachers" service is built around the Induction Tutor, it was important that we knew who they were, what school they worked for and how we can contact them. Although we could access an administrative email address for the majority of schools via GIAS data, we didn't want to burden the school admin staff with further tasks that were time sensitive or not relevant to their job.
 
-## How it worked: the first version
+## First attempt: how it worked
 An early iteration of the nomination journey allowed anyone to nominate an induction tutor for a school by;
 
 1. arriving on the platform (from a variety of different comms channels)
@@ -20,14 +20,15 @@ An early iteration of the nomination journey allowed anyone to nominate an induc
 
 Our plan for verifying that an induction tutor legitimately worked at a school was to compare the email domain of the school's main contact on GIAS, with the domain of the nominated induction tutor. However, from analysing GIAS data we discovered that domains across school contacts were rarely consistent. ie. it could be perfectly valid for `jane.smith@coastalacademies.co.uk` to be the Induction Tutor for `Acorn Primary School`.
 
-## How it worts: the second version
+## Second attempt: how it works
 Learning that this validation method wouldn't work, we looked at the feasibility of sending an email to the main contact on GIAS, with a unique link to nominate the school induction tutor.
 
 From speaking to the [Get help with tech](https://get-help-with-tech.education.gov.uk/) team, we learned that the launch of their service was incentivising schools to update their data in GIAS.
 
 The journey works as follows;
-1. We send an email to the school’s main GIAS contact, with a unique link to nominate their induction tutor.
-2. On clicking this link, the user arrives on the digital service to nominate their induction tutor, with their school already preselected by virtue of a token in the URL. ie. the unique link both verifies that the user is the recipient (or at least was forwarded) the official email, and allows us to identify the school they are nominating a tutor for.
+1. We send an email to the school’s main GIAS contact, containing information about the new statutory changes and with a unique link to nominate their induction tutor.
+2. On clicking this link, the user arrives on the service and is asked if they are expecting any Early Career Teachers for the upcoming cohort / academic year. Clicking either "Yes" or "i don't know" moves them onto the next step. Choosing "no" sees the school unsubscribing from future reminders from the platform, for that academic year.
+3. If they are nominating their induction tutor, their school is already preselected by virtue of a token in the URL they followed from the email. ie. the unique link both verifies that the user is the recipient (or at least was forwarded) the official email, and allows us to identify the school they are nominating a tutor for.
 3. They enter the full name and email address of the induction Tutor
 4. If nomination is successful, the school admin staff have no further responsibilities on the service and the newly nominated induction tutor is notified via email.
 
@@ -36,6 +37,15 @@ The journey works as follows;
 
 **Journey on prototype:**
 [https://dfe-ecf-register-partner.herokuapp.com/school-nominate-school-lead/nominate-school-lead-1](https://dfe-ecf-register-partner.herokuapp.com/school-nominate-school-lead/nominate-school-lead-1).
+
+### Why do we ask schools if they're expecting any ECTs?
+Put simply, if a school doesn't have any ECTs, there is no need for them to use the service. Recording this information about this cohort allows our service to;
+
+* stop sending them reminder emails to nominate an induction tutor or choose a training programme for this cohort
+* indicate to training providers that they shouldn't approach the school (until next academic year / cohort)
+
+It's essentially a way of opting out of further notifications for this cohort, from both DfE and the training providers.
+
 
 ## Error states
 The journey also contained screens to account for scenarios where the user could not continue. These were;
@@ -48,11 +58,14 @@ The journey also contained screens to account for scenarios where the user could
 {% from "screenshots/macro.njk" import appScreenshots with context %}
 {{ appScreenshots({
   items: [{
-      text: "Email: Important - NQT induction changes",
+      text: "Email: Set up your NQT induction (Early Career Framework)",
       img: { src: "01-induction-changes-email.png" },
       caption: "The email sent to the school’s main GIAS contact, with a unique link to nominate their induction tutor"
     }, {
-      text: "Nominate an induction tutor or lead for <school name>",
+      text: "Do you expect to have any early career teachers at [school name] this year?",
+      img: { src: "02-pre-start.png" }
+    }, {
+      text: "Nominate an induction lead or tutor for [school name]",
       img: { src: "02-nominate-start.png" }
     }, {
       text: "Nominate an induction lead or tutor",
