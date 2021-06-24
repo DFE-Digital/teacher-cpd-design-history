@@ -13,7 +13,7 @@ How a school nominates an induction tutor, to make decisions on its behalf
 tell DfE who in charge of training at my school, so that they can receive future ECF communications and make decisions on our behalf
 
 **As a school decision maker i need to**
-Ensure my school admin staff aren't burdened with further tasks that are time sensitive or not relevant to their job
+ensure my school admin staff aren't burdened with further tasks that are time sensitive or not relevant to their job
 
 
 ## Business goals

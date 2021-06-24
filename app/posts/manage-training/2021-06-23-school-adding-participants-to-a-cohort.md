@@ -45,21 +45,25 @@ The journey works as follows;
 [https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/school-add-participants-to-cohort/choose-participant-type](https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/school-add-participants-to-cohort/choose-participant-type)
 
 
-### Why we do only ask for name and email address? What happens next?
-We don't want to burden School Induction Tutors with the task of having to collect and validate lots of personal data. Instead, we simply notify the individual participant and ask them to do provide it directly. That way, it's easier for any validation errors to be rectified, as we're dealing directly with the person and their own data.
+### Why we do only ask for the name and email address?
+We don't want to burden School Induction Tutors with the task of having to collect and validate lots of personal data for lots of participants. Instead, we simply notify the individual participant and ask them to do provide it directly. That way, it's easier for any validation errors to be rectified, as we're dealing directly with the person and their own data.
 
+#### How we got here
 Much of the complications in Early Roll Out, were caused by training providers being given the responsibility of collecting all of the personal data of participants, and then having to pass this data onto DfE to validate (manually against a spreadsheet). Any validation errors DfE found would then be passed back to the training provider, who in turn had to ask the school or participant to rectify. Essentially, [the training provider had become middleman in this process](https://miro.com/app/board/o9J_lIKQEEs=/?moveToWidget=3074457357844582750&cot=14).
 
 Much of the personal data that frequently failed validation was also difficult to find and easy to misunderstand. For example;
 
 * Their teacher Reference Number (issued at the start of a career but rarely referred to)
-* Their exact name in the Database of Qualified teachers (life events could mean their name has changed)
+* Their exact name in the Database of Qualified teachers (life events could mean their name has changed since it being first entered)
+* Finding information in schools is never consistent. Some have centralised systems that only HR can access, whilst others simply use on spreadsheets that anyone can view.
 
-We explored several models of solving this data collection exercise, including [asking the induction tutor to do it](https://miro.com/app/board/o9J_lIKQEEs=/?moveToWidget=3074457357846001650&cot=14). Whilst having one user take ownership of a task can sometimes be a good idea (higher liklihood of it being completed) through research we realised the burden would be too great; they too would have to chase the participants for data and corrections.
+We explored several models of solving this data collection exercise, including [asking the induction tutor to do it](https://miro.com/app/board/o9J_lIKQEEs=/?moveToWidget=3074457357846001650&cot=14). Our original hesitations of asking participants to add all of their own details were;
 
-Our hesitations of asking participants to add all of their own details were;
-* delegating the task to a wide audience would mean there was a higher liklihood of delays - meaning suppliers get paid late and training is affected
-* adding yet another user group into the platform, would require our support service to scale to meet this
+* delegating the task to a wide audience could mean a higher likelihood of delays - meaning suppliers get paid late and the start of training is affected
+* adding yet another user group into the platform, could put more demand on the support team
+
+Whilst having one user take ownership of a task can sometimes be a good idea (higher likelihood of it being completed) through research the pattern was consistent; delays would always be caused by assigning the data validation task to anyone but the individual whos data it was.
+
 
 ## Error states
 The journey only contained one error state, which was:
