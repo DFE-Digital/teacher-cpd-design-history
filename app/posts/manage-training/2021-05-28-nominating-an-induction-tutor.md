@@ -6,9 +6,20 @@ date: 2021-05-27
 
 How a school nominates an induction tutor, to make decisions on its behalf
 
-Managing the induction of Early Career Teachers usually falls to one person in a school, called an Induction Lead or Tutor. Thankfully this role and responsibility is already established in most schools.
 
-Given most of the "Manage training for early career teachers" service is built around the Induction Tutor, it was important that we knew who they were, what school they worked for and how we can contact them. Although we could access an administrative email address for the majority of schools via GIAS data, we didn't want to burden the school admin staff with further tasks that were time sensitive or not relevant to their job.
+## User needs
+
+**As a school decision maker i need to**
+tell DfE who in charge of training at my school, so that they can receive future ECF communications and make decisions on our behalf
+
+**As a school decision maker i need to**
+Ensure my school admin staff aren't burdened with further tasks that are time sensitive or not relevant to their job
+
+
+## Business goals
+* create an accurate record of who is responsible for training in each school, so notifications and tasks can be delegated to them
+* prevent the service from contacting generic admin email addresses that could easily be ignored
+
 
 ## First attempt: how it worked
 An early iteration of the nomination journey allowed anyone to nominate an induction tutor for a school by;
