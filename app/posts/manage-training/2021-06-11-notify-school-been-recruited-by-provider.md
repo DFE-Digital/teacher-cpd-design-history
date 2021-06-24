@@ -6,6 +6,19 @@ date: 2021-06-11
 
 How a school finds out that a training provider has recruited them, and their options for reporting a mistake
 
+## User needs
+**As an induction tutor i need to**
+be notified when a training provider recruits my school, and have an appropriate window of time so that i can review this is correct
+
+**As an induction tutor i need to**
+report if sign up is incorrect, so that it doesn't hinder my opportunity using another training provider
+
+
+## Business goals
+* give schools an opportunity to tell us if the recruitment is incorrect
+* record incorrect the reasons why, so we can monitor the recruitment behaviour of training providers and measure the success of the services' communications around recruitment
+* break the relationship between a school and a training provider, allowing further recruitment to take place
+
 ## How it works
 The journey works as follows;
 1. A Lead Provider [reports the schools that they've recruited], which triggers an email notification to be sent to either the school's GIAS email address, or the induction tutor (if they've been nominated)
