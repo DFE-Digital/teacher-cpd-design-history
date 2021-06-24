@@ -1,10 +1,28 @@
 ---
-title: A school declares how they want to run inductions for a cohort
+title: A school chooses how they want to run inductions for a cohort
 description: How a school sets up a cohort to use an approved training provider (FIP), the DfE accredited materials (CIP), declares they are designing their own induction or states they have no ECTs starting in the academic year.
 date: 2021-06-09
 ---
 
 How a school sets up a cohort to use an approved training provider (FIP), the DfE accredited materials (CIP), declares they are designing their own induction or states they have no ECTs starting in the academic year.
+
+## User needs
+
+**As an induction tutor i need to**
+review the a summary of programme choices on offer so that i can make an informed decision for this cohort
+
+**As an induction tutor i need to**
+confirm our programme choice for a cohort, so that i can learn about the next steps and prepare the cohort to begin their training
+
+**As an induction tutor i need to**
+tell DfE that we have no ECTs / are designing our own induction for this cohort, so that i stop receiving notifications and reminder emails from the service for this cohort
+
+
+## Business goals
+* collect the programme choice from the school for a given cohort, to measure uptake
+* identify which schools want to use an approved training provider, so we can tell the training providers to start communicating / recruiting these schools
+* identify schools that have no ECTs or are doing their own induction, so that the service doesn’t send them reminder emails and training providers stop contacting them for this given cohort
+
 
 ## How it works
 The journey works as follows;

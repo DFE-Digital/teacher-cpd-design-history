@@ -6,6 +6,24 @@ date: 2021-06-10
 
 How a school has who's chosen to use a training provider, performs tasks such as signing up with a training provider and adding participants (ie. teachers and mentors).
 
+## User needs
+**As an induction tutor i need to**
+See my next steps so that i can prepare my cohort to start training
+
+**As an induction tutor i need to**
+view my programme choice and instructions on how i can change that programme
+
+**As an induction tutor i need to**
+view instructions on how to sign up with a training provider and which providers i can contact
+
+**As an induction tutor i need to**
+see which training provider i am signed up with and report any incorrect sign ups that i receive
+
+
+## Business goals
+* provide a route into support, for those schools who want to change their programme choice
+* provide schools with a way to report an incorrect sign up with a training provider
+
 
 ## How it works
 The journey works as follows;

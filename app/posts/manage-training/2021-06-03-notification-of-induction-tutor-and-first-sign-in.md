@@ -7,6 +7,18 @@ date: 2021-06-03
 How a newly nominated school induction tutor gets notified and the journey they follow when signing in for the first time
 
 
+## User needs
+
+**As a newly nominated induction tutor i need to**
+be notified that i can sign into the service and informed of my responsibilities
+
+
+## Business goals
+* notify the induction tutor that they are now responsible for reporting data and decisions to DfE
+* provide users with a way of signing in that doesn't require passwords
+* provide the induction tutor with the most recent privacy policy for them to read when signing in (appears only once, with every change)
+
+
 ## How it works
 The journey works as follows;
 1. After a school has nominated an induction tutor, this person receives an email notifying them of their new role and the next steps they need to take
