@@ -17,6 +17,7 @@ ensure my school admin staff aren't burdened with further tasks that are time se
 
 
 ## Business goals
+* communicate to all eligible schools, the new statutory changes and how they can start to engage with the service
 * create an accurate record of who is responsible for training in each school, so notifications and tasks can be delegated to them
 * prevent the service from contacting generic admin email addresses that could easily be ignored
 
