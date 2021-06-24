@@ -10,16 +10,20 @@ How a school nominates an induction tutor, to make decisions on its behalf
 ## User needs
 
 **As a school decision maker i need to**
-tell DfE who in charge of training at my school, so that they can receive future ECF communications and make decisions on our behalf
+tell DfE who is in charge of training at my school, so that they can receive future ECF communications and make decisions on our behalf
 
 **As a school decision maker i need to**
 ensure my school admin staff aren't burdened with further tasks that are time sensitive or not relevant to their job
 
+**As a school decision maker i need to**
+tell DfE that if have no ECTs in this cohort, so that i stop receiving notifications and reminder emails from the service for this cohort
+
 
 ## Business goals
-* communicate to all eligible schools, the new statutory changes and how they can start to engage with the service
+* communicate to all eligible schools the new statutory changes and how they can start to engage with the service
 * create an accurate record of who is responsible for training in each school, so notifications and tasks can be delegated to them
 * prevent the service from contacting generic admin email addresses that could easily be ignored
+* identify schools that have no ECTs so that the service doesn't send them reminder emails and training providers stop contacting them for this given cohort
 
 
 ## First attempt: how it worked
