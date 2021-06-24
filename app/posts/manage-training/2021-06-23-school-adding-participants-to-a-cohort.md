@@ -6,9 +6,36 @@ date: 2021-06-23
 
 How a school induction tutor adds Early Career Teachers and Mentors to a cohort
 
+
+
+## User needs
+
+**As a school induction tutor i need to**
+add participants to a cohort, so their attendance on an induction course is recorded and they can begin their training
+
+**As a school induction tutor i need to**
+add participants to a cohort, using only the information that's easily available to me, so i don't have to collate large amounts of personal information
+
+**As a school induction tutor using an approved training provider i need to**
+add participants to a cohort, so my training provider can access their information and start to onboard them
+
+
+## Business goals
+* create a record of participants who have been inducted, to be referenced in the future (ie. to monitor and measure a change in retention)
+* access a record of individual participants, to request they provide further information that can be validated
+* to collect information on the relationships between ECTs and mentors, so that providers aren't paid twice for mentors who have already received training
+* validate participant data against various data sources, to confirm the participants are real and eligible for training, to prevent fraud
+* to know how many participants a school is training in a given cohort, so their training provider can be paid accurately
+
+
 ## How it works
 The journey works as follows;
-1.
+1. Whilst [viewing the participants within a cohort](/school-managing-viewing-participants-in-cohort/) the user clicks the "Add a new ECT or mentor" button.
+2. The choose the type of participant they want to add to the cohort
+3. They enter the full name and email address of the participant
+4. If they are adding an ECT, they are asked who their mentor is
+5. They confirm the details they have provided
+6. They receive confirmation that the participant has been added
 
 
 **Wireframe journey:**
@@ -18,16 +45,25 @@ The journey works as follows;
 [https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/school-add-participants-to-cohort/choose-participant-type](https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/school-add-participants-to-cohort/choose-participant-type)
 
 
-## What happens after a participant has been added?
-Validation screenshot?
+### Why we do only ask for name and email address? What happens next?
+We don't want to burden School Induction Tutors with the task of having to collect and validate lots of personal data. Instead, we simply notify the individual participant and ask them to do provide it directly. That way, it's easier for any validation errors to be rectified, as we're dealing directly with the person and their own data.
 
-## Why we do a certain thing
+Much of the complications in Early Roll Out, were caused by training providers being given the responsibility of collecting all of the personal data of participants, and then having to pass this data onto DfE to validate (manually against a spreadsheet). Any validation errors DfE found would then be passed back to the training provider, who in turn had to ask the school or participant to rectify. Essentially, [the training provider had become middleman in this process](https://miro.com/app/board/o9J_lIKQEEs=/?moveToWidget=3074457357844582750&cot=14).
 
+Much of the personal data that frequently failed validation was also difficult to find and easy to misunderstand. For example;
+
+* Their teacher Reference Number (issued at the start of a career but rarely referred to)
+* Their exact name in the Database of Qualified teachers (life events could mean their name has changed)
+
+We explored several models of solving this data collection exercise, including [asking the induction tutor to do it](https://miro.com/app/board/o9J_lIKQEEs=/?moveToWidget=3074457357846001650&cot=14). Whilst having one user take ownership of a task can sometimes be a good idea (higher liklihood of it being completed) through research we realised the burden would be too great; they too would have to chase the participants for data and corrections.
+
+Our hesitations of asking participants to add all of their own details were;
+* delegating the task to a wide audience would mean there was a higher liklihood of delays - meaning suppliers get paid late and training is affected
+* adding yet another user group into the platform, would require our support service to scale to meet this
 
 ## Error states
-The journey also contained screens to account for scenarios where the user could not continue. These were;
-
-### This email has already been added
+The journey only contained one error state, which was:
+* **This email has already been added**
 
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
