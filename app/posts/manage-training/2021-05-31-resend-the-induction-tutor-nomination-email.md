@@ -7,13 +7,25 @@ date: 2021-05-31
 How a school triggers the resending of the nomination email, incase it gets missed or the unique link expires.
 
 
-## Why we need this journey
+## User needs
 
-We needed to allow schools to resend [the original nomination email](/manage-training/nominating-an-induction-tutor/#email-important-nqt-induction-changes) to the main GIAS contact, to cater for a few different scenarios;
+We needed to allow schools to resend [the original nomination email](/manage-training/nominating-an-induction-tutor/#email-important-nqt-induction-changes) to the main GIAS contact, to cater for a few different needs.
 
-1. The original nomination email was ignored, lost or deleted
-2. The unique link in the original email had expired and a new link needed to be generated
-3. A school was unsure if it had nominated someone previously, and tried to sign in
+**As a school decision maker who hasn't received or can't find the original email notification**
+i need to resend the nomination email so i can continue with nominating my induction tutor
+
+**As a school decision maker with a nomination link that's expired**
+i need to resend the nomination email with a valid link, so i can continue with nominating my induction tutor
+
+**As a school decision maker who's school isn't eligible for ECF**
+i need to be told why i'm not eligible when i try to resend the nomination email
+
+**As a school decision maker trying to resend the nomination email**
+i need to know if an induction tutor has already nominated for my school, so that i know to speak to my staff instead of contacting DfE
+
+## Business goals
+* Allow schools a self-serve method for resending the original email notification, and seeing eligibility statuses so that the support team aren't burdened with requests
+
 
 ## How it works
 The journey works as follows;
