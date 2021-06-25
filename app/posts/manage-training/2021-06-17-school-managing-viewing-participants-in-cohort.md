@@ -6,6 +6,12 @@ date: 2021-06-16
 
 How a school that is either using an approved training provider (FIP) or using the accredited materials (CIP) accesses, views and manages individual participants in a cohort.
 
+## User needs
+**As an induction tutor i need to**
+
+
+## Business goals
+* 
 
 ## How it works
 The journey works as follows;
