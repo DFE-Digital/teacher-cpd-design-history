@@ -6,6 +6,36 @@ date: 2021-06-16
 
 How a school that's using the DfE accredited materials, performs tasks such as choosing their training materials and adding participants (ie. teachers and mentors).
 
+## User needs
+**As an induction tutor i need to**
+see my next steps so that i can prepare my cohort to start training
+
+**As an induction tutor i need to**
+view my programme choice and instructions on how i can change that programme if needed
+
+**As an induction tutor i need to**
+be informed that my programme is changing if i get recruited by a training provider, so that i don't continue setting up a cohort incorrectly
+
+**As an induction tutor i need to**
+have a high level overview of the different training materials available, so that i can easily assess the best choice for my cohort without having to visit the different suppliers websites
+
+**As an induction tutor i need to**
+choose which training materials to use for this cohort, so that participants can start their induction
+
+**As an induction tutor i need to**
+view my current choice of training materials and instructions on how i can change these, incase i have made a mistake
+
+**As an induction tutor i need to**
+know what information i need to collect from my participants, so i can prepare for onboarding them
+
+
+
+## Business goals
+* provide a route into support, for schools who want to change their programme choice
+* collect the decision of a school on the training materials they want to use for a cohort
+* provide a route into support, for schools who want to change their choice of training materials if they've made a mistake
+* inform the user via the UI that their programme choice is changing. This is to further support the [notification email](/manage-training/notify-school-been-recruited-by-provider/) already sent to induction tutors
+
 
 ## How it works
 The journey works as follows;
@@ -65,6 +95,9 @@ Given the scale of this decision and thus the amount of content needed to suffic
     }, {
       text: "Study materials saved",
       img: { src: "07-saved.png" }
+    }, {
+      text: "Your accredited materials",
+      img: { src: "04-choose-training-materials-chosen.png" }
     }, {
       text: "Add early career teachers and mentors",
       img: { src: "08-add-ects-mentors.png" }

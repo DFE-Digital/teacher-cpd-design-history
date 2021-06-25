@@ -11,13 +11,16 @@ How a school has who's chosen to use a training provider, performs tasks such as
 See my next steps so that i can prepare my cohort to start training
 
 **As an induction tutor i need to**
-view my programme choice and instructions on how i can change that programme
+view my programme choice and instructions on how i can change that programme if needed
 
 **As an induction tutor i need to**
 view instructions on how to sign up with a training provider and which providers i can contact
 
 **As an induction tutor i need to**
 see which training provider i am signed up with and report any incorrect sign ups that i receive
+
+**As an induction tutor i need to**
+know what information i need to collect from my participants, so i can prepare for onboarding them
 
 
 ## Business goals
