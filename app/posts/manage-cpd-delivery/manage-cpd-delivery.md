@@ -2,7 +2,7 @@
 tags: false
 layout: collection
 title: Manage CPD delivery
-description: NPQ and ECF - learning provider facing
+description: This service allows learning providers across ECF and NPQ to manage the delivery of their training
 pagination:
   data: collections.manage-cpd-delivery
   reverse: true

@@ -1,8 +1,8 @@
 ---
 tags: false
 layout: collection
-title: Support for early career teachers
-description: ECF only, mentors and teacher facing
+title: To do - support for early career teachers
+description: In progress...
 pagination:
   data: collections.support-for-early-career-teachers
   reverse: true

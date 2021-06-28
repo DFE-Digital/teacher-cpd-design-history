@@ -1,7 +1,7 @@
 ---
 layout: collection
 title: "Teacher CPD design history"
-description: "A history of the designs for the Get teacher CPD services"
+description: "A history of the design work for the services that belong to the *Get teacher CPD* programme"
 posts:
   title: Getting started
 eleventyComputed:
