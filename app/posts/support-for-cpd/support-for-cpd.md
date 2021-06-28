@@ -1,7 +1,7 @@
 ---
 tags: false
 layout: collection
-title: Support for Teacher CPD
+title: Support for CPD
 description: This service helps DfE admin users provide support for both the ECF and NPQ services
 pagination:
   data: collections.support-for-cpd

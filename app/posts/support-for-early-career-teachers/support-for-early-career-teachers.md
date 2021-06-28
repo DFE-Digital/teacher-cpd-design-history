@@ -1,7 +1,7 @@
 ---
 tags: false
 layout: collection
-title: To do - support for early career teachers
+title: Support for early career teachers
 description: In progress...
 pagination:
   data: collections.support-for-early-career-teachers

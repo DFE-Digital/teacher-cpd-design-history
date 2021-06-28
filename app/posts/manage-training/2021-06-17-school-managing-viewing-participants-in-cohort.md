@@ -33,12 +33,16 @@ The journey works as follows;
 5. If the user is viewing a individual ECT, they can also change their Mentor too
 
 
-**Wireframe journey:**
-[https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457358611816804&cot=14](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457358611816804&cot=14)
+#### Wireframe journey
+[![alt text](/images/manage-training/school-managing-viewing-participants-in-cohort/wire-flows.jpg)](/images/manage-training/school-managing-viewing-participants-in-cohort/wire-flows.jpg)
 
-**Journey on prototype**
-[https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/school-add-participants-to-cohort/cohort-participant-listing](https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/school-add-participants-to-cohort/cohort-participant-listing).
-Be sure to choose the [appropriate settings](https://dfe-ecf-register-partner.herokuapp.com/start-testing) first.
+[Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457358611816804&cot=14)
+
+#### Prototype of journey
+[Journey start page](https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/school-add-participants-to-cohort/cohort-participant-listing) (be sure to choose the [appropriate settings](https://dfe-ecf-register-partner.herokuapp.com/start-testing) first).
+
+**Username:** ecf
+**Password:** ecf
 
 
 ## Information architecture: why we manage participants through a cohort instead of via a global view
