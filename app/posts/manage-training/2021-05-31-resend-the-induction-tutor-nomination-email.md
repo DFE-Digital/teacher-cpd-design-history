@@ -35,11 +35,20 @@ The journey works as follows;
 4. The user confirms the schools details
 5. If the school is eligible and hasn't already nominated someone, the nomination email is sent to the school’s main GIAS contact, with a unique link to [nominate their induction tutor].
 
-**Wireframe journey:**
-[https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355253267755&cot=14](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355253267755&cot=14)
 
-**Journey on prototype**
-[https://dfe-ecf-register-partner.herokuapp.com/school-resend-nomination-email/resend-nomination-1](https://dfe-ecf-register-partner.herokuapp.com/school-resend-nomination-email/resend-nomination-1)
+#### Wireframe journey
+[![alt text](/images/manage-training/resend-the-induction-tutor-nomination-email/wire-flow.jpg)](/images/manage-training/resend-the-induction-tutor-nomination-email/wire-flow.jpg)
+
+[Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355253267755&cot=14)
+
+#### Prototype of journey
+[Journey start page](https://dfe-ecf-register-partner.herokuapp.com/school-resend-nomination-email/resend-nomination-1) (be sure to choose the [appropriate settings](https://dfe-ecf-register-partner.herokuapp.com/start-testing) first).
+
+**Username:** ecf
+**Password:** ecf
+
+
+## What we've learned
 
 ### Why we first ask for the local authority
 There are ~25,000 eligible schools in England and many of which have similar sounding names; there are for example, ~50 schools called "St Mary's". When using an [accessible autocomplete field](https://github.com/alphagov/accessible-autocomplete), this means the user has to manually scroll through a long list of results. By asking the user to select the local authority first, means we can narrow down the subsequent list school results. This built upon similar findings that the NPQ team also discovered.
@@ -47,10 +56,12 @@ There are ~25,000 eligible schools in England and many of which have similar sou
 We decided to use *local authority* instead of *postcode* as through testing, we learnt that this was universally known across users, whereas some couldn't recall a school's postcode when prompted (especially for schools split across different sites). For us to narrow down the results, the specifics of a street address weren't also needed.
 
 
-### Potential issues with this journey
+## Future considerations
 
-* **The pathway into this journey isn't well sign posted**. Our sign in journey can't reveal to users if they don't have an account (to protect against [Observable Response Discrepancy](https://cwe.mitre.org/data/definitions/204.html)), so we're reliant on them carefully reading the content on the [sign in page] or [check your inbox] page. We may have to change our appetite for risk if this puts a burden on support as users are missing this journey. Introduce a negative confirmation on sign in would help; ie. *"you don't have an account and may not be nominated. Begin nominating yourself here"*.
-* **Whilst we confirm that the nomination email has been sent, we can't reveal what email address it was sent to**. This is because the GIAS main contact is not publicly available and therefore we can't reveal it as part of our service either. We have tried to help users by giving them an example of where it may have been sent (ie. check the admin@, office@ inboxes) and also instructions on how to change the GIAS main contact, but both of these options ultimately create more work for the user. We've learned through the launch of Private BETA that many users assume the "main contact" is the same as DfE sign.
+### The pathway into this journey isn't well sign posted
+Our sign in journey can't reveal to users if they don't have an account (to protect against [Observable Response Discrepancy](https://cwe.mitre.org/data/definitions/204.html)), so we're reliant on them carefully reading the content on the [sign in page] or [check your inbox] page. We may have to change our appetite for risk if this puts a burden on support as users are missing this journey. Introduce a negative confirmation on sign in would help; ie. *"you don't have an account and may not be nominated. Begin nominating yourself here"*.
+### We can't reveal what email address it was sent to
+Whilst we confirm that the nomination email has been sent, we can't reveal what email address it was sent to. This is because the GIAS main contact is not publicly available and therefore we can't reveal it as part of our service either. We have tried to help users by giving them an example of where it may have been sent (ie. check the admin@, office@ inboxes) and also instructions on how to change the GIAS main contact, but both of these options ultimately create more work for the user. We've learned through the launch of Private BETA that many users assume the "main contact" is the same as DfE sign.
 
 
 ## Error states

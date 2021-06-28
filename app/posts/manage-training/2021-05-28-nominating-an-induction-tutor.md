@@ -25,18 +25,7 @@ tell DfE that if have no ECTs in this cohort, so that i stop receiving notificat
 * prevent the service from contacting generic admin email addresses that could easily be ignored
 * identify schools that have no ECTs so that the service doesn't send them reminder emails and training providers stop contacting them for this given cohort
 
-
-## First attempt: how it worked
-An early iteration of the nomination journey allowed anyone to nominate an induction tutor for a school by;
-
-1. arriving on the platform (from a variety of different comms channels)
-2. selecting their school from a long list
-3. entering the details of their induction tutor
-4. checking they work for the school by comparing their email address
-
-Our plan for verifying that an induction tutor legitimately worked at a school was to compare the email domain of the school's main contact on GIAS, with the domain of the nominated induction tutor. However, from analysing GIAS data we discovered that domains across school contacts were rarely consistent. ie. it could be perfectly valid for `jane.smith@coastalacademies.co.uk` to be the Induction Tutor for `Acorn Primary School`.
-
-## Second attempt: how it works
+## How it works
 Learning that this validation method wouldn't work, we looked at the feasibility of sending an email to the main contact on GIAS, with a unique link to nominate the school induction tutor.
 
 From speaking to the [Get help with tech](https://get-help-with-tech.education.gov.uk/) team, we learned that the launch of their service was incentivising schools to update their data in GIAS.
@@ -48,14 +37,33 @@ The journey works as follows;
 3. They enter the full name and email address of the induction Tutor
 4. If nomination is successful, the school admin staff have no further responsibilities on the service and the newly nominated induction tutor is notified via email.
 
-**Wireframe journey:**
-[https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457354086350072&cot=14](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457354086350072&cot=14).
 
-**Journey on prototype:**
-[https://dfe-ecf-register-partner.herokuapp.com/school-nominate-school-lead/nominate-school-lead-1](https://dfe-ecf-register-partner.herokuapp.com/school-nominate-school-lead/nominate-school-lead-1).
+#### Wireframe journey
+[![alt text](/images/manage-training/nominating-an-induction-tutor/wire-flow.jpg)](/images/manage-training/nominating-an-induction-tutor/wire-flow.jpg)
 
-### Why do we ask schools if they're expecting any ECTs?
-Put simply, if a school doesn't have any ECTs, there is no need for them to use the service. Recording this information about this cohort allows our service to;
+[Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457354086350072&cot=14)
+
+#### Prototype of journey
+[Journey start page](https://dfe-ecf-register-partner.herokuapp.com/school-nominate-school-lead/nominate-school-lead-1) (be sure to choose the [appropriate settings](https://dfe-ecf-register-partner.herokuapp.com/start-testing) first).
+
+**Username:** ecf
+**Password:** ecf
+
+
+## What we've learned
+
+### You can't verify if someone works at a school, just from their email address
+An early iteration of the nomination journey allowed anyone to nominate an induction tutor for a school by;
+
+1. arriving on the platform (from a variety of different comms channels)
+2. selecting their school from a long list
+3. entering the details of their induction tutor
+4. checking they work for the school by comparing their email address
+
+Our plan for verifying that an induction tutor legitimately worked at a school was to compare the email domain of the school's main contact on GIAS, with the domain of the nominated induction tutor. However, from analysing GIAS data we discovered that domains across school contacts were rarely consistent. ie. it could be perfectly valid for `jane.smith@coastalacademies.co.uk` to be the Induction Tutor for `Acorn Primary School`.
+
+### Schools want a way of opting out
+Put simply, if a school doesn't have any ECTs, there is no need for them to use the service. Recording this information about this cohort allows our service to implement some good behaviours;
 
 * stop sending them reminder emails to nominate an induction tutor or choose a training programme for this cohort
 * indicate to training providers that they shouldn't approach the school (until next academic year / cohort)

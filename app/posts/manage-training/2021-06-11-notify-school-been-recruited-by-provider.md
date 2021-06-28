@@ -27,11 +27,19 @@ The journey works as follows;
 4. The report is sent, and the reason reported back to DfE (for MI purposes) and the training provider notified
 
 
-**Wireframe journey:**
-[https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457354439630103&cot=14](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457354439630103&cot=14)
+#### Wireframe journey
+[![alt text](/images/manage-training/notify-school-been-recruited-by-provider/wire-flows.jpg)](/images/manage-training/notify-school-been-recruited-by-provider/wire-flows.jpg)
 
-**Journey on prototype**
-[https://dfe-ecf-register-partner.herokuapp.com/school-challenging-partnership/school-challenge-1](https://dfe-ecf-register-partner.herokuapp.com/school-challenging-partnership/school-challenge-1)
+[Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457354439630103&cot=14)
+
+#### Prototype of journey
+[Journey start page](https://dfe-ecf-register-partner.herokuapp.com/school-challenging-partnership/school-challenge-1) (be sure to choose the [appropriate settings](https://dfe-ecf-register-partner.herokuapp.com/start-testing) first).
+
+**Username:** ecf
+**Password:** ecf
+
+
+## Things we've learned
 
 ### Passive vs active consent
 In an early iteration of the service, we explored asking schools to confirm that they have indeed been recruited by a particular training provider (ie. getting active consent). We felt this model was appropriate as validating the relationship from both sides meant we could pay training providers accurately.
@@ -47,7 +55,7 @@ The launch of public BETA has shown that schools need to see the name of both th
 
 Lead Providers sometimes outsource the recruitment to Delivery Partners, meaning schools can have a relationship or familiarity with one but not the other.
 
-### What we've learned through Public BETA so far (up to mid June)
+### Errors reported in Public BETA so far (end of June 2021)
 So far only a small handful of schools have reported a mistake using this journey. The data currently suggests that these schools belong to Multi Academy Trusts (MATs). This could indicate that the provider has recruited the MAT but perhaps not all schools in the MAT are aware of the partnership. To avoid these situations, it would be worth working with training providers to ensure MATs communicate the partnership to all their schools, before the Lead Providers report the partnerships to DfE.
 
 

@@ -28,17 +28,25 @@ The journey works as follows;
 5. If the user hasn't yet chosen a programme for this upcoming cohort, they are redirected to the [School choosing an induction programme for a cohort](/manage-training/school-choosing-an-induction-programme/) journey.
 
 
-**Wireframe journey:**
-[https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355250705583&cot=14](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355250705583&cot=14)
 
-**Journey on prototype**
-[https://dfe-ecf-register-partner.herokuapp.com/school-lead-notification-and-sign-in/notification-of-school-lead](https://dfe-ecf-register-partner.herokuapp.com/school-lead-notification-and-sign-in/notification-of-school-lead)
+#### Wireframe journey
+[![alt text](/images/manage-training/notification-of-induction-tutor-and-first-sign-in/wire-flow.jpg)](/images/manage-training/notification-of-induction-tutor-and-first-sign-in/wire-flow.jpg)
+
+[Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355250705583&cot=14)
+
+#### Prototype of journey
+[Journey start page](https://dfe-ecf-register-partner.herokuapp.com/school-lead-notification-and-sign-in/notification-of-school-lead) (be sure to choose the [appropriate settings](https://dfe-ecf-register-partner.herokuapp.com/start-testing) first).
+
+**Username:** ecf
+**Password:** ecf
 
 
 
-### Potential issues with this journey
-* **Authenticating via a unique link may not work for all users**. We're assuming that they can access their email inbox, on the same browser that they are using the service. What if they have their personal email on their phone but are accessing the platform on a school-issued laptop? An alternative would be to email the user a 6 digit authentication code, which they are prompted for during sign in.
-* **We don't tell users if they don't have an account**. We do this to protect against [Observable Response Discrepancy](https://cwe.mitre.org/data/definitions/204.html)), however this could confuse users especially as there is no explicit registration. Other services have decided to introduce a "you do not have an account page" and inherit the risk, as the benefits to the end users (and service support team) were more important. This maybe worth exploring if we want to prevent a bottle neck with the support team.
+## Future considerations
+### Authenticating via a unique link may not work for all users
+We're assuming that they can access their email inbox, on the same browser that they are using the service. What if they have their personal email on their phone but are accessing the platform on a school-issued laptop? An alternative would be to email the user a 6 digit authentication code, which they are prompted for during sign in.
+### We don't tell users if they don't have an account
+We do this to protect against [Observable Response Discrepancy](https://cwe.mitre.org/data/definitions/204.html)), however this could confuse users especially as there is no explicit registration. Other services have decided to introduce a "you do not have an account page" and inherit the risk, as the benefits to the end users (and service support team) were more important. This maybe worth exploring if we want to prevent a bottle neck with the support team.
 
 
 ## Error states

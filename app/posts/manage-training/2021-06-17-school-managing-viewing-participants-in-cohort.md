@@ -44,15 +44,6 @@ The journey works as follows;
 **Username:** ecf
 **Password:** ecf
 
-
-## Information architecture: why we manage participants through a cohort instead of via a global view
-Put simply, there are a lot of attributes and relationships that the participant inherits by virtue of belonging to a cohort.  ie, the mentor they can have, the programme they are on and the materials they are using. Making the user (ie. the school induction tutor) aware of this is important in the early stages of setting up the cohort as it implies what the participant can and cannot do.
-
-The logic of this isn't rooted in technical restrictions, but a set of requirements that determine how much a training provider gets paid for training an individual.
-
-Through research, we've found that the mental model of a cohort (or academic year) is familiar with those who'd perform the role of the school induction tutor and hasn't yet caused any issues. However, whether this mental model will cause any problems as the platform matures needs to be taken into account - [see future considerations below](#future-considerations).
-
-
 ## Validation statuses
 Once [a participant is added to a cohort](/manage-training/school-adding-participants-to-a-cohort/) their data is validated against various automated and manual sources to ensure they are;
 1. a real person
@@ -61,6 +52,13 @@ Once [a participant is added to a cohort](/manage-training/school-adding-partici
 
 The status label that we assign the participant communicates to the user at what stage that validation is at, and whether any manual investigation is needed.
 
+### How these statuses are assigned
+A high level validation process is illustrated in the following diagram.
+
+[![alt text](/images/manage-training/school-managing-viewing-participants-in-cohort/validation-flow.jpg)](/images/manage-training/school-managing-viewing-participants-in-cohort/validation-flow.jpg)
+
+
+### Statuses and descriptions
 <strong class="govuk-tag govuk-tag--grey">NOT STARTED</strong>
 The induction tutor has added the participant, but they haven't yet added their data to be validated.
 
@@ -89,11 +87,20 @@ What we tell the user: This person cannot be verified for statutory induction. Y
 <strong class="govuk-tag govuk-tag--green">Approved / validation finished</strong>
 The participant has added their data, the data has been validated against DQT, there were no flags against their profile and they have QTS status.
 
+## Things we've learned
 
+### Why we manage participants through a cohort instead of via a global view
+Put simply, there are a lot of attributes and relationships that the participant inherits by virtue of belonging to a cohort.  ie, the mentor they can have, the programme they are on and the materials they are using. Making the user (ie. the school induction tutor) aware of this is important in the early stages of setting up the cohort as it implies what the participant can and cannot do.
+
+The logic of this isn't rooted in technical restrictions, but a set of requirements that determine how much a training provider gets paid for training an individual.
+
+Through research, we've found that the mental model of a cohort (or academic year) is familiar with those who'd perform the role of the school induction tutor and hasn't yet caused any issues. However, whether this mental model will cause any problems as the platform matures needs to be taken into account - [see future considerations below](#future-considerations).
 
 ## Future considerations
-* **Will schools ever need a global view of participants?** From speaking to schools, multi academy trusts and training providers, we estimate that schools will be adding and managing ~ 6 participants per cohort. Knowing that the ECF programme will run for at least 3 years, and each cohort receives training for 2 years, this means that the most participants a school will manage on the platform at any given time will be ~18 (taking into account the need to setup a cohort several months before the new academic year). Ongoing research will need to be done, to see how participants are managed and if framing this management task through cohorts is an impediment. ie, "i just want to see all my participants in one place".
-* **How might we evolve or transition the management of users when a cohort is fully setup**. Keeping the adding and managing of users in the task list currently makes sense as it's a vital part of getting a cohort prepared for the start of training. But once training is in place, how will this task list change and where will the management of users sit?
+### Will schools ever need a global view of participants?
+From speaking to schools, multi academy trusts and training providers, we estimate that schools will be adding and managing ~ 6 participants per cohort. Knowing that the ECF programme will run for at least 3 years, and each cohort receives training for 2 years, this means that the most participants a school will manage on the platform at any given time will be ~18 (taking into account the need to setup a cohort several months before the new academic year). Ongoing research will need to be done, to see how participants are managed and if framing this management task through cohorts is an impediment. ie, "i just want to see all my participants in one place".
+### How might we evolve or transition the management of users when a cohort is fully setup
+Keeping the adding and managing of users in the task list currently makes sense as it's a vital part of getting a cohort prepared for the start of training. But once training is in place, how will this task list change and where will the management of users sit?
 
 
 

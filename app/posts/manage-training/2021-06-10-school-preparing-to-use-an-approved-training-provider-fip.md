@@ -37,13 +37,23 @@ The journey works as follows;
 5. The third task of *Add early career teachers and mentors* currently just provides the user with details on what information they need to gather when this functionality is finally released (~ July 2021)
 
 
-**Wireframe journey:**
-[https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355308879313&cot=14](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355308879313&cot=14)
+#### Wireframe journey
+[![alt text](/images/manage-training/school-preparing-to-use-an-approved-training-provider-fip/wire-flows.jpg)](/images/manage-training/school-preparing-to-use-an-approved-training-provider-fip/wire-flows.jpg)
 
-**Journey on prototype**
-[https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/cip/cip-choose-cohort](https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/cip/cip-choose-cohort).
-Be sure to choose the [appropriate settings](https://dfe-ecf-register-partner.herokuapp.com/start-testing) first.
+[Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355308879313&cot=14)
 
+#### Prototype of journey
+[Journey start page](https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/fip/fip-choose-cohort) (be sure to choose the [appropriate settings](https://dfe-ecf-register-partner.herokuapp.com/start-testing) first).
+
+**Username:** ecf
+**Password:** ecf
+
+#### How a school's programme choice changes
+A logic diagram below illustrates how a programme choice changes when a school is recruited by a training provider, or when a school reports an incorrect sign up.
+[![alt text](/images/manage-training/school-preparing-to-use-an-approved-training-provider-fip/programme-choice-change.jpg)](/images/manage-training/school-preparing-to-use-an-approved-training-provider-fip/programme-choice-change.jpg)
+
+
+## Things we've learned
 ### Why we don't help schools find a training provider
 Much of the ALPHA phase looked at how might we help schools find a training provider. This included building and testing searchable directories of providers, and even processes where "proposals" could be sent to schools. However, research showed us that;
 
@@ -83,9 +93,5 @@ Aware that training providers were financially incentivised to recruit schools, 
     }, {
       text: "Add early career teachers and mentors",
       img: { src: "05-add-ects-and-mentors.png" }
-    }, {
-      text: "How a school's programme choice changes when they are recruited by a lead provider or report an incorrect sign up",
-      img: { src: "programme-choice-change.jpg" },
-      caption: "A logic diagram explaining how a programme choice changes when a school is recruited by a training provider, or when a school reports an incorrect sign up."
     }]
 }) }}

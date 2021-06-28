@@ -34,13 +34,22 @@ The journey works as follows;
 * [a school preparing to use the DfE accredited materials (CIP)](/manage-training/school-preparing-to-use-dfe-approved-materials-cip/)
 
 
-**Wireframe journey:**
-[https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355290069818&cot=14](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355290069818&cot=14)
+#### Wireframe journey
+[![alt text](/images/manage-training/school-choosing-an-induction-programme/wire-flows.jpg)](/images/manage-training/school-choosing-an-induction-programme/wire-flows.jpg)
 
-**Journey on prototype**
-[https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/no-decision/pre-choose-provision](https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/no-decision/pre-choose-provision)
+[Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355290069818&cot=14)
 
-## Why we link to long-form external guidance instead of having in-line guidance
+#### Prototype of journey
+[Journey start page](https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/no-decision/pre-choose-provision) (be sure to choose the [appropriate settings](https://dfe-ecf-register-partner.herokuapp.com/start-testing) first).
+
+**Username:** ecf
+**Password:** ecf
+
+
+
+## Things we've learned
+
+### Why we link to long-form external guidance instead of having in-line guidance
 We learnt through research that choosing an induction programme will not be a simple process and will often involve;
 
 * multiple stakeholders

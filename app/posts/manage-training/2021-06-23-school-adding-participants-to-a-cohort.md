@@ -52,11 +52,14 @@ The journey works as follows;
 
 
 ## Things we've learned
-### Don't ask Induction Tutors to do all the work
+### Deal directly with the person who owns the data
 We don't want to burden School Induction Tutors with the task of having to collect and validate lots of personal data for lots of participants. Instead, we simply notify the individual participant and ask them to do provide it directly. That way, it's easier for any validation errors to be rectified, as we're dealing directly with the person and their own data.
 
-#### How we got here
-Much of the complications in Early Roll Out, were caused by training providers being given the responsibility of collecting all of the personal data of participants, and then having to pass this data onto DfE to validate (manually against a spreadsheet). Any validation errors DfE found would then be passed back to the training provider, who in turn had to ask the school or participant to rectify. Essentially, [the training provider had become middleman in this process](https://miro.com/app/board/o9J_lIKQEEs=/?moveToWidget=3074457357844582750&cot=14).
+Much of the complications in Early Roll Out, were caused by training providers being given the responsibility of collecting all of the personal data of participants, and then having to pass this data onto DfE to validate (manually against a spreadsheet). Any validation errors DfE found would then be passed back to the training provider, who in turn had to ask the school or participant to rectify. Essentially, the training provider had become middleman in this process.
+
+[![alt text](/images/manage-training/school-adding-participants-to-a-cohort/ero-onboarding-flow.jpg)](/images/manage-training/school-adding-participants-to-a-cohort/ero-onboarding-flow.jpg) A diagram illustrating how the training provider / delivery partner had become the bottleneck in the validation process for each participant. [View the diagram on Miro](https://miro.com/app/board/o9J_lIKQEEs=/?moveToWidget=3074457357844582750&cot=14).
+
+
 
 Much of the personal data that frequently failed validation was also difficult to find and easy to misunderstand. For example;
 
@@ -64,12 +67,19 @@ Much of the personal data that frequently failed validation was also difficult t
 * Their exact name in the Database of Qualified teachers (life events could mean their name has changed since it being first entered)
 * Finding information in schools is never consistent. Some have centralised systems that only HR can access, whilst others simply use on spreadsheets that anyone can view.
 
-We explored several models of solving this data collection exercise, including [asking the induction tutor to do it](https://miro.com/app/board/o9J_lIKQEEs=/?moveToWidget=3074457357846001650&cot=14). Our original hesitations of asking participants to add all of their own details were;
+We explored several models of solving this data collection exercise, including asking the induction tutor to do all of the validation.
+
+[![alt text](/images/manage-training/school-adding-participants-to-a-cohort/it-onboarding-flow.jpg)](/images/manage-training/school-adding-participants-to-a-cohort/it-onboarding-flow.jpg) A diagram exploring how the induction tutor would manage the validation tasks for each participant. [View the diagram on Miro](https://miro.com/app/board/o9J_lIKQEEs=/?moveToWidget=3074457357846001650&cot=14).
+
+
+Our original hesitations of asking participants to add all of their own details were;
 
 * delegating the task to a wide audience could mean a higher likelihood of delays - meaning suppliers get paid late and the start of training is affected
 * adding yet another user group into the platform, could put more demand on the support team
 
 Whilst having one user take ownership of a task can sometimes be a good idea (higher likelihood of it being completed) through research the pattern was consistent; delays would always be caused by assigning the data validation task to anyone but the individual whos data it was.
+
+[![alt text](/images/manage-training/school-adding-participants-to-a-cohort/ptp-onboarding-flow.jpg)](/images/manage-training/school-adding-participants-to-a-cohort/ptp-onboarding-flow.jpg) A diagram exploring how the induction tutor would initially add the participant, but the participant entering their own data. [View the diagram on Miro](https://miro.com/app/board/o9J_lIKQEEs=/?moveToWidget=3074457357905455285&cot=14).
 
 
 ## Error states

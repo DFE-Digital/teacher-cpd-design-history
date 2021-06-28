@@ -46,13 +46,18 @@ The journey works as follows;
 5. The third task of *Add early career teachers and mentors* currently just provides the user with details on what information they need to gather when this functionality is finally released (~ July 2021)
 
 
-**Wireframe journey:**
-[https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355306758748&cot=14](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355306758748&cot=14)
+#### Wireframe journey
+[![alt text](/images/manage-training/school-preparing-to-use-dfe-approved-materials-cip/cip-wire-flow.jpg)](/images/manage-training/school-preparing-to-use-dfe-approved-materials-cip/cip-wire-flow.jpg)
 
-**Journey on prototype**
-[https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/fip/fip-choose-cohort](https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/fip/fip-choose-cohort).
-Be sure to choose the [appropriate settings](https://dfe-ecf-register-partner.herokuapp.com/start-testing) first.
+[Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355306758748&cot=14)
 
+#### Prototype of journey
+[Journey start page](https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/fip/fip-choose-cohort) (be sure to choose the [appropriate settings](https://dfe-ecf-register-partner.herokuapp.com/start-testing) first).
+
+**Username:** ecf
+**Password:** ecf
+
+## Things we've learned
 
 ### Why we have a separate guidance page to help users choose between the materials
 Through research, we discovered that schools struggled to make a decision about which training materials to use, unless they had a consistent, summarised view of the different options available. Attributes that were important to users when making this decision were; the general style (often inferred by the organisation who wrote the material), how the programme was structured, what subject matter they covered and the approach (ie. prescriptive vs flexible).
