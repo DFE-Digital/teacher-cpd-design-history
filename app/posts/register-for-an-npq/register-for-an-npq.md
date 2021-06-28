@@ -2,7 +2,7 @@
 tags: false
 layout: collection
 title: Register for an NPQ
-description: NPQ only - teacher facing
+description: This service helps teachers register, and manage their application for an NPQ
 pagination:
   data: collections.register-for-an-npq
   reverse: true

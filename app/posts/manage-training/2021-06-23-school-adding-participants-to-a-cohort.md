@@ -38,14 +38,21 @@ The journey works as follows;
 6. They receive confirmation that the participant has been added
 
 
-**Wireframe journey:**
-[https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457356227023262&cot=14](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457356227023262&cot=14)
+#### Wireframe journey
+[![alt text](/images/manage-training/school-adding-participants-to-a-cohort/wire-flows.jpg)](/images/manage-training/school-adding-participants-to-a-cohort/wire-flows.jpg)
 
-**Journey on prototype**
-[https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/school-add-participants-to-cohort/choose-participant-type](https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/school-add-participants-to-cohort/choose-participant-type)
+[Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457356227023262&cot=14)
+
+#### Prototype of journey
+[Journey start page](https://dfe-ecf-register-partner.herokuapp.com/school-signed-in/school-add-participants-to-cohort/choose-participant-type) (be sure to choose the [appropriate settings](https://dfe-ecf-register-partner.herokuapp.com/start-testing) first).
+
+**Username:** ecf
+**Password:** ecf
 
 
-### Why we do only ask for the name and email address?
+
+## Things we've learned
+### Don't ask Induction Tutors to do all the work
 We don't want to burden School Induction Tutors with the task of having to collect and validate lots of personal data for lots of participants. Instead, we simply notify the individual participant and ask them to do provide it directly. That way, it's easier for any validation errors to be rectified, as we're dealing directly with the person and their own data.
 
 #### How we got here
