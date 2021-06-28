@@ -1,5 +1,5 @@
 ---
-title: A school managing and viewing participants in a cohort
+title: A school viewing and managing participants in a cohort
 description: How a school that is either using an approved training provider (FIP) or using the accredited materials (CIP) accesses, views and manages individual participants in a cohort.
 date: 2021-06-16
 ---
@@ -8,10 +8,21 @@ How a school that is either using an approved training provider (FIP) or using t
 
 ## User needs
 **As an induction tutor i need to**
+have a quick overview all of the participants in a cohort, so that i can manage them accordingly
+
+**As an induction tutor i need to**
+view a participant in more detail, so that i can confirm or alter any data if required
+
+**As an induction tutor i need to**
+see specific details about a participants validation status, so that i can help them resolve any issues
 
 
 ## Business goals
-* 
+* Replay the various validation statuses to the Induction Tutor so they can follow up directly with the participant if data is missing - ie. help progress the participant validation
+* Allow the induction tutor to update the ECT / Mentor relationships to allow for changes in staffing
+* Allow induction tutors to amend the data of participants who haven't yet signed in and confirmed it themselves (ie. the participants name, type, mentor/ECTs)
+
+
 
 ## How it works
 The journey works as follows;
