@@ -65,7 +65,6 @@ Given the number of actors and non-linear nature of the decision making process,
 
 
 ## Error states
-The journey also contained screens to account for scenarios where the user could not continue. These were;
 
 ### Your school is not eligible for this programme.
 We know that ~7500 schools are not eligible to get DfE funding for the FIP programme and whilst we will be adding this criteria to guidance we need to accocunt for instances where users haven't read this.

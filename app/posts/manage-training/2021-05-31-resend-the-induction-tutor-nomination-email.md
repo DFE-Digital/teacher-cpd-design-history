@@ -65,14 +65,18 @@ Whilst we confirm that the nomination email has been sent, we can't reveal what 
 
 
 ## Error states
-The journey also contained screens to account for scenarios where the user could not continue. These were;
 
-1. Your school is only eligible for 2 of our programmes.
-2. Sorry, teachers cannot serve statutory induction at your school
-3. You can only send one email per day
-4. An induction lead/tutor has already been nominated
+### Your school is only eligible for 2 of our programmes
+~4000 schools wont be eligible for funding for the Full Induction Programme, but they can still continue to do the Core Induction Programme (these schools are in GIAS codes: 10, 11, 30, 37). This page is to set their expectations on what they will be able to do on the service.
 
-The purpose for each error state is detailed under the relevant screenshot below.
+### Sorry, teachers cannot serve statutory induction at your school
+Not all schools are eligible for ECF inductions. These schools are in GIAS codes: 24, 25, 26, 27, 29, 56
+
+### You can only send one email per day
+Given the likelihood that the user wasn't able to find or access the email address that the nomination email was sent to, it was important to prevent the user from repeatedly resending the email out of frustration and provide them with details on what to do next.
+
+### An induction lead/tutor has already been nominated
+If original notification email is being sent to a shared inbox, it's possible that another member of staff may have already actioned this nomination. If that's the case, we need to tell users that they no longer need to perform this task.
 
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
@@ -99,15 +103,15 @@ The purpose for each error state is detailed under the relevant screenshot below
     }, {
       text: "Error state: Your school is only eligible for 2 of our programmes",
       img: { src: "06-error-your-school-is-only-eligible-for-2-programmes.png" },
-      caption: "~4000 schools wont be eligible for funding for the Full Induction Programme, but they can still continue to do the Core Induction Programme (these schools are in GIAS codes: 10, 11, 30, 37). This page is to set their expectations on what they will be able to do on the service."
+      caption: ""
     }, {
       text: "Error state: Sorry, teachers cannot serve statutory induction at your school",
       img: { src: "07-fail-teachers-cannot-serve-statutory-induction-at-your-school.png" },
-      caption: "Not all schools are eligible for ECF inductions. These schools are in GIAS codes: 24, 25, 26, 27, 29, 56"
+      caption: ""
     }, {
       text: "Error state: You can only send one email per day",
       img: { src: "08-fail-you-can-only-send-one-email-per-day.png" },
-      caption: "Given the likelihood that the user wasn't able to find or access the email address that the nomination email was sent to, it was important to prevent the user from repeatedly resending the email out of frustration and provide them with details on what to do next."
+      caption: ""
     }, {
       text: "Error state: An induction lead/tutor has already been nominated",
       img: { src: "09-an-induction-tutor-has-already-been-nominated.png" }

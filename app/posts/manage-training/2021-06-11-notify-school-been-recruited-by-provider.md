@@ -60,12 +60,17 @@ So far only a small handful of schools have reported a mistake using this journe
 
 
 ## Error states
-The journey also contained screens to account for scenarios where the user could not continue. These were;
 
-1. Someone at the school has already reported this issue
-2. This link in the notification email has expired
+### Someone at the school has already reported this issue
+Reporting a mistake with a partnership can only happen once, but there are a couple of instances where an error could have been reported by someone else. For example;
+* The notification is received into a shared inbox and another person has reported the error first.  This is highly likely if a school hasn't yet [nominated an induction tutor](/manage-training/nominating-an-induction-tutor/).
+*  The error has been reported via [the online service](/manage-training/school-preparing-to-use-an-approved-training-provider-fip/#sign-up-with-a-training-provider-done) and not via the email notification.
 
-The purpose for each error state is detailed under the relevant screenshot below.
+### This link in the notification email has expired
+Errors can be reported within 14 days, but if a user tries to report a mistake after that period then it's important to pass them onto the support team to get help.
+
+Through our research with schools, we learnt that our original 7 day period wouldn't be long enough for a school to pick up and action the email.
+
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
 {{ appScreenshots({
@@ -84,10 +89,10 @@ The purpose for each error state is detailed under the relevant screenshot below
     }, {
       text: "Error: Someone at [school name] has already reported this issue",
       img: { src: "04-error-already-reported.png" },
-      caption: "Reporting a mistake with a partnership can only happen once, and we need to account for scenarios where the notification is sent to an inbox which multiple people access. This is highly likely if a school hasn't yet [nominated an induction tutor](/manage-training/nominating-an-induction-tutor/)."
+      caption: ""
     }, {
       text: "Error: This link has expired",
       img: { src: "05-error-link-expired.png" },
-      caption: "The unique link is valid for 14 days. If a user clicks on the link after that period, they will see this screen."
+      caption: ""
     }]
 }) }}
