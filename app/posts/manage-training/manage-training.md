@@ -2,7 +2,7 @@
 tags: false
 layout: collection
 title: Manage training for early career teachers
-description: This service allows schools to setup, manage and run ECF inductions for each new cohort of early career teachers.
+description: This public BETA service allows schools to setup, manage and run ECF inductions for each new cohort of early career teachers.
 pagination:
   data: collections.manage-training
   reverse: true
