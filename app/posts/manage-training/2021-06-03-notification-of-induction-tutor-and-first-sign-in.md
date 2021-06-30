@@ -1,5 +1,5 @@
 ---
-title: Notification of a school's induction tutor and first sign in
+title: Notifying a new school induction tutor and first sign in
 description: How a newly nominated school induction tutor gets notified and the journey they follow when signing in for the first time
 date: 2021-06-03
 ---

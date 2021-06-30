@@ -1,7 +1,7 @@
 ---
-title: Lead provider journey confirming schools
-description: How this journey looked in May 2021
-date: 2021-05-20
+title: Notifying a Lead Provider that a school has reported a mistake (ECF only)
+description: How a Lead Provider is notified of the mistake and how this is reflected in the user interface of the digital service
+date: 2021-06-30
 ---
 {% from "screenshots/macro.njk" import appScreenshots with context %}
 {{ appScreenshots({
