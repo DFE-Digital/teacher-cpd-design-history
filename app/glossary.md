@@ -22,6 +22,9 @@ National Professional Qualifications (NPQ)
 
 ## Other terms
 
+Additional support offer (ASO)
+: A targeted support package for teachers new to the role of headship. [Read more on GOV.UK](https://www.gov.uk/government/publications/national-professional-qualifications-npqs-reforms/national-professional-qualifications-npqs-reforms#additional-support-offer-for-the-npq-in-headship)
+
 Core induction programme (CIP) (Formerly BIP)
 : An internal name for the self-study portion of the training, DfE own the IP, 4 flavours of CIP as written by the early rollout (ERO) providers. Hosted by DfE.
 
