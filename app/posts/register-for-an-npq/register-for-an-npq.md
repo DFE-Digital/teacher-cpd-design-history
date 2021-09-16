@@ -13,4 +13,14 @@ eleventyComputed:
     key: "{{ title }}"
     excerpt: "{{ description }}"
     parent: home
+related:
+  items:
+  - text: Prototype
+    href: https://npq-prototype.herokuapp.com
+  - text: Older prototype
+    href: https://npq-alpha-prototype.herokuapp.com/
+  - text: Prototype on Github
+    href: https://github.com/fofr/npq-prototype
+  - text: Older prototype on Github
+    href: https://github.com/DFE-Digital/NPQ-Alpha-Prototype
 ---
