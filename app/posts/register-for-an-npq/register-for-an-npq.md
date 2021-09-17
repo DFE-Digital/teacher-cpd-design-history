@@ -20,7 +20,7 @@ related:
   - text: Older prototype
     href: https://npq-alpha-prototype.herokuapp.com/
   - text: Prototype on Github
-    href: https://github.com/fofr/npq-prototype
+    href: https://github.com/DFE-Digital/npq-prototype
   - text: Older prototype on Github
     href: https://github.com/DFE-Digital/NPQ-Alpha-Prototype
 ---
