@@ -118,7 +118,7 @@ On the Start page we’ve:
 - removed the bullet-point about needing to be a teacher in England
 - tweaked who can use this service to be less explicit about teachers
 
-On the Providers page, for these users only, we’ve removed a paragraph about checking with your school or college about.
+On the Providers page, for these users only, we’ve removed a paragraph about checking professional development at your school or college.
 
 When we ask for National Insurance number, there’s a pre-question asking if they have one. We might need to give guidance around this question if international users do not know what a national insurance number is.
 
