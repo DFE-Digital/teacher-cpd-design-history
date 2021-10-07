@@ -6,6 +6,8 @@ related:
   items:
   - text: Prototype PR
     href: https://github.com/DFE-Digital/npq-prototype/pull/1
+  - text: Iteration to funding
+    href: https://github.com/DFE-Digital/npq-prototype/pull/6
 ---
 
 {% from "figure/macro.njk" import appFigure with context %}
