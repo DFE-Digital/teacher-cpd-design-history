@@ -94,14 +94,18 @@ We will survey providers about whether they accept international users. The list
 
 ## Funding
 
-The funding options are used as an indicator for providers to know who is paying. In a non-teacher and international context we can simplify this to:
+The funding options are used as an indicator for providers to know who is paying.
 
+In a non-teacher and international context we will use:
+
+- My school or college is paying
+- My employer is paying
 - I am paying
 - My NPQ is being paid another way
 
 These users may not know what a trust is, and they may not have a school or college – and it might not matter if their school is contributing.
 
-We are surveying providers about how they accept payment from international and non-teacher users.
+After we surveyed providers about payment from international and non-teacher users they told us that their school or employer often paid.
 
 {{ appFigure({
   title: 'How is your course being paid for?',
