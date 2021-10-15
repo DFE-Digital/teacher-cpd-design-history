@@ -14,7 +14,7 @@ Following on from our [initial design](/register-for-an-npq/international-and-no
 
 We’ve split the ‘Are you a teacher in England, Jersey, Guernsey or the Isle of Man’ question into two new questions:
 
-1. Are you a teacher?
+1. Are you a teacher or school leader?
 2. Where do you teach?
 
 This has the benefit of moving the ‘Jersey, Guernsey or the Isle of Man’ edge cases out of the page titles.
@@ -36,7 +36,7 @@ Someone is considered international if they select Scotland, Wales, Northern Ire
 {% from "screenshots/macro.njk" import appScreenshots with context %}
 {{ appScreenshots({
   items: [{
-      text: "Are you a teacher?",
+      text: "Are you a teacher or school leader?",
       img: { src: "01-are-you-a-teacher.png" }
     }, {
       text: "Where do you teach?",
