@@ -9,7 +9,7 @@ A collection of terms commonly used across the service lines.
 ## Frequent abbreviations
 
 Continuing professional development (CPD)
-: This is the unique reference number given to all schools by Edubase.
+: The umbrella term for types of professional development
 
 Early career framework (ECF)
 : A 2 year induction for all new teachers. Designed to make sure early career teachers focus on learning the things that make the most difference in the classroom and their professional practice.
