@@ -1,5 +1,5 @@
 ---
-title: Resend the school's "nominate an induction tutor" email
+title: Resend the school’s “nominate an induction tutor” email
 description: How a school triggers the resending of the nomination email, incase it gets missed or the unique link expires.
 date: 2021-05-31
 ---
