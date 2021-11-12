@@ -1,6 +1,6 @@
 {
   "tags": ["manage-cpd-delivery"],
   "eleventyNavigation": {
-    "parent": "Manage CPD delivery"
+    "parent": "Manage delivery of CPD (learning providers)"
   }
 }
