@@ -13,7 +13,7 @@ related:
   - text: Trello
     href: https://trello.com/c/sYTn7XoN/622-funding-queries
   - text: Jira
-    href: https://dfedigital.atlassian.net/browse/CST-131
+    href: https://dfedigital.atlassian.net/browse/CST-147
 ---
 
 In October [we descoped](/register-for-an-npq/decoupling-international-and-non-teacher/) the [original non-teacher journey](/register-for-an-npq/international-and-non-teacher/) from the international one, so we could ship.
