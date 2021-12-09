@@ -67,6 +67,14 @@ We chose to combine these into a single ‘non-school’ group so that:
 - we can understand more about who is taking NPQ in non-education
 - we can minimise risk in people going down the wrong route by mistake and ending up with the wrong funding (ie they will all be triaged)
 
+## Additional support offer (ASO) for non-school users
+
+The Additional support offer is a course aimed at helping new headteachers on the job. It is not targeted to people who do not work in schools. To be eligible to take it you need to have taken/be studying/be about to start an NPQH. To be eligible for funding you must be in your first 2 years of headship.
+
+Non-school users will not be eligible for funding but may be eligible to take it, even if it's not something that's suitable for them.
+
+The number of non-school users is low, the number of ASO registrations is also low. The intersection is probably zero. Rather than designing a different journey for these users, we will ask them to contact support.
+
 ## Video of journey
 
 {% from "embed/macro.njk" import appEmbed with context %}
