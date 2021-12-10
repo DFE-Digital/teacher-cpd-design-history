@@ -1,8 +1,9 @@
 ---
 tags: false
 layout: collection
-title: Manage delivery of CPD (learning providers)
-description: This service allows learning providers across ECF and NPQ to manage the delivery of their training
+date: 2000-01-03
+title: Manage training delivery
+description: Lets learning providers manage the delivery of their training
 pagination:
   data: collections.manage-cpd-delivery
   reverse: true

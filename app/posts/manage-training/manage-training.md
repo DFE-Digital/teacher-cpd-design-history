@@ -1,8 +1,9 @@
 ---
 tags: false
 layout: collection
-title: Manage training for ECTs (schools)
-description: This service allows schools to setup, manage and run ECF inductions for each new cohort of early career teachers (ECT).
+date: 2000-01-01
+title: Manage training for early career teachers
+description: Setup, manage and run training for early career teachers (ECTs)
 pagination:
   data: collections.manage-training
   reverse: true

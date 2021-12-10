@@ -1,8 +1,9 @@
 ---
 tags: false
 layout: collection
-title: Admin support for CPD
-description: This service helps DfE admin users provide support for both the ECF and NPQ services
+date: 2000-01-04
+title: Support
+description: DfE admin users give support for the ECF and NPQ services
 pagination:
   data: collections.support-for-cpd
   reverse: true

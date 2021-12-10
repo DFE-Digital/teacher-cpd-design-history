@@ -1,8 +1,9 @@
 ---
 tags: false
 layout: collection
+date: 2000-01-02
 title: Register for an NPQ
-description: This service helps teachers register, and manage their application for an NPQ
+description: Register to study for an NPQ or the Additional Support Offer for new headteachers
 pagination:
   data: collections.register-for-an-npq
   reverse: true
