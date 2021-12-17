@@ -1,5 +1,5 @@
 ---
-tags: false
+override:tags: []
 layout: collection
 date: 2000-01-03
 title: Manage training delivery
