@@ -47,7 +47,7 @@ The journey works as follows;
 
 
 #### Wireframe journey
-[![alt text](/images/manage-training/school-preparing-to-use-dfe-approved-materials-cip/cip-wire-flow.jpg)](/images/manage-training/school-preparing-to-use-dfe-approved-materials-cip/cip-wire-flow.jpg)
+[![alt text](/manage-training/school-preparing-to-use-dfe-approved-materials-cip/cip-wire-flow.jpg)](/manage-training/school-preparing-to-use-dfe-approved-materials-cip/cip-wire-flow.jpg)
 
 [Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355306758748&cot=14)
 

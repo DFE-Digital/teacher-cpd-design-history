@@ -30,7 +30,7 @@ The journey works as follows;
 
 
 #### Wireframe journey
-[![alt text](/images/manage-training/notification-of-induction-tutor-and-first-sign-in/wire-flow.jpg)](/images/manage-training/notification-of-induction-tutor-and-first-sign-in/wire-flow.jpg)
+[![alt text](/manage-training/notification-of-induction-tutor-and-first-sign-in/wire-flow.jpg)](/manage-training/notification-of-induction-tutor-and-first-sign-in/wire-flow.jpg)
 
 [Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355250705583&cot=14)
 

@@ -38,7 +38,7 @@ The journey works as follows;
 
 
 #### Wireframe journey
-[![alt text](/images/manage-training/school-preparing-to-use-an-approved-training-provider-fip/wire-flows.jpg)](/images/manage-training/school-preparing-to-use-an-approved-training-provider-fip/wire-flows.jpg)
+[![alt text](/manage-training/school-preparing-to-use-an-approved-training-provider-fip/wire-flows.jpg)](/manage-training/school-preparing-to-use-an-approved-training-provider-fip/wire-flows.jpg)
 
 [Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355308879313&cot=14)
 
@@ -50,7 +50,7 @@ The journey works as follows;
 
 #### How a school's programme choice changes
 A logic diagram below illustrates how a programme choice changes when a school is recruited by a training provider, or when a school reports an incorrect sign up.
-[![alt text](/images/manage-training/school-preparing-to-use-an-approved-training-provider-fip/programme-choice-change.jpg)](/images/manage-training/school-preparing-to-use-an-approved-training-provider-fip/programme-choice-change.jpg)
+[![alt text](/manage-training/school-preparing-to-use-an-approved-training-provider-fip/programme-choice-change.jpg)](/manage-training/school-preparing-to-use-an-approved-training-provider-fip/programme-choice-change.jpg)
 
 
 ## Things we've learned
