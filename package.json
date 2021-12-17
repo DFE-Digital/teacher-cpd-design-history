@@ -5,17 +5,16 @@
   "engines": {
     "node": "^15.0.0"
   },
-  "description": "A place for documenting GOV.UK service designs",
+  "description": "A history of the design work for the services that belong to the continuing professional development (CPD) programme for teachers",
   "keywords": [
-    "becoming-a-teacher",
     "govuk",
     "11ty"
   ],
-  "author": "Becoming a teacher team",
+  "author": "Department for Education",
   "license": "MIT",
-  "homepage": "https://design-history.herokuapp.com",
-  "repository": "github:DFE-Digital/govuk-design-history",
-  "bugs": "https://github.com/DFE-Digital/govuk-design-history/issues",
+  "homepage": "https://teacher-cpd-design-history.herokuapp.com/",
+  "repository": "github:DFE-Digital/teacher-cpd-design-history",
+  "bugs": "https://github.com/DFE-Digital/teacher-cpd-design-history/issues",
   "scripts": {
     "prebuild": "rm -rf public",
     "build:files": "eleventy",
