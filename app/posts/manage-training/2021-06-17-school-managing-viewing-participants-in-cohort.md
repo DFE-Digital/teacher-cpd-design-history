@@ -34,7 +34,7 @@ The journey works as follows;
 
 
 #### Wireframe journey
-[![alt text](/images/manage-training/school-managing-viewing-participants-in-cohort/wire-flows.jpg)](/images/manage-training/school-managing-viewing-participants-in-cohort/wire-flows.jpg)
+[![alt text](/manage-training/school-managing-viewing-participants-in-cohort/wire-flows.jpg)](/manage-training/school-managing-viewing-participants-in-cohort/wire-flows.jpg)
 
 [Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457358611816804&cot=14)
 
@@ -55,7 +55,7 @@ The status label that we assign the participant communicates to the user at what
 ### How these statuses are assigned
 A high level validation process is illustrated in the following diagram.
 
-[![alt text](/images/manage-training/school-managing-viewing-participants-in-cohort/validation-flow.jpg)](/images/manage-training/school-managing-viewing-participants-in-cohort/validation-flow.jpg)
+[![alt text](/manage-training/school-managing-viewing-participants-in-cohort/validation-flow.jpg)](/manage-training/school-managing-viewing-participants-in-cohort/validation-flow.jpg)
 
 
 ### Statuses and descriptions

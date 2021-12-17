@@ -35,7 +35,7 @@ The journey works as follows;
 
 
 #### Wireframe journey
-[![alt text](/images/manage-training/school-choosing-an-induction-programme/wire-flows.jpg)](/images/manage-training/school-choosing-an-induction-programme/wire-flows.jpg)
+[![alt text](/manage-training/school-choosing-an-induction-programme/wire-flows.jpg)](/manage-training/school-choosing-an-induction-programme/wire-flows.jpg)
 
 [Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457355290069818&cot=14)
 

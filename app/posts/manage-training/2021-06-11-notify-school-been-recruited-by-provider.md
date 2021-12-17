@@ -28,7 +28,7 @@ The journey works as follows;
 
 
 #### Wireframe journey
-[![alt text](/images/manage-training/notify-school-been-recruited-by-provider/wire-flows.jpg)](/images/manage-training/notify-school-been-recruited-by-provider/wire-flows.jpg)
+[![alt text](/manage-training/notify-school-been-recruited-by-provider/wire-flows.jpg)](/manage-training/notify-school-been-recruited-by-provider/wire-flows.jpg)
 
 [Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457354439630103&cot=14)
 

@@ -4,7 +4,7 @@ description: How a new Lead Provider views all of their schools across cohorts, 
 date: 2021-06-21
 ---
 
-[![alt text](/images/manage-training/nominating-an-induction-tutor/wire-flow.jpg)](/images/manage-training/nominating-an-induction-tutor/wire-flow.jpg)
+[![alt text](/manage-training/nominating-an-induction-tutor/wire-flow.jpg)](/manage-training/nominating-an-induction-tutor/wire-flow.jpg) ok ok
 
 [Link to journey on Miro](https://miro.com/app/board/o9J_ldVNkCY=/?moveToWidget=3074457354086350072&cot=14)
 
