@@ -2,6 +2,10 @@
   title: Journey for users who’ve registered before (Iteration)
   description: Stops users from changing their details on a subsequent registration
   date: 2022-01-11
+  related:
+  items:
+  - text: Prototype PR
+    href: https://github.com/DFE-Digital/npq-prototype/pull/22
   screenshots:
     items:
       - text: "Are you [user]?"
