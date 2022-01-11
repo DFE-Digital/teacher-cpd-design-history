@@ -1,5 +1,5 @@
 ---
-title: Create a journey for users who’ve registered before
+title: Journey for users who’ve registered before
 description: Stops users from changing their details on a subsequent registration
 date: 2021-12-13
 related:
@@ -9,6 +9,8 @@ related:
   - text: Jira ticket
     href: https://dfedigital.atlassian.net/browse/CST-131
 ---
+
+__We did not build this design – instead [we iterated it](/register-for-an-npq/registered-before-2/)__
 
 Sometimes users are registering multiple times, there are 3 scenarios:
 
@@ -31,6 +33,13 @@ We’ve brought the email part of the journey to the beginning, before the TRN a
 If a user signs in (using the code) with an existing email address, we’ll take them straight to the ‘You’ve registered before’ page.
 
 The language on the email has been softened, the original content felt too abrupt when at the beginning of the journey.
+
+## Video walkthrough
+
+{% from "embed/macro.njk" import appEmbed with context %}
+{{ appEmbed({
+  youtubeId: '5taIepGUTEs'
+}) }}
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
 {{ appScreenshots({
