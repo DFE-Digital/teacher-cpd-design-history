@@ -1,6 +1,6 @@
 ---
   title: Journey for users who’ve registered before (Iteration)
-  description: Stops users from changing their details on a subsequent registration
+  description: Keep the registration journey very similar, but lock down identity information
   date: 2022-01-11
   related:
   items:
