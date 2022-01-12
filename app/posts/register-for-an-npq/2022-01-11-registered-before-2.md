@@ -3,9 +3,9 @@
   description: Keep the registration journey very similar, but lock down identity information
   date: 2022-01-11
   related:
-  items:
-  - text: Prototype PR
-    href: https://github.com/DFE-Digital/npq-prototype/pull/22
+    items:
+    - text: Prototype PR
+      href: https://github.com/DFE-Digital/npq-prototype/pull/22
   screenshots:
     items:
       - text: "Are you [user]?"
