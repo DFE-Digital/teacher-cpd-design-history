@@ -35,5 +35,3 @@ There is a soft closure, where delayed registrations for users taking an NPQ in 
 
 **After March 11th**
 Registration will be fully closed and users visiting the service will have the option to sign up for notifications.
-
----
