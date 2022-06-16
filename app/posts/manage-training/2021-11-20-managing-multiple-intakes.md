@@ -4,19 +4,19 @@ description: How might the ‘Manage training for early career teachers’ servi
 date: 2021-11-20
 related:
   items:
-  - text: Playback deck
-    href: https://docs.google.com/presentation/d/1vRoH1HJe4RYxHUhVsu-ZJ3Cs3eygAlD9jRJh-dPIs3Y/edit#slide=id.p
-    screenshots:
-      items:
-        - text: "Index page"
-          src: 01-expected-start-it1.png
+    - text: Playback deck
+      href: https://docs.google.com/presentation/d/1vRoH1HJe4RYxHUhVsu-ZJ3Cs3eygAlD9jRJh-dPIs3Y/edit#slide=id.p
+screenshots:
+  items:
+    - text: "Index page"
+      src: 01-expected-start-it1.png
+    - text: "Index page"
+      src: 02-expected-start-it2.jpeg
+    - text: "Index page"
+      src: 03-ppt-dashboard-changes.jpeg
 ---
 
-**Images to be added**
-
 How might the ‘Manage training for early career teachers’ service deal with participants starting at different times throughout the academic year?
-
-
 
 ## Introduction
 
