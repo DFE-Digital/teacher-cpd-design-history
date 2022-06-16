@@ -8,12 +8,12 @@ related:
       href: https://docs.google.com/presentation/d/1vRoH1HJe4RYxHUhVsu-ZJ3Cs3eygAlD9jRJh-dPIs3Y/edit#slide=id.p
 screenshots:
   items:
-    - text: "Index page"
+    - text: "Expected start - iteration 2"
       src: 01-expected-start-it1.png
-    - text: "Index page"
-      src: 02-expected-start-it2.jpeg
-    - text: "Index page"
-      src: 03-ppt-dashboard-changes.jpeg
+    - text: "Expected start - iteration 3"
+      src: 02-expected-start-it2.png
+    - text: "Participant dashboard charges"
+      src: 03-ppt-dashboard-changes.png
 ---
 
 How might the ‘Manage training for early career teachers’ service deal with participants starting at different times throughout the academic year?
@@ -55,7 +55,7 @@ These features were developed with the expectation of being built on with additi
 
 Initially the three terms were labelled as September 2021, January 2022 and April 2022. School users reported that they refer to the terms as Autumn, Spring and Summer so this was iterated quickly.
 
-This is the second iteration, it shows the draft content and 3 terms listed.
+The second iteration, shows the draft content and 3 terms listed.
 We wanted to find out if users understood the content (question) and whether the choice of terms made sense to them and they would know which to choose for each participant.
 
 
