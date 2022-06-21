@@ -1,6 +1,6 @@
 ---
 title: Funded and non-funded messages
-description: Updates to the existing funded message and adding non funded messages (including those who had already received funding)
+description: Updates to the existing funded message and adding non funded messages (including those who have already received funding)
 date: 2022-06-16
 screenshots:
       items:
