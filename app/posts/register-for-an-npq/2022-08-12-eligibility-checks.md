@@ -1,6 +1,6 @@
 ---
-title: NPQ eligibility checks
-description: Documentation on how we determine eligibility for NPQ funding, how a TRN fits in and providers contractual obligations to check eligibility post registration.
+title: NPQ funding eligibility checks
+description: Documentation on how we determine eligibility for NPQ funding, how a TRN fits in and providers contractual obligations to check eligibility post registration
 date: 2022-08-12
    
 ---

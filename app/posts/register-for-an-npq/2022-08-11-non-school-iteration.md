@@ -1,6 +1,6 @@
 ---
 title: Iterating the journey for those who don’t work in a school or early years
-description: Updates to the journey which enables some non-school users to receive funding for an NPQ.
+description: Updates to the journey which enables some non-school users to receive funding for an NPQ
 date: 2022-08-11
 screenshots:
       items:
