@@ -15,9 +15,14 @@
   ]
 */
 const paths = [{
-  title: 'Index page',
-  path: '/'
-}]
+  title: 'New design',
+  path: '/where-do-you-work'
+},
+{
+  title: 'Previous design',
+  path: '/_archive/where-do-you-work'
+}
+]
 const { DateTime } = require('luxon')
 const domain = 'http://localhost:3000'
 
