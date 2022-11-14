@@ -14,13 +14,10 @@
     { title: 'Terms and conditions', path: '/terms-conditions'}
   ]
 */
-const paths = [{
-  title: 'New design',
-  path: '/where-do-you-work'
-},
+const paths = [
 {
-  title: 'Previous design',
-  path: '/_archive/where-do-you-work'
+  title: 'Which early years setting do you work in',
+  path: '/eyll/nursery-type'
 }
 ]
 const { DateTime } = require('luxon')
