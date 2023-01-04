@@ -11,3 +11,26 @@ $govuk-new-link-styles: true;
     background: #fff;
   }
 }
+
+img.outline-no {
+    outline: 0 !important;
+}
+
+img.outline-no.img-anim {
+    width: 81%;
+    height: auto;
+    margin: 0 auto;
+    -webkit-box-shadow: 2px 2px 61px -20px rgb(0 0 0 / 93%);
+    -moz-box-shadow: 2px 2px 61px -20px rgba(0,0,0,0.93);
+    box-shadow: 2px 2px 61px -20px rgb(0 0 0 / 93%);
+    border-radius: 40%;
+    border-radius: 10px;
+}
+
+
+#accordion-001 {
+    span {
+        font-size: 1.2rem;
+    }
+}
+
