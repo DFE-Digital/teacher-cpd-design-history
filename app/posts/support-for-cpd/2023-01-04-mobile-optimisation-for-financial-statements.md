@@ -66,12 +66,12 @@ Below are screenshots of problems that were identified and fixed with CSS. Pleas
 			<p class='govuk-body'>
 				Below: mobile view with dark grey box highlighting cropped content that is hidden outside the viewport.
 			</p>
-			<img src="/support-for-cpd/2022-12-09-mobile-optimisation-financial-statements/img-1a.png" alt="" class="outline-no">
+			<img src="/support-for-cpd/2023-01-04-mobile-optimisation-for-financial-statements/img-1a.png" alt="" class="outline-no">
 			<p class='govuk-body'>
 				The updated CSS enables horizontal scroll bars so all the content is viewable including on narrow viewports and mobile.
 			</p>
 			<br>
-			<img src="/support-for-cpd/2022-12-09-mobile-optimisation-financial-statements/img-1b.gif" alt="" class="outline-no img-anim"> 
+			<img src="/support-for-cpd/2023-01-04-mobile-optimisation-for-financial-statements/img-1b.gif" alt="" class="outline-no img-anim"> 
 		</div>
 	</div>
 	<div class="govuk-accordion__section">
@@ -86,11 +86,11 @@ Below are screenshots of problems that were identified and fixed with CSS. Pleas
 			<p class='govuk-body'>
 				Incorrect CSS class on container with missing CSS media queries resulting in zero margin in mobile view. This affected all pages.
 			</p>
-			<img src="/support-for-cpd/2022-12-09-mobile-optimisation-financial-statements/img-2a.png" alt="" class="outline-no">
+			<img src="/support-for-cpd/2023-01-04-mobile-optimisation-for-financial-statements/img-2a.png" alt="" class="outline-no">
 			<p class='govuk-body'>
 				Below: margin applied on the container.
 			</p>
-			<img src="/support-for-cpd/2022-12-09-mobile-optimisation-financial-statements/img-2b.png" alt="" class="outline-no"> 
+			<img src="/support-for-cpd/2023-01-04-mobile-optimisation-for-financial-statements/img-2b.png" alt="" class="outline-no"> 
 		</div>
 	</div>
 	<div class="govuk-accordion__section">
@@ -105,11 +105,11 @@ Below are screenshots of problems that were identified and fixed with CSS. Pleas
 			<p class='govuk-body'>
 				Incorrect CSS class on header container with inconsistent CSS media queries resulting in misaligned content. This affected all pages.
 			</p>
-			<img src="/support-for-cpd/2022-12-09-mobile-optimisation-financial-statements/img-3a.png" alt="" class="outline-no">
+			<img src="/support-for-cpd/2023-01-04-mobile-optimisation-for-financial-statements/img-3a.png" alt="" class="outline-no">
 			<p class='govuk-body'>
 				Below: the header correctly aligned in any viewport size.
 			</p>
-			<img src="/support-for-cpd/2022-12-09-mobile-optimisation-financial-statements/img-3b.png" alt="" class="outline-no"> 
+			<img src="/support-for-cpd/2023-01-04-mobile-optimisation-for-financial-statements/img-3b.png" alt="" class="outline-no"> 
 		</div>
 	</div>
 	<div class="govuk-accordion__section">
@@ -124,11 +124,11 @@ Below are screenshots of problems that were identified and fixed with CSS. Pleas
 			<p class='govuk-body'>
 				Missing CSS class on one of the containers resulting in inconsistent select input widths.
 			</p>
-			<img src="/support-for-cpd/2022-12-09-mobile-optimisation-financial-statements/img-4a.png" alt="" class="outline-no">
+			<img src="/support-for-cpd/2023-01-04-mobile-optimisation-for-financial-statements/img-4a.png" alt="" class="outline-no">
 			<p class='govuk-body'>
 				Below: all select elements filling the full width of their container.
 			</p>
-			<img src="/support-for-cpd/2022-12-09-mobile-optimisation-financial-statements/img-4b.png" alt="" class="outline-no"> 
+			<img src="/support-for-cpd/2023-01-04-mobile-optimisation-for-financial-statements/img-4b.png" alt="" class="outline-no"> 
 		</div>
 	</div>
 	<div class="govuk-accordion__section">
@@ -143,11 +143,11 @@ Below are screenshots of problems that were identified and fixed with CSS. Pleas
 			<p class='govuk-body'>
 				Missing CSS media query on CSS Grid resulting in two columns (with one empty), instead of one column in mobile view.
 			</p>
-			<img src="/support-for-cpd/2022-12-09-mobile-optimisation-financial-statements/img-5a.png" alt="" class="outline-no">
+			<img src="/support-for-cpd/2023-01-04-mobile-optimisation-for-financial-statements/img-5a.png" alt="" class="outline-no">
 			<p class='govuk-body'>
 				Below: CSS media queries applied to change the two columns into one when viewed on mobile.
 			</p>
-			<img src="/support-for-cpd/2022-12-09-mobile-optimisation-financial-statements/img-5b.png" alt="" class="outline-no"> 
+			<img src="/support-for-cpd/2023-01-04-mobile-optimisation-for-financial-statements/img-5b.png" alt="" class="outline-no"> 
 		</div>
 	</div>
 	<div class="govuk-accordion__section">
@@ -162,11 +162,11 @@ Below are screenshots of problems that were identified and fixed with CSS. Pleas
 			<p class='govuk-body'>
 				Poor spacing on CSS Grid and Flexbox resulting in the appearance of squashed looking content.
 			</p>
-			<img src="/support-for-cpd/2022-12-09-mobile-optimisation-financial-statements/img-6a.png" alt="" class="outline-no">
+			<img src="/support-for-cpd/2023-01-04-mobile-optimisation-for-financial-statements/img-6a.png" alt="" class="outline-no">
 			<p class='govuk-body'>
 				Below: CSS media queries applied to add margin spacing between elements when viewed on mobile.
 			</p>
-			<img src="/support-for-cpd/2022-12-09-mobile-optimisation-financial-statements/img-6b.png" alt="" class="outline-no"> 
+			<img src="/support-for-cpd/2023-01-04-mobile-optimisation-for-financial-statements/img-6b.png" alt="" class="outline-no"> 
 		</div>
 	</div>
 	<div class="govuk-accordion__section">
@@ -181,11 +181,11 @@ Below are screenshots of problems that were identified and fixed with CSS. Pleas
 			<p class='govuk-body'>
 				Numeric CSS classes missing from various table columns resulting in incorrectly left aligned content.
 			</p>
-			<img src="/support-for-cpd/2022-12-09-mobile-optimisation-financial-statements/img-7a.png" alt="" class="outline-no">
+			<img src="/support-for-cpd/2023-01-04-mobile-optimisation-for-financial-statements/img-7a.png" alt="" class="outline-no">
 			<p class='govuk-body'>
 				Below: CSS classes applied to columns containing numeric data resulting in right aligned content.
 			</p>
-			<img src="/support-for-cpd/2022-12-09-mobile-optimisation-financial-statements/img-7b.png" alt="" class="outline-no">
+			<img src="/support-for-cpd/2023-01-04-mobile-optimisation-for-financial-statements/img-7b.png" alt="" class="outline-no">
 		</div>
 	</div>
 </div>
