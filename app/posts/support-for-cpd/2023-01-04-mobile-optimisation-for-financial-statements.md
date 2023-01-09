@@ -5,7 +5,7 @@ date: 2023-01-04
 related:
   items:
   - text: Targeted delivery funding included on NPQ financial statements
-    href: /manage-cpd-delivery/targeted-delivery-funding-included-on-npq-financial-statements
+    href: /support-for-cpd/targeted-delivery-funding-included-on-npq-financial-statements
 ---
 
 
