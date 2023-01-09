@@ -44,7 +44,7 @@ Below is a screenshot from the development environment. Please note, all sensiti
 
 
 
-<img src="/manage-cpd-delivery/2023-01-09-targeted-delivery-funding-included-on-npq-financial-statements/img-1-anim.gif" alt="">
+<img src="/support-for-cpd/2023-01-09-targeted-delivery-funding-included-on-npq-financial-statements/img-1-anim.gif" alt="">
 
 
 #### Citations
