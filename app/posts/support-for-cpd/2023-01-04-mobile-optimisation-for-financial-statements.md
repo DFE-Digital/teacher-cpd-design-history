@@ -201,8 +201,3 @@ Below are screenshots of problems that were identified and fixed with CSS. Pleas
 - Darren Courtney - Interaction design
 - Kerry Baugh - User research
 
-
-<strong>Tags</strong>
-
-<strong class="govuk-tag govuk-tag--purple">Interaction design</strong>
-
