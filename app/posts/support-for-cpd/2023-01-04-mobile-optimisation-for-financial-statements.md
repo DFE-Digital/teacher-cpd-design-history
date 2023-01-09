@@ -2,6 +2,10 @@
 title: Mobile optimisation for financial statements
 description: HTML and CSS updates to improve financial statement display across mobile devices. Deployed in December 2022
 date: 2023-01-04
+related:
+  items:
+  - text: Targeted delivery funding included on NPQ financial statements
+    href: /manage-cpd-delivery/targeted-delivery-funding-included-on-npq-financial-statements
 ---
 
 
@@ -200,7 +204,5 @@ Below are screenshots of problems that were identified and fixed with CSS. Pleas
 
 <strong>Tags</strong>
 
-<strong class="govuk-tag">
-  Interaction design 
-</strong>
+<strong class="govuk-tag govuk-tag--purple">Interaction design</strong>
 
