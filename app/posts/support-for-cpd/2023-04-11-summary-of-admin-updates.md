@@ -42,3 +42,9 @@ DfE admin users support the primary service users by investigating data associat
 ## Next steps 
 
 The next iterations include adding appropriate body information to participant pages, improving the induction tutor impersonation journey, and adding search functionality to supplier pages. 
+
+#### Design team
+
+- Hazel Yule - content design
+- Kerry Baugh - user research
+- Peter Yates and Laurent Curau - development

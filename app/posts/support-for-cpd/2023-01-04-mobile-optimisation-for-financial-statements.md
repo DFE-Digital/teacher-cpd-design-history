@@ -197,7 +197,6 @@ Below are screenshots of problems that were identified and fixed with CSS. Pleas
 
 #### LPDOB design team
 
-- Hazel Yule - Content design
-- Darren Courtney - Interaction design
-- Kerry Baugh - User research
-
+- Hazel Yule - content design
+- Darren Courtney - interaction design
+- Kerry Baugh - user research
