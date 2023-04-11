@@ -44,3 +44,10 @@ Designing a user interface for admins to change a lead provider eliminates the n
 ## Next steps 
 
 If time allows and the business need becomes priority, we will look into designing a journey to allow admin users to schedule provider changes.
+
+
+#### Design team
+
+- Hazel Yule - content design
+- Shahad Rahman - business analysis 
+- Mooktakim Ahmed - development
