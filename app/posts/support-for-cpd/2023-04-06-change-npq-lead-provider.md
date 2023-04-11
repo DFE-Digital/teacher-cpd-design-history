@@ -1,6 +1,6 @@
 ---
 title: Admin ability to change an NPQ participant’s lead provider
-description: New functionality added to let admins change an NPQ participant’s lead provider. Deployed in March 2023
+description: New functionality to let admins change an NPQ participant’s lead provider. Deployed in March 2023
 date: 2023-04-06
 ---
 
@@ -16,7 +16,7 @@ If the participant then chooses to change their NPQ provider, a ‘transfer’ p
 
 Once a ‘transfer’ had been agreed, a manual development request was needed to update the service. Given the time sensitive nature of these repetitive requests, the development task could not be planned for. It would result in resource being taken off other priority workstreams, causing delays in other areas.
 
-Note, a ‘transfer’ process from one lead provider to another is only required where declarations have been submitted (and are in the eligible, payable, paid, clawed_back or awaiting_clawback states). If no declarations have been submitted for a participant, the DfE can simply revert the application to pending.
+Note, a ‘transfer’ process from one lead provider to another is only required where declarations have been submitted (and are in the `eligible`, `payable`, `paid`, `clawed_back` or `awaiting_clawback` states). If no declarations have been submitted for a participant, the DfE can simply revert the application to pending.
 
 Designing a user interface for admins to change a lead provider eliminates the need for manual development. Support teams can self-serve, creating greater efficiencies across teams. 
 
@@ -41,7 +41,6 @@ Designing a user interface for admins to change a lead provider eliminates the n
 
 ![Screenshot of the confirmation banner](/support-for-cpd/2023-04-06-change-npq-lead-provider/04-confirmation-banner.png)
 
-
 ## Next steps 
 
-If time allows and the business need becomes priority, we will look into designing a journey to allow admin users to schedule provider changes. 
+If time allows and the business need becomes priority, we will look into designing a journey to allow admin users to schedule provider changes.
