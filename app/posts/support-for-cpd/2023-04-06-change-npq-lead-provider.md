@@ -1,6 +1,6 @@
 ---
 title: Admin ability to change an NPQ participant’s lead provider
-description: New functionality added to let admins change an NPQ participant’s lead provider. Deployed in March 2023
+description: New functionality to let admins change an NPQ participant’s lead provider. Deployed in March 2023
 date: 2023-04-06
 ---
 
