@@ -23,23 +23,22 @@ Designing a user interface for admins to change a lead provider eliminates the n
 ## What we did 
 
 * We gathered and scoped requirements from contract managers. These included 1) the functionality to change providers being available on admin views 2) the admin ability to schedule changes ahead of time. Due to code complexity and delivery timelines it was decided that the scheduling feature was not essential for MVP delivery.
-* We used existing design patterns to allow admin users to ‘Change’ a participant’s lead provider via a two step journey. Users are asked to select the new lead provider, then to check their answers. They will see a confirmation banner once the change has been saved.
+* We used existing design patterns to allow admin users to ‘Change’ a participant’s lead provider via a simple journey. 
 
-### Hyperlink in ‘Lead provider’ row 
+Admin users are presented with a 'Change' link on the lead provider row of their participant record. 
 
 ![Screenshot of the 'Change' link](/support-for-cpd/2023-04-06-change-npq-lead-provider/01-change-hyperlink.png)
 
-### Change lead provider 
+Users are then asked to select the new lead provider, and then to check their answers.
 
 ![Screenshot of the 'Change lead provider' page](/support-for-cpd/2023-04-06-change-npq-lead-provider/02-change-lead-provider.png)
 
-### Check your answers
-
 ![Screenshot of the 'Check your answers' page](/support-for-cpd/2023-04-06-change-npq-lead-provider/03-check-your-answers.png)
 
-### Confirmation banner 
+Users will see a confirmation banner at the top of the page once the change has been saved.
 
 ![Screenshot of the confirmation banner](/support-for-cpd/2023-04-06-change-npq-lead-provider/04-confirmation-banner.png)
+
 
 ## Next steps 
 
