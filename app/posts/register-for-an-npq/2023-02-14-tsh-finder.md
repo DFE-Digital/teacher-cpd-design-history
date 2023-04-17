@@ -5,19 +5,19 @@ date: 2023-02-14
 screenshots:
       items:
         - text: "DP finder - landing page"
-          src: 01-dp-finder
+          src: 01-dp-finder.png
         - text: "DP finder - user location"
-          src: 02-dp-finder
+          src: 02-dp-finder.png
         - text: "DP finder - choose NPQ"
-          src: 03-dp-finder
+          src: 03-dp-finder.png
         - text: "DP finder - results"
-          src: 04-dp-finder
+          src: 04-dp-finder.png
         - text: "TSH finder - landing page"
-          src: 05-tsh-finder
+          src: 05-tsh-finder.png
         - text: "TSH finder - user location"
-          src: 06-tsh-finder
+          src: 06-tsh-finder.png
         - text: "TSH finder - results"
-          src: 07-tsh-finder
+          src: 07-tsh-finder.png
 ---
 
 ## Problem statement
