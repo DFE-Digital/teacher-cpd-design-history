@@ -1,6 +1,7 @@
 ---
-  title: Change course - registration status
-  date: 2023-04-17
+  title: Change work details - registration status
+  description: Journey for users who have registered for an NPQ and need to change their work details.
+  date: 2023-05-17
   screenshots:
     items:
     - text: "User journey"
@@ -17,7 +18,7 @@ Users who change their employment after registering for an NPQ need to raise a t
 
 ## Design
 
-We have designed a journey so the user can self-serve when they need to update their contact details. The journey below shows the process the user needs to follow to make the changes.
+We have designed a journey so the user can self-serve when they need to update their work details. The journey below shows the process the user needs to follow to make the changes.
 
 The screens are the same screens they go through in the registration process. The journey will depend on the type of work setting the user works in (as it is in the registration journey).
 

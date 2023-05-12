@@ -1,5 +1,6 @@
 ---
   title: Registration status
+  description: Landing page for users who have registered for an NPQ and return to the service.
   date: 2023-04-17
   screenshots:
     items:
