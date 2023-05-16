@@ -1,5 +1,5 @@
 ---
-title: Updates for improved cross-site admin navigation
+title: Improve cross-site admin navigation
 description: A summary of updated functionality and designs to streamline admin navigation and improve usability. Deployed in April 2023
 date: 2023-04-11
 ---
