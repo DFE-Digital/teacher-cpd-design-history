@@ -52,7 +52,7 @@ Declarations are notifications submitted by providers via the API.
 
 Declarations are submitted where there is evidence of participant engagement for a specific milestone period. They are the sole means for triggering output payments from DfE to a lead provider for a participant for a given milestone. 
 
-Do not use this term in school or participant facing content. Use this term in lead provider facing content. 
+Use this term in lead provider facing content. Do not use this term in school or participant facing content.
 
 ### Declaration state
 
