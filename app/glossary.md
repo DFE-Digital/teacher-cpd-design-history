@@ -266,6 +266,6 @@ An 8-digit unique number allocated to education providers after successful UK Re
 
 ## X
 
-## Y
+## Y
 
 ## Z
