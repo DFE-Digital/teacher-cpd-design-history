@@ -2,8 +2,9 @@
 override:tags: []
 layout: collection
 date: 2000-01-03
-title: Manage training delivery
-description: Lets learning providers manage the delivery of their training
+title: Lead provider, delivery partner, and appropriate body services
+description: The API and UI services used to manage the delivery of  training
+
 pagination:
   data: collections.manage-cpd-delivery
   reverse: true
@@ -16,10 +17,10 @@ eleventyComputed:
     parent: home
 related:
   items:
-  - text: Wireframe journeys (Miro)
-    href: https://miro.com/app/board/o9J_ldVNkCY=/
   - text: Glossary
     href: /glossary/
   - text: DfE CPD Service Manual
     href: https://cpd-service-manual.london.cloudapps.digital/#dfe-continuing-professional-development-cpd
+   - text: Wireframe journeys (Miro)
+    href: https://miro.com/app/board/o9J_ldVNkCY=/
 ---
