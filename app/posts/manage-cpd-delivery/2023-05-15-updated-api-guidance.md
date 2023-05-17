@@ -43,7 +43,9 @@ Therefore, any new and improved API guidance must be accessible to, understood a
 * **Co-design sessions** - We shared draft API specs for new and changed endpoints with providers, iterating upon their feedback, making note any areas of confusion where guidance could improve comprehension
 * **Content review** - The content was redrafted in its entirety. Language was simplified, titles were made instructive, and consistent ECF and NPQ information structures were implemented. An example is listed below.
 * **Code review** - HTML was converted to markdown to simplify the code  
-* **Process review** - Content maintenance processes were agreed, allowing content designers the ownership of content updates using Visual Studio Code 
+* **Process review** - Content maintenance processes were agreed, allowing content designers the ownership of content updates using Visual Studio Code
+
+[Read the updated API guidance](https://manage-training-for-early-career-teachers.education.gov.uk/api-reference)
 
 ### Standardised ECF and NPQ content structures 
 
