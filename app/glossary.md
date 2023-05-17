@@ -4,13 +4,9 @@ title: Glossary
 description: A collection of terms commonly used across the Manage teacher CPD service.
 ---
 
-The CPD glossary covers terminology, definitions and usage conventions for content published on external CPD service,  internal admin interfaces and documentation arranged alphabetically.
-
 ## About the A to Z
 
-These terms apply to content published across CPD services.
-
-It includes guidance on specific words and phrases.
+The CPD glossary covers terminology, definitions and usage conventions for content published on external CPD service, internal admin interfaces and documentation arranged alphabetically.
 
 If there’s language that is not covered here, check the [DfE content guidelines.](https://design.education.gov.uk/content-design/language-we-use/)
 
