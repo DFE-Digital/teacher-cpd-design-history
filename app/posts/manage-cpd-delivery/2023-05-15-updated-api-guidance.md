@@ -55,6 +55,8 @@ Therefore, any new and improved API guidance must be accessible to, understood a
 
 #### After
 
+![Screenshot of the new ECF menu](/manage-cpd-delivery/updated-api-guidance/03-ecf-menu.png) 
+
 | H1      | H2      | H3     | 
 | -------- | --------  | --------  | 
 | {programme} management    |       |       | 
@@ -67,8 +69,6 @@ Therefore, any new and improved API guidance must be accessible to, understood a
 |       | Schedules and milestone dates|       | 
 |       |       | Key concepts       | 
 |       |       | {programme specific schedules}       | 
-
-![Screenshot of the new ECF menu](/manage-cpd-delivery/updated-api-guidance/03-ecf-menu.png) 
 
 ### Instructive headings   
 
