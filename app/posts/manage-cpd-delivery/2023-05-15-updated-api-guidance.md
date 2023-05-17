@@ -43,42 +43,19 @@ Therefore, any new and improved API guidance must be accessible to, understood a
 
 * **Requirement gathering** - We spoke with DfE digital teams to understand the most common issues providers reach out about. We ran user research sessions with lead providers to understand their CRM processes and API related pain points and how improved guidance could help 
 * **Co-design sessions** - We shared draft API specs for new and changed endpoints with providers, iterating upon their feedback, making note any areas of confusion where guidance could improve comprehension
-* **Content review** - The content was redrafted in its entirety. Language was simplified and consistent content and information structures were implemented. Examples below.
+* **Content review** - The content was redrafted in its entirety. Language was simplified, titles were made instructive, and consistent ECF and NPQ information structures were implemented. An example is listed below.
 * **Code review** - HTML was converted to markdown to simplify the code  
 * **Process review** - Content maintenance processes were agreed, allowing content designers the ownership of content updates using Visual Studio Code 
 
 ### Standardised ECF and NPQ content structures 
 
-#### Before   
-
-![Screenshot of the original menu structure and title headings](/manage-cpd-delivery/updated-api-guidance/01-original-menu-structure.png) 
-
-#### After
+#### ECF
 
 ![Screenshot of the new ECF menu](/manage-cpd-delivery/updated-api-guidance/03-ecf-menu.png) 
 
-| H1      | H2      | H3     | 
-| -------- | --------  | --------  | 
-| {programme} management    |       |       | 
-|       | Definitions and states      |       | 
-|       |       | Key concepts      | 
-|       |       | Data states     | 
-|       | Guidance      |       | 
-|       |       | Overview of API requests     | 
-|       |       | {thematic task-led sections}       | 
-|       | Schedules and milestone dates|       | 
-|       |       | Key concepts       | 
-|       |       | {programme specific schedules}       | 
+#### NPQ 
 
-### Instructive headings   
-
-#### Before 
-
-* Continuing the ECF registration process 
-
-#### After  
-
-* View and update participant data 
+![Screenshot of the new NPQ menu](/manage-cpd-delivery/updated-api-guidance/04-npq-menu.png) 
 
 ## What we learned  
   
