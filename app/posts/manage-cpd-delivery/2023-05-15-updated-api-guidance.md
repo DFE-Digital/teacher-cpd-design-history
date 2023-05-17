@@ -42,9 +42,42 @@ Therefore, any new and improved API guidance must be accessible to, understood a
 
 * **Requirement gathering** - We spoke with DfE digital teams to understand the most common issues providers reach out about. We ran user research sessions with lead providers to understand their CRM processes and API related pain points and how improved guidance could help 
 * **Co-design sessions** - We shared draft API specs for new and changed endpoints with providers, iterating upon their feedback, making note any areas of confusion where guidance could improve comprehension
-* **Content review** - The content was redrafted in its entirety. Language was simplified and consistent content and information structures were implemented 
+* **Content review** - The content was redrafted in its entirety. Language was simplified and consistent content and information structures were implemented. Examples below.
 * **Code review** - HTML was converted to markdown to simplify the code  
 * **Process review** - Content maintenance processes were agreed, allowing content designers the ownership of content updates using Visual Studio Code 
+
+### Standardised ECF and NPQ content structures 
+
+#### Before   
+
+![Screenshot of the original menu structure and title headings](/manage-cpd-delivery/updated-api-guidance/01-original-menu-structure.png) 
+
+#### After
+
+| H1      | H2      | H3     | 
+| -------- | --------  | --------  | 
+| {programme} management    |       |       | 
+|       | Definitions and states      |       | 
+|       |       | Key concepts      | 
+|       |       | Data states     | 
+|       | Guidance      |       | 
+|       |       | Overview of API requests     | 
+|       |       | {thematic task-led sections}       | 
+|       | Schedules and milestone dates|       | 
+|       |       | Key concepts       | 
+|       |       | {programme specific schedules}       | 
+
+![Screenshot of the new ECF menu](/manage-cpd-delivery/updated-api-guidance/03-ecf-menu.png) 
+
+### Instructive headings   
+
+#### Before 
+
+* Continuing the ECF registration process 
+
+#### After  
+
+* View and update participant data 
 
 ## What we learned  
   
@@ -56,7 +89,7 @@ As with any other online content, an agreed strategy must be in place for conten
 
 ### Co-design with providers benefits all parties 
 
-As the Manage CPD service continues to improve, we have found that working closely with providers, researching with users at different levels, from developers to non-technical support agents, has been incredibly insightful.  
+As the Manage CPD service continues to improve, we have found that working closely with providers, researching with users at different levels, from developers to non-technical support agents, has been incredibly insightful, efficient and productive. 
 
 We have been able to identify and solve problems for all kinds of users, including DfE contract management and support staff.  
 
@@ -68,22 +101,12 @@ Interactive components will be added to the content. This will likely include ac
 
 The team will continue to balance continuity of service with agile iterations to satisfy unmet needs. An unchanging API risks being an unused API. 
 
-## Screenshots  
-
-### Menu structures 
-
-#### Before  
-
-#### After 
-
-### Task-led headings  
-
-#### Before  
-
-#### After 
-
 ### LPDOB design team  
 
+* Tom Hall – product owner
 * Hazel Yule - content design  
-* Kerry Baugh - user research  
-* Tom Hall – product owner 
+* Kerry Baugh - user research
+* Abeer Salameh - LPDOB tech lead 
+* Mooktakim Ahmed - developer
+* Leandro Costantini - developer
+* Peter Yates - CPD tech lead
