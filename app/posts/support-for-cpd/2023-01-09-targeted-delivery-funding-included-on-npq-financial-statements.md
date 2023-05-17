@@ -1,5 +1,5 @@
 ---
-title: Included targeted delivery funding on NPQ financial statements
+title: Include targeted delivery funding on NPQ financial statements
 description: New line items added to NPQ financial statements for the 2022 cohort onwards. Deployed in December 2022
 date: 2023-01-09
 related:
