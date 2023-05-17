@@ -1,11 +1,7 @@
 ---
 layout: page
 title: Glossary
-description: A collection of terms commonly used across the Manage teacher CPD service.
-related:
-  items:
-  - text: Teacher CPD design history
-    href: /index
+description: A collection of terms commonly used across the Manage teacher CPD service
 ---
 
 ## About the A to Z
