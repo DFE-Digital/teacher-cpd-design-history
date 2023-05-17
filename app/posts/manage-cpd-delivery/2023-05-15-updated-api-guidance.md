@@ -2,6 +2,7 @@
 title: Improve API guidance for lead providers 
 description: A content review and restructure of all API guidance in line with new and updated API v3 functionality. Deployed in May 2022
 date: 2023-05-15
+---
 
 # Improve API guidance for lead providers 
 
@@ -17,7 +18,7 @@ Providers have been invited to update their system integrations to make the most
 
 Note, the DfE will continue to support providers using v1 and v2. 
   
-### Content was out of date  
+### Content was out of date
 
 The original API guidance was published in 2021. Since then there have been multiple API updates and improvements.  
 
