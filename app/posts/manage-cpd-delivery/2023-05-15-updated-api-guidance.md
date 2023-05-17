@@ -4,8 +4,6 @@ description: A content review and restructure of all API guidance in line with n
 date: 2023-05-15
 ---
 
-# Improve API guidance for lead providers 
-
 ## Why we decided to iterate  
  
 ### Guidance was needed to support API v3 integrations  
