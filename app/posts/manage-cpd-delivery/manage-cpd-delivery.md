@@ -21,6 +21,6 @@ related:
     href: /glossary/
   - text: DfE CPD Service Manual
     href: https://cpd-service-manual.london.cloudapps.digital/#dfe-continuing-professional-development-cpd
-   - text: Wireframe journeys (Miro)
+  - text: Wireframe journeys (Miro)
     href: https://miro.com/app/board/o9J_ldVNkCY=/
 ---
