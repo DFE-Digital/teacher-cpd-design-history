@@ -135,12 +135,13 @@ In this section we only show the details of the NPQs that have been started by t
 
 ## Changing details
 
+Changing details is out of scope as of 19th of May 2023.
+
 If a user decides to change their personal details, they will be redirected to the DfE Identity account service.
 
 Users can change their work details at any time using the registration status page. Also, as long as the NPQ hasn't started they can change the course or the provider.
 
 For more information on how to change registration details please read the following design histories:
-- Change personal details
-- Change work details
-- Change course
-- Change provider
+- [Change work details](http://teacher-cpd-design-history.herokuapp.com/register-for-an-npq/work-details-registration-status/)
+- [Change course](http://teacher-cpd-design-history.herokuapp.com/register-for-an-npq/course-registration-status/)
+- [Change provider](http://teacher-cpd-design-history.herokuapp.com/register-for-an-npq/provider-registration-status/)
