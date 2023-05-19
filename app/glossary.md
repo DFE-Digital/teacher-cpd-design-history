@@ -267,8 +267,6 @@ Eligible workplaces receive payment for every teacher and leader they employ tak
 
 ### Targeted delivery funding
 
-
-
 ### Teacher reference number (TRN)
 
 A 7 digit number that uniquely identifies teachers in England. Those eligible for a TRN should be allocated one automatically by the Teaching Regulation Agency or Capita Teachers’ Pensions.
@@ -299,4 +297,4 @@ An 8-digit unique number allocated to education providers after successful UK Re
 
 ## Y
 
-## Z
+## Z 
