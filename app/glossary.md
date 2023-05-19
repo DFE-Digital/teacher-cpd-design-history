@@ -22,13 +22,21 @@ Note, some schools use the term ‘cohort’ but this should be avoided where po
 
 A targeted support package for teachers new to the role of headship. [Read more on GOV.UK](https://www.gov.uk/government/publications/national-professional-qualifications-npqs-reforms/national-professional-qualifications-npqs-reforms#additional-support-offer-for-the-npq-in-headship)
 
+### Automatic validation 
+
+When a programme participant’s information is matched and verified by the DfE online portal the TRA and GIAS systems.
+
 ## B
 
 ## C
 
-### Call-off contract 
+### Call-off contract
 
-### Cohort 
+### Cohort
+
+A term used in lead provider facing content for the grouping of participants who begin their induction or training in a given academic year under a given funding contract. For example, a participant starting their training in the academic year 2021-22 will have a cohort of 2021, as funding comes from the 2021-22 call-off contract. In most cases providers cannot change a participant’s cohort once they have begun their training.
+
+Avoid using this term in school facing content. Use academic year where possible.
 
 ### Continuing professional development (CPD)
 
@@ -140,19 +148,24 @@ An organisation in a contractual relationship with the DfE to provide NPQ and EC
 
 The manual check by DfE staff required when a programme participant’s information cannot be verified automatically. For example, the TRN cannot be found in the database.
 
-### Automatic validation 
-
-When a programme participant’s information is matched and verified by the DfE online portal the TRA and GIAS systems. 
-
 ### Mentor
 
 The teacher who supports and guides ECTs through their ECF-based training. Lead providers receive funding for the training provided to mentors.
 
-### Milestone period 
+### Milestone
 
-### Milestone cut off date 
+Contractual retention periods during which providers must submit relevant declarations evidencing ECF or NPQ training delivery and participant retention.
 
-### Milestone date 
+### Milestone dates 
+
+The deadline date a valid declaration can be made for a given milestone in order for the DfE to be liable to make a payment the following month. Milestone dates are dependent on the participant’s schedule.
+
+Sometimes referred to as 'Milestone cut off dates'.
+
+### Milestone period
+
+The period of time between the milestone start date and end date.
+
 
 ### Multi-academy trust (MAT)
 
@@ -182,21 +195,37 @@ An **internal term** for the national rollout of DfE services.
 
 ### Output payment
 
+The sum of money paid by DfE to providers per valid declaration.
+
 ## P
 
 ### Partnership 
+
+The relationship created between schools, delivery partners and providers who work together to deliver ECF-based training to participants within a given cohort. 
+
+When induction tutor register ECTs and mentors to the service for a given cohort, they will be registered to receive training from the provider and delivery partner the school is partnered with by default. 
 
 ## Q
 
 ### Qualified teacher status (QTS) 
 
+This is the qualification you need to teach in state schools in England. You can’t teach without it.
+
 ## R
 
 ### Relationship
 
+An **internal term** used to distinguish 'default' partnerships from those that are associated with specific participants. 
+
+Like partnerships, a relation describes the relationship created between a school, delivery partners and provider who work together to deliver ECF-based training.
+
+However, it is unique as it most commonly applies to partnerships in place for an individual participant's training. 
+
+For example, a participant who transfers from one school to another part way through their training can choose to continue with their original training provider and delivery partner. The new school will then have a relationship with the participant's provider and delivery partner, as well as a partnership with another default provider and delivery partner for that given cohort.
+
 ### Reduced induction
 
-### Retention point 
+A non-standard training schedule for participants who expect to complete the induction over a period less than 2 years. Examples include those with previous experience. 
 
 ## S
 
@@ -268,4 +297,4 @@ An 8-digit unique number allocated to education providers after successful UK Re
 
 ## Y
 
-## Z
+## Z 
