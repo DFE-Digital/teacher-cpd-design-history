@@ -194,6 +194,18 @@ Develops the knowledge that underpins expert school leadership.
 
 [Read the NPQH course summary.](https://professional-development-for-teachers-leaders.education.gov.uk/headship)
 
+### National Professional Qualification Leading behaviour and culture (NPQLBC)
+
+Develops expertise needed to create a culture of good behaviour and high expectations in which staff and pupils can thrive.
+
+[Read the NPQLBC course summary.](https://professional-development-for-teachers-leaders.education.gov.uk/leading-behaviour-and-culture)
+
+### National Professional Qualification Leading literacy (NPQLL)
+
+Develops expertise needed to effectively teach and promote literacy across the whole school, year group, key stage or phase.
+
+[Read the NPQLL course summary.](https://professional-development-for-teachers-leaders.education.gov.uk/leading-literacy)
+
 ### National Professional Qualification Leading teacher development (NPQLTD)
 
 Develops expertise needed to become a teacher educator and successfully support teachers in schools to expand their skills. 
