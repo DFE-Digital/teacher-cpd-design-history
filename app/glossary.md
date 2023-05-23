@@ -214,7 +214,7 @@ Develops leadership knowledge and expertise to improve outcomes for teachers and
 
 ### National rollout (NRO)
 
-An **internal term** for the national rollout of DfE services.
+An **internal term** for the national rollout of DfE services. 
 
 ### Newly qualified teachers (NQT)
 
