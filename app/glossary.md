@@ -6,7 +6,7 @@ description: A collection of terms commonly used across the Manage teacher CPD s
 
 ## About the A to Z
 
-The CPD glossary covers terminology, definitions and usage conventions for content published on external CPD service, internal admin interfaces and documentation arranged alphabetically.
+This glossary covers terminology, definitions and usage conventions for content used across CPD services, internal admin interfaces and documentation arranged alphabetically.
 
 If there’s language that is not covered here, check the [DfE content guidelines.](https://design.education.gov.uk/content-design/language-we-use/)
 
@@ -166,7 +166,6 @@ Sometimes referred to as 'Milestone cut off dates'.
 
 The period of time between the milestone start date and end date.
 
-
 ### Multi-academy trust (MAT)
 
 A single trust responsible for a group of academies. 
@@ -177,6 +176,46 @@ A single trust responsible for a group of academies.
 
 A national, voluntary suite of qualifications designed to support the professional development of teachers and leaders. NPQs are designed to provide training and support for teachers and school leaders at all levels and deliver improved outcomes for young people.
 
+### National Professional Qualification Early years leadership (NPQEYL)
+
+Develops expertise in leading high-quality early years education and care, as well as effective staff and organisational management. 
+
+[Read the NPQEYL course summary.](https://professional-development-for-teachers-leaders.education.gov.uk/early-years-leadership)
+
+### National Professional Qualification Executive leadership (NPQEL)
+
+Develops expertise needed to become an outstanding executive leader, leading change and improvement across a group of schools or multi-academy trust. 
+
+[Read the NPQEL course summary.](https://professional-development-for-teachers-leaders.education.gov.uk/executive-leadership)
+
+### National Professional Qualification Headship (NPQH)
+
+Develops the knowledge that underpins expert school leadership. 
+
+[Read the NPQH course summary.](https://professional-development-for-teachers-leaders.education.gov.uk/headship)
+
+### National Professional Qualification Leading teacher development (NPQLTD)
+
+Develops expertise needed to become a teacher educator and successfully support teachers in schools to expand their skills. 
+
+[Read the NPQLTD course summary.](https://professional-development-for-teachers-leaders.education.gov.uk/leading-teacher-development)
+
+### National Professional Qualification Leading teaching (NPQLT)
+
+Develops expertise needed to become lead the teaching and learning of a subject, year group or phase. 
+
+[Read the NPQLT course summary.](https://professional-development-for-teachers-leaders.education.gov.uk/leading-teaching)
+
+### National Professional Qualification Senior Leadership (NPQSL)
+
+Develops leadership knowledge and expertise to improve outcomes for teachers and pupils in schools. Read the NPQSL course summary.
+
+[Read the NPQSL course summary.](https://professional-development-for-teachers-leaders.education.gov.uk/senior-leadership)
+
+### National rollout (NRO)
+
+An **internal term** for the national rollout of DfE services. 
+
 ### Newly qualified teachers (NQT)
 
 Teachers in their first year of teaching who have gained qualified teacher status (QTS) but have not yet completed the statutory ECF-based training.
@@ -186,10 +225,6 @@ Note, early career teacher (ECT) is the more commonly used term.
 ### Newly qualified teacher +1 (NQT+1)
 
 An **internal term** used to identify teachers part way through their ECF-based training (where training has been delayed because of the Covid pandemic).
-
-### National rollout (NRO)
-
-An **internal term** for the national rollout of DfE services.
 
 ## O
 
