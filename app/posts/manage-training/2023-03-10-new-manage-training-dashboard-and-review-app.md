@@ -14,7 +14,7 @@ related:
       href: /manage-training/supporting-schools-in-lp-dp-transition/
 ---
 
-<video src="/manage-training/video/2-dfe-demo-schools-new-dashboard-design-demo-courtney-v3-30fps-1080p.mp4" controls>
+<video src="https://user-images.githubusercontent.com/128088/241957485-8c45f7c2-9aad-49e1-96c3-f1b235c75680.mp4" controls>
 </video>
 
 ## Background

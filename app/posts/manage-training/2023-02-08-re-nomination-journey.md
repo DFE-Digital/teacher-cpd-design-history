@@ -14,7 +14,7 @@ related:
       href: /manage-training/supporting-schools-in-lp-dp-transition/
 ---
 
-<video src="/manage-training/video/1-dfe-demo-re-nomination-journey-courtney.mp4" controls>
+<video src="https://user-images.githubusercontent.com/128088/241957164-77ecc2e8-7f66-4a21-87a9-f23ca645203e.mp4" controls>
 </video>
 
 ## Background
