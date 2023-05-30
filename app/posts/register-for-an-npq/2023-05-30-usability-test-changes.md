@@ -4,8 +4,10 @@
   date: 2023-05-30
   screenshots:
     items:
-    - text: "User journey"
-      src: "journey.png"
+    - text: "1. Improving the start page – before"
+      src: "start-page--before.png"
+    - text: "1. Improving the start page – after"
+      src: "start-page--after.png"
   related:
     items:
     - text: Research notes
@@ -15,16 +17,22 @@
      
 ---
 
-## Problem statement
+## 1. Improving the start page
 
-Users who change their employment after registering for an NPQ need to raise a ticket with support to be able to update their details. This increases the work of support agents.
+### The problem
 
-## Design
+Users do not always understand the purpose of creating a DfE Identity account, or that they can log back in. 
 
-We have designed a journey so the user can self-serve when they need to update their work details. The journey below shows the process the user needs to follow to make the changes.
+In usability sessions, we saw:
+1. Users skim through this page quickly or don't read it.
+2. Users were slightly confused when they landed on the 'Create a DfE Identity account' after pressing on the 'Start now' button. This took them to a different service with no mention of NPQs. One user wanted more information about NPQs. 
+3. Users who had already registered for an NPQ struggled to see where to go from the Start page. The 'Start now' button didn't resonate with them. 
 
-The screens are the same screens they go through in the registration process. The journey will depend on the type of work setting the user works in (as it is in the registration journey).
+### Design changes 
 
-Once they've made all the changes, they can amend the work details in the check and confirm page (see screenshot).
+To reduce the potential 'shock' of being passed over to a different service, a grey box ties together the 'Start now' button with text about creating a DfE Identity account. This will hopefully lead to more users reading that text and understanding what happens next in the flow. 
 
-Finally, once they complete the changes they can go back to the registration status page using the link on the confirmation page (see screenshot "Confirmation page").
+The two other sentences that were above the 'Start now' button have been moved into the 'You need to know' list. This helps chunk up the content and makes it easier for users to scan the page to find the parts that are relevant to them. 
+
+Below the 'Start now' button a 'View your registration' section has been added. This provides a way for users who have already registered to log in to their account and explains what they will be able to do, or see, in their account. 
+
