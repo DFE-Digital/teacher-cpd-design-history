@@ -14,7 +14,7 @@ related:
       href: /manage-training/supporting-schools-in-lp-dp-transition/
 ---
 
-<video src="/manage-training/video/4-dfe-demo-script-temporary-cohorts-for-ects-and-mentors.mp4" controls>
+<video src="https://user-images.githubusercontent.com/128088/241957527-1990f34c-7260-4433-828c-6a9723ee272a.mp4" controls>
 </video>
 
 ## Background
