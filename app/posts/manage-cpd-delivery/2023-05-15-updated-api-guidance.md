@@ -1,5 +1,5 @@
 ---
-title: Improve API guidance for lead providers 
+title: Improving API guidance for lead providers 
 description: A content review and restructure of all API guidance in line with new and updated API v3 functionality. Deployed in May 2022
 date: 2023-05-15
 ---
