@@ -33,7 +33,7 @@ After a round of research and more in depth conversations with the development t
   - Not eligible 
   - Eligibility in review 
 
-3. Additional text has been added below the status to explain what it means for them. For Not eligible we also so the reason they are not eligible. This uses the same language as in the registration flow but a the shorter version. 
+3. Additional text has been added below the status to explain what it means for them. For Not eligible we also show the reason they are not eligible. This uses the same language as in the registration flow but a shorter version. 
 
 4. We only show the row for Targeted support funding if the user is eligible. This matches the registration flow. We believe users are not that aware of this funding and that it would be confusing to show this information if they are not receiving it. 
 
