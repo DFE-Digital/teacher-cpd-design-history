@@ -39,6 +39,36 @@ After a round of research and more in depth conversations with the development t
 
 [See screenshots further down this page](#1.-funding-status-1)
 
+## 2. Provider details 
+
+### The problem
+- Users did not know what 'pending' meant, as a status under 'Provider application'.
+- Users had different interpretations of what 'pending' meant. 
+- Users wanted to know what else needed to be done or if it was out of their hands. 
+
+Pending can mean a variety of things and was being used when we didn't have a definite alternate status e.g. accepted or rejected. We are unable to get a status for every point on the journey e.g. application submitted. This leaves the status with too many potential options and unknowns and doesn't give the user clarity on what to do next. 
+
+### Design changes 
+
+1. Provider status has been removed throughout to avoid confusion for users. We often would not have an update to providde to users, so the status could be inaccurate. 
+
+2. The provider details table has been removed. With the removal of the status, there was only the provider name remaining in the table. This is directly linked to the course details, so it made sense to combine these tables. 
+
+3. Information has been added beneath the Registration status reminding users to apply with provider. As there is no provider status to nudge users if something needs doing, we still need to make it clear that their application has not been sent. 
+
+4. Change links for 'Change course' and 'Change provider' has been moved to the associated row.
+
+5. Making the multiple registrations page more consistent:
+
+- Changing 'created at' column name to 'Submitted'
+- Changing 'Lead provider' column name to 'Provider'
+- Pluralising page title 'Your registrations'
+- Right aligning 'more details' links
+
+[See screenshots further down this page](#2.-provider-details-1)
+
+---
+
 ## Screenshots
 
 ### 1. Funding status
@@ -74,3 +104,25 @@ After a round of research and more in depth conversations with the development t
 #### Eligibility in review
 
 ![Eligibility in review](/register-for-an-npq/registration-funding-status/eligibility-in-review.png)
+
+### 2. Provider details
+
+#### Provide and course details on a single registration
+
+##### Before
+
+![Before changes were made to single registration](/register-for-an-npq/registration-funding-status/provider-details--before.png)
+
+##### After
+
+![Course details table on single registration](/register-for-an-npq/registration-funding-status/provider-details--after.png)
+
+#### Multiple registration page
+
+##### Before
+
+![Before changes were made to multiple registration](/register-for-an-npq/registration-funding-status/multiple-registrations--before.png)
+
+##### After
+
+![Multiple registrations page](/register-for-an-npq/registration-funding-status/multiple-registrations--after.png)
