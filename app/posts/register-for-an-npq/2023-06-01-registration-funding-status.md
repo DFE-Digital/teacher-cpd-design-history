@@ -58,7 +58,7 @@ Pending can mean a variety of things and was being used when we didn't have a de
 
 ### Design changes 
 
-1. Provider status has been removed throughout to avoid confusion for users. We often would not have an update to providde to users, so the status could be inaccurate. 
+1. Provider status has been removed throughout to avoid confusion for users. We often would not have an update to provide to users, so the status could be inaccurate. 
 
 2. The provider details table has been removed. With the removal of the status, there was only the provider name remaining in the table. This is directly linked to the course details, so it made sense to combine these tables. 
 
