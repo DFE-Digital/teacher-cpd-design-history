@@ -8,6 +8,12 @@
       href: https://lucid.app/lucidspark/a0e9b3a2-be69-4c8f-9df8-ecebf112627b/edit?shared=true&invitationId=inv_910ffd78-0b8e-4d37-9aa0-b116dcb3bc3b&page=0_0#
     - text: Findings spreadsheet
       href: https://docs.google.com/spreadsheets/d/1VTxDNWjchuRMnB7UTTlp1M0eAAtiM5vueAPiaxYtxvg/edit#gid=0
+    - text: Targeted Support funding flow
+      href: https://lucid.app/lucidspark/323f8cf1-e51e-4992-a68b-6dfdc71bdd91/edit?invitationId=inv_d04d827e-52de-4656-a90f-3eaf8b75f76f&page=0_0#
+    - text: Eligibility funding history 
+      href: https://educationgovuk.sharepoint.com/:p:/r/sites/TeacherServices/_layouts/15/Doc.aspx?sourcedoc=%7B421E197D-EF06-5AD9-BA85-EBCD8B9C3CA2%7D&file=NPQ%20Funding%20Eligibility%20History.pptx&action=edit&mobileredirect=true
+    - text: Content for all funding scenarios 
+      href: https://educationgovuk-my.sharepoint.com/:w:/r/personal/emma_frith_education_gov_uk/_layouts/15/Doc.aspx?sourcedoc=%7B677CC74F-A4FF-456B-B9D8-FCF72B4E5E39%7D&file=NPQ%20funding%20scenarios%20-%20content%20review.docx&action=default&mobileredirect=true&cid=09bb19ae-2127-406d-a040-449b0073010d
      
 ---
 
@@ -25,6 +31,8 @@ After a round of research and more in depth conversations with the development t
 > I dont know what targeted or scholorship funded is? Terminology used to be 'fully funded' or 'DfE funded'.
 
 ### Design changes 
+
+The changes listed below were guided by an [existing document](https://educationgovuk-my.sharepoint.com/:w:/r/personal/emma_frith_education_gov_uk/_layouts/15/Doc.aspx?sourcedoc=%7B677CC74F-A4FF-456B-B9D8-FCF72B4E5E39%7D&file=NPQ%20funding%20scenarios%20-%20content%20review.docx&action=default&mobileredirect=true&cid=09bb19ae-2127-406d-a040-449b0073010d), which outlines the different funding scenarios and shows the content used in each scenario (on outcome pages and in emails). The same or similar content was used to keep the service consistant and avoid confusion for users. 
 
 1. Different versions of the registration page (the landing page for users who have already registered for an NPQ) have been created, showing the different possible funding statuses a user would see. 
 
