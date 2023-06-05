@@ -51,7 +51,6 @@ The changes listed below were guided by an [existing document](https://education
 
 ### The problem
 - Users did not know what 'pending' meant, as a status under 'Provider application'.
-- Users had different interpretations of what 'pending' meant. 
 - Users wanted to know what else needed to be done or if it was out of their hands. 
 
 Pending can mean a variety of things and was being used when we didn't have a definite alternative status e.g. accepted or rejected. We are unable to get a status for every point on the journey e.g. application submitted. This leaves the status with too many potential options and unknowns and doesn't give the user clarity on what to do next. 
