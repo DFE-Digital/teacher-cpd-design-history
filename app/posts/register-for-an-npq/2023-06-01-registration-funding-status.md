@@ -26,7 +26,7 @@ After a round of research and more in depth conversations with the development t
 ### The problem
 
 - Users did not know what the different types of funding were.
-- The registration status gave no explanation for the status.
+- The registration page gave no explanation for the status.
 
 > I dont know what targeted or scholorship funded is? Terminology used to be 'fully funded' or 'DfE funded'.
 
@@ -50,6 +50,7 @@ The changes listed below were guided by an [existing document](https://education
 ## 2. Provider details 
 
 ### The problem
+
 - Users had different interpretations of what 'pending' meant, as a status under 'Provider application'.
 - Users wanted to know what else needed to be done or if it was out of their hands. 
 
@@ -57,22 +58,57 @@ Pending can mean a variety of things and was being used when we didn't have a de
 
 ### Design changes 
 
-1. Provider status has been removed throughout to avoid confusion for users. We often would not have an update to provide to users, so the status could be inaccurate. 
+1. The 'provider details' table has been removed. As this information is directly tied to the course it made sense to be in the same table.  
 
-2. The provider details table has been removed. With the removal of the status, there was only the provider name remaining in the table. This is directly linked to the course details, so it made sense to combine these tables. 
+2. The status has been split into 'Provider application' and 'Course status' to give more clarity to users.
 
-3. Information has been added beneath the Registration status reminding users to apply with provider. As there is no provider status to nudge users if something needs doing, we still need to make it clear that their application has not been sent. 
+3. The statuses now have the following states: 
+- **Provider application**
+  - Apply with provider (yellow)
+  - Successful (green)
+  - Unsuccessful (red)
+- **Course status**
+  - Not started (grey)
+  - Deferred (yellow)
+  - Started (blue)
+  - Passed (green)
+  - Not passed (red)
 
-4. Change links for 'Change course' and 'Change provider' has been moved to the associated row.
+4. When the 'provider application' is 'Apply with provider', additional information is shown to remind users to apply with provider. 
 
-5. Making the multiple registrations page more consistent:
+5. When the 'provider application' is 'unsuccessful', the course status is not shown. 
 
-- Changing 'created at' column name to 'Submitted'
-- Changing 'Lead provider' column name to 'Provider'
-- Pluralising page title 'Your registrations'
-- Right aligning 'more details' links
+6. When the 'course status' is 'started', additional information is shown saying who to contact to change any details.  
+
+7. Change links for 'Change course' and 'Change provider' has been moved to the associated rows.
 
 [See screenshots further down this page](#2.-provider-details-1)
+
+## 3. Making the multiple registrations page more consistent
+
+### The problem 
+
+The course names were hard to find and the table format wasn't consistent with other parts of the service, or other DfE services. 
+
+Given only 0.05% of users (32 people) have more than 4 registrations, and the most is 9, there was no need for a table and summary cards allow the content to be displayed in an easy to consume format. 
+
+### Design changes
+
+1. Using summary cards for each registration instead of a table
+2. Including NPQ in the h1 to improve signposting
+3. Changing 'created at' label to 'Registration submitted'
+
+[See screenshots further down this page](#3.-multiple-registrations-1)
+
+## 4. Other design changes
+
+1. All the funding details have been moved to a separate summary card so it's easier to find. 
+2. The registration status has been removed as it would only ever have one status. A user cannot see this page unless it has been submitted. 
+3. The personal details summary card has been removed and replaced with a link to the DfE Identity account.
+4. When viewing a single registration the provider name has been added as a caption on the h1, for signposting.
+5. When viewing a single registration the course name has been added to the h1, for signposting.
+
+[See screenshots further down this page](#4.-other-design-changes-1)
 
 ---
 
@@ -114,22 +150,51 @@ Pending can mean a variety of things and was being used when we didn't have a de
 
 ### 2. Provider details
 
-#### Provide and course details on a single registration
-
 ##### Before
 
 ![Before changes were made to single registration](/register-for-an-npq/registration-funding-status/provider-details--before.png)
 
-##### After
+##### After 
 
-![Course details table on single registration](/register-for-an-npq/registration-funding-status/provider-details--after.png)
+#### Apply with provider
+![Course details table on single registration, apply with provider](/register-for-an-npq/registration-funding-status/couse-details--apply-with-provider.png)
 
-#### Multiple registration page
+#### Application unsuccessful
+![Course details table on single registration, unsuccessful application](/register-for-an-npq/registration-funding-status/course-details--unsuccessful.png)
+
+#### Application successful, course deferred
+![Course details table on single registration, course started](/register-for-an-npq/registration-funding-status/course-details--deferred.png)
+
+#### Application successful, course not started
+![Course details table on single registration, course not started](/register-for-an-npq/registration-funding-status/course-details--not-started.png)
+
+#### Application successful, course started
+![Course details table on single registration, course started](/register-for-an-npq/registration-funding-status/course-details--started.png)
+
+#### Application successful, course not passed
+![Course details table on single registration, course not passed](/register-for-an-npq/registration-funding-status/course-details--not-passed.png)
+
+#### Application successful, course passed
+![Course details table on single registration, course passed](/register-for-an-npq/registration-funding-status/course-details--passed.png)
+
+
+
+### 3. Multiple registrations page
 
 ##### Before
 
-![Before changes were made to multiple registration](/register-for-an-npq/registration-funding-status/multiple-registrations--before.png)
+![Before changes were made to multiple registration page](/register-for-an-npq/registration-funding-status/multiple-reg--before.png)
+
+##### After - showing all possible statuses
+
+![Before changes were made to multiple registration page](/register-for-an-npq/registration-funding-status/multiple-reg--after.png)
+
+### 4. Other design changes 
+
+##### Before
+
+![Before changes were made to single registration](/register-for-an-npq/registration-funding-status/single-reg--before.png)
 
 ##### After
 
-![Multiple registrations page](/register-for-an-npq/registration-funding-status/multiple-registrations--after.png)
+![Before changes were made to single registration](/register-for-an-npq/registration-funding-status/single-reg--after.png)
