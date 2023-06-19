@@ -5,7 +5,6 @@ module.exports = function (eleventyConfig) {
       match: /\/image\/(\d+)(x)?(\d+)?/g,
       replace: '/images'
     }],
-    serveStatic: ['public'],
     serveStaticOptions: {
       extensions: ['html']
     }
@@ -46,7 +45,6 @@ module.exports = function (eleventyConfig) {
     markdownTemplateEngine: 'njk',
     dir: {
       input: 'app',
-      output: 'public',
       layouts: '_layouts',
       includes: '_components'
     },
