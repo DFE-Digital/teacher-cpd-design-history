@@ -8,7 +8,7 @@
 {% from "breadcrumbs/macro.njk" import appBreadcrumbs %}
 
 {% block head %}
-<link href="/stylesheets/application.css" media="all" rel="stylesheet" type="text/css">
+<link href="{{ "/stylesheets/application.css" | url }}" media="all" rel="stylesheet" type="text/css">
 <meta property="og:title" content="{{ title }}">
 {% if description %}<meta property="og:description" name="description" content="{{ description | markdown("inline") | striptags(true) }}">{% endif %}
 <meta name="robots" content="noindex nofollow">
@@ -54,8 +54,8 @@
 
 {% block bodyEnd %}
   {% block scripts %}
-    <script src="/javascripts/govuk-frontend.js"></script>
-    <script src="/javascripts/application.js"></script>
+    <script src="{{ "/javascripts/govuk-frontend.js" | url }}"></script>
+    <script src="{{ "/javascripts/application.js" | url }}"></script>
     {% block pageScripts %}{% endblock %}
   {% endblock %}
 {% endblock %}
