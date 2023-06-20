@@ -2,6 +2,12 @@
 title: Teaching School Hub (TSH) finder
 description: New feature to allow teachers to find a teaching school hub near them
 date: 2023-03-14
+related:
+  items:
+  - text: Feature scope
+    href: https://educationgovuk.sharepoint.com/:w:/r/sites/TeacherServices/_layouts/15/Doc.aspx?sourcedoc=%7BF037624B-BAD0-5A44-134B-E78F9C34FE60%7D&file=Provider%20finder%20feature%20options.docx&action=default&mobileredirect=true&cid=c4e47514-1435-4e35-8d00-bdbe95f41966
+  - text: UR documents
+    href: https://educationgovuk.sharepoint.com/sites/TeacherServices/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=PyIvLH&cid=b2dd88dd%2Dad3d%2D4676%2D81a7%2D14da849e710c&RootFolder=%2Fsites%2FTeacherServices%2FShared%20Documents%2FTeacher%20Continuous%20Professional%20Development%2FTeacher%20CPD%20Team%2F13%2E%20Schools%20and%20Teachers%20Team%2FUser%20Research%2FNPQ%20research%2FNPQ%20Awareness%20%2D%20usability%20testing&FolderCTID=0x01200092C9D944F2620E428BB9FD90D175D0B2 
 screenshots:
       items:
         - text: "DP finder - landing page"
