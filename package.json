@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "standard": "^17.1.0",
-    "webshot-node": "^0.18.2"
+    "webshot-node": "^0.18.3"
   },
   "standard": {
     "ignore": [
