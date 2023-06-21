@@ -1,8 +1,8 @@
 $govuk-global-styles: true;
 $govuk-new-link-styles: true;
 
-@import "node_modules/govuk-frontend/govuk/all";
-@import "_components/all.scss";
+@import "govuk-frontend/govuk/base";
+@import "../_components/all";
 @import "vendor/prism.scss";
 
 @media print {
