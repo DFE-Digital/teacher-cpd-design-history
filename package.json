@@ -46,7 +46,7 @@
     "markdown-it-table-of-contents": "^0.6.0",
     "rimraf": "^5.0.1",
     "rollup": "^3.25.1",
-    "sass": "^1.63.4"
+    "sass": "^1.63.5"
   },
   "devDependencies": {
     "standard": "^17.1.0",
