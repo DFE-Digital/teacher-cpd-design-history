@@ -2,6 +2,7 @@
 layout: page
 title: Glossary
 description: A collection of terms commonly used across the Manage teacher CPD service
+eleventyExcludeFromCollections: true
 ---
 
 ## About the A to Z
@@ -10,11 +11,11 @@ This glossary covers terminology, definitions and usage conventions for content 
 
 If there’s language that is not covered here, check the [DfE content guidelines.](https://design.education.gov.uk/content-design/language-we-use/)
 
-## A 
+## A
 
 ### Academic year
 
-The year ECTs start their induction and are registered on the Manage training for early career teachers service. 
+The year ECTs start their induction and are registered on the Manage training for early career teachers service.
 
 Note, some schools use the term ‘cohort’ but this should be avoided where possible on CPD services.
 
@@ -22,7 +23,7 @@ Note, some schools use the term ‘cohort’ but this should be avoided where po
 
 A targeted support package for teachers new to the role of headship. [Read more on GOV.UK](https://www.gov.uk/government/publications/national-professional-qualifications-npqs-reforms/national-professional-qualifications-npqs-reforms#additional-support-offer-for-the-npq-in-headship)
 
-### Automatic validation 
+### Automatic validation
 
 When a programme participant’s information is matched and verified by the DfE online portal the TRA and GIAS systems.
 
@@ -42,7 +43,7 @@ Avoid using this term in school facing content. Use academic year where possible
 
 The umbrella term for all types of professional development.
 
-### Core induction programme (CIP) 
+### Core induction programme (CIP)
 
 An **internal term** for where schools deliver ECF-based training using DfE-accredited materials.
 
@@ -56,9 +57,9 @@ An internal term used for the database of records of qualified teachers, managed
 
 ### Declaration
 
-Declarations are notifications submitted by providers via the API. 
+Declarations are notifications submitted by providers via the API.
 
-Declarations are submitted where there is evidence of participant engagement for a specific milestone period. They are the sole means for triggering output payments from DfE to a lead provider for a participant for a given milestone. 
+Declarations are submitted where there is evidence of participant engagement for a specific milestone period. They are the sole means for triggering output payments from DfE to a lead provider for a participant for a given milestone.
 
 Use this term in lead provider facing content. Do not use this term in school or participant facing content.
 
@@ -66,7 +67,7 @@ Use this term in lead provider facing content. Do not use this term in school or
 
 Declarations can have one of the following states according to their payment eligibility and their payment status. States can be submitted; eligible; ineligible; voided; payable; paid; awaiting_clawback; clawed_back.
 
-### Declaration type 
+### Declaration type
 
 Specific types of declarations need to be submitted by lead providers inline with milestone dates and according to the participant’s progress through their training. Declaration types can be started; retained 1; retained 2; retained 3; retained 4; completed.
 
@@ -76,9 +77,9 @@ Specific types of declarations need to be submitted by lead providers inline wit
 
 The framework which sets out what early career teachers are entitled to learn about and learn how to do when they start their careers. It underpins the entitlement for 2 years of professional development designed to help early career teachers develop their practice, knowledge and working habits.
 
-### ECF-based training 
+### ECF-based training
 
-The preferred user-facing term for the ECF programme of study. 
+The preferred user-facing term for the ECF programme of study.
 
 **Note,** ECF-based training is not the same as [statutory induction](#statutory-induction). ECF-based training is one part of statutory induction, though the 2 terms are often used interchangeably.
 
@@ -92,7 +93,7 @@ Structured support and networking opportunities for headteachers in their first 
 
 ### Eligibility criteria
 
-To check whether a ECF participant (ECT or mentor) is eligible for funding, we check the Database of Qualified Teachers (DQT) and our own database to make sure the participant meets the criteria for funded training or access to materials. 
+To check whether a ECF participant (ECT or mentor) is eligible for funding, we check the Database of Qualified Teachers (DQT) and our own database to make sure the participant meets the criteria for funded training or access to materials.
 
 #### ECT checks:
 
@@ -138,13 +139,13 @@ See [statutory induction.](#statutory-induction)
 
 ## L
 
-### Lead provider 
+### Lead provider
 
 An organisation in a contractual relationship with the DfE to provide NPQ and ECF-based training.
 
 ## M
 
-### Manual validation 
+### Manual validation
 
 The manual check by DfE staff required when a programme participant’s information cannot be verified automatically. For example, the TRN cannot be found in the database.
 
@@ -156,7 +157,7 @@ The teacher who supports and guides ECTs through their ECF-based training. Lead 
 
 Contractual retention periods during which providers must submit relevant declarations evidencing ECF or NPQ training delivery and participant retention.
 
-### Milestone dates 
+### Milestone dates
 
 The deadline date a valid declaration can be made for a given milestone in order for the DfE to be liable to make a payment the following month. Milestone dates are dependent on the participant’s schedule.
 
@@ -168,7 +169,7 @@ The period of time between the milestone start date and end date.
 
 ### Multi-academy trust (MAT)
 
-A single trust responsible for a group of academies. 
+A single trust responsible for a group of academies.
 
 ## N
 
@@ -178,19 +179,19 @@ A national, voluntary suite of qualifications designed to support the profession
 
 ### National Professional Qualification Early years leadership (NPQEYL)
 
-Develops expertise in leading high-quality early years education and care, as well as effective staff and organisational management. 
+Develops expertise in leading high-quality early years education and care, as well as effective staff and organisational management.
 
 [Read the NPQEYL course summary.](https://professional-development-for-teachers-leaders.education.gov.uk/early-years-leadership)
 
 ### National Professional Qualification Executive leadership (NPQEL)
 
-Develops expertise needed to become an outstanding executive leader, leading change and improvement across a group of schools or multi-academy trust. 
+Develops expertise needed to become an outstanding executive leader, leading change and improvement across a group of schools or multi-academy trust.
 
 [Read the NPQEL course summary.](https://professional-development-for-teachers-leaders.education.gov.uk/executive-leadership)
 
 ### National Professional Qualification Headship (NPQH)
 
-Develops the knowledge that underpins expert school leadership. 
+Develops the knowledge that underpins expert school leadership.
 
 [Read the NPQH course summary.](https://professional-development-for-teachers-leaders.education.gov.uk/headship)
 
@@ -208,13 +209,13 @@ Develops expertise needed to effectively teach and promote literacy across the w
 
 ### National Professional Qualification Leading teacher development (NPQLTD)
 
-Develops expertise needed to become a teacher educator and successfully support teachers in schools to expand their skills. 
+Develops expertise needed to become a teacher educator and successfully support teachers in schools to expand their skills.
 
 [Read the NPQLTD course summary.](https://professional-development-for-teachers-leaders.education.gov.uk/leading-teacher-development)
 
 ### National Professional Qualification Leading teaching (NPQLT)
 
-Develops expertise needed to become lead the teaching and learning of a subject, year group or phase. 
+Develops expertise needed to become lead the teaching and learning of a subject, year group or phase.
 
 [Read the NPQLT course summary.](https://professional-development-for-teachers-leaders.education.gov.uk/leading-teaching)
 
@@ -226,7 +227,7 @@ Develops leadership knowledge and expertise to improve outcomes for teachers and
 
 ### National rollout (NRO)
 
-An **internal term** for the national rollout of DfE services. 
+An **internal term** for the national rollout of DfE services.
 
 ### Newly qualified teachers (NQT)
 
@@ -246,15 +247,15 @@ The sum of money paid by DfE to providers per valid declaration.
 
 ## P
 
-### Partnership 
+### Partnership
 
-The relationship created between schools, delivery partners and providers who work together to deliver ECF-based training to participants within a given cohort. 
+The relationship created between schools, delivery partners and providers who work together to deliver ECF-based training to participants within a given cohort.
 
-When induction tutor register ECTs and mentors to the service for a given cohort, they will be registered to receive training from the provider and delivery partner the school is partnered with by default. 
+When induction tutor register ECTs and mentors to the service for a given cohort, they will be registered to receive training from the provider and delivery partner the school is partnered with by default.
 
 ## Q
 
-### Qualified teacher status (QTS) 
+### Qualified teacher status (QTS)
 
 This is the qualification you need to teach in state schools in England. You can’t teach without it.
 
@@ -262,29 +263,29 @@ This is the qualification you need to teach in state schools in England. You can
 
 ### Relationship
 
-An **internal term** used to distinguish 'default' partnerships from those that are associated with specific participants. 
+An **internal term** used to distinguish 'default' partnerships from those that are associated with specific participants.
 
 Like partnerships, a relation describes the relationship created between a school, delivery partners and provider who work together to deliver ECF-based training.
 
-However, it is unique as it most commonly applies to partnerships in place for an individual participant's training. 
+However, it is unique as it most commonly applies to partnerships in place for an individual participant's training.
 
 For example, a participant who transfers from one school to another part way through their training can choose to continue with their original training provider and delivery partner. The new school will then have a relationship with the participant's provider and delivery partner, as well as a partnership with another default provider and delivery partner for that given cohort.
 
 ### Reduced induction
 
-A non-standard training schedule for participants who expect to complete the induction over a period less than 2 years. Examples include those with previous experience. 
+A non-standard training schedule for participants who expect to complete the induction over a period less than 2 years. Examples include those with previous experience.
 
 ## S
 
 ### Sandbox
 
-A test environment which allows school induction tutors, lead providers and software vendors to test the Manage teacher CPD service. 
+A test environment which allows school induction tutors, lead providers and software vendors to test the Manage teacher CPD service.
 
 The sandbox environment is commonly used by lead providers to test their API integrations without affecting real data.
 
 ### School induction tutor (SIT)
 
-The person nominated by the school who coordinates ECF-based registration. They add ECT and mentor details to the service. They’re responsible for the monitoring and support of ECTs. They also manage progress reviews and coordinate formal assessments. 
+The person nominated by the school who coordinates ECF-based registration. They add ECT and mentor details to the service. They’re responsible for the monitoring and support of ECTs. They also manage progress reviews and coordinate formal assessments.
 
 They’re also known as induction tutors. Some schools use the term induction coordinators, but this is not the preferred term.
 
@@ -322,7 +323,7 @@ A 7 digit number that uniquely identifies teachers in England. Those eligible fo
 
 The agency that is responsible for the regulation of the teaching profession, including misconduct hearings and the maintenance of a record of teachers, trainee teachers and those who hold a teacher reference number (TRN). They manage the database of qualified teachers (DQT).
 
-### Transfer 
+### Transfer
 
 When an ECF participant (ECT or mentor) leaves one school to join another.
 
@@ -344,4 +345,4 @@ An 8-digit unique number allocated to education providers after successful UK Re
 
 ## Y
 
-## Z 
+## Z
