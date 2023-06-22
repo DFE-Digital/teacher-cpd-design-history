@@ -17,6 +17,23 @@ module.exports = function (eleventyConfig) {
     }
   })
 
+  // Collections of posts for each service
+  eleventyConfig.addCollection('manage-training', collection => {
+    return collection.getFilteredByGlob('app/posts/manage-training/*.md')
+  })
+
+  eleventyConfig.addCollection('manage-cpd-delivery', collection => {
+    return collection.getFilteredByGlob('app/posts/manage-cpd-delivery/*.md')
+  })
+
+  eleventyConfig.addCollection('register-for-an-npq', collection => {
+    return collection.getFilteredByGlob('app/posts/register-for-an-npq/*.md')
+  })
+
+  eleventyConfig.addCollection('support-for-cpd', collection => {
+    return collection.getFilteredByGlob('app/posts/support-for-cpd/*.md')
+  })
+
   // Browser Sync
   eleventyConfig.setBrowserSyncConfig({
     rewriteRules: [{
