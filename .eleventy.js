@@ -62,7 +62,6 @@ module.exports = function (eleventyConfig) {
       layouts: '_layouts',
       includes: '_components'
     },
-    templateFormats: ['njk', 'md', '11ty.js'],
-    pathPrefix: process.env.GITHUB_ACTIONS ? '/teacher-cpd-design-history/' : '/'
+    templateFormats: ['njk', 'md', '11ty.js']
   }
 }
