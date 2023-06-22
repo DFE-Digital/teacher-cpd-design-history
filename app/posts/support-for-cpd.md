@@ -4,6 +4,7 @@ layout: collection
 date: 2000-01-04
 title: Support services
 description: Enables DfE admin and finance users to support ECF and NPQ services
+paginationHeading: Posts
 pagination:
   data: collections.support-for-cpd
   reverse: true

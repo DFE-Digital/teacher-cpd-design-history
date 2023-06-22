@@ -4,6 +4,7 @@ layout: collection
 date: 2000-01-01
 title: Manage training for early career teachers
 description: Setup, manage and run training for early career teachers (ECTs)
+paginationHeading: Posts
 pagination:
   data: collections.manage-training
   reverse: true
