@@ -4,16 +4,12 @@ layout: collection
 date: 2000-01-04
 title: Support services
 description: Enables DfE admin and finance users to support ECF and NPQ services
+paginationHeading: Posts
 pagination:
   data: collections.support-for-cpd
   reverse: true
   size: 50
 permalink: "support-for-cpd/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
-eleventyComputed:
-  eleventyNavigation:
-    key: "{{ title }}"
-    excerpt: "{{ description }}"
-    parent: home
 related:
   items:
   - text: Glossary
