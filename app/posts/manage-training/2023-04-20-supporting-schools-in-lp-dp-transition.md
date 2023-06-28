@@ -12,6 +12,9 @@ related:
       href: /manage-training/new-manage-training-dashboard-second-iteration/
     - text: Temporary Cohorts for ECTs and Mentors
       href: /manage-training/temporary-cohorts-for-ects-and-mentors/
+tags:
+  - training providers
+  - delivery partners
 ---
 
 <video src="https://user-images.githubusercontent.com/128088/241957550-41546a15-dd26-47a2-938b-df3680faf6d3.mp4" controls>

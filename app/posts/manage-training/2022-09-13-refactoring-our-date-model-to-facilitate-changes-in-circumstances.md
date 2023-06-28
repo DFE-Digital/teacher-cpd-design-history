@@ -6,6 +6,8 @@ related:
   items:
   - text: Documentation on the data model changes
     href: https://dfedigital.atlassian.net/wiki/spaces/CPD/pages/3653861377/Data+Model+Changes
+tags:
+  - moving schools
 ---
 
 ## Background

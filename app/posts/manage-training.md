@@ -1,5 +1,4 @@
 ---
-override:tags: []
 layout: collection
 date: 2000-01-01
 title: Manage training for early career teachers

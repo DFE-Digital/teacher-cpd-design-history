@@ -2,6 +2,9 @@
 title: A school chooses how they want to run inductions for a cohort
 description: How a school sets up a cohort to use an approved training provider (FIP), the DfE accredited materials (CIP), declares they are designing their own induction or states they have no ECTs starting in the academic year.
 date: 2021-06-09
+tags:
+  - "induction programmes"
+  - cohorts
 ---
 
 How a school sets up a cohort to use an approved training provider (FIP), the DfE accredited materials (CIP), declares they are designing their own induction or states they have no ECTs starting in the academic year.

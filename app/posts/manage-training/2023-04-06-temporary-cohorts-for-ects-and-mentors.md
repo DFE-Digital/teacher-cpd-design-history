@@ -12,6 +12,8 @@ related:
       href: /manage-training/new-manage-training-dashboard-second-iteration/
     - text: Supporting Schools in LP-DP Transition
       href: /manage-training/supporting-schools-in-lp-dp-transition/
+tags:
+  - cohorts
 ---
 
 <video src="https://user-images.githubusercontent.com/128088/241957527-1990f34c-7260-4433-828c-6a9723ee272a.mp4" controls>

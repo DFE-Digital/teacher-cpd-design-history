@@ -16,6 +16,8 @@ screenshots:
       src: What’s Hugo Furst’s date of birth - Manage training for early career teachers - GOV.UK.png
     - text: "What’s Hugo Furst’s email address?"
       src: What’s Hugo Furst’s email address - Manage training for early career teachers - GOV.UK.png
+tags:
+  - eligibility
 ---
 
 As part of the launch of cohort 2 on the Manage training for early career teachers service, we gave school induction tutors (SITs) the ability to enter validation information for participants.

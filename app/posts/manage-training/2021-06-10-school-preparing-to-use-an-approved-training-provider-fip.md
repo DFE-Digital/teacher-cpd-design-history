@@ -2,6 +2,8 @@
 title: A school preparing to use an approved training provider (or the FIP)
 description: How a school that's using a training provider, performs tasks such as signing up with a training provider and adding participants (ie. teachers and mentors).
 date: 2021-06-10
+tags:
+  - training providers
 ---
 
 How a school has who's chosen to use a training provider, performs tasks such as signing up with a training provider and adding participants (ie. teachers and mentors).

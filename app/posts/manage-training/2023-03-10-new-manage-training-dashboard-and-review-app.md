@@ -12,6 +12,8 @@ related:
       href: /manage-training/temporary-cohorts-for-ects-and-mentors/
     - text: Supporting Schools in LP-DP Transition
       href: /manage-training/supporting-schools-in-lp-dp-transition/
+tags:
+  - dashboard
 ---
 
 <video src="https://user-images.githubusercontent.com/128088/241957485-8c45f7c2-9aad-49e1-96c3-f1b235c75680.mp4" controls>
@@ -31,7 +33,7 @@ In the left column, we can clearly see each participant's name which is presente
 
 In the right column that participant's status is displayed using color coded tags.
 
-A significant amount of work has been done on completely reworking the status names, making them more descriptive and easier to understand as current statuses do cause a lot of confusion. 
+A significant amount of work has been done on completely reworking the status names, making them more descriptive and easier to understand as current statuses do cause a lot of confusion.
 
 The design is fully responsive as a mobile as a mobile first design approach was used.
 
@@ -41,7 +43,7 @@ For mentors we can now see more information regarding their status. And we can a
 
 For ECTs, we can also see more information regarding their status. And we can see who is mentoring them, which we can also change.
 
-Here's an example of how the dashboard now highlights at the top of the page with the warning component, any ECT that is unassigned. The SIT can instantly assign a mentor to an ECT after which they will be displayed nested under that mentor with the warning gone as that task is now complete. 
+Here's an example of how the dashboard now highlights at the top of the page with the warning component, any ECT that is unassigned. The SIT can instantly assign a mentor to an ECT after which they will be displayed nested under that mentor with the warning gone as that task is now complete.
 
 
 ### New ways of working
@@ -49,7 +51,7 @@ During the design process, the team developed a collaborative approach using Fig
 
 The team also piloted a new way of prototyping, by working closely with developers to build a review app off the dev branch. This allowed us to access real accurate data of testing, which is better than using hard coded or dynamic data in a prototype. If successful, the design could be instantly deployed saving time.
 
-Although the prototype kit still has its place for user and custom component testing, for complex work like this, prototyping and testing using a review app made more sense. 
+Although the prototype kit still has its place for user and custom component testing, for complex work like this, prototyping and testing using a review app made more sense.
 
 We've only just started our user research on this and so far, the feedback has been excellent.
 
@@ -59,7 +61,7 @@ We developed new screens and implemented logic to handle scenarios where the LP/
 
 
 ### Outcome and Learnings
-This was a very large piece of work and was done at speed to make the deadline. Upon recent design review, we can already see areas for improvements still, and further iterations will be made after the next round of user research is complete. 
+This was a very large piece of work and was done at speed to make the deadline. Upon recent design review, we can already see areas for improvements still, and further iterations will be made after the next round of user research is complete.
 
 Lastly, the new way of working with a big change of team and we identified some minor areas that could be improved, which we will factor in next time.
 

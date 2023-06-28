@@ -12,6 +12,8 @@ related:
       href: /manage-training/temporary-cohorts-for-ects-and-mentors/
     - text: Supporting Schools in LP-DP Transition
       href: /manage-training/supporting-schools-in-lp-dp-transition/
+tags:
+  - dashboard
 ---
 
 <video src="https://user-images.githubusercontent.com/128088/241957501-5deab459-06c3-4c97-a1a0-4c2965610e80.mp4" controls>
@@ -55,7 +57,7 @@ During testing, inconsistencies in routing were found, where changing the mentor
 
 In the first iteration, the routing was made consistent, but the confirmation was unclear, and navigating back was awkward.
 
-In the second iteration, routing users straight back to the manage mentors & ECTs page was explored but rejected due to the the confirmation message creating clutter on the page.  
+In the second iteration, routing users straight back to the manage mentors & ECTs page was explored but rejected due to the the confirmation message creating clutter on the page.
 
 In the third iteration, we decided to create a new confirmation page with a clear h1 heading and a primary call to action button that routed users back to the manage mentors & ECTs page.  This solved the routing problem and improved the user experience.
 

@@ -8,6 +8,8 @@ related:
     href: https://docs.google.com/document/d/1V5vPA7isZdPxiA-EB3YWhZK97E4hrkNTKdfVOzFOFPs/edit#
   - text: Lucid frame used for kick off workshop and problem framing
     href: https://lucid.app/lucidspark/1eb36f49-7c10-42ab-9672-91d1db10861a/edit?view_items=~bOzJQNwnwuH&invitationId=inv_25b8b58b-4756-42c3-8fca-2dddbb2ab0fe#
+tags:
+  - registration
 ---
 
 What are the problems around accessing the Manage training for early career teachers service?

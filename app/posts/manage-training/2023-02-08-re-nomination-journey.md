@@ -12,6 +12,9 @@ related:
       href: /manage-training/temporary-cohorts-for-ects-and-mentors/
     - text: Supporting Schools in LP-DP Transition
       href: /manage-training/supporting-schools-in-lp-dp-transition/
+tags:
+  - school induction tutors
+  - registration
 ---
 
 <video src="https://user-images.githubusercontent.com/128088/241957164-77ecc2e8-7f66-4a21-87a9-f23ca645203e.mp4" controls>
@@ -39,7 +42,7 @@ We also considered the concept of having two separate call-to-action (CTA) butto
 Since all information was now easily accessible on the start page there was no longer a requirement to use the tabbed interface on the sign-in page.
 
 ### Minimalist version
-After conducting multiple user-centered design (UCD) and research sessions we determined that the start page still contained an excessive amount of information, and having two call-to-action (CTAs) could be confusing for users. Consequently, we simplified the content on all pages and removed the secondary CTA from the start page. Additionally, we reworked the sign-in link based on user research to be more descriptive and serve two purposes: 
+After conducting multiple user-centered design (UCD) and research sessions we determined that the start page still contained an excessive amount of information, and having two call-to-action (CTAs) could be confusing for users. Consequently, we simplified the content on all pages and removed the secondary CTA from the start page. Additionally, we reworked the sign-in link based on user research to be more descriptive and serve two purposes:
 1, offering a link to sign in or 2, change the induction tutor, which was previously unavailable to schools, without contacting support
 
 ### Confirmation page

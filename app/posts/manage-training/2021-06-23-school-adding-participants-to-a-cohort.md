@@ -2,6 +2,8 @@
 title: A school adding participants to a cohort
 description: How a school induction tutor adds Early Career Teachers and Mentors to a cohort
 date: 2021-06-23
+tags:
+  - cohorts
 ---
 
 How a school induction tutor adds Early Career Teachers and Mentors to a cohort
@@ -84,7 +86,7 @@ Whilst having one user take ownership of a task can sometimes be a good idea (hi
 
 ## Error states
 #### This email has already been added
-This error page appears when a user is trying to add a participant using an email address that is already used elsewhere in the service. ie. it is not just confined to the school or cohort. Emails per participant need to be unique as this is how users sign in and receive personal notifications.  
+This error page appears when a user is trying to add a participant using an email address that is already used elsewhere in the service. ie. it is not just confined to the school or cohort. Emails per participant need to be unique as this is how users sign in and receive personal notifications.
 
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
