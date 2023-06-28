@@ -2,6 +2,8 @@
 title: Iterations to eligibility checks
 description: We recently made some updates to the eligibility checks on ECTs when they are registered on the service
 date: 2022-05-25
+tags:
+  - eligibility
 ---
 
 We recently made some updates to the eligibility checks on ECTs when they are registered on the service, so that we ensure only eligible ECTS are marked as eligible and can complete funded ECF-based training delivered by providers.

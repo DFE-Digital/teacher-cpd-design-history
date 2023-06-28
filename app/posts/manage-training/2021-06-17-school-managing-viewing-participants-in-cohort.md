@@ -2,6 +2,8 @@
 title: A school viewing and managing participants in a cohort
 description: How a school that is either using an approved training provider (FIP) or using the accredited materials (CIP) accesses, views and manages individual participants in a cohort.
 date: 2021-06-16
+tags:
+  - cohorts
 ---
 
 How a school that is either using an approved training provider (FIP) or using the accredited materials (CIP) accesses, views and manages individual participants in a cohort.

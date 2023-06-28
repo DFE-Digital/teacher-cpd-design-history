@@ -2,6 +2,9 @@
 title: A school preparing to use the DfE accredited materials (or the CIP)
 description: How a school that's using the DfE accredited materials, performs tasks such as choosing their training materials and adding participants (ie. teachers and mentors).
 date: 2021-06-16
+tags:
+  - training providers
+  - DfE accredited materials
 ---
 
 How a school that's using the DfE accredited materials, performs tasks such as choosing their training materials and adding participants (ie. teachers and mentors).

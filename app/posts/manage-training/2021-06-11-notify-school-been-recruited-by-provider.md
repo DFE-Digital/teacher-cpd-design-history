@@ -2,6 +2,9 @@
 title: Notify a school that they've been recruited by a provider, and report if it's incorrect
 description: How a school finds out that a training provider has recruited them, and their options for reporting a mistake
 date: 2021-06-11
+tags:
+  - notifications
+  - training providers
 ---
 
 How a school finds out that a training provider has recruited them, and their options for reporting a mistake

@@ -2,10 +2,10 @@
 title: Nominating a School’s induction tutor
 description: How a school nominates an induction tutor, to make decisions on its behalf
 date: 2021-05-27
+tags:
+  - school induction tutors
 ---
-
 How a school nominates an induction tutor, to make decisions on its behalf
-
 
 ## User needs
 
@@ -77,7 +77,7 @@ It's essentially a way of opting out of further notifications for this cohort, f
 The unique nomination link that's emailed to users, has a token which is only valid for 21 days. Once that's expired, the user will see this screen and is prompted to [resend the nomination email](/manage-training/resend-the-induction-tutor-nomination-email/).
 
 ### The email you entered is used by another school
-This error page appears when a user is trying to add a participant using an email address that is already used elsewhere in the service. ie. it is not just confined to the school or cohort. Emails per participant need to be unique as this is how users sign in and receive personal notifications.  
+This error page appears when a user is trying to add a participant using an email address that is already used elsewhere in the service. ie. it is not just confined to the school or cohort. Emails per participant need to be unique as this is how users sign in and receive personal notifications.
 
 ### An induction tutor has already been nominated for your school
 Given the likelihood that the notification email being sent to a shared inbox, it's possible that another member of staff may have already actioned this nomination. If that's the case, we need to tell users that they no longer need to perform this task.

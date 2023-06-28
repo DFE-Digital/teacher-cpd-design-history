@@ -14,6 +14,8 @@ screenshots:
       src: 02-expected-start-it2.png
     - text: "Participant dashboard charges"
       src: 03-ppt-dashboard-changes.png
+tags:
+  - cohorts
 ---
 
 How might the ‘Manage training for early career teachers’ service deal with participants starting at different times throughout the academic year?
@@ -70,7 +72,7 @@ From testing this prototype we found from the policy team that participants coul
 #### Changes to the choose your term page
 
 Content updated in the question and terminology changed from ‘training programme’ to ‘induction programme’ as this was more consistent with the language used throughout the service and guidance and better understood by users.
- 
+
 #### Participant dashboard changes
 
 As a result of these changes the participant dashboard was updated to reflect the start term of each participant's induction.

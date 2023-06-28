@@ -10,6 +10,8 @@ related:
     href: https://lucid.app/lucidspark/b316a675-4ce1-4ca4-bc0e-77d536089dce/edit?viewport_loc=12491%2C6697%2C5303%2C2824%2C0_0&invitationId=inv_098f9fb2-fa2d-45cd-b607-f05cf6813973#
   - text: Interim evaluation for ECF
     href: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1078234/ECF_evaluation_interim_research_brief_2022.pdf
+tags:
+  - DfE accredited materials
 ---
 
 Research into how the core induction programme is performing to understand what improvements could be made. Early career teachers and mentors who are doing this training programme can access DfE accredited materials on the Support for early career teachers service.

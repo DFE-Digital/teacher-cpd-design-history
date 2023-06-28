@@ -2,6 +2,9 @@
 title: Notifying a new school induction tutor and first sign in
 description: How a newly nominated school induction tutor gets notified and the journey they follow when signing in for the first time
 date: 2021-06-03
+tags:
+  - school induction tutors
+
 ---
 
 How a newly nominated school induction tutor gets notified and the journey they follow when signing in for the first time
