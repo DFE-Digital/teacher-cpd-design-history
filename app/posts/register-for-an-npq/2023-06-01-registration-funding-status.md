@@ -56,6 +56,8 @@ The changes listed below were guided by an [existing document](https://education
 
 Pending can mean a variety of things and was being used when we didn't have a definite alternative status e.g. accepted or rejected. We are unable to get a status for every point on the journey e.g. application submitted. This leaves the status with too many potential options and unknowns and doesn't give the user clarity on what to do next. 
 
+> Pending = waiting for provider to do their bit, I think - though this needs to be clearer
+
 ### Design changes 
 
 1. The 'provider details' table has been removed. As this information is directly tied to the course it made sense to be in the same table.  
@@ -82,6 +84,8 @@ Pending can mean a variety of things and was being used when we didn't have a de
 
 7. Change links for 'Change course' and 'Change provider' has been moved to the associated rows.
 
+8. These statuses also show on the summary on multiple registration list view. 
+
 [See screenshots further down this page](#2.-provider-details-1)
 
 ## 3. Making the multiple registrations page more consistent
@@ -90,25 +94,52 @@ Pending can mean a variety of things and was being used when we didn't have a de
 
 The course names were hard to find and the table format wasn't consistent with other parts of the service, or other DfE services. 
 
-Given only 0.05% of users (32 people) have more than 4 registrations, and the most is 9, there was no need for a table and summary cards allow the content to be displayed in an easy to consume format. 
+Given only 0.05% of users (32 people) have more than 4 registrations, and the most is 9, there was no need for a table format. Summary cards allow the content to be displayed in an easy to consume format. 
 
 ### Design changes
 
 1. Using summary cards for each registration instead of a table
 2. Including NPQ in the h1 to improve signposting
 3. Changing 'created at' label to 'Registration submitted'
+4. Displaying the Provider application and Course statuses
 
-[See screenshots further down this page](#3.-multiple-registrations-1)
+[See screenshots further down this page](#3.-multiple-registrations-page)
 
 ## 4. Other design changes
 
 1. All the funding details have been moved to a separate summary card so it's easier to find. 
-2. The registration status has been removed as it would only ever have one status. A user cannot see this page unless it has been submitted. 
-3. The personal details summary card has been removed and replaced with a link to the DfE Identity account.
-4. When viewing a single registration the provider name has been added as a caption on the h1, for signposting.
-5. When viewing a single registration the course name has been added to the h1, for signposting.
+2. The work details have moved to the last summary card shown. This is because it is the information the user is least likely to be reviewing when they return to their account. It also means the statuses move up the page and 'apply with provider' is visible when the page loads after completing a registration. This helps the user see the next action to take and that they haven't completed their application. 
+3. A link to the DfE Identity account is shown instead of displaying each personal detail. As all of these are edited in the account. If the user has one registration this is shown above the work details summary card. If the user has multiple registrations it is shown on the list view. 
+4. The registration status has been removed as it would only ever have one status. A user cannot see this page unless it has been submitted. 
+5. If a user has multiple registrations, and is viewing the details of one of the registrations:
+- The course name has been added to the h1, for signposting
+- A back link has been added so they can return to the list view.
+6. Information about who to contact to change details if you have already started the course has been moved next to the 'started' status instead of the top of the page. 
 
 [See screenshots further down this page](#4.-other-design-changes-1)
+
+## 5. Moving the confirmation message
+
+### The problem 
+
+In usability testing users were not clear what to do after completing thier registration. The content seems contradictory to some (some think they're done). Users need to know that they still need to complete an application with their chosen provider. 
+
+Users all told us they would check the details of the registration. From the confirmation page there was no way to do this. 
+
+> It makes me nervous that I still have to apply. It's where it went wrong last time. 
+
+> After confirmation I would check the details of registration.
+
+> It says I've registered but reading this seems confusing bc its telling me to go apply with the provider but it is off-putting having to put in same details in another website. Would be better if it was done via ambition all together and done via a code with NPQ Reg Service or vice versa, seems repetitive. 
+
+### Design changes
+
+1. Confirmation page removed
+2. User is taken to the registration details page in the user account after completing a registration where they can check their registration
+3. A success message is shown at the top of the registration page 
+4. Provider application status shows the next steps to take - apply with provider is always the status shown after completing a registration
+
+[See screenshots further down this page](#5.-confirmation-page)
 
 ---
 
@@ -187,7 +218,7 @@ Given only 0.05% of users (32 people) have more than 4 registrations, and the mo
 
 ##### After - showing all possible statuses
 
-![Before changes were made to multiple registration page](/register-for-an-npq/registration-funding-status/multiple-reg--after.png)
+![After changes were made to multiple registration page](/register-for-an-npq/registration-funding-status/multiple-reg--after.png)
 
 ### 4. Other design changes 
 
@@ -197,4 +228,14 @@ Given only 0.05% of users (32 people) have more than 4 registrations, and the mo
 
 ##### After
 
-![Before changes were made to single registration](/register-for-an-npq/registration-funding-status/single-reg--after.png)
+![After changes were made to single registration](/register-for-an-npq/registration-funding-status/single-reg--after.png)
+
+### 5. Confirmation page
+
+##### Before
+
+![Before - the confirmation page before there was a account page. With the green box success message and next steps text.](/register-for-an-npq/registration-funding-status/confirmation-page--before.png)
+
+##### After
+
+![After - Success message showing at the  top of the registration page. Telling the user they have submited their registration.](/register-for-an-npq/registration-funding-status/confirmation-message--after.png)
