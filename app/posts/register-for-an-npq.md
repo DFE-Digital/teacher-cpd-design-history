@@ -13,6 +13,8 @@ related:
   items:
   - text: Prototype
     href: https://npq-prototype.herokuapp.com
+    description: |
+      Password: `npq`
   - text: Older prototype
     href: https://npq-alpha-prototype.herokuapp.com/
   - text: Prototype on Github

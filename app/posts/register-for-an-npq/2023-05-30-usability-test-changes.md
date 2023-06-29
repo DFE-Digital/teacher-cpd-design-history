@@ -1,6 +1,6 @@
 ---
-  title: Usability test changes
-  description: Small updates following usability testing. 
+  title: Start and confirmation page changes
+  description: Updates from usability testing. 
   date: 2023-05-30
   screenshots:
     items:
@@ -10,6 +10,10 @@
       src: "start-page--after.png"
     - text: "1. Improving the start page – view your registration idea"
       src: "start-page--idea.png"
+    - text: "2. Before - Confirmation page before there was a account page. With the green box success message and next steps text."
+      src: "confirmation-page--before.png"
+    - text: "2. After - Confirmation message - Shows at the top of the registration page. Telling the user they have submited their registration."
+      src: "confirmation-message--after.png"
   related:
     items:
     - text: Research notes
@@ -43,5 +47,27 @@ To reduce the potential 'shock' of being passed over to a different service, we 
 We considered adding a 'View your registration' section below the 'Start now' button. The idea behind this was to use language that users might be scanning the page fo to help them find what they were looking for. This option would also reduce the number of steps in the flow as we could take users directly to the sign in email page of the DfE Identity account flow. 
 
 We decided to test the other changes as a first step and return to this if users are still struggling to find what they are looking for. 
+
+## 2. Moving the confirmation message
+
+### The problem 
+
+In usability testing users were not clear what to do after completing thier registration. The content seems contradictory to some (some think they're done). Users need to know that they still need to complete an application with their chosen provider. 
+
+Users all told us they would check the details of the registration. From the confirmation page there was no way to do this. 
+
+> It makes me nervous that I still have to apply. It's where it went wrong last time. 
+
+> After confirmation I would check the details of registration.
+
+> It says I've registered but reading this seems confusing bc its telling me to go apply with the provider but it is off-putting having to put in same details in another website. Would be better if it was done via ambition all together and done via a code with NPQ Reg Service or vice versa, seems repetitive. 
+
+### Design changes
+
+1. Confirmation page removed
+2. User is taken to the registration details page in the user account after completing a registration where they can check their registration
+3. A success message is shown at the top of the registration page 
+4. Provider application status shows the next steps to take - apply with provider is always the status shown after completing a registration
+5. The feedback link is in the process of moving to the phase banner. 
 
 ---
