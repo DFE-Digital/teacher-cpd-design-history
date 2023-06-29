@@ -118,29 +118,6 @@ Given only 0.05% of users (32 people) have more than 4 registrations, and the mo
 
 [See screenshots further down this page](#4.-other-design-changes-1)
 
-## 5. Moving the confirmation message
-
-### The problem 
-
-In usability testing users were not clear what to do after completing thier registration. The content seems contradictory to some (some think they're done). Users need to know that they still need to complete an application with their chosen provider. 
-
-Users all told us they would check the details of the registration. From the confirmation page there was no way to do this. 
-
-> It makes me nervous that I still have to apply. It's where it went wrong last time. 
-
-> After confirmation I would check the details of registration.
-
-> It says I've registered but reading this seems confusing bc its telling me to go apply with the provider but it is off-putting having to put in same details in another website. Would be better if it was done via ambition all together and done via a code with NPQ Reg Service or vice versa, seems repetitive. 
-
-### Design changes
-
-1. Confirmation page removed
-2. User is taken to the registration details page in the user account after completing a registration where they can check their registration
-3. A success message is shown at the top of the registration page 
-4. Provider application status shows the next steps to take - apply with provider is always the status shown after completing a registration
-
-[See screenshots further down this page](#5.-confirmation-page)
-
 ---
 
 ## Screenshots
@@ -226,16 +203,10 @@ Users all told us they would check the details of the registration. From the con
 
 ![Before changes were made to single registration](/register-for-an-npq/registration-funding-status/single-reg--before.png)
 
-##### After
+##### After - viewing details of registration, for a user with multiple registrations
 
-![After changes were made to single registration](/register-for-an-npq/registration-funding-status/single-reg--after.png)
+![After changes were made to registration details page, for a user with multiple registrations](/register-for-an-npq/registration-funding-status/single-reg--after.png)
 
-### 5. Confirmation page
+##### After - single registratiom
 
-##### Before
-
-![Before - the confirmation page before there was a account page. With the green box success message and next steps text.](/register-for-an-npq/registration-funding-status/confirmation-page--before.png)
-
-##### After
-
-![After - Success message showing at the  top of the registration page. Telling the user they have submited their registration.](/register-for-an-npq/registration-funding-status/confirmation-message--after.png)
+![After changes were made to single registration page](/register-for-an-npq/registration-funding-status/confirmation-message--after.png)
