@@ -15,10 +15,10 @@
   ]
 */
 const paths = [
-{
-  title: 'Which early years setting do you work in',
-  path: '/eyll/nursery-type'
-}
+  {
+    title: 'Which early years setting do you work in',
+    path: '/eyll/nursery-type'
+  }
 ]
 const { DateTime } = require('luxon')
 const domain = 'http://localhost:3000'
