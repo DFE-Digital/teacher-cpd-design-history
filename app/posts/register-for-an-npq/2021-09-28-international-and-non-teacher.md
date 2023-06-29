@@ -10,8 +10,6 @@ related:
     href: https://github.com/DFE-Digital/npq-prototype/pull/6
 ---
 
-{% from "figure/macro.njk" import appFigure with context %}
-
 The NPQ journey was originally scoped to only teachers in England (and Jersey, Guernsey and the Isle of Man). We are increasing scope to include:
 
 - teachers who want to study an NPQ in different countries (including Wales, Scotland and Northern Ireland)
@@ -31,13 +29,7 @@ The NPQ journey now begins with a new question, ‘Are you a teacher in England,
 
 (We expect people working in FE to still identify as teachers, as opposed to tutors)
 
-{{ appFigure({
-  title: 'Are you a teacher in England?',
-  image: {
-    file: '02-are-you-a-teacher-in-england.png',
-    alt: 'Are you a teacher in England?'
-  }
-}) }}
+![Are you a teacher in England?](02-are-you-a-teacher-in-england.png)
 
 ## TRNs
 
@@ -47,13 +39,7 @@ We ask about TRNs early in the journey, but for non-teachers and international t
 
 The key difference is that the effect of your choice is more obvious, rather than "I don’t have a TRN" it’s "I need to get a TRN". And rather than "I don’t know my TRN" it’s "I need a reminder".
 
-{{ appFigure({
-  title: 'You’ll need a TRN',
-  image: {
-    file: '03-youll-need-a-trn.png',
-    alt: 'You’ll need a TRN'
-  }
-}) }}
+![You’ll need a TRN](03-youll-need-a-trn.png)
 
 ## Names
 
@@ -67,13 +53,8 @@ We need to consider how we ask for full name in an international context.
 
 On the name change page, we asked if their name had changed since they registered as a teacher. That context doesn’t make sense for non-teachers, or for anyone who has obtained a TRN purely for an NPQ. It’s been changed to refer to since they received their TRN.
 
-{{ appFigure({
-  title: 'Has your name changed?',
-  image: {
-    file: '04-has-your-name-changed.png',
-    alt: 'Has your name changed?'
-  }
-}) }}
+![Has your name changed?](04-has-your-name-changed.png)
+
 
 ## Do not ask about schools or colleges
 
@@ -109,13 +90,8 @@ These users may not know what a trust is, and they may not have a school or coll
 
 After we surveyed providers about payment from international and non-teacher users they told us that their school or employer often paid.
 
-{{ appFigure({
-  title: 'How is your course being paid for?',
-  image: {
-    file: '08-how-is-course-being-paid-for.png',
-    alt: 'How is your course being paid for?'
-  }
-}) }}
+![How is your course being paid for?](08-how-is-course-being-paid-for.png)
+
 
 ## Other design changes
 
