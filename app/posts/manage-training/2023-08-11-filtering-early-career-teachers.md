@@ -8,6 +8,7 @@ tags:
 image:
   src: /manage-training/filtering-early-career-teachers/ecf-filter.png
   alt: "Illustration showing a set of 3 radio options: Currently training, Completed induction and No longer training"
+  opengraphImage: true
 ---
 
 As we enter the third year of the Early Career Framework, schools are now beginning to have teachers who have completed their induction under the 2 year training and induction programme.
