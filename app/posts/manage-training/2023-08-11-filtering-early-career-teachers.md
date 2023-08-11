@@ -10,8 +10,6 @@ image:
   alt: "Illustration showing a set of 3 radio options: Currently training, Completed induction and No longer training"
 ---
 
-![Illustration showing a set of 3 radio options: Currently training, Completed induction and No longer training](ecf-filter.png)
-
 As we enter the third year of the Early Career Framework, schools are now beginning to have teachers who have completed their induction under the 2 year training and induction programme.
 
 To support this, we designed and researched an interface which allows induction tutors to filter teachers by status.
