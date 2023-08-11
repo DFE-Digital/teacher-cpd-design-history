@@ -70,6 +70,8 @@ The ‘No longer being training’ status was confusing, as some participants in
 
 Participants nearly always only viewed a single status at time, and we observed no need to be able to see a mixture of statuses in a single list. Based upon this, we changed the filter from radios to checkboxes.
 
+We also changed the button label from ‘Filter’ to ‘Apply filter’ as one participant was slightly unclear what the button did.
+
 ### Wider findings
 
 Whilst the research was focused on early career teachers, some participants mentioned also wanting to be able to see a list of all their teacher mentors, and be able to remove people from this list who were no longer at their school.
