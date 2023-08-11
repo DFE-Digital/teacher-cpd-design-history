@@ -5,8 +5,8 @@ date: 2023-08-11
 tags:
   - completing induction
   - filtering
-ogImage:
-  src: ecf-filter.png
+image:
+  src: /manage-training/filtering-early-career-teachers/ecf-filter.png
   alt: "Illustration showing a set of 3 radio options: Currently training, Completed induction and No longer training"
 ---
 
