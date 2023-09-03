@@ -11,15 +11,15 @@ image:
   opengraphImage: true
 ---
 
-As we enter the third year of the Early Career Framework, schools are now beginning to a longer list of teachers at different stages of their 2 year induction.
+As we enter the third year of the Early Career Framework, schools are now beginning to see a longer list of teachers at different stages of their 2 year induction.
 
-To support this, are now showing the induction start date for all teachers where this has been recorded, and are allowing schools to sort their teachers by this date.
+To support this, we are now showing the induction start date for all teachers where this has been recorded, and are allowing schools to sort their teachers by this date.
 
 ## The issue
 
 Previously, early career teachers were shown as [belonging to a particular year’s 'cohort'](/manage-training/school-managing-viewing-participants-in-cohort/). This proved to be confusing, and the service was [redesigned to be cohortless](/manage-training/new-manage-training-dashboard-and-review-app/) with all references to cohorts and induction start dates removed.
 
-Now that more time has passed and schools have more early career teachers and different stages of their 2 year induction, school induction tutors indicated to us in research they they need some way to easily see what stage each teacher is at.
+Now that more time has passed and schools have more early career teachers at different stages of their 2 year induction, school induction tutors indicated to us in research they they need some way to easily see what stage each teacher is at.
 
 ## What we changed
 
