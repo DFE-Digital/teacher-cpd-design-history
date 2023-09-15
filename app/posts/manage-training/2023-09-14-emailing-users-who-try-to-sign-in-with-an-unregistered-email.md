@@ -12,7 +12,7 @@ image:
 ---
 {% from "email/macro.njk" import appEmail %}
 
-We now send an email to anyone who tries to sign in to the service with an unregistered email address, to tell them how they can access the service.
+We now send an email to anyone who tries to sign in to the service with an unregistered email address. We provide guidance on how they can access the service.
 
 ## The issue
 
