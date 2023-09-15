@@ -16,7 +16,7 @@ We now send an email to anyone who tries to sign in to the service with an unreg
 
 ## The issue
 
-The first page of the service invites people to either sign in, or request access to the service. Users who request access to the service can generate an access link for their school. This is sent to the email address held on GIAS.
+The first page of the service invites people to either sign in, or request access to the service. Users who request access to the service can generate an access link for their school. This is sent to the email address held on [Get Information about Schools](https://get-information-schools.service.gov.uk).
 
 However we were still receiving a lot of emails from people who did not use the request access feature, and instead were asking the support team for access.
 
