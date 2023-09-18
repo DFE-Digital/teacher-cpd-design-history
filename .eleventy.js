@@ -14,7 +14,7 @@ module.exports = function (eleventyConfig) {
         sitemapPath: '/sitemap'
       }
     },
-    url: process.env.GITHUB_ACTIONS ? 'http://teacher-cpd.design-history.education.gov.uk/' : false
+    url: process.env.GITHUB_ACTIONS ? 'https://teacher-cpd.design-history.education.gov.uk/' : false
   })
 
   // Collections of posts for each service
