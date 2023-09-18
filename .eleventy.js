@@ -13,7 +13,8 @@ module.exports = function (eleventyConfig) {
         indexPath: '/search.json',
         sitemapPath: '/sitemap'
       }
-    }
+    },
+    url: process.env.GITHUB_ACTIONS ? 'http://teacher-cpd.design-history.education.gov.uk/' : false
   })
 
   // Collections of posts for each service
