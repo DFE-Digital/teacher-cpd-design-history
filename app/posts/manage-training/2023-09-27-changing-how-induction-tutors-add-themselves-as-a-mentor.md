@@ -11,7 +11,9 @@ image:
   opengraphImage: true
 ---
 
-We removed an explicit option for induction tutors to add themselves as a mentor, instead allowing them to do it through the normal “add mentor” flow, but with an interstitial page to remind them of the difference between the two roles.
+We removed an option for induction tutors to add themselves as a mentor.
+
+Induction tutors can still add themselves as a mentor using the normal “add mentor” flow, but we now present them with an interstitial page to remind them of the difference between the two roles.
 
 ## The issue
 
