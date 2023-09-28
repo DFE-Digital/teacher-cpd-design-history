@@ -39,7 +39,7 @@ When this happens, we now present them with an interstitial screen advising them
 ![Screenshot with the title “Are you sure you want to add yourself as a mentor?”](are-you-sure-you-want-to-add-yourself-as-a-mentor.png)
 
 
-If the induction tutor tries to add themselves as an early career teacher, we prevent this from happening, as this is strictly against the policy framework. Instead, we check whether they had meant to add themselves as a mentor, or would prefer to cancel.
+If the induction tutor tries to add themselves as an early career teacher, we prevent this from happening, as this is strictly against the policy framework. Instead, we check whether they had meant to add themself as a mentor, or would prefer to cancel.
 
 ![Screenshot with the title “You cannot add yourself as an ECT”](you-cannot-add-yourself-as-an-ect.png)
 
