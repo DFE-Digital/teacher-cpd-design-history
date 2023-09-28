@@ -13,7 +13,7 @@ image:
 
 We removed an option for induction tutors to add themselves as a mentor.
 
-Induction tutors can still add themselves as a mentor using the normal “add mentor” flow, but we now present them with an interstitial page to remind them of the difference between the two roles.
+Induction tutors can still add themselves as a mentor using the normal “add mentor” flow, but we now present them with a page to remind them of the difference between the two roles.
 
 This change was made to the live service on 28 September 2023.
 
@@ -36,7 +36,7 @@ We removed the option for induction tutors to add themselves as a mentor:
 
 However, induction tutors can still add themselves as a mentor by using the “Add mentor” flow, and entering their own details.
 
-When this happens, we now present them with an interstitial screen advising them that the two roles are separate. They can then choose whether or not to continue.
+When this happens, we now present them with a page advising them that the two roles are separate. They can then choose whether or not to continue.
 
 ![Screenshot with the title “Are you sure you want to add yourself as a mentor?”](are-you-sure-you-want-to-add-yourself-as-a-mentor.png)
 
