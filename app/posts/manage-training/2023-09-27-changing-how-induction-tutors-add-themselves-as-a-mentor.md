@@ -45,4 +45,4 @@ If the induction tutor tries to add themselves as an early career teacher, we pr
 
 ## Next steps
 
-We will monitor this impact this has on school induction tutors adding themselves as a mentor.
+We will monitor to see what impact this has on school induction tutors adding themselves as a mentor.
