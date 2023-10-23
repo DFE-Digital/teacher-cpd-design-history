@@ -33,7 +33,7 @@ In usability sessions, we saw:
 
 1. Users skim through this page quickly or don't read it.
 2. Users were slightly confused when they landed on the 'Create a DfE Identity account' after pressing on the 'Start now' button. This took them to a different service with no mention of NPQs. One user wanted more information about NPQs. 
-3. Users who had already registered for an NPQ struggled to see where to go from the Start page. The 'Start now' button didn't resonate with them. 
+3. Users who had already registered for an NPQ struggled to see where to go from the start page. The 'Start now' button didn't resonate with them. 
 
 ### Design changes 
 
@@ -52,7 +52,7 @@ We decided to test the other changes as a first step and return to this if users
 
 ### The problem 
 
-In usability testing users were not clear what to do after completing thier registration. The content seems contradictory to some (some think they're done). Users need to know that they still need to complete an application with their chosen provider. 
+In usability testing users were not clear what to do after completing their registration. The content seems contradictory to some (some think they're done). Users need to know that they still need to complete an application with their chosen provider. 
 
 Users all told us they would check the details of the registration. From the confirmation page there was no way to do this. 
 
