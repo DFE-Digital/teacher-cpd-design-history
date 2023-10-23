@@ -14,11 +14,10 @@ related:
   items:
     - text: 
   subsections:
-    - title: Current prototype
+    - title: Current prototype (password = npq)
       items:
       - text: Prototype link
         href: https://npq-prototype.herokuapp.com
-        description: Password = npq
       - text: Prototype on Github
         href: https://github.com/DFE-Digital/npq-prototype
     - title: Older prototype

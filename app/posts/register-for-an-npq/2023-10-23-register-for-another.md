@@ -1,7 +1,7 @@
 ---
-  title: Register for another NPQ - improving signposting 
+  title: Register for another NPQ – improving signposting 
   description: Changes made after receiving support requests from users struggling to register for another NPQ, who have previously registered. 
-  date: 2023-06-01
+  date: 2023-10-23
   related:
     items:
     - text: Jira ticket
@@ -9,7 +9,7 @@
      
 ---
 
-### The problem
+## The problem
 
 People with existing registrations are unsure how to register for another. 
 
@@ -22,9 +22,9 @@ And, once they get into the registration flow, on the ‘Have you already chosen
 
 We discovered a looping problem when users are signed in that could be accentuating this problem. If you have logged into your account and are viewing your previous registrations. Then use the 'Register for an NPQ' link in the header you are taken to the start page. Then you go to the 'your signed in to DfE Identity' blue page and then back to your previous registrations. So the only way to register for another is to use the button at the bottom of the NPQ account page.
 
-### Design changes 
+## Design changes 
 
-#### For 1st iteration
+### For 1st iteration
 
 1. Update the content for the heading and button to 'Register for **another** NPQ'
 
@@ -42,10 +42,9 @@ We discovered a looping problem when users are signed in that could be accentuat
 - For registration details ‘Your registration details - Register for a national professional qualification’ 
 
 
-#### For consideration later, if we are still getting support requests 
+### For consideration later, if we are still getting support requests 
 
-- Adding a button near the top of the registrations account page, like this (if we do this we’d most likely remove the block at the bottom of the page) :
-
+- Adding a button near the top of the registrations account page (if we do this we’d most likely remove the button block at the bottom of the page).
 - Re-jigging the order of questions in the flow, so the chose NPQ and chose provider questions come near the start. This would allow us to remove the ‘Have you already chosen an NPQ and provider?’, which is potentially causing confusion. Only 7% answer ‘No’ to this question. 
 
 ---
@@ -54,9 +53,7 @@ We discovered a looping problem when users are signed in that could be accentuat
 
 ### 1 + 2. Button block
 
-#### Before changes were made
-
-![Before changes were made to button block](/register-for-an-npq/register-for-another/updated-button-block.png)
+![After changes were made to button block](/register-for-an-npq/register-for-another/updated-button-block.png)
 
 ### 3. Chosen an NPQ and provider question 
 
