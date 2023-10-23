@@ -43,11 +43,9 @@ The lack of clarity in the process leads users to submit multiple applications. 
 
 
 
-## Integration with Get an Identity
+## Integration with DfE Identity account
 
-In November 2022 the NPQ registration service integrated with the Get an Identity service. This means that the personal information about a user is now managed by a centralised DfE team rather than the NPQ team itself. This integration opened the field to explore the possibility of allowing users to self-serve when they need to make changes to their NPQ registration.  
-
-
+In November 2022 the NPQ registration service integrated with the DfE Identity account. This means that the personal information about a user is now managed by a centralised DfE team rather than the NPQ team itself. This integration opened the field to explore the possibility of allowing users to self-serve when they need to make changes to their NPQ registration.  
 
 ## Design
 
@@ -57,7 +55,7 @@ The agreed solution allows the user to see and change their personal and work de
 
 ### Personal details
 
-This section renders the details the user provided when they created their DfE Identity Account. If the user chooses to change their personal details they are redirected to their DfE Identity Account.
+This section renders the details the user provided when they created their DfE Identity account. If the user chooses to change their personal details they are redirected to their DfE Identity account.
 
 ### Work details
 
@@ -135,13 +133,13 @@ In this section we only show the details of the NPQs that have been started by t
 
 ## Changing details
 
-Changing details is out of scope as of 19th of May 2023.
+Changing details is out of scope as of 19th May 2023.
 
-If a user decides to change their personal details, they will be redirected to the DfE Identity account service.
+When users need to change their personal details, they will be redirected to the DfE Identity account service.
 
-Users can change their work details at any time using the registration status page. Also, as long as the NPQ hasn't started they can change the course or the provider.
+Users can change their work details by contacting support. If the NPQ hasn't started they can also change the course or the provider by contacting support.
 
 For more information on how to change registration details please read the following design histories:
-- [Change work details](http://teacher-cpd-design-history.herokuapp.com/register-for-an-npq/work-details-registration-status/)
-- [Change course](http://teacher-cpd-design-history.herokuapp.com/register-for-an-npq/course-registration-status/)
-- [Change provider](http://teacher-cpd-design-history.herokuapp.com/register-for-an-npq/provider-registration-status/)
+- [Change work details](/register-for-an-npq/work-details-registration-status/)
+- [Change course](/register-for-an-npq/course-registration-status/)
+- [Change provider](/register-for-an-npq/provider-registration-status/)

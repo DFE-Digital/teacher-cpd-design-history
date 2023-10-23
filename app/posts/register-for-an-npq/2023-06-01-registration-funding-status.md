@@ -1,5 +1,5 @@
 ---
-  title: Registration status – updates
+  title: Registration details – updates
   description: Changes made after the first round of user research. 
   date: 2023-06-01
   related:
@@ -34,14 +34,14 @@ After a round of research and more in depth conversations with the development t
 
 The changes listed below were guided by an [existing document](https://educationgovuk-my.sharepoint.com/:w:/r/personal/emma_frith_education_gov_uk/_layouts/15/Doc.aspx?sourcedoc=%7B677CC74F-A4FF-456B-B9D8-FCF72B4E5E39%7D&file=NPQ%20funding%20scenarios%20-%20content%20review.docx&action=default&mobileredirect=true&cid=09bb19ae-2127-406d-a040-449b0073010d), which outlines the different funding scenarios and shows the content used in each scenario (on outcome pages and in emails). The same or similar content was used to keep the service consistant and avoid confusion for users. 
 
-1. Different versions of the registration page (the landing page for users who have already registered for an NPQ) have been created, showing the different possible funding statuses a user would see. 
+1. The registration details page (the landing page for users who have already registered for an NPQ) reflects the different possible funding statuses a user would see during the registration flow. 
 
 2. The status names have been updated to reflect the langauge used on the outcome pages during the registration flow. They are now: 
   - Eligible 
   - Not eligible 
-  - Eligibility in review 
+  - For users whos eligibility is in review, there is content to tell them to contact their provider to find out the outcome. 
 
-3. Additional text has been added below the status to explain what it means for them. For Not eligible we also show the reason they are not eligible. This uses the same language as in the registration flow but a shorter version. 
+3. Additional text has been added below the status to explain what it means for them. For 'Not eligible' we also show the reason they are not eligible. This uses the same language as in the registration flow but a shorter version. 
 
 4. We only show the row for Targeted support funding if the user is eligible. This matches the registration flow. We believe users are not that aware of this funding and that it would be confusing to show this information if they are not receiving it. 
 
@@ -70,21 +70,16 @@ Pending can mean a variety of things and was being used when we didn't have a de
   - Successful (green)
   - Unsuccessful (red)
 - **Course status**
-  - Not started (grey)
-  - Deferred (yellow)
-  - Started (blue)
   - Passed (green)
   - Not passed (red)
 
 4. When the 'provider application' is 'Apply with provider', additional information is shown to remind users to apply with provider. 
 
-5. When the 'provider application' is 'unsuccessful', the course status is not shown. 
+5. 'Course status' is only shown when we have a value (this is after we receive an outcome declaration from the provider).
 
-6. When the 'course status' is 'started', additional information is shown saying who to contact to change any details.  
+6. When there is no 'course status' an email address is provided at the top of the page for users to contact if they need to make changes. 
 
-7. Change links for 'Change course' and 'Change provider' has been moved to the associated rows.
-
-8. These statuses also show on the summary on multiple registration list view. 
+7. These statuses also show on the summary on multiple registration list view. 
 
 [See screenshots further down this page](#2.-provider-details-1)
 
@@ -109,7 +104,7 @@ Given only 0.05% of users (32 people) have more than 4 registrations, and the mo
 
 1. All the funding details have been moved to a separate summary card so it's easier to find. 
 2. The work details have moved to the last summary card shown. This is because it is the information the user is least likely to be reviewing when they return to their account. It also means the statuses move up the page and 'apply with provider' is visible when the page loads after completing a registration. This helps the user see the next action to take and that they haven't completed their application. 
-3. A link to the DfE Identity account is shown instead of displaying each personal detail. As all of these are edited in the account. If the user has one registration this is shown above the work details summary card. If the user has multiple registrations it is shown on the list view. 
+3. A link to the DfE Identity account is shown instead of displaying each personal detail. As all of these are edited in the account.  
 4. The registration status has been removed as it would only ever have one status. A user cannot see this page unless it has been submitted. 
 5. If a user has multiple registrations, and is viewing the details of one of the registrations:
 - The course name has been added to the h1, for signposting
@@ -165,19 +160,10 @@ Given only 0.05% of users (32 people) have more than 4 registrations, and the mo
 ##### After 
 
 #### Apply with provider
-![Course details table on single registration, apply with provider](/register-for-an-npq/registration-funding-status/couse-details--apply-with-provider.png)
+![Course details table on single registration, apply with provider](/register-for-an-npq/registration-funding-status/course-details--apply-with-provider.png)
 
 #### Application unsuccessful
 ![Course details table on single registration, unsuccessful application](/register-for-an-npq/registration-funding-status/course-details--unsuccessful.png)
-
-#### Application successful, course deferred
-![Course details table on single registration, course started](/register-for-an-npq/registration-funding-status/course-details--deferred.png)
-
-#### Application successful, course not started
-![Course details table on single registration, course not started](/register-for-an-npq/registration-funding-status/course-details--not-started.png)
-
-#### Application successful, course started
-![Course details table on single registration, course started](/register-for-an-npq/registration-funding-status/course-details--started.png)
 
 #### Application successful, course not passed
 ![Course details table on single registration, course not passed](/register-for-an-npq/registration-funding-status/course-details--not-passed.png)
@@ -207,6 +193,8 @@ Given only 0.05% of users (32 people) have more than 4 registrations, and the mo
 
 ![After changes were made to registration details page, for a user with multiple registrations](/register-for-an-npq/registration-funding-status/single-reg--after.png)
 
-##### After - single registratiom
+![After changes were made to registration details page, when user has no course status](/register-for-an-npq/registration-funding-status/single-reg3--after.png)
+
+##### After - single registration
 
 ![After changes were made to single registration page](/register-for-an-npq/registration-funding-status/confirmation-message--after.png)

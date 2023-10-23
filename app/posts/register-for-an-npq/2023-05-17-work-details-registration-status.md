@@ -12,6 +12,24 @@
       src: "confirmation.png"
 ---
 
+## Update 
+
+This work is currently on hold, as of June 2023. 
+
+It could be prioritised in the future if the number of support requests increase. However, at this time users can continue with the NPQ they have registered without needing to update their work details, therefore the effort of doing this piece of work outweighs the benefit. It would be a large techical undertaking with impact on data. There is also a possibility the DfE Identity account could encompass this in the future. 
+
+We did a [further investigation](https://dfedigital.atlassian.net/browse/CPDNPQ-1196) into the extent of this problem. Looking at all registrations in a 2 month period:
+- 10.4% of registrations are full dupes (no changed details)  
+- **4.8% of registrations have any detail except course or email changed**
+- 8.8% just have a different course or provider, or both
+- 4.6% just have a different course
+- 3.7% just have a different provider
+- **0.7% just change work details**
+
+*percentages cannot be added together, because some registrations will appear in more than one of the queries.
+
+We believe we can assume these are duplicates and mainly due to not being able to change details after registration is completed.
+
 ## Problem statement
 
 Users who change their employment after registering for an NPQ need to raise a ticket with support to be able to update their details. This increases the work of support agents.
