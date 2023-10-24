@@ -15,7 +15,11 @@ screenshots:
         - text: "Early years or childcare setting not funded"
           src: 05-not-funded-ey-setting.png   
         - text: "Early years or childcare user not registering for the NPQEYL"
-          src: 06-not-funded-notEYL.png   
+          src: 06-not-funded-notEYL.png 
+tags: 
+- funding
+- registration flow 
+
 ---
 
 ## Current funding message 

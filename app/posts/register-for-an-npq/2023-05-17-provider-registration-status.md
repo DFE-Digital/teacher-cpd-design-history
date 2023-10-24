@@ -10,6 +10,10 @@
       src: "check-answers.png"
     - text: "Confirmation"
       src: "confirmation.png"
+  tags:
+  - account area 
+  - provider details 
+  - change details
 ---
 
 ## Update 
