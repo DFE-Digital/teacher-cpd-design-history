@@ -20,7 +20,10 @@
       href: https://lucid.app/lucidspark/a0e9b3a2-be69-4c8f-9df8-ecebf112627b/edit?shared=true&invitationId=inv_910ffd78-0b8e-4d37-9aa0-b116dcb3bc3b&page=0_0#
     - text: Findings spreadsheet
       href: https://docs.google.com/spreadsheets/d/1VTxDNWjchuRMnB7UTTlp1M0eAAtiM5vueAPiaxYtxvg/edit#gid=0
-     
+  tags:
+  - start page 
+  - confirmation page 
+
 ---
 
 ## 1. Improving the start page

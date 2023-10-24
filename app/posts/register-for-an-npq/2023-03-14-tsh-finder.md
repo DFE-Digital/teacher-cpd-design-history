@@ -24,6 +24,8 @@ screenshots:
           src: 06-tsh-finder.png
         - text: "TSH finder - results"
           src: 07-tsh-finder.png
+tags:
+- Teaching school hub finder
 ---
 
 ## Problem statement

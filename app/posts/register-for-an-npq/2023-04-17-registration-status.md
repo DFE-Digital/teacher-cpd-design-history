@@ -12,6 +12,11 @@
       src: "multiple-registrations-details.png"
     - text: "Registration when the course has started"
       src: course-started.png
+  tags:
+  - account area
+  - change details
+  - DfE Identity account
+  
 ---
 
 ## Problem statement

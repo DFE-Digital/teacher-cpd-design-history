@@ -6,6 +6,10 @@
     items:
       - text: "New design"
       - text: "Previous design"
+  tags:
+  - registration flow 
+  - work details
+  
 ---
 
 ## Why we decided to iterate  
