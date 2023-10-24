@@ -6,6 +6,10 @@
     items:
     - text: Playback deck
       href: https://educationgovuk.sharepoint.com/:p:/r/sites/TeacherServices/Shared%20Documents/Teacher%20Continuous%20Professional%20Development/Teacher%20CPD%20Team/NPQ/3.%20NPQ%20registration%20Beta/Single%20Application%20Journey/Single%20unified%20NPQ%20registration%20and%20application%20journey.pptx?d=w1d96a51e3cc14c2a91e541ec1bef9b9c&csf=1&web=1&e=v1nFAVX
+  tags:
+  - single registration  
+  - registration flow 
+  - provider processes
      
 ---
 
