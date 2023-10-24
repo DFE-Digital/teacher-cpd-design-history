@@ -6,7 +6,10 @@
     items:
       - text: "Previous design"
       - text: "New design"
-
+  tags:
+  - registration flow 
+  - choose an NPQ
+  
 ---
 
 ## Issue 1

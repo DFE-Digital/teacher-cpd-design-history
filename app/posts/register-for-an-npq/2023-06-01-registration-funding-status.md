@@ -14,6 +14,11 @@
       href: https://educationgovuk.sharepoint.com/:p:/r/sites/TeacherServices/_layouts/15/Doc.aspx?sourcedoc=%7B421E197D-EF06-5AD9-BA85-EBCD8B9C3CA2%7D&file=NPQ%20Funding%20Eligibility%20History.pptx&action=edit&mobileredirect=true
     - text: Content for all funding scenarios 
       href: https://educationgovuk-my.sharepoint.com/:w:/r/personal/emma_frith_education_gov_uk/_layouts/15/Doc.aspx?sourcedoc=%7B677CC74F-A4FF-456B-B9D8-FCF72B4E5E39%7D&file=NPQ%20funding%20scenarios%20-%20content%20review.docx&action=default&mobileredirect=true&cid=09bb19ae-2127-406d-a040-449b0073010d
+  tags:
+  - account area 
+  - funding
+  - provider details
+  - DfE Identity account
      
 ---
 

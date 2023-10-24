@@ -6,6 +6,9 @@
     items:
     - text: Jira ticket
       href: https://dfedigital.atlassian.net/browse/CPDNPQ-1321
+  tags:
+  - account area 
+  - registration flow 
      
 ---
 
