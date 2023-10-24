@@ -14,9 +14,11 @@ related:
   items:
     - text: 
   subsections:
-    - title: Current prototype (password = npq)
+    - title: Current journey 
       items:
-      - text: Prototype link
+      - text: User flow (with screenshots)
+        href: https://lucid.app/lucidspark/e33a4231-5282-4a1f-b98d-694b4295d6cc/edit?invitationId=inv_31cc941f-c63c-4ac5-95fc-2775e26969fc&page=0_0# 
+      - text: Prototype (password = npq)
         href: https://npq-prototype.herokuapp.com
       - text: Prototype on Github
         href: https://github.com/DFE-Digital/npq-prototype
