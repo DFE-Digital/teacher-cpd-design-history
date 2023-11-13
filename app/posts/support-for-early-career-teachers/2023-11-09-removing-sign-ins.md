@@ -8,7 +8,7 @@ image:
   opengraphImage: true
 ---
 
-Previously the service required a user to sign in to view the training materials.
+Previously the [Support for early career teachers service](https://support-for-early-career-teachers.education.gov.uk) required a user to sign in to view the training materials.
 
 We removed the feature and made all of the content viewable without signing in.
 
@@ -16,11 +16,11 @@ This change was made on 1 November 2023.
 
 ## Previously
 
-The service was originally set up so that you needed to sign in to view the training materials.
+The Support for early career teachers service was originally set up so that you needed to sign in to view the training materials.
 
-ECTs and mentors were given accounts when they were registered for training through the [Manage training for early career teachers](/manage-training/) service. They could then sign in, and were only shown materials from the provider that had been selected for them by their school induction tutor on the Manage service.
+ECTs and mentors were given accounts when they were registered for training through the [Manage training for early career teachers](/manage-training/) service. They could then sign in, and were only shown materials from the provider that had been selected for them by their school induction tutor.
 
-The service also allowed anyone to create an account for the service. This was added so that school induction tutors, who might not be mentors, could also access the content. These were able to see content from all 4 providers.
+The Support for early career teachers also allowed anyone to create an account. This was added so that school induction tutors, who might not be mentors, could also access the content. They were able to see content from all 4 providers, in order to be able to assess which one to use for their school.
 
 For both types of users, signing in involved entering their email address and then clicking a ‘magic link’ emailed to them. There was no password.
 
