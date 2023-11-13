@@ -6,7 +6,7 @@ tags:
   - early career teachers
 image:
   src: /manage-training/teachers-leaving-schools/teachers-leaving-schools.png
-  alt: "Illustration showing the question “Is Jonathan left the school permanently?” with the answers “Yes” or “No, they’ve taken a temporary leave of absence, for example parental leave” as radio options"
+  alt: "Illustration showing the question “Has Jonathan left the school permanently?” with the answers “Yes” or “No, they’ve taken a temporary leave of absence, for example parental leave” as radio options"
   opengraphImage: true
 ---
 
@@ -16,7 +16,7 @@ Our research showed that schools did not always understand when they were suppos
 
 ## Current process
 
-Schools using the service see a link on bottom of the page for each early career teacher with the text ‘Tell us if (teacher’s name) is transferring to another school’.
+Schools using the service see a link at the bottom of the profile page for each early career teacher with the text ‘Tell us if (teacher’s name) is transferring to another school’.
 
 ![TODO](current-leaving-link.png)
 
@@ -24,7 +24,7 @@ Clicking this takes them to a confirmation page:
 
 ![TODO](current-confirmation-page.png)
 
-If they continue, they are then asked for a date when the teacher left the school. This can be in the past or future:
+If they continue, they are then asked for a date when the teacher has or will leave the school. This can be in the past or future:
 
 ![TODO](current-date.png)
 
@@ -92,7 +92,7 @@ We ran 2 focus group sessions with school induction tutors from 6 schools (2 sec
 
 These participants were invited from a sample of schools who had previously had early career teachers leave during their induction.
 
-In the focus groups, the participants were asked about their experience of teachers leaving school during their early career induction. They were also shown the new prototype design and asked to use it to tell us that one of the teacher was leaving the school.
+In the focus groups, the participants were asked about their experience of teachers leaving school during their early career induction. They were also shown the new prototype design and asked to use it to tell us that one of the teachers was leaving the school.
 
 The question about the date the teacher was leaving was clear and posed no issues.
 
@@ -110,7 +110,7 @@ One participant commented that they would like to be able to specify an expected
 
 The research also highlighted that the process of a teacher leaving their school could be quite long, involving many steps with lots of people and organisations to inform.
 
-Telling the Department for Education about it within our service is often the very last step – if they even remember to do so.
+Using our service to tell the Department for Education is often the very last step – if they even remember to do so.
 
 Some participants said they would expect the provider of the early career training to tell us instead.
 
@@ -120,7 +120,7 @@ The requirement to use so many different platforms to enter the same (or similar
 
 ## Next steps
 
-We plan to do some further work to better understand the implications of a teacher being temporarily absent on their early career training – for example, at what point they should be deferred or withdrawn.
+We plan to do some further work to better understand the implications of a teacher being temporarily absent from their early career training – for example, at what point they should be deferred or withdrawn.
 
 We also plan to explore whether we could allow schools to tell us directly about teachers taking a break from their training, with us then telling the training providers instead of the other way around.
 
