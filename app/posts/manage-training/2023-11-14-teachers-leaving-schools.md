@@ -1,7 +1,7 @@
 ---
 title: Exploring how schools tell us when a teacher has left
 description: We removed an explicit option for induction tutors to add themselves as a mentor, instead allowing them to do it through the normal “add mentor” flow.
-date: 2023-11-08
+date: 2023-11-14
 tags:
   - early career teachers
 image:
