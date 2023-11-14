@@ -12,7 +12,7 @@ image:
 
 We did some design and research to better understand how and when schools would tell us when one of their early career teachers leaves their school.
 
-Our research showed that schools did not always understand when they were supposed to do this.
+Our research showed that schools did not always understand when they were supposed to do this. There was also confusion about what to do when teachers take a break from teaching due to ill health or parental leave.
 
 ## Current process
 
