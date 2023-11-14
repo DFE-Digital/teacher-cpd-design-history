@@ -18,27 +18,28 @@ Our research showed that schools did not always understand when they were suppos
 
 Schools using the service see a link at the bottom of the profile page for each early career teacher with the text ‘Tell us if (teacher’s name) is transferring to another school’.
 
-![TODO](current-leaving-link.png)
+![Screenshot showing link saying ‘Tell us if Jane Deborah is transferring to another school’](current-leaving-link.png)
 
 Clicking this takes them to a confirmation page:
 
-![TODO](current-confirmation-page.png)
+![Screenshot saying ‘Is Jane Deborah transferring to another school to continue training?’ followed by ‘Confirm if this participant is moving to another school to continue their ECF-based training.
+If they are leaving your school for any other reason, contact your training provider instead.’](current-confirmation-page.png)
 
 If they continue, they are then asked for a date when the teacher has or will leave the school. This can be in the past or future:
 
-![TODO](current-date.png)
+![Screenshot saying ‘When is Jane Deborah leaving your school?’ followed by a date input](current-date.png)
 
-They are then asked to check their answers. If they press confirm and continue, they get a confirmation page:
+They are then asked to check their answers. If they press confirm and continue, they get a check your answers page:
 
-![TODO](current-check-answers.png)
+![Screenshot saying ‘Check your answers’ with a summary of the name and leaving date](current-check-answers.png)
 
 The confirmation page asks them to also notify their appropriate body and their training provider (if they use one):
 
-![TODO](current-completion-page.png)
+![Screenshot with a heading saying ‘Jane Deborah's leaving date has been submitted’](current-completion-page.png)
 
 When returning to their list of early career teachers, the teacher is now shown as ‘No longer being trained’:
 
-![TODO](current-list-view.png)
+![Screenshot showing Jane Deborah – NO LONGER BEING TRAINED](current-list-view.png)
 
 ## The issue
 
@@ -54,37 +55,37 @@ We prototyped some design changes to the flow where schools tell us about teache
 
 The initial link was reworded to ‘Report that (teacher’s name) is leaving your school or taking a leave of absence’.
 
-![TODO](new-leaving-link.png)
+![Screenshot of a link titled ‘Report that Jonathan Paul is leaving your school or taking a leave of absence’](new-leaving-link.png)
 
 The next page then asked for their leaving date:
 
-![TODO](new-date.png)
+![Screenshot showing ‘What's Jonathan Paul's leaving date?’ followed by a date input](new-date.png)
 
 We then ask whether the teacher is leaving the school permanently or not. The question is worded using past or future tense based upon the leaving date.
 
-![TODO](new-leaving-permanently.png)
+![Screenshot showing ‘Has Jonathan Paul left the school permanently?’ followed by the options Yes or ‘No, they've taken a temporary leave of absence’](new-leaving-permanently.png)
 
 If they are leaving the school permanently, we ask whether they are moving to another school in England. Schools can answer ‘Yes’, ‘No’ or ‘I do not know’.
 
 If they select ‘Yes’, they are asked which school the teacher is moving to. This uses an autocomplete.
 
-![TODO](new-moving-to-another-school.png)
+![Screenshot showing ‘Is Jonathan Paul moving to another school in England?’ followed by Yes, No or I don’t know](new-moving-to-another-school.png)
 
 They are then shown a check your answers page, as before:
 
-![TODO](new-check-answers.png)
+![Screenshot showing a check your answers page](new-check-answers.png)
 
 The confirmation page was updated to be clearer about what schools need to do next, by including the names of the appropriate body and training provider:
 
-![TODO](new-completion-page.png)
+![Screenshot of a page titled ‘You've confirmed that Jonathan Paul has left your school’](new-completion-page.png)
 
 When the school returns to their list of early career teachers, any teachers who have left their school are shown along with the date that teacher left:
 
-![TODO](new-list-view.png)
+![Screenshot showing Jonathan Paul – NO LONGER TRAINING. They left your school on 1 November 2022](new-list-view.png)
 
 Teachers who are leaving in the future are shown as currently training, but with the date they are leaving at shown:
 
-![TODO](new-leaving-in-future.png)
+![Screenshot showing ‘They're leaving the school on 1 December 2023’](new-leaving-in-future.png)
 
 ## The research
 
