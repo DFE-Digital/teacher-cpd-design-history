@@ -10,13 +10,13 @@ image:
   opengraphImage: true
 ---
 
-There are currently several actions in the service that users cannot do themselves, and instead need to email the support team for by.
+There are currently several actions in the service that users cannot complete themselves, and instead need to email the support team.
 
 We have designed a form that would enable users to more easily contact the support team for these actions.
 
 ## The issue
 
-Actions users are currently unable to do within the service include:
+Actions users are unable to complete within the service include:
 
 * correcting someone’s date of birth
 * correcting someone’s teacher reference number (TRN)
@@ -28,10 +28,10 @@ To do these, users need to email the support team.
 Resolving these issues can take some time, due to:
 
 * users not being clear in their initial email what they are trying to do
-* ambiguity where teachers are mentioned by name
+* teachers being mentioned by name, but their name doesn’t match the one in the service, or there are multiple teachers with that name
 * users emailing support from a different email address than the one registered for the service
 
-In addition, we suspect that having to use email to contact support may be a cause of frustration for users.
+In addition, we suspect that having to switch context to an email application to contact support may be a cause of frustration for users.
 
 ## Designing a contact form
 
@@ -64,4 +64,6 @@ We plan to start by using this contact form for a single action in the service.
 
 We would then look to gradually use it in more places once we are confident that the integration works, and is useful.
 
-Longer-term we would look to avoid the need for the form in the first place, by allowing users to complete more of these actions themselves.
+In the short term, we hope having the contact form will save time for both users and the support team.
+
+Longer term we would look to avoid the need for the form in the first place, by allowing users to complete more of these actions themselves.
