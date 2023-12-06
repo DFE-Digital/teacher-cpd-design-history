@@ -43,7 +43,7 @@ To reduce manual workload and repeated effort, we’ve designed and created:
 * mailers and query strings in the codebase to target specific user groups for each email
 * a new section of the admin console to allow the 5 Notify reminders to be scheduled and viewed by the team
 
-[Lucid chart image]
+[![alt text](/manage-training/email_scheduling_in_the_admin_console/Manage training for early career teachers _ Design - Page 1 Automated comms (4).png)](/manage-training/email_scheduling_in_the_admin_console/Manage training for early career teachers _ Design - Page 1 Automated comms (4).png)
 
 ##Analysis and design
 
@@ -62,19 +62,19 @@ The new dashboard covers all of these needs.
 
 ###View
 
-[dashboard]
+[![alt text](/manage-training/email_scheduling_in_the_admin_console/screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-2023-12-06-09_18_00.png)](/manage-training/email_scheduling_in_the_admin_console/screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-2023-12-06-09_18_00.png)
 
 ###Schedule
 
-[schedule]
+[![alt text](/manage-training/email_scheduling_in_the_admin_console/screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-new-2023-12-06-09_18_18.png)](/manage-training/email_scheduling_in_the_admin_console/screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-new-2023-12-06-09_18_18.png)
 
 ###Change or delete any scheduled send
 
-[change]
+[![alt text](/manage-training/email_scheduling_in_the_admin_console/screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-879232-2023-12-06-09_18_33.png)](/manage-training/email_scheduling_in_the_admin_console/screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-879232-2023-12-06-09_18_33.png)
 
 ###View a sent email
 
-[sent]
+[![alt text](/manage-training/email_scheduling_in_the_admin_console/screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-64336-2023-12-06-09_18_56.png)](/manage-training/email_scheduling_in_the_admin_console/screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-64336-2023-12-06-09_18_56.png)
 
 ##Technical implementation 
 
