@@ -7,6 +7,10 @@ related:
     -
       text: View the prototype
       href: https://manage-training-for-ects-5c9ed99fc0a8.herokuapp.com/admin/performance/emails
+image:
+  src: /manage-training/email-scheduling-in-the-admin-console/email-schedule.png
+  alt: "Illustration showing a heading “Email schedule’ with a table underneath containing columns for email subject and date scheduled"
+  opengraphImage: true
 ---
 
 > Design and implementation by Frankie Roberto, Tony Headford and Kate Lloyd
