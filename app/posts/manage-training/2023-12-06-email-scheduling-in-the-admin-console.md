@@ -9,6 +9,7 @@ related:
       href: https://manage-training-for-ects-5c9ed99fc0a8.herokuapp.com/admin/performance/emails
 ---
 
+> Design history
 
 ## The problem
 
@@ -45,7 +46,7 @@ To reduce manual workload and repeated effort, we’ve designed and created:
 * mailers and query strings in the codebase to target specific user groups for each email
 * a new section of the admin console to allow the 5 Notify reminders to be scheduled and viewed by the team
 
-![alt text](automated-comms.png)
+![Diagram showing when we plan to send reminders to schools across the 23/23 academic year](automated-comms.png)
 
 
 ## Analysis and design
@@ -65,20 +66,20 @@ The new dashboard covers all of these needs.
 
 ### View
 
-![alt text](screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-2023-12-06-09_18_00.png)
+![A view of the main scheduling screen in the admin console](screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-2023-12-06-09_18_00.png)
 
 
 ### Schedule
 
-![alt text](screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-new-2023-12-06-09_18_18.png)
+![The screen users will access to schedule a new email send](screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-new-2023-12-06-09_18_18.png)
 
 ### Change or delete any scheduled send
 
-![alt text](screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-879232-2023-12-06-09_18_33.png)
+![The screen users will access to change the date of an email send, or cancel the send ](screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-879232-2023-12-06-09_18_33.png)
 
 ### View a sent email
 
-![alt text](screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-64336-2023-12-06-09_18_56.png)
+![The summary screen for an email that's been sent](screencapture-manage-training-for-ects-5c9ed99fc0a8-herokuapp-admin-performance-emails-64336-2023-12-06-09_18_56.png)
 
 ## Technical implementation
 
