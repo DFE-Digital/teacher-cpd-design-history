@@ -9,7 +9,7 @@ related:
       href: https://manage-training-for-ects-5c9ed99fc0a8.herokuapp.com/admin/performance/emails
 ---
 
-> Design history
+> Design and implementation by Frankie Roberto, Tony Headford and Kate Lloyd
 
 ## The problem
 
