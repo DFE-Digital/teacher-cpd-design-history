@@ -59,6 +59,10 @@ As many of the mentors are highly experienced teachers, they often did not consi
 
 We also realised that there was a lot of uncertainty around the dates that the mentor training both began and was completed. As this information is not explicitly collected by our service, we are only able to infer it from other information, and it may not always be accurate. Whilst abstracting it to a term or month may mitigate this, even that may be wrong.
 
+In the research sessions, schools found the 'previously mentored' list helpful, as a reminder of the experience level of the mentor. This was particularly so for school induction tutors who work across multiple schools within a multi-academy trust, as they may not know the mentor so well.
+
+Participants from secondary schools also commented that they aim to pair early career teachers with a mentor who teaches the same subject. This information is not currently included within our service.
+
 ## Iterations following research
 
 As we have not yet implemented the policy rule that teachers can only access the mentor training once paired with a mentor, we have removed both the "Not yet training" and the "Training" status. Instead, we will only show the "Training completed" status once the declaration has been received.
