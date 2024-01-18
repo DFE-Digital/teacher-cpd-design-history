@@ -27,7 +27,7 @@ We restructured the mentor page so that there is now separate sections for "Ment
 
 ![Screenshot of a new mentor profile page, which sections labelled Personal details, Mentoring and Mentor training](currently-training.png "New mentor profile page")
 
-The "Mentoring" section summarises who is currently being mentored. We also added a "Previously mentored" section to list any early career teachers the mentor previously mentored, but who have since completed their induction.
+The "Mentoring" section summarises who is currently being mentored. We also added a "Previously mentored" section to list any early career teachers the mentor previously mentored, but who have since completed their induction. This could potentially also list early career teachers that the mentor started mentoring, but where they switched to another mentor before the induction was completed.
 
 The "Mentor training" section summarises the training provider and delivery partner that the mentor is doing the training with. This is usually the same organisations as the early career teacher is doing their training with, but doesn’t have to be.
 
@@ -35,7 +35,7 @@ We designed three possible statuses for the mentor training.
 
 ### Not yet started
 
-The first is "Not yet started". This would be where the mentor has not yet been assigned an early career teacher to mentor, following a policy rule that teachers are only eligible for mentor training once they are paired with an ECT.
+The first is "Not yet started". This would be where the mentor has not yet been assigned an early career teacher to mentor, following a policy rule that teachers are only eligible for mentor training once they are paired with an ECT. This rule is not yet fully enforced.
 
 ![Screenshot of a mentor with the status 'Not yet started' within the Mentor training section](not-yet-started.png "The 'Not yet started' status")
 
