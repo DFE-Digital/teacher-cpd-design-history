@@ -1,7 +1,7 @@
 ---
 title: Running a cross service discovery
-description: Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
-date: 2024-03-20
+description: "Taking a deep dive into the struggles faced by CPD and working out how best to address them"
+date: 2024-03-28
 ---
 
 Between June and November 2023, a multidisciplinary team did a discovery to explore the problems we faced over 2 years of delivering Teacher CPD services.
