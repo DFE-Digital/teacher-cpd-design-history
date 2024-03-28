@@ -38,6 +38,10 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob('app/posts/support-for-early-career-teachers/*.md')
   })
 
+  eleventyConfig.addCollection('cross-programme', collection => {
+    return collection.getFilteredByGlob('app/posts/cross-programme/*.md')
+  })
+
   // Browser Sync
   eleventyConfig.setBrowserSyncConfig({
     rewriteRules: [{
