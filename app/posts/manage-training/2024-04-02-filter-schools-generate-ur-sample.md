@@ -30,7 +30,7 @@ This allows UR to have more control over their time and significantly reduces th
 
 We initiated discussions with our user researcher to understand what filters would help generate a worthwhile extract for them.
 
-Through collaboration, we crafted a quick prototype of a filter panel. This served as a tool to stimulate continued discussion and gather valuable insights from our team members.
+Through collaboration, we crafted a prototype of a filter panel and how it might work. This served as a tool to stimulate continued discussion and gather valuable insights from our team members.
 
 We had a session with our lead developer to determine what complexity these filters would generate in the build and what type of spreadsheet we could output from them.
 
