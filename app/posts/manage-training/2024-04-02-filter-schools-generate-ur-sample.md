@@ -40,7 +40,7 @@ We agreed that the product idea would be helpful from here, provided the filters
 
 We wanted to take advice on how the tool could work for our wider UR practice, so we invited two UR leads who raised questions about ethics, namely, whether we could capture and retrieve users' data already used in UR.
 
-This is an important datapoint to track if we can because there should be an appropriate window passed before we approach them again for further UR work. This way, we are not repeatedly using the same participants for our research.
+This is an important datapoint to track if we can because there should be an appropriate window passed before we approach them again for further UR work. This way, we are not repeatedly using the same schools for our research.
 
 One of the URs stated they already use a spreadsheet where they capture that 'already contacted' data point and wondered if that could be an additional bit of functionality for our proposed solution.
 
@@ -53,7 +53,7 @@ The user research lead decided that we can go ahead and develop the tool for our
 
 As work to improve the regsitration journey approaches, this piece of work has been de-prioritised for now but should be picked up later on and build on the work already done.
 
-We learned there is a balance between the narrowing down with filters and the complexity required to build a filtering UI.
+We learned there is a balance between the narrowing down with filters and the complexity required to build a filtering UI to support it.
 
 Striking that balance will be critical to this tool's usefulness, viability and feasibility.
 
