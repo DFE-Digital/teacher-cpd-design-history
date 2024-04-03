@@ -82,10 +82,10 @@ Our services still fall short of delivering their core functions and are incredi
 
 Our key goals in this phase are to:
 
-- decouple the NPQ service from the ECF service so they are separate services and databases to eliminate unnecessary dependencies and simplify them. This should eliminate a lot of the problems we have around data integrity.
-- increase access to data and leverage analytics to help us assess how we're doing and make better decisions around what to prioritise.
-- redesign and rewrite the ECF end-to-end service to eliminate tech debt, improve data accuracy and meet user needs. The current ECF service is complex, inflexible and is not sustainable.
-- influence the ECF review and 2025 procurement to ensure the delivery model better meets user needs, elevate the digital standards of providers and hold providers to account for digital delivery.
+- decouple the NPQ service from the ECF service so they are separate services and databases to eliminate unnecessary dependencies and simplify them. This should eliminate a lot of the problems we have around data integrity
+- increase access to data and leverage analytics to help us assess how we're doing and make better decisions around what to prioritise
+- redesign and rewrite the ECF end-to-end service to eliminate tech debt, improve data accuracy and meet user needs. The current ECF service is complex, inflexible and is not sustainable
+- influence the ECF review and 2025 procurement to ensure the delivery model better meets user needs, elevate the digital standards of providers and hold providers to account for digital delivery
 
 ## Phase 2 - We have maximised value for users and increased efficiency through automation
 
@@ -93,18 +93,19 @@ Once we have got the fundamentals in place and have the foundations for
 a more sustainable and flexible service in place, we can prioritise
 efficiency gains and optimising the services. This includes:
 
-- Reshaping the programme to give the NPQ reg team ownership of the end-to-end journey from registration through to the API and payments. This will lead to a more efficient use of resource and a more empowered team owning NPQ delivery.
-- Increasing automation and self-serve to achieve greater efficiency and lower costs for programme delivery (for DfE and providers). -   Increasing the scope of the services to deliver end-to-end, by including NPQ completion data and induction data collection to minimise data entry duplication for our users and confusion.
-- Better meeting user needs around knowing what DfE CPD options there are at different stages in their career. 
+- reshaping the programme to give the NPQ reg team ownership of the end-to-end journey from registration through to the API and payments. This will lead to a more efficient use of resource and a more empowered team owning NPQ delivery
+- increasing automation and self-serve to achieve greater efficiency and lower costs for programme delivery (for DfE and providers)
+- increasing the scope of the services to deliver end-to-end, by including NPQ completion data and induction data collection to minimise data entry duplication for our users and confusion
+- better meeting user needs around knowing what DfE CPD options there are at different stages in their career
 
 ## Phase 3 - We have stabilised the services and consolidated down
 
 By the time we get to phase 3, we will be able to reduce the number of people needed to run the services. The services should be set up to easily accommodate funding and minor policy changes with minimal digital resource required.
 
-This frees people up to go and tackle other problems along the teacher service line! Separating the NPQ service from the ECF application and the different levels of complexity associated with both policies and services means that the NPQ and ECF services will progress through the phases at different rates.
+This frees people up to go and tackle other problems within Teacher Services. Separating the NPQ service from the ECF application and the different levels of complexity associated with both policies and services means that the NPQ and ECF services will progress through the phases at different rates.
 
 ![Phases for ECF and NPQ for 2025 and 2026](/cross-programme/our-refreshed-vision/phases.png)
 
 This is our vision and our strategy for getting there, but it's not static. We are continuously updating it based on people's feedback and other factors that impact delivery and priorities. But we hope it gives the programme more clarity on where we're going and how we get there over the next 2 to 3 years.
 
-Get in touch with Mili Malde, Deputy Service Owner for the CPD Programme, if you have any questions.
+If you have any questions [get in touch with Mili Malde](mailto:mili.malde@education.gov.uk), Deputy Service Owner for the CPD Programme
