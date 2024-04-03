@@ -82,10 +82,10 @@ Our services still fall short of delivering their core functions and are incredi
 
 Our key goals in this phase are to:
 
-- Decouple the NPQ service from the ECF service so they are separate services and databases to eliminate unnecessary dependencies and simplify them. This should eliminate a lot of the problems we have around data integrity.
-- Increase access to data and leverage analytics to help us assess how we're doing and make better decisions around what to prioritise.
-- Redesign and rewrite the ECF end-to-end service to eliminate tech debt, improve data accuracy and meet user needs. The current ECF service is complex, inflexible and is not sustainable.
-- Influence the ECF review and 2025 procurement to ensure the delivery model better meets user needs, elevate the digital standards of providers and hold providers to account for digital delivery.
+- decouple the NPQ service from the ECF service so they are separate services and databases to eliminate unnecessary dependencies and simplify them. This should eliminate a lot of the problems we have around data integrity.
+- increase access to data and leverage analytics to help us assess how we're doing and make better decisions around what to prioritise.
+- redesign and rewrite the ECF end-to-end service to eliminate tech debt, improve data accuracy and meet user needs. The current ECF service is complex, inflexible and is not sustainable.
+- influence the ECF review and 2025 procurement to ensure the delivery model better meets user needs, elevate the digital standards of providers and hold providers to account for digital delivery.
 
 ## Phase 2 - We have maximised value for users and increased efficiency through automation
 
