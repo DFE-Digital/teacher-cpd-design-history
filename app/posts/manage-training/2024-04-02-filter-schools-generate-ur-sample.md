@@ -12,7 +12,7 @@ We’ve designed an concept interface exploring how might we enable user researc
 
 ## The problem
 
-During user research, we regularly reach out to schools to provide samples for user research.
+During user research, we regularly reach out to developers to provide samples for user research.
 
 Because the research is focused on different areas, we usually need schools who satisfy particular criteria or have specific attributes.
 
