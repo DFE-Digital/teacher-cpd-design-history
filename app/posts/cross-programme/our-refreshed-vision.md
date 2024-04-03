@@ -3,7 +3,7 @@ title: Our refreshed vision, missions and strategy for Teacher CPD
 date: 2024-03-30
 ---
 
-Off the back of the CPD cross-service discovery and a new Deputy Service Owner appointed in October 2023, we decided to revisit our vision, missions and strategy for the whole digital programme.
+Off the back of the CPD cross-service discovery and a new Deputy Service Owner being appointed in October 2023, we decided to revisit our vision, missions and strategy for the whole digital programme.
 
 The digital programme sits within the Developing Teachers and Leaders Division (DTLD). We are a core pillar of "delivery" in a policy and delivery division responsible for delivering the teacher development reforms. These include the National Professional Qualifications (NPQ) reforms and Early Career Framework (ECF) reforms, which you can read more about [here](https://assets.publishing.service.gov.uk/media/62850bddd3bf7f1f433ae149/Delivering_world_class_teacher_development_policy_paper.pdf).
 
@@ -11,11 +11,11 @@ The image below illustrates the current services we deliver in the digital progr
 
 ![A list of CPD services](/cross-programme/our-refreshed-vision/services.png)
 
-As we approach 4 years since the national rollout of the reforms, Chris Armstrong-Stacey, the Deputy Director of the Developing Teachers and Leaders Division (DTLD), set out his new vision for the whole division:
+As we approach 4 years since the national rollout of the reforms, the Deputy Director of DTLD set out their new vision for the whole division:
 
 > A *self-sustaining* world class teacher development system that retains more teachers and transforms the quality of teaching throughout their teaching career.
 
-However, the next step was to break down what this overarching vision means for the digital service.
+However, the next step was to break down what this overarching vision means for the digital services.
 
 The policies and programmes are never going to be static. Alongside continuous improvement, the policies and programmes need to evolve as our teachers in the system do over time. There will continue to be framework reviews and procurement cycles that impact delivery. Ultimately, the service needs to deliver and inform the policies as they evolve over time, to ensure DfE-funded CPD meets the needs of teachers.
 
@@ -28,7 +28,7 @@ We focused on two things based on our experiences so far developing and running 
 
 A better understanding the types of changes gives us an element of control (even if not full control) as we can more effectively plan for it and bake it into our strategy.
 
-There are no current plans to introduce more NPQs to the [current suite](https://www.gov.uk/guidance/national-professional-qualification-npq-courses), but the department may add more NPQs in the future, albeit at a much slower rate. With the [Education Recovery Funding](https://www.gov.uk/government/publications/recovery-premium-funding/recovery-premium-funding) (additional support for schools during and the years following the Covid-19 pandemic) coming to an end, it is unlikely we\'ll continue to fund the same high number of NPQ courses and participants as we have done over the last few years. This funding could change year-on-year, as well as the eligibility criteria. However, the department will still want to monitor how many NPQs are being taken up so they can evaluate the impact of the programme. Our service will continue to play a key role in facilitating this.
+There are no current plans to introduce more NPQs to the [current suite](https://www.gov.uk/guidance/national-professional-qualification-npq-courses), but the department may add more NPQs in the future, albeit at a much slower rate. With the [Education Recovery Funding](https://www.gov.uk/government/publications/recovery-premium-funding/recovery-premium-funding) (additional support for schools during and the years following the Covid-19 pandemic) coming to an end, it is unlikely we'll continue to fund the same high number of NPQ courses and participants as we have done over the last few years. This funding could change year-on-year, as well as the eligibility criteria. However, the department will still want to monitor how many NPQs are being taken up so they can evaluate the impact of the programme. Our service will continue to play a key role in facilitating this.
 
 Because of the statutory element, it is unlikely in the short, medium and potentially longer term that the entitlement and funding for early career teachers (ECTs) to serve induction and complete ECF-based training will change. However, the content framework and delivery model is likely to change because of periodic reviews and the procurement cycle (every 4 years). While the current 2025 delivery review is intended to represent the last major changes to the ECF delivery model, political changes and the long-term unsustainability of the dominant provider-led route might lead to change in the future.
 
@@ -95,7 +95,9 @@ efficiency gains and optimising the services. This includes:
 
 - Reshaping the programme to give the NPQ reg team ownership of the end-to-end journey from registration through to the API and payments. This will lead to a more efficient use of resource and a more empowered team owning NPQ delivery.
 - Increasing automation and self-serve to achieve greater efficiency and lower costs for programme delivery (for DfE and providers). -   Increasing the scope of the services to deliver end-to-end, by including NPQ completion data and induction data collection to minimise data entry duplication for our users and confusion.
-- Better meeting user needs around knowing what DfE CPD options there are at different stages in their career. ## Phase 3 - We have stabilised the services and consolidated down
+- Better meeting user needs around knowing what DfE CPD options there are at different stages in their career. 
+
+## Phase 3 - We have stabilised the services and consolidated down
 
 By the time we get to phase 3, we will be able to reduce the number of people needed to run the services. The services should be set up to easily accommodate funding and minor policy changes with minimal digital resource required.
 
@@ -103,6 +105,6 @@ This frees people up to go and tackle other problems along the teacher service l
 
 ![Phases for ECF and NPQ for 2025 and 2026](/cross-programme/our-refreshed-vision/phases.png)
 
-This is our vision and our strategy for getting there, but it's not static. We are continuously updating it based on people's feedback and other factors that impact delivery and priorities. But we hope it gives the programme more clarity on where we're going and how we get there over the next 2-3 years!
+This is our vision and our strategy for getting there, but it's not static. We are continuously updating it based on people's feedback and other factors that impact delivery and priorities. But we hope it gives the programme more clarity on where we're going and how we get there over the next 2 to 3 years.
 
 Get in touch with Mili Malde, Deputy Service Owner for the CPD Programme, if you have any questions.
