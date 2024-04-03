@@ -9,7 +9,7 @@ The digital programme sits within the Developing Teachers and Leaders Division (
 
 The image below illustrates the current services we deliver in the digital programme.
 
-<!-- image -->
+![A list of CPD services](/cross-programme/our-refreshed-vision/services.png)
 
 As we approach 4 years since the national rollout of the reforms, Chris Armstrong-Stacey, the Deputy Director of the Developing Teachers and Leaders Division (DTLD), set out his new vision for the whole division:
 
@@ -101,7 +101,7 @@ By the time we get to phase 3, we will be able to reduce the number of people ne
 
 This frees people up to go and tackle other problems along the teacher service line! Separating the NPQ service from the ECF application and the different levels of complexity associated with both policies and services means that the NPQ and ECF services will progress through the phases at different rates.
 
-<!-- image -->
+![Phases for ECF and NPQ for 2025 and 2026](/cross-programme/our-refreshed-vision/phases.png)
 
 This is our vision and our strategy for getting there, but it's not static. We are continuously updating it based on people's feedback and other factors that impact delivery and priorities. But we hope it gives the programme more clarity on where we're going and how we get there over the next 2-3 years!
 
