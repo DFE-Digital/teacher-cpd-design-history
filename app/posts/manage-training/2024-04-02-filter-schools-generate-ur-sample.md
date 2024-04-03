@@ -26,7 +26,7 @@ This allows UR to have more control over their time and significantly reduces th
 
 ## The design concept
 
-![Screenshot showing the proof of concept UI for filtering a list of schools](filter-list-of-schools.png)
+![Screenshot showing sketches of ideas on concept UI for filtering a list of schools](filters-sketches.png)
 
 We initiated discussions with our user researcher to understand what filters would help generate a worthwhile extract for them.
 
@@ -35,6 +35,8 @@ Through collaboration, we crafted a prototype of a filter panel and how it might
 We had a session with our lead developer to determine what complexity these filters would generate in the build and what type of spreadsheet we could output from them.
 
 We agreed that the product idea would be helpful from here, provided the filters were not too granular.
+
+![Screenshot showing the suer interface for filtering a list of schools](filter-list-of-schools.png)
 
 ## How might the tool work for all our URs?
 
