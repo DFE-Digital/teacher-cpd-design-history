@@ -28,7 +28,7 @@ We focused on two things based on our experiences so far developing and running 
 
 A better understanding the types of changes gives us an element of control (even if not full control) as we can more effectively plan for it and bake it into our strategy.
 
-There are no current plans to introduce more NPQs to the [current suite](https://www.gov.uk/guidance/national-professional-qualification-npq-courses), but the department may add more NPQs in the future, albeit at a much slower rate. With the [Education Recovery Funding](https://www.gov.uk/government/publications/recovery-premium-funding/recovery-premium-funding) (additional support for schools during and the years following the Covid-19 pandemic) coming to an end, it is unlikely we'll continue to fund the same high number of NPQ courses and participants as we have done over the last few years. This funding could change year-on-year, as well as the eligibility criteria. However, the department will still want to monitor how many NPQs are being taken up so they can evaluate the impact of the programme. Our service will continue to play a key role in facilitating this.
+There are no current plans to introduce more NPQs to the [current suite](https://www.gov.uk/guidance/national-professional-qualification-npq-courses), but the department may add more NPQs in the future, albeit at a much slower rate. NPQ funded places could change year-on-year, as well as the eligibility criteria. However, the department will still want to monitor how many NPQs are being taken up so they can evaluate the impact of the programme. Our service will continue to play a key role in facilitating this.
 
 Because of the statutory element, it is unlikely in the short, medium and potentially longer term that the entitlement and funding for early career teachers (ECTs) to serve induction and complete ECF-based training will change. However, the content framework and delivery model is likely to change because of periodic reviews and the procurement cycle (every 4 years). While the current 2025 delivery review is intended to represent the last major changes to the ECF delivery model, political changes and the long-term unsustainability of the dominant provider-led route might lead to change in the future.
 
@@ -40,7 +40,7 @@ The teacher development system needs to be sustainable for schools and DfE. We n
 
 From a digital perspective, we came up with some examples of "unsustainable" activities, to help us understand how we might move to a more sustainable model. These include:
 
-- The high administrative burden on schools to access DfE-funded CPD, including the duplication of data entry required by the current CPD service ecosystem.
+- The duplication of data entry for users
 
 - The high amount of development resource needed to fix edge cases and perform manual tasks.
 
