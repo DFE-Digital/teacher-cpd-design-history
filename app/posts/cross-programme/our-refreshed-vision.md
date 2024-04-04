@@ -42,11 +42,11 @@ From a digital perspective, we came up with some examples of "unsustainable" act
 
 - The duplication of data entry for users
 
-- The high amount of development resource needed to fix edge cases and perform manual tasks.
+- The high amount of development resource needed to fix edge cases and perform manual tasks
 
-- The high amount of resource needed to generate finance statements and add new cohorts.
+- The high amount of resource needed to generate finance statements and add new cohorts
 
-- The high amount of resource needed to schedule and send comms to users at key points in the cycle.
+- The high amount of resource needed to schedule and send comms to users at key points in the cycle
 
 We then thought about what a sustainable service looks like. Ultimately, it means that we can scale down the amount of resource needed on the digital programme, and enable policy, contract management and assurance colleagues to run the programmes autonomously in the future.
 
@@ -62,11 +62,11 @@ Alongside delivering the policies and programmes, we have 3 missions that should
 
 Based on the pain points surfaced in the CPD discovery and the barriers to achieving our vision, we came up with the following three missions for the digital programme:
 
-1. We eliminate the administrative burden involved in teachers taking up DfE-funded training.
+1. We eliminate the administrative burden involved in teachers taking up DfE-funded training
 
-2. We achieve increasing efficiency and flexibility in managing the delivery of the programmes and adapting to policy changes.
+2. We achieve increasing efficiency and flexibility in managing the delivery of the programmes and adapting to policy changes
 
-3. We provide accurate data and insights to evaluate the impact of the policy reforms and inform improvements to the policies, programmes and services.
+3. We provide accurate data and insights to evaluate the impact of the policy reforms and inform improvements to the policies, programmes and services
 
 ## Our strategy for delivery
 
