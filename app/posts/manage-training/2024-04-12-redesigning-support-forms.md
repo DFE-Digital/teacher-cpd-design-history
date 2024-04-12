@@ -10,7 +10,7 @@ image:
 
 We are redesigning our support forms to meet the user needs of our support staff.
 
-Additionally, we can better set expectation of SITs who's intend to make a change in their training circumstances.
+Additionally, we can better set expectations of SITs who intend to make a change in their training circumstances.
 
 ## Why we did this work
 
