@@ -70,6 +70,10 @@ Our rationale was to ask SITs some simple questions about their intent, nudging 
 * What details do the support team need to help with the request efficiently?
 * What will the support agent do as a result of the request & what actions will they be able to take?
 
+![Screenshot showing as is support form](change-lp-as-is.jpg)
+
+![Screenshot showing iteration of to be support form journey](change-lp-2nd-pass.jpg)
+
 
 ## Next steps
 The UR has compiled research objectives and written the discussion guide.
