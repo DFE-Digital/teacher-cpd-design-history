@@ -97,7 +97,7 @@ Although most users were unable to register for a NPQ, they were still able to c
 
 2. The service will ask them to sign in to their DfE Identity account. 
 
-3. Whilst choosing to receive email updates, we also ask ‘Do you want to register for the special educational needs co-ordinator (SENCO) NPQ when registration opens?’ This helps us understand how many people wanted to complete the SENCO NPQ and later create tailored email comms to inform them that the service is open - so those with a mandatory need to do the course get access to the funded places. for them to register for the course.  
+3. Whilst choosing to receive email updates, we also ask ‘Do you want to register for the special educational needs co-ordinator (SENCO) NPQ when registration opens?’ This helps us understand how many people wanted to complete the SENCO NPQ and later create tailored email comms to inform them that the service is open - so those with a mandatory need to do the course get access to the funded places.  
 
 4. Users can choose either ‘Yes’ or ‘No, I want to do a different NPQ’ and then ‘Request email updates’ button to continue. We have a confirmation page to tell the user that the emails have been set up, which is followed by a confirmation email. Those who opt in are added to an 'Email subscription list’ in the admin panel.  
 
@@ -139,7 +139,7 @@ Despite the service being closed, a small number of users were given access to r
 
 How users were able to make a late registration: 
 
-1. Providers send DfE a list of who need to make a registration before the service reopens. 
+1. Providers send DfE a list of who needs to make a registration before the service reopens. 
 
 2. The provider engagement team add the user’s email address to the admin panel and inform the course provider that the user has been added. 
 
