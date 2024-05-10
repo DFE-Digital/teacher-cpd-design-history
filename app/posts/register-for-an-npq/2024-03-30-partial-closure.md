@@ -69,7 +69,7 @@ Partial closure meant that users could:
 
 - express an interest in completing the new SENCO NPQ  
 
-### Guidance 
+### Guidance pages
 
 We removed the registration link from all individual course pages but kept that link in the ‘Apply’ and ‘Funding’ guidance pages. This was to create a linear journey where the user is encouraged to choose the NPQ course and course provider before registering and applying for the NPQ. 
 
@@ -97,7 +97,7 @@ Although most users were unable to register for a NPQ, they were still able to c
 
 2. The service will ask them to sign in to their DfE Identity account. 
 
-3. Whilst choosing to receive email updates, we also ask ‘Do you want to register for the special educational needs co-ordinator (SENCO) NPQ when registration opens?’ This helps us understand how many people wanted to complete the SENCO NPQ and later create tailored email comms to inform them that the service is open - so those with a mandatory need to do the course get access to the funded places.  
+3. Whilst choosing to receive email updates, we also ask ‘Do you want to register for the special educational needs co-ordinator (SENCO) NPQ when registration opens?’ This helps us understand how many people want to complete the SENCO NPQ and later create tailored email comms to inform them that the service is open - so those with a mandatory need to do the course get access to the funded places. [Read about all the changes made when adding the SENCO course to the service](/register-for-an-npq/senco-npq/).  
 
 4. Users can choose either ‘Yes’ or ‘No, I want to do a different NPQ’ and then ‘Request email updates’ button to continue. We have a confirmation page to tell the user that the emails have been set up, which is followed by a confirmation email. Those who opt in are added to an 'Email subscription list’ in the admin panel.  
 
@@ -149,11 +149,11 @@ How users were able to make a late registration:
 
 5. Users are given general information about NPQ course start dates and asked ‘Do you want to start a course before November 2024?’  
 
-If the user answered: 
+    If the user answered: 
 
-- ‘Yes’- they proceeded to register for a NPQ using the service as usual 
+    - ‘Yes’- they proceeded to register for a NPQ using the service as usual 
 
-- ‘No, I want to start later’- they were told to return later in the year to register 
+    - ‘No, I want to start later’- they were told to return later in the year to register 
 
 #### Late registration start page:  
 
