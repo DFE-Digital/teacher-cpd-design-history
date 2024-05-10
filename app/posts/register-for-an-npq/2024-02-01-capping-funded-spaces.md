@@ -22,7 +22,7 @@
 
 Between autumn 2021 and spring 2024 NPQs were funded by the ringfenced Education Recovery budget. There was an ambitious target of 150,000 courses being taken within that period, however demand for NPQs was below the funding available. Therefore, the risk of overspend was low and the need for rigid processes were not required.​
 
-From Autumn 2024, the budget will significantly reduce and need to be managed more closely to ensure there was not overspend. Therefore, we needed to explore ways to do this. 
+From Autumn 2024, the budget will significantly reduce and need to be managed more closely to ensure there is no overspend. Therefore, we needed to explore ways to do this. 
 
 ## We started with a discovery to understand how capped places could be managed
 
@@ -54,7 +54,7 @@ From Autumn 2024, the budget will significantly reduce and need to be managed mo
 
 - From this we gained a decision to go ahead with option 1 - do first digital changes ([see below the areas we identified to change](/register-for-an-npq/capping-funded-spaces/#areas-we-identified-as-a-priority-to-change-for-autumn-2024)). This would be achievable in the timeframe and give us the opportunity to monitor the changes during the first recruitment period, so we could ensure bigger changes were focussed on what was really needed. 
 
-- We looked at the different points that a cap could be enforced (registration, acceptance, start declaration), and the for and against of each. We made the decision to use acceptance due to the limitations of the other two. Capping at either registration or start declarations would require a better understanding of dropout to reduce the risk of under or overspend. 
+- We looked at the different points that a cap could be enforced (registration, acceptance, start declaration), and the for and against of each. We made the decision to use the point of acceptance due to the limitations of the other two. Capping at either registration or start declarations would require a better understanding of dropout to reduce the risk of under or overspend. 
 
 - Due to commercial sensitivity, we were unable to talk to providers or NPQ participants during the discovery. Conversations were had with providers during Alpha. 
 
@@ -84,7 +84,7 @@ These are now being worked through with all teams and providers involved.
 
 - Increased number of check-ins between contract managers and providers.
 
-- A new ‘funded-space’ field in the database, which providers would will update when they change a participant's status to ‘accepted’. 
+- A new ‘funded-space’ field in the database, which providers will update when they change a participant's status to ‘accepted’. 
 
 - The funded space field allows participants to self-fund even if they are eligible for funding, e.g. if they do not get a funded space.
 
