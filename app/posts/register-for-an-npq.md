@@ -16,6 +16,8 @@ related:
   subsections:
     - title: Current journey 
       items:
+      - text: End-to-end service map 
+        href: https://lucid.app/lucidspark/6873ec20-8ae6-4890-bc5c-c1e428d18559/edit?invitationId=inv_5a4dae2e-6996-4ce0-8a6c-b1e567337538&page=0_0#
       - text: User flow (with screenshots)
         href: https://lucid.app/lucidspark/e33a4231-5282-4a1f-b98d-694b4295d6cc/edit?invitationId=inv_31cc941f-c63c-4ac5-95fc-2775e26969fc&page=0_0# 
       - text: Prototype (password = npq)
