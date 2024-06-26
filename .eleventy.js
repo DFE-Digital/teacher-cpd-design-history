@@ -42,6 +42,9 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob('app/posts/cross-programme/*.md')
   })
 
+  eleventyConfig.addCollection('ecf-v2', collection => {
+    return collection.getFilteredByGlob('app/posts/ecf-v2/*.md')
+  })
   // Browser Sync
   eleventyConfig.setBrowserSyncConfig({
     rewriteRules: [{
