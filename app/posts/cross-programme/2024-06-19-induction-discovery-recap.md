@@ -4,11 +4,6 @@ description: "Between February and May 2024, a multidisciplinary team did a disc
 date: 2024-06-19
 ---
 
-
-
-![image](/cross-programme/induction-discovery-recap/cpd-map.png)
-
-
 ## Problem 
 
 After a teacher has gained QTS (qualified teaching status), they are required to serve a 2-year period of induction in a school. This induction period can be passed or failed by the schools Appropriate Body who are in place to ensure that schools are training new teachers in accordance with the ECF (early career framework) guidelines.  
