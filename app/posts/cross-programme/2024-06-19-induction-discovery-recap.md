@@ -15,10 +15,6 @@ After a teacher has gained QTS (qualified teaching status), they are required to
 
 Only teachers that have passed the induction period can continue to teach. The data on which teachers have served induction and if they have passed, are in progress or failed is currently stored in the Database for Qualified teachers.
 
-| Hello | World |
-| ----- | ----- |
-| Some  | Data  |
-| Some  | Data  |
 
 The Data for Qualified Teachers (DQT) and Appropriate Body (AB) portal are due to be decommissioned, which means that induction data will need to be collected & stored differently in future. 
 
