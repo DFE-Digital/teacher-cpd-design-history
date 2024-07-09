@@ -50,7 +50,7 @@ As well as developing our understanding of the As is, we uncovered the flaws and
 
 * the TRA Induction Data Collections team receive requests from ABs to amend records, which they can do themselves via the AB portal
   
-School induction Tutor journey research uncovered pain points they experience also: 
+School induction tutor journey research uncovered pain points they experience also: 
 
 * Registration is duplicative, lengthy and initially overwhelming; some users must register in four places​ 
 
