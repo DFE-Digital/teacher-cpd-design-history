@@ -44,13 +44,13 @@ We then plotted a To-be journey that collects the data in a less burdensome way 
 
 As well as developing our understanding of the As is, we uncovered the flaws and bugs with the current processes of managing induction data: 
 
-* there are known issues in the back end where certain data combinations cause unwanted record changes. Combined with front-end validation rules that are not complete, this has resulted in inaccurate data being created in the DQT which is time consuming to correct. 
+* there are known issues in the back end where certain data combinations cause unwanted record changes. Combined with front-end validation rules that are not complete, this has resulted in inaccurate data being created in the DQT which is time consuming to correct
 
-* The TRA Induction Data Collections Team receive policy questions which don't relate to them. It's time consuming to answer these questions causing ABs to become frustrated. ​ 
+* The TRA Induction Data Collections Team receive policy questions which don't relate to them. It's time consuming to answer these questions causing ABs to become frustrated
 
-​* The TRA Induction Data Collections Team receive requests from ABs to amend records which they can do themselves via the AB portal. 
-
-School induction Tutor journey research uncovered pain points they experience also: 
+* the TRA Induction Data Collections team receive requests from ABs to amend records, which they can do themselves via the AB portal
+  
+School induction tutor journey research uncovered pain points they experience also: 
 
 * Registration is duplicative, lengthy and initially overwhelming; some users must register in four places​ 
 
