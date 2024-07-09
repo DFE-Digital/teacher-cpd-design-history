@@ -1,50 +1,38 @@
 ---
 title: Induction discovery recap
-description: "Between February and May 2024, a multidisciplinary team did a discovery to explore the problems and possible solutions for users in the induction collection journey. "
+description: "Between February and May 2024, a multidisciplinary team did a discovery to explore the problems and possible solutions for users in the induction data collection journey. "
 date: 2024-06-19
 ---
 
-
-
-![image](/cross-programme/induction-discovery-recap/cpd-map.png)
-
-
 ## Problem 
 
-After a teacher has gained QTS (qualified teaching status), they are required to serve a 2-year period of induction in a school. This induction period can be passed or failed by the schools Appropriate Body who are in place to ensure that schools are training new teachers in accordance with the ECF (early career framework) guidelines.  
+After a teacher has gained QTS (qualified teaching status), they are required to serve a 2-year period of induction in a school. This induction period can be passed or failed by the school's Appropriate Body, who are in place to ensure that schools are training new teachers in accordance with the ECF (early career framework) guidelines.  
 
-Only teachers that have passed the induction period can continue to teach. The data on which teachers have served induction and if they have passed, are in progress or failed is currently stored in the Database for Qualified teachers.
+Only teachers that have passed the induction period can continue to teach. The data on which teachers have served induction and if they have passed, are in progress or failed is currently stored in the Database for Qualified Teachers (DQT).
 
-| Hello | World |
-| ----- | ----- |
-| Some  | Data  |
-| Some  | Data  |
+The DQT and Appropriate Body portal are due to be decommissioned, which means that induction data will need to be collected & stored differently in future. 
 
-The Data for Qualified Teachers (DQT) and Appropriate Body (AB) portal are due to be decommissioned, which means that induction data will need to be collected & stored differently in future. 
+Some information and data relevant to induction is also collected on CPD services, like Manage early career teachers. 
 
-Some information and data relevant to induction is also collected on CPD services like Manage early career teachers. 
+Induction data collection processes are currently complex, duplicative and result in an admin burden for end users. However, we needed to understand why and how this could be improved when the DQT is decommissioned. 
 
-Induction data collection processes are currently complex, duplicative and result in an admin burden for end users. However, we needed to understand why and how this could be improved when the DQT was decommissioned. 
-
-## Our discovery planned to: 
-
-* Know more about the problem(s)​ involved in current induction data collection.  
-* Have proposed ways to solve these problem(s)​ 
-* Have informed a transition plan setting out next steps​ for induction data collection.
+## Our discovery plans
+We wanted to:
+* know more about the problem(s)​ involved in current induction data collection  
+* propose ways to solve these problem(s)​ 
+* inform a transition plan setting out next steps​ for induction data collection
 
 ## What did we focus on and why? 
 
 ### Understanding the problem 
 
-We needed to: 
+We needed to first understand what data is currently held in DQT on induction, to best recommend where it should go.
 
-- first understand what data is currently held in DQT on induction, to best recommend where it should go.
+To give the data its context, we also developed strong understandings of the As-is journeys for both School Induction Tutors and Appropriate Bodies. We also looked at the problems they encounter on the digital services or platforms related to induction. 
 
-To give the data it’s context we also developed strong understandings of the As-is journeys for both School Induction Tutors and Appropriate bodies and the problems they encounter on the digital services or platforms related to induction. 
+We needed to know how School Induction Tutors and Appropriate Bodies record and use induction data.  
 
-We needed to know how Induction Tutors and Appropriate Bodies record and use induction data.  
-
-We needed to understand more about the 3rd party tools used by users to manage reporting on induction data (ECT manager/).  
+We needed to understand more about the 3rd party tools used by users to manage reporting on induction data. 
 
 ### Generating possible solutions  
 
@@ -54,9 +42,9 @@ We then plotted a To-be journey that collects the data in a less burdensome way 
 
 ## What did we learn? 
 
-As well as developing our understanding of the As is – in doing so we uncovered the flaws and bugs with the current processes of managing induction data: 
+As well as developing our understanding of the As is, we uncovered the flaws and bugs with the current processes of managing induction data: 
 
-* There are known issues in the back end where certain data combinations cause unwanted record changes. Combined with front-end validation rules that are not complete, this has resulted in inaccurate data being created in the DQT which is time consuming to correct. 
+* there are known issues in the back end where certain data combinations cause unwanted record changes. Combined with front-end validation rules that are not complete, this has resulted in inaccurate data being created in the DQT which is time consuming to correct. 
 
 * The TRA Induction Data Collections Team receive policy questions which don't relate to them. It's time consuming to answer these questions causing ABs to become frustrated. ​ 
 
@@ -72,15 +60,18 @@ School induction Tutor journey research uncovered pain points they experience al
 
 And the following were uncovered during research with Appropriate Bodies: 
 
-* Duplicative registration means ABs have to chase schools, field queries and check that ECTs are registered everywhere, which is very time consuming​ 
-* The TRA AB portal is not useful for managing transfers and recording partial terms​ 
-* The TRA AB Portal does not let users fix issues in the record themselves​​ 
+* Duplicative registration means ABs have to chase schools, field queries and check that ECTs are registered everywhere, which is very time consuming​
+  
+* The TRA AB portal is not useful for managing transfers and recording partial terms​
+
+* The TRA AB Portal does not let users fix issues in the record themselves​​
+
 * ABs often have to chase previous ABs when claiming ECTs they haven’t released yet from the portal 
 
 ## Planning the next steps  
 
-The team has listed assumptions to be tested for their recommendations. 
+The team has listed assumptions to be tested in their recommendations. 
 
 We considered how transitioning to using a new induction data service and migrating data to CPD might be phased and what that could look like. 
 
-Finally, we needed to consider changes to the existing roles and responsibilities of teams responsible for induction data collection currently and how the team’s recommendations would impact these. 
+Finally, we needed to consider changes to the existing roles and responsibilities of teams involved in induction data collection currently and how our recommendations would impact these. 
