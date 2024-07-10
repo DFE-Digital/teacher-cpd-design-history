@@ -1,9 +1,9 @@
 ---
 layout: collection
 date: 2000-01-01
-title: ECF v2
+title: ECF 2
 description: |
-  work in progress
+  How we want to improve and rebuild the digital services related to the Early career framework.
 paginationHeading: Posts
 pagination:
   data: collections.ecf-v2
