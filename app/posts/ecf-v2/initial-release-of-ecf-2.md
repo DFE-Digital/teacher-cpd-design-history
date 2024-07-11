@@ -15,11 +15,11 @@ We need a MVP because it's impossible to address all the problems or build all t
 Other new features and iterations will come to these services in the future.
 
 The services we considered in our discovery included:
-* Check data for appropriate bodies
-* Check data for delivery partners
 * Manage training for early career teachers
 * The lead provider API and its documentation
 * Internal finance and support tooling for DfE colleagues
+* Check data for appropriate bodies
+* Check data for delivery partners
 
 Another design history will detail the problems we discovered and potential ideas to address them.
 
