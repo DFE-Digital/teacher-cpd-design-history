@@ -10,6 +10,8 @@ Over the last two months, we have been working on a discovery to explore the big
 
 As part of this work, we had to define the minimum viable product for what we need to build to replace them. The minimum viable product, or MVP, is what we need to build for the new services, before we can initially release them. In this context, it's the minimum we need to make the services usable and fulfill their core purposes.
 
+Currently, there are problems with the digital services that facilitate the early career framework (ECF) policy reforms. These issues prevent the services from serving their core purposes, defined later in this document. There is more information [about these core purposes and the issues impacting them in a previous design history entry](https://teacher-cpd.design-history.education.gov.uk/cross-programme/our-refreshed-vision/).
+
 We need a MVP because it's impossible to address all the problems or build all the solutions at once. It's better to release something early that users can test, which we can then improve. The smaller this initial release, or MVP, is, the sooner we can do this.
 
 Other new features and iterations will come to these services in the future.
