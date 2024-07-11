@@ -60,7 +60,7 @@ To meet this purpose in our initial release, we will:
 ### Capture and manage ECF data to facilitate payments to providers and enable effective contract management 
 
 To meet this purpose in our initial release, we will:
-* Build a way for payments to be calculated for lead provider training, so lead providers are paid the right amount  
+* Rebuild a way for payments to be calculated for lead provider training using the improved data model  
 * Improve the validation rules over the lead provider API, so data can be submitted efficiently  
 * Apply the simplification for contracts for 2025, so we're up to date with current ECF policy  
 * Build improved internal tooling and processes for finances that works with other support tooling  
