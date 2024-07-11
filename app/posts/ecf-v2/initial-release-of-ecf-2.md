@@ -49,7 +49,7 @@ To meet this purpose in our initial release, we will:
 * Build an easier way for schools to access the service (e.g. DFE sign in)  
 * Migrate and clean the data we need to sustain the registration and training of ECTs and mentors  
 * Create improved API documentation for lead providers in the style of the Register for an NPQ service  
-* Build a service for appropriate bodies to check their training data 
+* Rebuild a service for appropriate bodies to check their training data 
 * Create improved ways for schools and lead providers to make changes to ECT and mentor records, rather than support or developers  
 * Include in the data model reliable tracking of more changes to data, such as eligibility for training or funding 
 * Create an API for lead providers with the same endpoints, so we don't cause too much work for them  
