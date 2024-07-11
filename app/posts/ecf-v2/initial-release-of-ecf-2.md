@@ -39,7 +39,7 @@ We've aligned everything we want to do or build for MVP to the core purposes for
 
 Here is a map showing what we hope to build for the MVP of the new digital services.
 
-![A map showing what we want to build for the MVP of the new digital services. It includes building a new Lead Provider API, a database just for ECF with an improved model, a service for appropriate bodies to check training data, joint support and finance tooling for internal users and a service for schools to register early career teachers and mentors.](app/images/ecf-2/initial-release-of-ecf-2/mvp-map.png)
+![A map showing what we want to build for the MVP of the new digital services. It includes building a new Lead Provider API, a database just for ECF with an improved model, a service for appropriate bodies to check training data, joint support and finance tooling for internal users and a service for schools to register early career teachers and mentors.](/ecf-2/initial-release-of-ecf-2/mvp-map.png)
 
 ### Capture and manage the data to enable teachers and leaders to take up ECF programmes 
 
