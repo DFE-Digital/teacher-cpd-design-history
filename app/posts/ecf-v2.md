@@ -3,7 +3,7 @@ layout: collection
 date: 2000-01-01
 title: ECF 2
 description: |
-How we want to improve and rebuild the digital services that facilitate the early career framework (ECF) policy reforms.
+  How we want to improve and rebuild the digital services that facilitate the early career framework (ECF) policy reforms.
 paginationHeading: Posts
 pagination:
   data: collections.ecf-v2
