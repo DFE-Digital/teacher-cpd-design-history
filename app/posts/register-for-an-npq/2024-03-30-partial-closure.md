@@ -1,6 +1,6 @@
 ---
   title: Partial closure of the registration service 
-  description: Changes made after receiving support requests from users struggling to register for another NPQ, who have previously registered. 
+  description: A closed state of the service where users could still access past registrations and sign up for email alerts about registration reopening. 
   date: 2024-03-30
   related:
     items:
@@ -13,45 +13,7 @@
 
 ## Background
 
-We are no longer able to provide scholarship funding for all national professional qualifications (NPQs). In response to this, policy personnel have been involved in reviewing and iterating the scholarship funding eligibility criteria for NPQ courses.  
-
-The following NPQs are still fully funded for eligible teachers and leaders working in publicly funded schools and 16 to 19 settings: 
-
-- headship 
-
-- early headship coaching offer 
-
-- leading primary maths 
-
-- special educational needs coordinators (SENCOs) 
-
-### NPQs with targeted scholarships  
-
-If you are: 
-
-- in the top 50% of schools with the highest proportion of pupils who attract pupil premium funding; 
-
-- a 16 to 19 setting identified as having high disadvantage; or 
-
-- a highly disadvantaged early years setting 
-
-The following NPQs are fully funded for eligible teachers and leaders: 
-
-- early years leadership (for the EYL NPQ only) 
-
-- executive leadership 
-
-- leading behaviour and culture 
-
-- leading literacy 
-
-- leading teacher development 
-
-- leading teaching 
-
-- senior leadership 
-
-To implement these changes, we needed to close the service on 2 April 2024 and make key updates to the NPQ Register service and gov.uk guidance. 
+We closed the service between 2 April to 1 July 2024 due to [eligibility changes](/register-for-an-npq/autumn-2024-eligibility-changes) and to make key updates to the NPQ registration service and GOV.UK guidance. 
 
 Closing the service also gave us the opportunity to review registrations that were in the system. We asked course providers to confirm which registrations had not ‘started’ so that we can update the service. This meant that old registrations that had not started a NPQ course would not progress using the old eligibility rules. 
 
