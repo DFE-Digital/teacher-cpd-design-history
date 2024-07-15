@@ -73,6 +73,6 @@ With this schema we'd have to add extra validation logic to cope with these requ
 
 Now we have a model we're fairly confident in. It's coped well with the [scenarios we've thrown at it](https://github.com/DFE-Digital/ecf2-rails-prototype/pull/2) and has been scrutinised by lots of people across the CPD programme.
 
-It's definitely not done yet though, and we'll continue to refine it as the application is developed. Doing these many iterations now, before we have an application and data to migration, has been a rewarding exercise and given us confidence that when we begin the actual build we're setting off in the right direction.
+It's definitely not done yet, we'll continue to refine it as the application is developed. Doing these many iterations now, before we have an application and data to migrate, has been a rewarding exercise. It's given us confidence that the most complex part of the data model has been carefully planned, tested, and is robust enough to stand up to the expectations of our providers and users.
 
 [^1]: Kleppmann, M. (2017) [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/). p130
