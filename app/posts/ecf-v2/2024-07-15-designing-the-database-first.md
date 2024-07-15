@@ -13,13 +13,13 @@ Once database choices have been made, are in production and used daily by thousa
 
 As a result, over the last 3 years we have spent lots of time reacting to problems caused by the data model.
 
-Often, embarrassingly, we only find out something's wrong when informed by our users or providers. We've had to [build tools to help us fix data](https://github.com/DFE-Digital/early-careers-framework/pull/3783), [pepper links to support forms throughout the interface](http://localhost:8080/manage-training/redesigning-support-forms/) and spend a huge amount of time [optimising our API](https://github.com/DFE-Digital/early-careers-framework/pull/3573) to prevent our providers from experiencing timeouts.
+We've had to [build tools to help us fix data](https://github.com/DFE-Digital/early-careers-framework/pull/3783), [pepper links to support forms throughout the interface](http://localhost:8080/manage-training/redesigning-support-forms/) and spend a huge amount of time [optimising our API](https://github.com/DFE-Digital/early-careers-framework/pull/3573) to prevent our providers from experiencing timeouts.
 
 ## Rebuilding ECF
 
 The data requirements for ECF are much more complicated than most services in the Department for Education (DfE), which are one-off transactions. ECF induction takes at least two years during that time any number of events can happen which have an impact on the participant, their training and the way providers are paid.
 
-For example, during a participant's induction they might change school, change from one type of programme to another, switch training providers, or pause their induction due to illness. Or they could do all of these things, multiple times.
+For example, during a participant's induction they might change school, change from one type of programme to another, switch lead provider, or pause their induction due to illness. Or they could do all of these things, multiple times.
 
 We need to ensure that our new database model can cope with these scenarios.
 
@@ -54,7 +54,7 @@ We first started seriously thinking about how to better record training and indu
 Holding each kind of data in its own table has several advantages:
 
 1. when something changes we only need to update the corresponding table
-2. more of the model is routed in reality, we need to introduce fewer abstract concepts which are often a point of confusion
+2. more of the model is routed in reality
 3. the final schema is [much more normalised](https://en.wikipedia.org/wiki/Database_normalization) which reduces repetition and makes it easier to keep things accurate and consistent
 
 However, when we tried to create realistic complicated scenarios with the separated model, some things still didn't quite work. Namely, the idea of a tenureships model which tracks which teachers were at which schools over time, regardless of whether they were at the school as an ECT or mentor, was confusing.
