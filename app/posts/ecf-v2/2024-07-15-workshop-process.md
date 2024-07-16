@@ -14,8 +14,9 @@ This consisted of five problem workshops and two ideation workshops.
 
 ## How we approached the problem prioritisation exercise
 
-#### Identified the problems to focus on by looking at:
+### Identified the problems to focus on
 
+We achieved this by looking at:
 * historic user research insights across ECF related teams
 * analysing Zendesk support tickets for schools
 * analysing the lead provider API error log
