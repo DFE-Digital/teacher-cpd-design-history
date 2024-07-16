@@ -1,6 +1,6 @@
 ---
 title: The process behind our problem prioritisation and ideation workshops
-description: "Our journey of prioritising problems and developing high level solutions to take forward"
+description: "Our journey of prioritising user problems and developing high level solutions to take forward into the next phase"
 date: 2024-07-15
 ---
 
