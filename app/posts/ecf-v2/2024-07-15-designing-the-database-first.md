@@ -13,7 +13,7 @@ Once database choices have been made, are in production and used daily by thousa
 
 As a result, over the last 3 years we have spent lots of time reacting to problems caused by the data model.
 
-We've had to [build tools to help us fix data](https://github.com/DFE-Digital/early-careers-framework/pull/3783), [pepper links to support forms throughout the interface](http://localhost:8080/manage-training/redesigning-support-forms/) and spend a huge amount of time [optimising our API](https://github.com/DFE-Digital/early-careers-framework/pull/3573) to prevent our providers from experiencing timeouts.
+We've had to [build tools to help us fix data](https://github.com/DFE-Digital/early-careers-framework/pull/3783), [pepper links to support forms throughout the interface](/manage-training/redesigning-support-forms/) and spend a huge amount of time [optimising our API](https://github.com/DFE-Digital/early-careers-framework/pull/3573) to prevent our providers from experiencing timeouts.
 
 ## Rebuilding ECF
 
