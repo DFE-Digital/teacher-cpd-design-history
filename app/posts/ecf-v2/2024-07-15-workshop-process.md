@@ -4,7 +4,13 @@ description: "Our journey of prioritising problems and developing high level sol
 date: 2024-07-15
 ---
 
-Over the last month our team ran several workshops with the aim of consolidating our top problems across our 4 user groups and prioritising them followed by ideating on solutions on how to address our biggest problems. This consisted of 4-5 problems workshops and 1-2 ideation workshops.
+Over the last month our team ran several workshops.
+
+We aimed to:
+* consolidate, prioritise and better understand the top problems across the digital services that facilitate the early career framework (ECF) policy reforms
+* ideate on solutions for these problems
+
+This consisted of five problem workshops and two ideation workshops.
 
 ### How we approached the problem prioritisation exercise
 
