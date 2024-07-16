@@ -42,7 +42,24 @@ Our user groups for the service are the following:
 *	the likelihood of fixing the problem using ECF related digital services alone 
 *	if solving the problem promotes flexibility
 
-Once the voting was complete, we were able to see which of the problems we should treat as a higher priority based on the scores. The team then ideated possible solutions for these problems at the end of each workshop. This was the starting point for the ideation exercise.
+Once the voting was complete, we were able to see which of the problems we should treat as a higher priority based on the scores. 
+
+#### Our key problems that we identified across all user groups were the following (in priority order):
+
+*  Schools experience duplicative and confusing registration
+*  The data that internal teams require is not always available, e.g. for eligibility changes​
+*  The ECF digital services have introduced rigid and inflexible rules and validation for lead providers
+*  Schools have difficulties making changes to participants, LPs, and ABs
+*  Schools experience difficulties accessing the service​
+*  LPs find it difficult to complete their tasks due to a lack of data, and do not have confidence in the data they receive​
+*  Appropriate bodies cannot take actions in the TRA AB portal to submit data efficiently or always correctly​
+*  Appropriate bodies have dependencies on other ABs to manage changes in an ECT's transfer
+*  ABs can't view the data they need to in the 'check data' and AB services, and when they do it's often misaligned with other data 
+*  Lead providers have varying levels of digital literacy and varied systems and processes​
+*  Internal Teams do tasks that end users should do, but can't/won't​
+*  Internal teams can be siloed, with little common language, yet depend on each other for everyday tasks​
+
+As a team, we then ideated possible solutions for these problems at the end of each workshop. This was the starting point for the ideation exercise.
 
 ## How we approached the ideation exercise
 To further ideate on how to solve the problems we had identified, we:
