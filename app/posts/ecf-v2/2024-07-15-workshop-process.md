@@ -12,7 +12,7 @@ We aimed to:
 
 This consisted of five problem workshops and two ideation workshops.
 
-### How we approached the problem prioritisation exercise
+## How we approached the problem prioritisation exercise
 
 #### Identified the problems to focus on by looking at:
 
