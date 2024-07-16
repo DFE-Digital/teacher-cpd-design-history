@@ -1,5 +1,5 @@
 ---
-  title: Capping the number of funded courses 
+  title: Autumn 2024 – Capping the number of funded places 
   description: Designing processes to monitor and cap the number of funded scholarship places paid per recruitment cycle. 
   date: 2024-02-01
   related:
@@ -60,7 +60,7 @@ From Autumn 2024, the budget will significantly reduce and need to be managed mo
 
 ## There were some structures already in place that would help with capping  
 
-- The policy team were working on funding eligibility changes. These changes would help to align the level of demand for funded spaces with the number of spaces available. 
+- The policy team were working on funding eligibility changes. These changes would help to align the level of demand for funded places with the number of places available. 
 
 - Contracts define the target number of participants – per provider, per NPQ. 
 
@@ -92,9 +92,11 @@ These are now being worked through with all teams and providers involved.
 
 - Finance statements updated to look at the funded-space field, rather than funding eligibility to ensure payments are only made to those with a funded space. 
 
+- Ensuring there were no registrations created under previous eligibility rules and where the person had not started the course. This was to ensure they wouldn't be given a funded space if they were now not eligible for funding. To prevent this we expired these registrations before reopening the service. 
+
 - Ways to communicate capping to participants.
 
-![A diagram showing the different actions of NPQ participants, lead providers and DfE throughout a recruitment cycle. Highlighted are the parts that are changing for Autumn 2024, in order to deliver capped numbers of funded spaces.](/register-for-an-npq/capping-funded-spaces/option1-first-digital-changes.png)
+![A diagram showing the different actions of NPQ participants, lead providers and DfE throughout a recruitment cycle. Highlighted are the parts that are changing for Autumn 2024, in order to deliver capped numbers of funded places.](/register-for-an-npq/capping-funded-spaces/option1-first-digital-changes.png)
 
 ## Changes made to the registration service 
 
@@ -114,7 +116,7 @@ These are now being worked through with all teams and providers involved.
 
 - Capped numbers are not kept to, meaning a more rigid cap is needed. For example, through the API or in financial statements.  
 
-- Participants create multiple registrations for the same NPQ to try to get a funded space. We would need to look at better ways to communicate spaces to participants, so they can easily find a provider who has a funded space available.  
+- Participants create multiple registrations for the same NPQ to try to get a funded space. We would need to look at better ways to communicate places to participants, so they can easily find a provider who has a funded space available.  
 
 - Participants swap providers more often to get a funded space. We may need to update the manual processes currently in place.  
 

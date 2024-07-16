@@ -1,5 +1,5 @@
 ---
-  title: Partial closure of the registration service 
+  title: Autumn 2024 – Partial closure of the registration service 
   description: A closed state of the service where users could still access past registrations and sign up for email alerts about registration reopening. 
   date: 2024-03-30
   related:
@@ -13,7 +13,7 @@
 
 ## Background
 
-We closed the service between 2 April to 1 July 2024 due to [eligibility changes](/register-for-an-npq/autumn-2024-eligibility-changes) and to make key updates to the NPQ registration service and GOV.UK guidance. 
+We closed the service between 2 April to 1 July 2024 due to [eligibility changes](/register-for-an-npq/eligibility-changes) and to make key updates to the NPQ registration service and GOV.UK guidance. 
 
 Closing the service also gave us the opportunity to review registrations that were in the system. We asked course providers to confirm which registrations had not ‘started’ so that we can update the service. This meant that old registrations that had not started a NPQ course would not progress using the old eligibility rules. 
 
