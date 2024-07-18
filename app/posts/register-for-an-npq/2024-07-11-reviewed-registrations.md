@@ -20,7 +20,7 @@ Previously, this was the outcome for all users who selected 'other' for 'what se
 
 The policy team have reviewed a large number of registrations with this setting and after analysis the outcomes of those reviews were now confident to give an outcome in the service. 
 
-Around 2.25% of registrations need manually reviewing. This takes the policy team around 5 hours per week. It is estimated that by giving more funding outcomes in the servic, policy time spent reviewing would be reduced to 1 hour per week. 
+Around 2.25% of registrations need manually reviewing. This takes the policy team around 5 hours per week. It is estimated that by giving more funding outcomes in the service, policy time spent reviewing would be reduced to 1 hour per week. 
 
 ## Changes we made 
 
@@ -36,7 +36,7 @@ For the question 'How are you employed?', when the users chooses:
 
 ### Recording if a user has been referred by the return to teaching service
 
-These user are eligible for funding for all NPQ courses. 
+These users are eligible for funding for all NPQ courses. 
 
 Previously, users referred by the return to teaching service would answer 'other' to 'How are you employed?' and would their registration would then be reviewed by the policy team. As that route would now receive an automatic not eligible outcome, we needed a way for these users to still be reviewed. 
 
@@ -72,14 +72,14 @@ Previously, after answering the 'How are you employed?' question (and if their a
 
 This has now changed. If they answer: 
 
-- 'In a hospital school' or 'young offender instituation', they are only asked 'what organisation are you employed by?'. This is so their organisation can be checked against eligible lists to see if they are eligible. 
+- 'In a hospital school' or 'young offender institution', they are only asked 'what organisation are you employed by?'. This is so their organisation can be checked against eligible lists to see if they are eligible. 
 
 - 'Other' they are not asked either question as the registration is no longer reviewed, so we don't require this information. 
 
 ## Potential future changes
 
 ### Emailing users with their funding outcome
-This is currently in progress. Previously, not all users were notified after their registration had been reviewed and a funding outcome was reached. We have now created templates for these emails and hope to automate the send of these soon. They would give the funding outcome and if they user is not eligible, a reason why (in the same way as the service does). 
+This is currently in progress. Previously, not all users were notified after their registration had been reviewed and a funding outcome was reached. We have now created templates for these emails and hope to automate the sending of these soon. They would give the funding outcome and if they user is not eligible, a reason why (in the same way as the service does). 
 
 ### Referred by return to teaching service question
 This question is now asked to the vast majority of people completing a registration, however the number of people this is relevant for is low. In future, we could move this question further into the flow. For example, after a user answers 'other' to 'How are you employed?' and before their funding outcome is given. 
