@@ -39,6 +39,3 @@ However, for now, we will have to accept that lead providers and appropriate bod
 We’ve decided we want to test using DfE sign-in for schools, in a way where schools can manage their own onboarding on to the ECF2 service.
 
 For lead providers and appropriate body users, we want to test giving the option of using DfE sign-in or a one-time password. For this, we’ll need to hold a list of users for each organisation, which we can use flexibly when the user logs in. If the user logs in via DfE sign-in, we can use the email within the payload received to compare to our list. If they choose a one-time password, we’ll use the email they used to receive the password.
-
-
-
