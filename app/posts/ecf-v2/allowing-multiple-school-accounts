@@ -20,7 +20,7 @@ This is because:
 * the person that handles registration might change, and when it does, it can be hard to update once the singular user has left
 * the service asks for the school induction tutor to be the only user on the service, but often it is other administrative roles filling in this information
 
-Therefore, for the new digital service, we are going to allow multiple accounts per school. These will also be administered via DfE Sign In, [for reasons we detail in another design history.](https://teacher-cpd.design-history.education.gov.uk/ecf-v2/exploring-using-dfe-sign-in/)
+In the new digital service we will allow multiple accounts per school. These will be administered by DfE Sign in, as discussed in the [Exploring using DfE Sign in](https://teacher-cpd.design-history.education.gov.uk/ecf-v2/exploring-using-dfe-sign-in/) post.
 
 ## No longer collecting who the school induction tutor is
 
@@ -42,7 +42,7 @@ This could be passing the emails for all school accounts, or just giving them th
 
 We're still a long way off releasing anything. However, we still need to consider the impacts of this decision and how we can still best meet the needs of users in a way that is technichally feasible.
 
-First, we should check with further off stakeholders that there are negative ramifications of this decision we haven't considered. We're hoping this design history will help us to do this.
+First, we should check with other teams in DfE that there are negative ramifications of this decision we haven't considered. We're hoping this design history will help us to do this.
 
 We need to check how we can make these changes whilst not adversely impacting the API lead providers use. We'll work with the team that currently works on the API to find out how we can best communicate school contact details to lead providers.
 
