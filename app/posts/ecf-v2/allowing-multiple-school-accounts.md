@@ -42,7 +42,7 @@ This could be passing the emails for all school accounts, or just giving them th
 
 We're still a long way off releasing anything. However, we still need to consider the impacts of this decision and how we can still best meet the needs of users in a way that is technichally feasible.
 
-First, we should check with other teams in DfE that there are negative ramifications of this decision we haven't considered. We're hoping this design history will help us to do this.
+First, we should check with other teams in DfE if there are negative ramifications of this decision we haven't considered. We're hoping this design history will help us to do this.
 
 We need to check how we can make these changes whilst not adversely impacting the API lead providers use. We'll work with the team that currently works on the API to find out how we can best communicate school contact details to lead providers.
 
