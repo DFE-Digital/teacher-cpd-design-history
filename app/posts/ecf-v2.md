@@ -1,7 +1,7 @@
 ---
 layout: collection
 date: 2000-01-01
-title: ECF 2
+title: Register early career teachers
 description: |
   How we want to improve and rebuild the digital services that facilitate the early career framework (ECF) policy reforms.
 paginationHeading: Posts
