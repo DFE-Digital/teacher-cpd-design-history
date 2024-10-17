@@ -30,39 +30,39 @@ Our data insights team also identified the most used search terms for the ECF se
 
 ### Feedback form: Top 5 most used terms 
 
-Registration 
+1. Registration 
 
-Induction process 
+2. Induction process 
 
-ECT induction 
+3. ECT induction 
 
-Mentor training 
+4. Mentor training 
 
-Data entry 
+5. Data entry 
 
 ### Helpdesk emails: Top 5 most used terms 
 
-Portal or DfE portal 
+1. Portal or DfE portal 
 
-Add an ECT 
+2. Add an ECT 
 
-Induction 
+3. Induction 
 
-Add a mentor 
+4. Add a mentor 
 
-Lead provider 
+5. Lead provider 
 
 ### Search term findings: Top 5 most used terms 
 
-DfE ECT registration 
+1. DfE ECT registration 
 
-DfE ECT portal 
+2. DfE ECT portal 
 
-DfE register ECT 
+3. DfE register ECT 
 
-DfE ECT 
+4. DfE ECT 
 
-DfE portal ECT 
+5. DfE portal ECT 
 
 ## Initial naming concepts 
 
@@ -84,13 +84,13 @@ Based on feedback, we made adjustments, weighed the pros and cons of different n
 
 We felt that keeping the name short would provide clarity and make it more memorable, so we decided not to include ‘mentors’ in the name. Instead, we described how the service supports mentors after the start page heading: 
 
-‘Use this service to register your ECTs for the early career framework (ECF) training and mentors for mentor training. 
+'Use this service to register your ECTs for the early career framework (ECF) training and mentors for mentor training. 
 
 You need to register your ECTs and their mentors with the Department for Education (DfE) so that they can get: 
 
 * access to DfE-funded training 
 
-* funding to support their time off timetable for mentoring and training’ 
+* funding to support their time off timetable for mentoring and training’
 
 ## Future considerations 
 
