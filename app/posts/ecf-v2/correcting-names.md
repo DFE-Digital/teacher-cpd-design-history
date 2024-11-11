@@ -1,6 +1,6 @@
 ---
 title: Improving how we gather an ECT or mentor’s name
-description: ""
+description: "Why we wanted to change how we find a participant's teaching record and how this changes the name we collect from schools."
 date: 2024-11-05
 ---
 
@@ -45,7 +45,7 @@ In testing, schools understood they should only give us a more up to date name f
 
 ![A screenshot of giving users the option to edit the name which is returned.](/ecf-v2/correcting-names/screenshot3.png)
 
-We also had to make clear that the corrected name would only be used for the purposes of ECF training. It wouldn’t update that ECT or mentor’s TRA teacher record. To do this, they need to go to the Access your teaching qualifications service with legal proof of a name change. Users typically understood this well, and that changes here wouldn’t impact anything other than the Register ECTs service. However, 1 user thought it might ask ECTs or mentors to update this themselves later.
+We also had to make clear that the corrected name would only be used for the purposes of ECF training. It wouldn’t update that ECT or mentor’s TRA teacher record. To do this, the actual ECT or mentor needs to go to the Access your teaching qualifications service with legal proof of a name change. Users typically understood this well, and that changes here wouldn’t impact anything other than the Register ECTs service. However, 1 user thought it might ask ECTs or mentors to update this themselves later.
 
 ## What we need to do next
 
