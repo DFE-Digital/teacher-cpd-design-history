@@ -40,11 +40,11 @@ We also iterated the content for asking for lead provider and delivery partner, 
 
 ![A screenshot of the second round prototype we tested with to ask users for lead provider.](/ecf-v2/asking-for-lead-provider-and-delivery-partner/screenshot2.png)
 
-We also decided to ask schools if their delivery partner was the same as their appropriate body. This is because in around 80% of cases, it is the same organisation. Users in our testing were confused why we asked for the same organisation twice.
+We also decided to ask schools if their delivery partner was the same as their appropriate body. This is because in around 80% of cases, it is the same organisation. Users in our first round of testing were confused why we asked for the same organisation twice.
 
 ![A screenshot of the second round prototype we tested with to ask users for delivery partner.](/ecf-v2/asking-for-lead-provider-and-delivery-partner/screenshot3.png)
 
-This tested much better with schools. They successfully answered each question. However, it’s worth noting we only tested with users where their delivery partner was the same as their appropriate body.
+This tested much better with schools in our second round of testing. They successfully answered each question. However, it’s worth noting we only tested with users where their delivery partner was the same as their appropriate body.
 
 When we tested this, schools also said it would be more helpful to see guidance or information about the 3 different organisations in ECF in 1 place. Learning about a delivery partner in isolation was less helpful to them than comparing that organisational role with that of a lead provider or appropriate body.
 

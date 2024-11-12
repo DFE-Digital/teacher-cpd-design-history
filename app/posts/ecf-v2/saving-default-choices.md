@@ -10,9 +10,13 @@ Currently in ECF1 school users repeat the same questions in the journey for all 
 
 ## What we tested
 
-When a school user registers their first ECTs details they will be prompted to input the programme type (provider led/FIP or school led CIP/DIY), the Delivery partner name, Lead provider name and Appropriate body.
+When a school user registers their first ECT's details, they will be prompted to input the:
+- programme type
+- appropriate body
+- lead provider
+- delivery partner
 
-Once they provide their details for the first ECT they register we tested a screen that asked if they would like to save the details provided for the future registrations. This doesn’t block users in future if they have an ECT with differing programme details to the default choice, they will have the option to manually input, but in most cases, schools will have consistent details for the majority of their ECTs.
+Once they provide their details for the first ECT they register, we  asked if they would like to save the details provided for future registrations of ECTs and mentors. This doesn’t block users in future if they have an ECT or mentor with differing programme details to the default choice. They will have the option to manually input these details, but in most cases, schools will have consistent details for the majority.```
 
 ![A screenshot of the asking users if they'd like to save their choices as defaults.](/ecf-v2/saving-default-choices/screenshot1.png)
 
