@@ -6,7 +6,8 @@ date: 2024-11-05
 
 ## Why we’re doing this
 
-Currently in ECF1 school users repeat the same questions in the journey for all their ECT registrations despite a some of the answers often being the same. As part of our aim to reduce the length of the registering an ECT journey, we proposed adding a default programme choice feature in which school users could save the details of their AB/DP/LP for future ECT registrations as we can use the data provided as their default.
+Currently in ECF1 school users set up the programme type, AB and training details which are then applied to all ECTs and mentors that they register going forward. The problem is that there are cases in which ECTs and mentors will have different training details and there currently isn't a way of specifying this difference in the add ECT journey (they would need to edit details once record is registered).
+Therefore we've introduced the default programme choice as an alternative to setting up school-level details for AB, LP, DP and programme type, as we know there may be ECTs and mentors within a school that differ.
 
 ## What we tested
 
