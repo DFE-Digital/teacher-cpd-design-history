@@ -16,7 +16,7 @@ We contemplated different ways to solve this problem.
 
 Our first option was beginning the ‘add a mentor’ journey with selecting which existing ECT record(s) they will be assigned to (see screenshot below). This would mean mentor records could not be created without an already registered ECT connected to them.
 
-![A screenshot of asking a first draft of asking who will be mentoring the ECT.](/ecf-v2/assigning-mentors/screenshot1.png)
+![A screenshot of a journey where we ask which ECT is being mentored when adding a mentor.](/ecf-v2/assigning-mentors/screenshot1.png)
 
 However, this was later iterated to be added to the end of the ‘add an ECT’ flow. This way the user could select already existing mentor records. In the case of a new mentor, they will select ‘someone else’ and be prompted to begin the flow of adding a mentor once the ECT registration is complete. We hoped this would help speed up assigning mentors to ECTs, where the mentor record already exists.
 
