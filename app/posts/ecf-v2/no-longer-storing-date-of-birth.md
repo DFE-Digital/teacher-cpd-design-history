@@ -13,7 +13,7 @@ This is because:
 - where an ECT is not eligible for training yet, we continue to check weekly if they've become eligible, for example, by being awarded qualified teacher status
 - we also use information from the TRA's records to take in an induction start date or other relevant information for induction
 
-There are no other reasons why date of birth is continued to be stored. It can be helpful in identifying individuals between the TRA's teacher records and the ECF database. But it is not exposed to lead providers or other users for any use. As a result, we should no longer store it in our database, to improve the security and privacy of personal details of ECTs and mentors.
+There are no other reasons why date of birth is stored. It can be helpful in identifying individuals between the TRA's teacher records and the ECF database. But it is not exposed to lead providers or other users for any use. As a result, we should no longer store it in our database, to improve the security and privacy of personal details of ECTs and mentors.
 
 The API for the TRA's teacher records has changed recently. To check for a record you only need to send the teacher reference number (TRN). This means we do not need to continue to store the date of birth (or national insurance number) to re-check teacher records once we've initially assured that the ECT is eligible for ECF training.
 
