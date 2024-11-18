@@ -23,6 +23,8 @@ The API for the TRA's teacher records has changed recently. To check for a recor
 
 As a result, we should not store date of birth or national insurance number in our Register early career teachers database. This will improve the security and privacy of personal details of ECTs and mentors.
 
+When we migrate data from ECF1 to Register ECTs, we'll also think through how we can accurately move the data across without keeping date of birth or national insurance number.
+
 However, we still want to ask for a date of birth or national insurance number to help identify participants initially. This is for privacy and security reasons. We want to make sure the school user registering the ECT or mentor knows them. They can't just enter a random TRN and recieve back a name for an individual they aren't responsible for registering.
 
 
