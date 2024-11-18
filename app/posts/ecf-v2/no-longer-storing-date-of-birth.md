@@ -27,6 +27,5 @@ When we migrate data from ECF1 to Register ECTs, we'll also think through how we
 
 However, we still want to ask for a date of birth or national insurance number to help identify participants initially. This is for privacy and security reasons. We want to make sure the school user registering the ECT or mentor knows them. They can't just enter a random TRN and recieve back a name for an individual they aren't responsible for registering.
 
-
-
+We will continue to check in with policy and support teams at DfE, to make sure this wouldn't have too negative an impact on their work.
 
