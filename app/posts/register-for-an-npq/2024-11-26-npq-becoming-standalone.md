@@ -27,12 +27,12 @@ The API and finance engines need NPQ data so everything the NPQ application coll
 
 ![A flow chart showing registration data being fed into ECF by NPQ before being made available to training providers](/register-for-an-npq/2024-11-26-npq-becoming-standalone/npq-registration-data-flow.png)
 
-However, as time progressed built some fundamental differences emerged:
+However, as time progressed some fundamental differences emerged:
 
-1. NPQ registrations are made by teachers themselves but ECF registrations are done on behalf of the teacher by an administrator at the school
-2. NPQ is elective but ECF is statutory
-3. NPQ registration is a one-off transaction but ECF induction usually takes 2 years --- during that time information about the early career teacher's school and training needs to be kept up to date
-4. A teacher can obtain many NPQs but will only ever be an early career teacher once
+1. NPQ registrations are made by teachers themselves but ECF registrations are done on behalf of the teacher by an administrator at the school.
+2. NPQ is elective but ECF is statutory.
+3. NPQ registration is a one-off transaction but ECF induction usually takes 2 years --- during that time information about the early career teacher's school and training needs to be kept up to date.
+4. A teacher can obtain many NPQs but will only ever be an early career teacher once.
 
 The NPQ and ECF registration functions are managed by different teams, and the API and finance engines are managed by a third team. We ended up with:
 
@@ -78,7 +78,7 @@ Once the NPQ application is independent we will have:
 * **two** policies
 * ~~three~~ **two** teams
 * **two** code repositories
-* **two** databases
+* ~~one~~ **two** databases
 * ~~one~~ **two** APIs
 * ~~one~~ **two** finance engines
 
@@ -115,13 +115,13 @@ It's going to be a big, complex operation so we've spent lots of time planning a
 
 A shortened version of the process we'll be following is:
 
-1. bring both ECF and NPQ applications down so no new data is being written to the databases while we migrate
-2. back up the NPQ application's database just in case we need to roll back
-3. run the migration process which copies the data from ECF's database into NPQ's
-4. check the migration dashboard to ensure everything is at 100%
-5. do some manual checks to ensure everything's working and looks right
-5. flick a switch in the ECF app so it will no longer return NPQ data from its API
-6. bring the applications back up
+1. Bring both ECF and NPQ applications down so no new data is being written to the databases while we migrate.
+2. Back up the NPQ application's database just in case we need to roll back.
+3. Run the migration process which copies the data from ECF's database into NPQ's.
+4. Check the migration dashboard to ensure everything is at 100%.
+5. Do some manual checks to ensure everything's working and looks right.
+5. Flick a switch in the ECF app so it will no longer return NPQ data from its API.
+6. Bring the applications back up.
 
 We expect this process will take a couple of hours and it's scheduled outside of office hours.
 
