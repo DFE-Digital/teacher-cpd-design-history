@@ -29,8 +29,8 @@ The API and finance engines need NPQ data so everything the NPQ application coll
 
 However, as time progressed built some fundamental differences emerged:
 
-1. NPQ registrations are made by teachers themselves but ECF registrations are done on behalf of the teacher by an administrator at the school.
-2. NPQ is elective but ECF is statutory.
+1. NPQ registrations are made by teachers themselves but ECF registrations are done on behalf of the teacher by an administrator at the school
+2. NPQ is elective but ECF is statutory
 3. NPQ registration is a one-off transaction but ECF induction usually takes 2 years --- during that time information about the early career teacher's school and training needs to be kept up to date
 4. A teacher can obtain many NPQs but will only ever be an early career teacher once
 
@@ -43,7 +43,7 @@ The NPQ and ECF registration functions are managed by different teams, and the A
 * one API
 * one finance engine
 
-This sharing of responsibilities means simple changes need to be carefully planned across teams and releases carefully coordinated. It also means that new NPQ features are reliant on the availability teams primarily working in the ECF space.
+This sharing of responsibilities means simple changes need to be carefully planned across teams and releases carefully coordinated. It also means that new NPQ features are reliant on the availability of teams primarily working in the ECF space.
 
 As a result, the NPQ team are disempowered by not owning the NPQ journey end-to-end.
 
@@ -100,7 +100,7 @@ We decided to use a process that:
 * gave us clear feedback about what worked
 * output a list of things that didn't migrate cleanly and had to be investigated further
 
-In early November 2024 we hit a 100% success rate across all entities 🎉
+In early November 2024 we hit a 100% success rate across all entities. 🎉
 
 ![A GOV.UK styled dashboard showing a list of table names with a 100% migration success rate](/register-for-an-npq/2024-11-26-npq-becoming-standalone/migration-stats.png)
 
