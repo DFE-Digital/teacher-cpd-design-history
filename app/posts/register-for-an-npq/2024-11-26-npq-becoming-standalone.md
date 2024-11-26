@@ -72,7 +72,7 @@ During that time we:
 
 ![NPQ API documentation](/register-for-an-npq/2024-11-26-npq-becoming-standalone/npq-api-docs.png)
 
-The new NPQ API very closely matches the ECF one so NPQ training providers will have a easier job in updating their integrations. The only significant changes are that endpoints in the old API that return combined ECF and NPQ data now only return NPQ data.
+The new NPQ API very closely matches the ECF one so NPQ training providers will have an easier job in updating their integrations. The only significant changes are that endpoints in the old API that return combined ECF and NPQ data now only return NPQ data.
 
 Once the NPQ application is independent we will have:
 
