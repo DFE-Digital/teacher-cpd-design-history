@@ -1,5 +1,6 @@
 ---
 title: Making the NPQ service standalone
+description: Why it was important for us to separate NPQ from ECF and how we did it.
 author: Peter Yates
 date: 2024-11-26
 ---
