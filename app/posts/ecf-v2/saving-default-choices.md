@@ -17,10 +17,16 @@ When a school user registers their first ECT's details, they will be prompted to
 - lead provider
 - delivery partner
 
-Once they provide their details for the first ECT they register, we  asked if they would like to save the details provided for future registrations of ECTs and mentors. This doesn’t block users in future if they have an ECT or mentor with differing programme details to the default choice. They will have the option to manually input these details, but in most cases, schools will have consistent details for the majority.```
+Once they provide their details for the first ECT they register, we asked if they would like to save the details provided for future registrations of ECTs and mentors. This doesn’t block users in future if they have an ECT or mentor with differing programme details to the default choice. They will have the option to manually input these details, but in most cases, schools will have consistent details for the majority.```
 
 ![A screenshot of the asking users if they'd like to save their choices as defaults.](/ecf-v2/saving-default-choices/screenshot1.png)
 
 ## How it tested and next steps
 
-Research found that this feature mainly tested well, and school users knew what to do when interacting with the screen. However, some users mistook it as a ‘check your answers' page so we are looking into iterating the heading to make the purpose clearer for our users.
+Research found that this feature mainly tested well, and school users knew what to do when interacting with the screen. However, some users mistook it as a ‘check your answers' page.
+
+We have looked at iterating this heading to make it clearer for users. 
+
+However, we've decided to first iterate and test a version where we don't ask users to save, but instead remember their last used choices and present them to when they return to add a new ECT. We want to test this, as it may be that this meets the needs of our users without requiring them to think about whether they need to save or not. It also shortens registration and helps save more time for users.
+
+We'll test this version next, and then decide if we want to make any further changes to the page we tested the first time or whether we want to remove it.
