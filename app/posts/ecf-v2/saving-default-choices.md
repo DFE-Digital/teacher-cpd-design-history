@@ -25,4 +25,8 @@ Once they provide their details for the first ECT they register, we asked if the
 
 Research found that this feature mainly tested well, and school users knew what to do when interacting with the screen. However, some users mistook it as a ‘check your answers' page.
 
-We have looked at iterating this heading to make it clearer for users, however we've decided to first iterate and test a version where we don't ask users to save, but instead remember their last used choices and present them to when they return to add a new ECT. We want to test this, as it may be that this meets the needs of our users without requiring them to think about whether they need to save or not. We'll test this version next, and then decide if we want to make any further changes to the page we tested the first time or whether we want to remove it.
+We have looked at iterating this heading to make it clearer for users. 
+
+However, we've decided to first iterate and test a version where we don't ask users to save, but instead remember their last used choices and present them to when they return to add a new ECT. We want to test this, as it may be that this meets the needs of our users without requiring them to think about whether they need to save or not. It also shortens registration and helps save more time for users.
+
+We'll test this version next, and then decide if we want to make any further changes to the page we tested the first time or whether we want to remove it.
