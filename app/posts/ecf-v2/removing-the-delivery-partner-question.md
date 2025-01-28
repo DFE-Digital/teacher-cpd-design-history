@@ -1,12 +1,20 @@
 ---
 title: Removing the delivery partner question
-description: "We've tested a few ways to ask school users about the delivery partner they're using for training. It's not been well understood, and we've chose to remove it."
+description: "We've tested a few ways to ask school users about the delivery partner they're using for training, when they haven't worked with a delivery partner before. It's not been well understood, and we've chose to remove it."
 date: 2025-01-22
 ---
 
 ## Why we’re doing this
 
-We've previously created and tested an initial design which asked school users to enter their delivery partner name in an autocomplete text box, but this tested poorly. This was because some users weren't familiar with all the terminology of appropriate body / lead provider / delivery partner - either they didn't understand the difference or didn't know the answer.
+We created and tested an initial design which asked school users to enter their delivery partner.
+
+We [wanted to ask schools](../asking-for-lead-provider-and-delivery-partner) for this because:
+
+- it helps their lead provider set up training for their ECTs and mentors quickly
+- some schools have come to our support desk asking to submit this information, and find it confusing they can't
+- when they've worked with a delivery partner in the most recent academic year, they confirm their delivery partner, and schools can find it confusing they don't when there's been a 2 year gap
+- a school does ultimately decide on their delivery partner, so it better matches reality
+- we hoped it would reduce schools having to reach out to delivery partners directly to give information
 
 As we were aware that a lot of schools have the 'same' delivery partner as their appropriate body, we had since designed a journey where we ask users if their appropriate body is also the delivery partner for the ECT they are registering.
 
@@ -14,7 +22,9 @@ We tested this with some users, who all used the 'same' appropriate body and del
 
 However, it is also common for appropriate bodies and delivery partners to have differing operating names. In this scenario, we wouldn't be able to ask if the appropriate body is the same organisation as the delivery partner, and we may have to present a different name. This could cause confusion for those users.
 
-We'd also be at risk that users may choose to answer 'yes' to the organisations being the same where they aren't. We're not confident users would understand what we were asking in this scenario and may answer 'yes' mistakenly.
+It can also be the cause that sometimes appropriate bodies split into multiple different delivery partners to deliver training too.
+
+This would present us with a risk that users may choose to answer 'yes' to the organisations being the same where they aren't. We're not confident users would understand what we were asking in this scenario and may answer 'yes' mistakenly.
 
 ## What we tested
 
@@ -26,7 +36,7 @@ However, as this didn't test well, we then changed the question to ask specifica
 
 ![A screenshot of the second iterated design we tested to ask the users about who the delivery partner is.](/ecf-v2/removing-the-delivery-partner-question/dp-second.png)
 
-We learnt that quite often the 'appropriate body' organisation is the same as the 'delivery partner' organisation, so we also tested asking users a yes / no question, where we could ask whether the two organisations were the same. If they answered no, we would then ask the user to input the delivery partner.
+We learnt that quite often the 'appropriate body' organisation is the same as the 'delivery partner' organisation, so we also tested asking users a yes or no question, where we could ask whether the two organisations were the same. If they answered no, we would then ask the user to input the delivery partner.
 
 ![A screenshot of the third iterated design we tested to ask the users about who the delivery partner is.](/ecf-v2/removing-the-delivery-partner-question/dp-third.png)
 
@@ -34,6 +44,6 @@ While this tested better, we weren't able to test this question with users where
 
 ## Next steps
 
-As we've not been able to find a way to ask school users about their delivery partner confidently, we've decided not to ask school users to input their delivery partner. School users are much more confident about providing their lead provider and appropriate body, so we will continue asking for these bits of information.
+As we've not been able to find a way to ask school users about their delivery partner confidently, we've decided not to ask school users to input their delivery partner for the initial release of Register early career teachers. We may explore this again in future, when we have more time. We believe that asking schools for their lead provider addresses the main problem where sometimes ECTs and mentors were starting training late because they weren't ever contacting lead providers to set up the training.
 
 Lead provider and delivery partner partnerships that have already been confirmed from previous years will continue to be shown to users when they are rolling over to the next academic year.
