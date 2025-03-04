@@ -7,7 +7,7 @@ date: 2025-02-28
 ## Why we’re doing this
 We've designed a user journey which allows for schools to register ECTs at their school that have previously been registered at another school.
 
-We've tried to keep the journey as similar as possible to registering a new ECT. This is to keep the journeys as streamlined as possible, and for this reason we'll only have one call to action for a school to register an ECT.
+We've tried to keep the journey as similar as possible to registering an ECT who hasn't been registered before, and we've not designed a separate call to action to register an ECT who is transferring schools. This is because we wanted to not expect schools to have to understand if an ECT had been registered at a previous school, as this could be confusing and lead to schools making mistakes. 
 
 ## What we tested
 We created and tested a journey which collected information about the ECT such as:
