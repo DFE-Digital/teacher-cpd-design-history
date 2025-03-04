@@ -1,5 +1,5 @@
 ---
-title: 'Arrivals: transferring in an ECT and collecting programme choices'
+title: 'Registering an ECT who has been registered before and collecting their programme choices'
 description: "How we've designed to transfer in an ECT from another school and asking for the ECT's programme choices."
 date: 2025-02-28
 ---
@@ -23,10 +23,10 @@ We also designed and tested playing back some information we'd already captured 
 However, after designing and testing this iteration, data analysis of the existing service found that transferred ECTs tend to take on the lead provider and delivery partner of the new school in the vast majority of cases.
 
 The analysis found that in transfers of ECTs between schools in 2023:
-* 97% of ECTs were registered with the same lead provider as their new schools programme choice
-* 96% of ECTs were registered with the same delivery partner as their new schools programme choice
+* 97% of ECTs were registered with the same lead provider as their new school's programme choices
+* 96% of ECTs were registered with the same delivery partner as their new school's programme choice
 
-We then iterated our design to default to offering to register the ECT with the lead provider and delivery partner for the new school, rather than asking if they wish to retain the previous choices. We chose to still highlight that the ECT had been registered before, as we know that schools are reassured by us highlighting that we're aware of that.
+We then iterated our design to default to offering to register the ECT with the lead provider and delivery partner for the new school, rather than asking if they wish to retain the previous choices. We chose to still highlight that the ECT had been registered before, as we know that schools are reassured by us highlighting that we're aware of that. It confirms that the ECT has undergone training and induction before and that they can pick up where they left off.
 
 ![A screenshot of the design where we highlight the ECT has been registered previously.](/ecf-v2/arrivals-transferring-in-an-ect/img_1.png)
 ![A screenshot of the design where we ask the user if they would like to use the schools programme choices for the ECT being transferred in.](/ecf-v2/arrivals-transferring-in-an-ect/img_2.png)

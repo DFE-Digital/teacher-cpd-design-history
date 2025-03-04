@@ -1,6 +1,6 @@
 ---
 title: Removing the delivery partner question
-description: "We've tested a few ways to ask school users about the delivery partner they're using for training, when they haven't worked with a delivery partner before. It's not been well understood, and we've chose to remove it."
+description: "We've tested a few ways to ask school users about the delivery partner they're using for training, when they haven't worked with a delivery partner before. It's not been well understood, and we've chosen to remove it."
 date: 2025-01-22
 ---
 
@@ -12,7 +12,7 @@ We [wanted to ask schools](../asking-for-lead-provider-and-delivery-partner) for
 
 - it helps their lead provider set up training for their ECTs and mentors quickly
 - some schools have come to our support desk asking to submit this information, and find it confusing they can't
-- when they've worked with a delivery partner in the most recent academic year, they confirm their delivery partner, and schools can find it confusing they don't when there's been a 2 year gap
+- when they've worked with a delivery partner in the most recent academic year, they confirm their delivery partner, and schools can find it confusing they don't in some scenarios
 - a school does ultimately decide on their delivery partner, so it better matches reality
 - we hoped it would reduce schools having to reach out to delivery partners directly to give information
 
@@ -22,7 +22,7 @@ We tested this with some users, who all used the 'same' appropriate body and del
 
 However, it is also common for appropriate bodies and delivery partners to have differing operating names. In this scenario, we wouldn't be able to ask if the appropriate body is the same organisation as the delivery partner, and we may have to present a different name. This could cause confusion for those users.
 
-It can also be the cause that sometimes appropriate bodies split into multiple different delivery partners to deliver training too.
+In addition, sometimes appropriate bodies split into multiple different delivery partners to deliver training too.
 
 This would present us with a risk that users may choose to answer 'yes' to the organisations being the same where they aren't. We're not confident users would understand what we were asking in this scenario and may answer 'yes' mistakenly.
 
