@@ -31,8 +31,12 @@ jobs:
       run: npm ci
     - name: Build with Eleventy
       run: npm run-script build
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v4
+    - name: Upload static files as artifact
+      id: deployment
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: _site
+
 
   deploy:
     environment:
@@ -43,4 +47,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v3
