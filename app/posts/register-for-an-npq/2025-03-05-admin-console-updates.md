@@ -31,17 +31,24 @@ Admins can change TRNs using the admin console.
 
 This is essential because applicants sometimes submit incorrect TRNs.
 
+![Screenshot showing how admins can change TRNs.](/register-for-an-npq/2025-03-10-admin-console-manage-applications/change-trn.png)
+
 ### Adjust funding eligibility
 
 We added a funding override function, allowing admins to adjust funding eligibility and record reasons for changes.
 
 Adjustments are often needed due to complex rules or exceptional circumstances.
 
+![Screenshot showing how admins can adjust funding eligibility.](/register-for-an-npq/2025-03-10-admin-console-manage-applications/update-funding-status.png)
+
+
 ### Revert applications to pending
 
 Admins can reset applications that were incorrectly processed, so that they can be reevaluated. 
 
 This means that they can restart workflows when needed.
+
+![Screenshot showing how admins can revert applications to pending.](/register-for-an-npq/2025-03-10-admin-console-manage-applications/change-state-to-pending.png)
 
 
 ## Outcome
