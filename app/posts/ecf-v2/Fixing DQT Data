@@ -6,16 +6,16 @@ date: 2025-20-02
 
 ## Why we’re doing this
 
-As the Database of Qualified Teachers (DQT) is being decommisioned, we are migrating induction period data to our new 'Record Inductions as an Appropriate Body' database. When we looked at the induction period records that were in scope for migrating to our new database, we wanted to make sure that the date we brought over was as high quality as possible. In order to do this, we analysed the DQT induction data and discovered a number of issues that we wanted to ideally resolve before importing. These issues could break our validation rules as well as cause complications and potentially increased support tickets if left unchecked, so we agreed on recommendations to deal with each issue which will be outlined below.
+As the Database of Qualified Teachers (DQT) is being decommissioned, we are migrating induction period data to our new 'Record Inductions as an Appropriate Body' database. When we looked at the induction period records that were in scope for migrating to our new database, we wanted to make sure that the data we brought over was as high quality as possible. In order to do this, we analysed the DQT induction data and discovered a number of issues that we wanted to ideally resolve before importing. These issues could break our validation rules as well as cause complications and potentially increase support tickets if left unchecked, so we agreed on recommendations to deal with each issue which will be outlined below.
 
 ## Issue types and how we dealt with them
 
 **Bad Status**
 
 This is an issue where a record has an open induction period alongside an overall induction status of passed, failed or exempt. 
-- There are roughly 60 records that require manual checking with the ops team post migration, where the record has an open induction period but a status that indicates they shouldn't or a record that is down as 'In Progress' but have no induction periods.
-- There are 100 records that have no induction start and an AB that is exempt in Wales, so this will be manually updated after migration.
-- There were 3,500 records that have no induction dates, but an overall status they shouldn't have. We didn't bring these records over a without any induction dates they aren't technically in progress. However, we will leave them with an 'In Progress' status in TRS in order to show some proof that the individual has started induction.
+- There are roughly 60 records that require manual checking with the ops team post migration, where the record has an open induction period but a status that indicates they shouldn't or a record that is 'In Progress' but has no induction periods.
+- There are 100 records that have no induction start date and an AB that is exempt in Wales, so this will be manually updated after migration.
+- There were 3,500 records that have no induction dates, but an overall status they shouldn't have. We didn't bring these records over without any induction dates as they aren't technically in progress. However, we will leave them with an 'In Progress' status in TRS in order to show some proof that the individual has started induction.
 
 **Induction Period start date after end date** 
 
@@ -32,7 +32,7 @@ This is an issue where the overall induction start date of a record is not blank
 
 This is an issue where an induction period has a start and/or end date that is in the future.
 - There were 1,671 records with a future start date in the DQT. The vast majority of these records were only a few weeks in advance and were mostly ahead of September starts with AB's claiming ECTs in preparation for the academic year.
-- We set new validation rules on the AB service that prevent any start dates in the future from being input. In order to not break our validation rules, we did not import any record with a start date that was later than our launch date of 18/02/2025. Any open records with a start date later then this will be prompted to resubmit when it goes live. 
+- We set new validation rules on the AB service that prevent any start dates in the future from being entered. In order to not break our validation rules, we did not import any record with a start date that was later than our launch date of 18 February 2025. Any open records with a start date later than this will be prompted to resubmit when it goes live. 
 
 **Induction period < 10 weeks** 
 
@@ -42,7 +42,7 @@ This is an issue where an induction period end date is after the induction perio
 
 **Duplicate start date, different ABs** 
 
-This is an issue where an induction period has a start date that is duplicated with another AB for that TRN. (i.e. started induction with 2x Abs on the same day) 
+This is an issue where an induction period has a start date that is duplicated with another AB for that TRN. (i.e. started induction with 2x ABs on the same day) 
 - There were 487 records with this issue in the DQT. We decided not to migrate these records for now as the overlaps would cause issues with our new validation rules. We will prioritise fixing the records for ECT's with a current induction period first. If there are clashing ABs we might need to communicate with them to resolve this.
 
 **Duplicate start date, same ABs**
@@ -57,14 +57,14 @@ This is an issue where the induction period start is distinct for the same AB fo
 
 **Invalid Period**
 
-This is a category of issue that occurs for several reasons. This is when; the period end date is null, the AB is no longer an active AB and/or the end/start date is populated and earlier than 01/09/2021.
-- There were 4,327 records wtith this issue in the DQT. Records with an 'invalid' AB, are records where the appropriate body is either a Local Authority or a de-designated teaching school hub. We decided to migrate the records with these 'invalid' ABs as they were still valid records and we need them for proof of induction and historical checks, they just shouldn't remain as open records. In order to deal with this, where these records were open, we assigned a 'dummy' end date to them, using the 31st of August 2024 as it is the de-designation date for local authorities. Alongisde this, we also showed these induction periods as counting for no terms of induction served.
+This is a category of issue that occurs for several reasons. This is when; the period end date is null, the AB is no longer an active AB and/or the end/start date is populated and earlier than 1 September 2021.
+- There were 4,327 records with this issue in the DQT. Records with an 'invalid' AB, are records where the appropriate body is either a Local Authority or a de-designated teaching school hub. We decided to migrate the records with these 'invalid' ABs as they were still valid records and we need them for proof of induction and historical checks, they just shouldn't remain as open records. In order to deal with this, where these records were open, we assigned a 'dummy' end date to them, using the 31st August 2024 as it is the de-designation date for local authorities. Alongside this, we also showed these induction periods as counting for no terms of induction served.
 
 **Missing Data** 
 
 This is another category of issue that also can occur for several reasons. There were 3,727 records with at least one of the issue types from the DQT. These records have at least one of the following;
 1) **Start date is null** - When the start date was null, we did not migrate the records. If there is no start date on a record, we cannot count it as 'in progress' and it also would break our validation rules. If a record has only one induction period, then we used the induction period start date as the overall start date for induction.
-2) **No appropriate body or holder/not detailed value** -  When there was no appropriate body or a holder value for the appripriate body, we didn't migrate them over. We assumed that these records were bad data and as we couldn't tell which AB made the record, we had no way of dealing with these before migration and chose not to migrate them. If there is a future support issue we can refer back to them to deal with the queries.
+2) **No appropriate body or holder/not detailed value** -  When there was no appropriate body or a holder value for the appropriate body, we didn't migrate them over. We assumed that these records were bad data and as we couldn't tell which AB made the record, we had no way of dealing with these before migration and chose not to migrate them. If there is a future support issue we can refer back to them to deal with the queries.
 4) **The end date is populated but the number of terms is not** - When there was an end date but no number of terms given, we have migrated the records with no term amounts recorded and then we set the terms to 0 but we will add a note onto these to flag it was 0 in the DQT.
-5) **The TRN is an ECF starter but doesn't have an induction programme type for a closed period** - When the TRN is an ECF starter but doesn't have a programme type on their record; if the records have a programme type but are pre-2021, then we stripped the programme type from them. If the records have no programme type on them but are after 2021, then we have assigned them an 'unknown' value rather than a null value.
+5) **The TRN is an ECF starter but doesn't have an induction programme type for a closed period** - When the TRN is an ECF starter but doesn't have a programme type on their record; if the records have a programme type but are before 2021, then we stripped the programme type from them. If the records have no programme type on them but are after 2021, then we have assigned them an 'unknown' value rather than a null value.
 
