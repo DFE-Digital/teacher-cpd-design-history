@@ -8,7 +8,7 @@ date: 2025-03-12
 
 We wanted to ask schools for an ECT’s working pattern so we can share this information with lead providers.
 
-It’s useful for lead providers to understand if an ECT has a part time working pattern so they can follow up with the school to make any necessary adjustments for training. For example, part-time ECTs might do their training over a longer period than two years.
+It’s useful for lead providers to understand if an ECT has a part time working pattern so they can follow up with the school to make any necessary adjustments for training. For example, part time ECTs might do their training over a longer period than 2 years.
 
 We decided not to ask mentors about their working pattern as lead providers said this information is less useful to them, and we thought this question would be harder for schools to understand.
 
