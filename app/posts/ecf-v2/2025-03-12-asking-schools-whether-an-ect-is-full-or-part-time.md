@@ -24,13 +24,13 @@ This included:
 
 * concerns over whether an ECT with a part time working pattern would meet the entitlement for induction over the 2-year period
 
-![A screenshot of the first iteration of the working pattern design.](/ecf-v2/2025-03-10-asking-schools-whether-an-ect-is-full-or-part-time/screenshot1.png)
+![A screenshot of the first iteration of the working pattern design.](/ecf-v2/asking-schools-whether-an-ect-is-full-or-part-time/screenshot1.png)
 
 Following feedback from users and consulting with lead providers, we amended the question to include the phrase ‘as an ECT’ to make it clearer in scenarios where someone is working full time at a school, but part time as an ECT.
 
 We also introduced some hint text to let users know why we’re asking for this information and reassure them that it’s to help make any necessary adjustments if required.
 
-![A screenshot of the first iteration of the working pattern design.](/ecf-v2/2025-03-10-asking-schools-whether-an-ect-is-full-or-part-time/screenshot2.png)
+![A screenshot of the first iteration of the working pattern design.](/ecf-v2/asking-schools-whether-an-ect-is-full-or-part-time/screenshot2.png)
 
 ## What we need to do next
 
