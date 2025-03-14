@@ -19,8 +19,11 @@ We spoke to the DfE teams who use ECF schools data, so that we could understand 
 We spoke to: 
 
 **Grant funding team:** As these schools don't receive any funding, they didn't think they needed this data. 
+
 **TAD**: The have a very small number of ECTs at technical colleges covered in their statistics, but they weren't sure why these ECTs were in scope. No other ECTs at non-state funded schools (except Section 41 schools) are included in their statistics. 
+
 **ECF Policy Unit:** They couldn’t see any major issues with not collecting this data. 
+
 **Induction policy team:** They also didn’t highlight any reasons for collecting this data. 
 
 Following these conversations, we proposed that non-state-funded schools should **not** need to register their ECTs and mentors in RECT, for several reasons: 
