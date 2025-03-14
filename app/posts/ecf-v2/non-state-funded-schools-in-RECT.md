@@ -4,13 +4,13 @@ description: "Why we’ve changed which types of schools can access the service.
 date: 2025-03-13
 ---
 
-## Why we're doing this
+## Context
 
-ECTs can serve induction at non-state-funded schools, but they do not receive DfE funding for ECF training. These ECTs can still do unfunded training, using the publicly accessible materials.  
+ECTs can serve induction at schools that are not state-funded, but they do not receive DfE funding for ECF training. These ECTs can still do unfunded training, either by using the publicly accessible materials from lead providers or by schools creating their own training following the initial teacher training early career framework.  
 
-Mainly these schools are independent schools without section 41 status (c.1100 per year) and British schools overseas (c.900 per year).  
+Mainly these schools are independent schools without section 41 status (around 1100 per year) and British schools overseas (around 900 per year).  
 
-Previously, schools needed to use the service to gain access to the DfE materials if they chose this training option for their ECTs. However, these materials were made publicly available last year, so we wanted to explore whether there was still a need for non-state-funded schools (without section 41 funding) to use the RECT service at all. 
+Previously, schools needed to use the service to gain access to the DfE materials if they chose this training option for their ECTs. However, these materials were made publicly available last year, so we wanted to explore whether there was still a need for non-state-funded schools (without section 41 funding) to use the Register early career teachers (RECT) service at all. 
 
 ## What we did
 
@@ -18,10 +18,10 @@ We spoke to the DfE teams who use ECF schools data, so that we could understand 
 
 We spoke to: 
 
-- Grant funding team: As these schools don't receive any funding, they didn't think they needed this data. 
-- TAD: The have a very small number of ECTs at technical colleges covered in their statistics, but they weren't sure why these ECTs were in scope. No other ECTs at non-state funded schools (except Section 41 schools) are included in their statistics. 
-- ECF Policy Unit: They couldn’t see any major issues with not collecting this data. 
-- Induction policy team: They also didn’t highlight any reasons for collecting this data. 
+**Grant funding team:** As these schools don't receive any funding, they didn't think they needed this data. 
+**TAD**: The have a very small number of ECTs at technical colleges covered in their statistics, but they weren't sure why these ECTs were in scope. No other ECTs at non-state funded schools (except Section 41 schools) are included in their statistics. 
+**ECF Policy Unit:** They couldn’t see any major issues with not collecting this data. 
+**Induction policy team:** They also didn’t highlight any reasons for collecting this data. 
 
 Following these conversations, we proposed that non-state-funded schools should **not** need to register their ECTs and mentors in RECT, for several reasons: 
 - There was no clear need to collect non-state-funded school data for DfE teams. 
