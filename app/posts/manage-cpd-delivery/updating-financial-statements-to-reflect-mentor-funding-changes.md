@@ -1,6 +1,6 @@
 ---
-title: Updating financial statements to reflect mentor funding changes 
-description: Update to the template we use for financial statements that outline DfE payments to lead providers for training early career teachers and mentors. Deployed in March 2025
+title: Updating financial statements to reflect mentor funding changes
+description: We've updated the provider payments financial statement template.
 date: 2025-03-17
 ---
 
