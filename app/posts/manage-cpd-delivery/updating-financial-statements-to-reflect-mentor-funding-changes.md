@@ -38,7 +38,7 @@ We had to:
 We also needed to remove: 
 
 * service fees for mentors. Going forward, payments for mentor training will be 100% output fees
-* the Band D column from the payment bands because this band is being removed
+* the Band D column from the payment bands because it's not being used for the 2025/26 academic year
 * "retained" figures for mentors because there’ll only be 2 mentor declarations ("started" and "completed") rather than 6 from the 2025/26 academic year onwards
 * uplift fees because these additional payments will no longer be included 
 
