@@ -6,7 +6,7 @@ date: 2025-03-17
 
 ## Background
 
-We’re changing the way we fund training for mentors. These changes, which are being introduced for the 2025/26 academic year, must be reflected in the financial statements outlining payments to lead providers for training early career teachers (ECTs) and mentors. 
+We’re changing the way we fund training for mentors. These changes, which are being introduced for contracts that start in the 2025/26 academic year, must be reflected in the financial statements outlining payments to lead providers for training early career teachers (ECTs) and mentors. 
 
 DfE contract and funding managers use a digital version of the statements within their admin portal to help ensure accuracy and transparency in funding allocations. They share PDF copies with lead providers after payments have been approved. 
 
@@ -28,7 +28,7 @@ We prepare statements for each lead provider in line with their regular payment 
 
 ## What needed to change  
 
-For the statements covering the 2025/26 academic year onwards, we had the following requirements to ensure the updated design reflects the new pricing model. 
+For the statements covering contracts that start in the 2025/26 academic year onwards, we had the following requirements to ensure the updated design reflects the new pricing model. 
 
 We had to: 
 
