@@ -10,7 +10,7 @@ related:
 
 ## Why we’re doing this
 
-As the Database of Qualified Teachers (DQT) is being decommissioned, we are migrating induction period data to our new 'Record Inductions as an Appropriate Body' database. When we looked at the induction period records that were in scope for migrating to our new database, we wanted to make sure that the data we brought over was as high quality as possible. In order to do this, we analysed the DQT induction data and discovered a number of issues that we wanted to ideally resolve before importing. These issues could break our validation rules as well as cause complications and potentially increase support tickets if left unchecked, so we agreed on recommendations to deal with each issue which will be outlined below.
+As the Database of Qualified Teachers (DQT) is being decommissioned, we are migrating induction period data to our new 'Record Inductions as an Appropriate Body' database. When we looked at the induction period records that were in scope for migrating to our new database, we wanted to make sure that the data we brought over was as high quality as possible. In order to do this, we analysed the DQT induction data and discovered a number of issues that we wanted to ideally resolve before importing. These issues could break our validation rules as well as cause complications and potentially increase support tickets if left unchecked. We agreed on recommendations for dealing with each of the issue types, leaving some as they were, preventing some being migrated and cleaning some with our scripts in order to migrate the cleanest data possible.
 
 ## Issue types and how we dealt with them
 
