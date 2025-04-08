@@ -1,7 +1,7 @@
 
 ---
 title: Find and claim journey
-description: "How we built the find and claim, journeys of the RIAB service ."
+description: "How we built the find and claim journeys of the RIAB service."
 date: 2025-08-04
 ---
 
