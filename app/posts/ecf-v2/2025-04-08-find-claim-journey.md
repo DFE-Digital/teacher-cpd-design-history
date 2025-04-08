@@ -1,3 +1,13 @@
+
+---
+title: Find and claim journey
+description: "How we built the find and claim journeys of the RIAB service."
+date: 2025-08-04
+---
+
+
+
+
 # Find and Claim Design history 
 
 The record inductions as an appropriate body service (RIAB) was designed to replace the ‘Appropriate Body Portal’ held by the Teaching Regulation Agency (TRA) due to the decommissioning of the legacy Database for Qualified Teachers (DQT). The RIAB service contains part of the data from the DQT (now called TRS) relating to induction periods, but not the overall induction results. 
