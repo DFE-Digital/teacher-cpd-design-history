@@ -31,7 +31,7 @@ The TRA AB portal would allow you to:
 
 ### The original TRA claim journey, step by step is as follows. 
 
-(workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/original-find-claim-step-1.png)
+![original find claim step 1](/ecf-v2/find-claim-journey/original-find-claim-step-1.png)
 
 (workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/original-find-claim-step-2.png)
 
