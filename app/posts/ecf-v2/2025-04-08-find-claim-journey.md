@@ -33,11 +33,11 @@ The TRA AB portal would allow you to:
 
 ![original find claim step 1](/ecf-v2/find-claim-journey/original-find-claim-step-1.png)
 
-(workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/original-find-claim-step-2.png)
+[original-find-claim-step-2](ecf-v2/find-claim-journey/original-find-claim-step-2.png)
 
-(workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/original-find-claim-step-3.png)
+[original-find-claim-step-3](workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/original-find-claim-step-3.png)
 
-(workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/original-find-claim-step-4.png)
+[original-find-claim-step-4](workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/original-find-claim-step-4.png)
 
 ## The ‘find and claim’ journey in the RIAB service. Differences and similarities. 
 
@@ -76,19 +76,19 @@ Once an ECT has been found and claimed the appropriate body is responsible to tr
 
 ### The claim journey, step by step is as follows. 
 
-(workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/find-claim-step-1.png)
+[find-claim-step-1](workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/find-claim-step-1.png)
 
-(workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/find-claim-step-2.png)
+[find-claim-step-2](workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/find-claim-step-2.png)
 
-(workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/find-claim-step-3.png)
+[find-claim-step-3](workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/find-claim-step-3.png)
 
-(workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/find-claim-step-4.png)
+[find-claim-step-4](workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/find-claim-step-4.png)
 
-(workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/find-claim-step-5.png)
+[find-claim-step-5](workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/find-claim-step-5.png)
 
-(workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/find-claim-step-6.png)
+[find-claim-step-6](workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/find-claim-step-6.png)
 
-(workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/find-claim-step-7.png)
+[find-claim-step-7](workspaces/teacher-cpd-design-history/app/images/ecf-v2/find-claim-journey/find-claim-step-7.png)
  
 
  
