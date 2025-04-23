@@ -7,16 +7,14 @@ date: 2025-04-23
 ## How the training options are changing
 
 Historically, there’ve been 3 training options for schools to choose from to train their early career teachers (ECTs): 
+
 1. A training programme led by lead providers and delivered by delivery partners, with an online learning platform and training events. 
-
 2. Using learning materials created by lead providers but otherwise running their own training programme as a school. 
-
 3. Creating their own learning materials and running their own training programme as a school. 
 
 For the 2025 academic year, we’re merging these 3 options into 2: 
 
 1. A training programme led by lead providers and delivered by delivery partners, with an online learning platform and training events, now named ‘provider-led’. 
-
 2. Running their own training programme as a school, regardless of if they use lead provider-created learning materials or not, now named ‘school-led’. 
 
 ## Why they're changing
@@ -24,7 +22,6 @@ For the 2025 academic year, we’re merging these 3 options into 2:
 We made this change because: 
 
 * we believe it’ll make the options clearer for schools training ECTs 
-
 * it better fits the reality of how schools are training ECTs 
 
 ## How this impacts the services
@@ -56,13 +53,9 @@ In the past, we asked schools what learning materials they would use for their E
 We’ve decided to remove this question because: 
 
 * it'll cost time and money to re-build it, for likely not many ECTs  
-
 * we think it might confuse some schools not using any lead provider learning materials for school-led training  
-
 * lead providers are now hosting these learning materials, and we're exploring ways to measure how schools use these materials through analytics or other reporting  
-
 * this question will not be relevant for many schools registering school-led ECTs, adding an unnecessary extra question that increases their workload  
-
 * we're not sure if the added value of collecting this information justifies the above 
 
 ### The team involved
@@ -70,13 +63,8 @@ We’ve decided to remove this question because:
 These changes were worked on by different teams, involving:
  
 * Matthew Doyle – business analyst 
-
 * Tony Headford – tech lead  
-
 * Abeer Salameh – tech lead  
-
 * Mark Avery – content designer 
-
 * Shahad Rahman – product manager 
-
 * Claire Hughes – product manager  
