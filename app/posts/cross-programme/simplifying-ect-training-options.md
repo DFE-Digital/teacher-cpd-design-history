@@ -1,6 +1,6 @@
 ---
 title: Simplifying training options for early career teachers 
-description: "Why the training options for ECTs have been simplified and how it's changed the digital services "
+description: "Why the training options for ECTs have been simplified and how it's changed the digital services"
 date: 2025-04-23
 ---
 
