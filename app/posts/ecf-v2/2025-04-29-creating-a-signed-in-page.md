@@ -1,10 +1,10 @@
 ---
-title: "Creating a signed in dashboard"
+title: "Creating a signed in dashboard for schools"
 description: "Why we created it and why it won't be included in the initial release"
 date: 2025-04-29
 ---
 
-## Why we wanted to try and created a dashboard for school users after sign in
+## Why we wanted to try and create a dashboard for school users after sign in
 
 We originally wanted to try and create a dashboard for school users after sign in to help schools by:
 
