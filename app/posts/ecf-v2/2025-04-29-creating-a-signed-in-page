@@ -1,0 +1,12 @@
+---
+title: "Creating a signed in dashboard"
+description: "Why we created it and why it won't be included in the initial release"
+date: 2025-04-29
+---
+
+## Why we wanted to try and created a dashboard for school users after sign in
+
+We originally wanted to try and create a dashboard for school users after sign in to help schools by:
+- reassuring them they've done what they needed to do to register early career teachers (ECTs) and their mentors
+- make clear the purpose of the digital service and what they needed to do
+- prompt them to take certain actions when necessary, such as assigning a mentor to an ECT
