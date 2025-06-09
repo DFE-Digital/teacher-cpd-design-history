@@ -1,13 +1,14 @@
 ---
-title: Default choices for the add an ECT journey
-description: "How we want to make it easier to add ECTs for schools by allowing users to save default programme choices."
+title: Reusing recent choices for the add an ECT journey
+description: "How we want to make it easier to add ECTs for schools by allowing users to reuse their recent default programme choices."
 date: 2024-11-05
 ---
 
 ## Why we’re doing this
 
 Currently in ECF1 school users set up the programme type, AB and training details which are then applied to all ECTs and mentors that they register going forward. The problem is that there are cases in which ECTs and mentors will have different training details and there currently isn't a way of specifying this difference in the add ECT journey (they would need to edit details once record is registered).
-Therefore we've introduced the default programme choice as an alternative to setting up school-level details for AB, LP, DP and programme type, as we know there may be ECTs and mentors within a school that differ.
+
+Therefore we've designed and tested a default programme choice as an alternative to setting up school-level details for AB, LP, DP and programme type, as we know there may be ECTs and mentors within a school that differ.
 
 ## What we tested
 
@@ -40,3 +41,5 @@ We tested the above design in which we play back the most recently used choices 
 This tested well with users, and it was clearer to users what they were seeing compared to the previous version in which we were asking users to save their choices first.
 
 Participants considered it very helpful to not have to re-enter information and they recognised the partnerships they were seeing on the page, especially as we tested with the real information for their school.
+
+We've designed to progress with this design in which we won't ask users to save their default choices so they can reuse them later, but instead play back their most recently used choices so they can reuse them when they are adding an ECT.
