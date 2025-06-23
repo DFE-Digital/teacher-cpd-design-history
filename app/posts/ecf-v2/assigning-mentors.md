@@ -33,3 +33,31 @@ The user will have the option to return to their ECT list if they don’t want t
 In the case of selecting ‘someone else’ for their ECT’s mentor, users expected to be then asked for the name and details of that mentor. Instead, the flow continues to a final check your answers page which left users confused around when they’d add a mentor, despite getting the ‘what you’ll need to next’ page directly after.
 
 We’ve decided to remove the mentor selection page within the add an ECT flow. Instead,  we'll direct school users to assigning an existing mentor or adding a new mentor once their ECT is registered as this  better fits their expectations on the journey. It allows schools to give all the information for a mentor at once, or later, if they need to.
+
+## Updates and iterations - June 2025
+
+Since further testing and iterating, we've now further refined our content, as well as accomodate for capturing details about mentor training.
+
+### Content updates
+
+We've updated the content for the radio option from 'Someone else' to 'Register a new mentor', as we've found it to test more clearly, that it explicitly means a new mentor will be registered.
+
+![A screenshot of when a user can select to register a new mentor.](/ecf-v2/assigning-mentors/screenshot5.png)
+
+We've also updated the content on the confirmation page to more clearly tell the user that they've completed registering the ECT now that they've added the mentor for the ECT.
+
+![A screenshot of the confirmation page when adding a mentor.](/ecf-v2/assigning-mentors/screenshot6.png)
+
+### Mentor training
+
+We've found that for mentors who receive mentor training when training a provider-led ECT, they typically would use the same lead provider for that training as the ECT they're mentoring. We initially tested a journey where users were being asked to answer 'yes' or 'no' to confirming the mentors training provider.
+
+![A screenshot of the what we initially tested for confirming mentor training choices.](/ecf-v2/assigning-mentors/screenshot7.png)
+
+However, in research, users found this confusing. Some users expressed confusion as to why this would differ from the ECT, and it introduced some hesitation. We since iterated to a design pattern where we tell the user that the mentor is eligible for mentor training, and tell them that the lead provider for the ECT will contact them regarding it. We also give an option to tell us if that lead provider will not be providing training and select a different lead provider, for those scenarios where the user knows that will be the case.
+
+![A screenshot of our iterated pattern where we tell the user about the mentor training eligibility.](/ecf-v2/assigning-mentors/screenshot8.png)
+
+![A screenshot of where the user can tell us about a different lead provider.](/ecf-v2/assigning-mentors/screenshot9.png)
+
+We only playback mentor training options as part of the 'add a mentor' journey when a mentor is mentoring an ECT who is provider-led, and we skip mentor training questions for school-led.
