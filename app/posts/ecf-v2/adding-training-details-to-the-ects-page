@@ -1,19 +1,23 @@
 ---
 title: "Adding more information to the ECTs page"
-description: "Why we're adding more information to the page where a school views all their ECTs"
+description: "Why we're adding the different organisation roles to the page where a school views all their ECTs"
 date: 2025-02-26
 author: Claire Hughes
 ---
 
 ## Why we’re doing this
 
-We tested with schools the new service. Some schools said that when they registered their ECTs, it was 'too late' when they were seeing the details for the lead provider, delivery partner and appropriate body they were working with.
+In testing, some schools said that when they registered their ECTs, it was 'too late' when they were seeing the details for the lead provider, delivery partner and appropriate body they were working with. They wanted to be able to see quickly and upfront who they were.
 
 We think this is because:
 
-- the delivery model for the early career teacher training entitlement (ECTE) is complex, and it helps remind them of the different parts
+- the delivery model for the early career teacher training entitlement (ECTE) is complex
 - there's a few different organisations they work with, and it can be difficult to remember them all
-- it helps 
+- it helps reassure school users that the information in Register ECTs is correct
+
+We hope by adding this information, it gives schools a better understanding of the different organisational roles involved in induction and early career teacher training programmes. It will also help better highlight when there are inconsistencies or mistakes that need to be rectified by the school.
+
+A lead provider also told us this would be helpful for them as schools often screenshot the first page when they sign in to send to them for help. However, given it doesn't include the lead provider they work with, it means it misses key information needed for that lead provider to assist them.
 
 ## What we're doing
 
