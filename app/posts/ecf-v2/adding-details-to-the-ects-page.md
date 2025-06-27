@@ -1,7 +1,7 @@
 ---
 title: "Adding more information to the ECTs page"
 description: "Why we're adding the different organisation roles to the page where a school views all their ECTs"
-date: 2025-02-26
+date: 2025-06-27
 author: Claire Hughes
 ---
 
