@@ -1,12 +1,12 @@
 ---
-title: Pass, Fail, Release and Extensions Design History
-description: "How we built the Pass, Fail and Extensions Journeys of the service ."
+title: Pass, fail, release and extensions design history
+description: "How we built the pass, fail and extensions journeys of the service ."
 date: 2025-03-20
 ---
 
 The 'record induction as an appropriate body' service (RIAB) was designed to replace the 'Appropriate Body Portal' (AB) held by the Teaching Regulation Agency (TRA) due to the decommissioning of the legacy Database for Qualified Teachers (DQT). RIAB contains part of the data from the DQT (now called TRS) relating to induction periods, but not the overall induction results.
 
-RIAB allows appropriate bodies to record an induction outcome once they have claimed an ECT. They are able to record either a Pass, a Fail or an extension through the 'record an outcome' journey.
+RIAB allows appropriate bodies to record an induction outcome once they have claimed an ECT. They are able to record either a pass, a fail or an extension through the 'record an outcome' journey.
 
 # The 'record induction outcome' journey in the TRA AB portal
 
