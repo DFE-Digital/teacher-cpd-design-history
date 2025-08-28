@@ -90,7 +90,7 @@ We aimed to validate whether releasing the bulk feature in two separate phases (
 
 * users wanted to be able to download exports from third party services to upload them to RIAB 
 
-**Round 2** - the second round of research enabled us to review initial insights from Round 1, and test design iterations on the user journey. We used a task-based prototype test, using the review app and CSV files with mock data. 
+**Round 2** – the second round of research enabled us to review initial insights from Round 1, and test design iterations on the user journey. We used a task-based prototype test, using the review app and CSV files with mock data. 
 
 We tested users' understanding of error messages in the CSV file, and in the service; we tested their understanding of how to save and upload spreadsheets for bulk upload and validated whether content was clear and helped them complete their task. 
 
