@@ -100,7 +100,7 @@ We aimed to understand what happens if a user leaves the service mid-process, wh
 
 ### Some insights from the research:  
 
-* identified a need to add a teachers name in some error messages: since names were not included in the CSV (which only used date of birth and teacher reference number), if one of these columns had an error, users couldn’t identify which record needed attention 
+* identified a need to add a teacher's name in some error messages: since names were not included in the CSV (which only used date of birth and teacher reference number), if one of these columns had an error, users couldn’t identify which record needed attention 
 
 * users often mistook the upload summary page for a confirmation or success page, which required content updates to clarify the status and next steps at that point in the journey 
  
