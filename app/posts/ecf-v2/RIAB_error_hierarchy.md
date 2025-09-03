@@ -1,122 +1,122 @@
 ---
-title: How we validate bulk upload data 
-description: "Explanation of the error hierarchy logic used to validate data in RIAB" 
+title: How we validate bulk upload data
+description: "Explanation of the error hierarchy logic used to validate data in RIAB"
 date: 2025-08-27
 ---
-# How we validate bulk upload data (error hierarchy) 
- 
-The RIAB service is supported by data captured in the Teaching Regulation Service (TRS) database – we use this to check and validate the data uploaded to RIAB. 
- 
-When checking Early Career Teaching (ECT) records, to ensure the backend system effectively prioritises what to validate and when to call the TRS API, we mapped out an error hierarchy. This hierarchy gives the backend clear, step-by-step rules for checking information against the TRS database—while minimising unnecessary API calls.   
- 
-## How RIAB’s error validation works 
+# How we validate bulk upload data (error hierarchy)
 
-There are 3 steps in the error validation process:  
+The RIAB service is supported by data captured in the Teaching Regulation Service (TRS) database – we use this to check and validate the data uploaded to RIAB.
 
-1. **CSV errors:** the backend first validates the structure of the uploaded CSV file. This includes checks for issues like duplicate rows. These structural problems are flagged before any API calls are made  
+When checking Early Career Teaching (ECT) records, to ensure the backend system effectively prioritises what to validate and when to call the TRS API, we mapped out an error hierarchy. This hierarchy gives the backend clear, step-by-step rules for checking information against the TRS database—while minimising unnecessary API calls.  
 
-2. **TRS API checks:** if the CSV passes the initial check the backend calls the TRS API to validate ECT details and confirm that the appropriate body is matched correctly. Any errors will be flagged in a downloadable CSV, alongside the row they apply to 
+## How RIAB’s error validation works
 
-3. **Formatting errors:** once the TRS validation is complete, the system checks the formatting and content of individual rows to ensure the data aligns with expected values and formats. Any errors will appear in a downloadable CSV, alongside the row they apply to 
+There are 3 steps in the error validation process:
 
-When all these steps are complete, any data rows, without errors, will successfully upload to the service. 
+1. **CSV errors:** the backend first validates the structure of the uploaded CSV file. This includes checks for issues like duplicate rows. These structural problems are flagged before any API calls are made
 
+2. **TRS API checks:** if the CSV passes the initial check the backend calls the TRS API to validate ECT details and confirm that the appropriate body is matched correctly. Any errors will be flagged in a downloadable CSV, alongside the row they apply to
 
-### CSV template  
+3. **Formatting errors:** once the TRS validation is complete, the system checks the formatting and content of individual rows to ensure the data aligns with expected values and formats. Any errors will appear in a downloadable CSV, alongside the row they apply to
 
-To help users with accuracy of data, we provide a downloadable template with pre-populated headings showing the required information.  
-
-We didn’t ask for the teacher’s name, because a teacher’s name can change through marriage or be misspelt and could create more errors. Instead, the teacher reference number (TRN) and date of birth were selected for validation against the Teacher Record Service API as these are the most stable sources of data. 
-
-![image](https://github.com/DFE-Digital/teacher-cpd-design-history/blob/main/app/images/ecf-v2/Screenshot%202025-07-18%20114805.png)
-
-We also provide guidance, in an accordion, so that users can read more detail if required. In testing, users preferred the information to be in the accordion, so that you could expand it if needed, but you’re not overwhelmed with content on the initial view. 
- 
-![image](https://github.com/DFE-Digital/teacher-cpd-design-history/blob/main/app/images/ecf-v2/what%20to%20include%20in%20your%20CSV%20file.png)
+When all these steps are complete, any data rows, without errors, will successfully upload to the service.
 
 
-## Error levels and their rules  
+### CSV template
 
-When there are errors detected in the CSV file the user is uploading, the rows with errors are added to a separate CSV which the user can then download. This is known as the downloadable ‘error CSV’. 
- 
-The error CSV will show the user specific error messages relating to the detected error. The user needs to correct these errors before uploading the CSV again.   
+To help users with accuracy of data, we provide a downloadable template with pre-populated headings showing the required information.
 
-A key insight from user research highlighted that if either the TRN or date of birth are entered incorrectly, without the teacher’s name, it becomes difficult for users to identify the correct teacher within their own systems. As a result, the teacher’s name is included against each error in the error CSV, allowing users to easily identify the teacher and resolve the issue more easily. 
+We didn’t ask for the teacher’s name, because a teacher’s name can change through marriage or be misspelt and could create more errors. Instead, the teacher reference number (TRN) and date of birth were selected for validation against the Teacher Record Service API as these are the most stable sources of data.
 
-[View this document to see all the error messages](https://educationgovuk.sharepoint.com/:x:/r/sites/TeacherServices/_layouts/15/Doc.aspx?sourcedoc=%7B4932BA14-2BE0-4295-9587-74DD7CF4D6C3%7D&file=Error%20messages%20-%20bulk%20upload%20all%20journeys.xlsx&action=default&mobileredirect=true) 
+![image](/ecf-v2/error-hierarchy/csv-headers.png)
 
-### CSV level errors  
+We also provide guidance, in an accordion, so that users can read more detail if required. In testing, users preferred the information to be in the accordion, so that you could expand it if needed, but you’re not overwhelmed with content on the initial view.
 
-Any errors with the CSV file will result in the rejection of the whole file, with no rows processed.  
+![image](/ecf-v2/error-hierarchy/what-to-include-in-your-csv.png)
 
-CSV error types: 
 
-* No file selected  
+## Error levels and their rules
 
-* Wrong file type – only CSV files will be accepted 
+When there are errors detected in the CSV file the user is uploading, the rows with errors are added to a separate CSV which the user can then download. This is known as the downloadable ‘error CSV’.
 
-* Empty file – If the file has no inputted data, it will be blocked  
+The error CSV will show the user specific error messages relating to the detected error. The user needs to correct these errors before uploading the CSV again.
 
-* File too big - 1000 rows limit per CSV and 100kb file size limit 
+A key insight from user research highlighted that if either the TRN or date of birth are entered incorrectly, without the teacher’s name, it becomes difficult for users to identify the correct teacher within their own systems. As a result, the teacher’s name is included against each error in the error CSV, allowing users to easily identify the teacher and resolve the issue more easily.
 
-* Duplicate TRNs in the file 
+[View this document to see all the error messages](https://educationgovuk.sharepoint.com/:x:/r/sites/TeacherServices/_layouts/15/Doc.aspx?sourcedoc=%7B4932BA14-2BE0-4295-9587-74DD7CF4D6C3%7D&file=Error%20messages%20-%20bulk%20upload%20all%20journeys.xlsx&action=default&mobileredirect=true)
 
-* Incorrect headers – only headers shown in the template summary will be accepted 
+### CSV level errors
 
-* Missing columns – If any column headers are missing, the file will be rejected.   
- 
+Any errors with the CSV file will result in the rejection of the whole file, with no rows processed.
 
-### Formatting rules 
+CSV error types:
 
-Formatting errors are captured in the error CSV, alongside the row they apply to. If there are multiple formatting errors, we show multiple error messages. The service requires all formatting rules are met before the CSV file is processed. 
+* No file selected
 
-**TRN**  
+* Wrong file type – only CSV files will be accepted
 
-* TRN must be 7 digits 
+* Empty file – If the file has no inputted data, it will be blocked
 
-* TRN must not contain any letters 
+* File too big - 1000 rows limit per CSV and 100kb file size limit
 
-* Field must be completed  
+* Duplicate TRNs in the file
 
-**Date of birth (DoB)**  
+* Incorrect headers – only headers shown in the template summary will be accepted
 
-* Date of birth must be in YYYY-MM-DD format 
+* Missing columns – If any column headers are missing, the file will be rejected.
 
-* Field must be completed 
 
-**Induction end date** 
+### Formatting rules
 
-* End date must be in YYYY-MM-DD format 
+Formatting errors are captured in the error CSV, alongside the row they apply to. If there are multiple formatting errors, we show multiple error messages. The service requires all formatting rules are met before the CSV file is processed.
 
-* Field must be completed 
+**TRN**
 
-**Number of terms** 
+* TRN must be 7 digits
 
-* Number of terms must be between 1 and 16 
+* TRN must not contain any letters
 
-* Number of terms must not be more than 1 decimal place 
+* Field must be completed
 
-* Field must be completed 
+**Date of birth (DoB)**
 
-**Outcome**  
+* Date of birth must be in YYYY-MM-DD format
 
-* Outcome must be ‘Pass’, ‘Fail’ or ‘Release’ 
+* Field must be completed
 
-* Field must be completed  
- 
+**Induction end date**
 
-### Validation rules 
+* End date must be in YYYY-MM-DD format
 
-Validation errors appear in the error CSV. If there are multiple validation errors, we show multiple error messages. Where the service matched the teacher record number (TRN) and date of birth (DoB) to the ECT record, the error message shows the ECT’s name, to help the user reference and resolve issues. 
+* Field must be completed
 
-* TRN and DoB must match a record on the TRS 
+**Number of terms**
 
-* Induction end date must not be in the future 
+* Number of terms must be between 1 and 16
 
-* Induction end date must not be before the start date 
+* Number of terms must not be more than 1 decimal place
 
-* ECT must be claimed by the same appropriate body attempting to pass, fail or release them 
+* Field must be completed
 
-* ECT must not have already passed or failed induction 
+**Outcome**
 
-* ECT must have an open induction period   
+* Outcome must be ‘Pass’, ‘Fail’ or ‘Release’
+
+* Field must be completed
+
+
+### Validation rules
+
+Validation errors appear in the error CSV. If there are multiple validation errors, we show multiple error messages. Where the service matched the teacher record number (TRN) and date of birth (DoB) to the ECT record, the error message shows the ECT’s name, to help the user reference and resolve issues.
+
+* TRN and DoB must match a record on the TRS
+
+* Induction end date must not be in the future
+
+* Induction end date must not be before the start date
+
+* ECT must be claimed by the same appropriate body attempting to pass, fail or release them
+
+* ECT must not have already passed or failed induction
+
+* ECT must have an open induction period
