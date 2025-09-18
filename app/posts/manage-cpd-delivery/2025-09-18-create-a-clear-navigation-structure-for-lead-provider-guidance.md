@@ -41,7 +41,7 @@ Problems we’ve found include:
 * providers have often told us they’re not sure whether to read guidance, scan release notes, or jump to the API technical documentation
 * deep navigation increases the risk of landing on out-of-date examples when schemas change
 
-[INSERT SCREENSHOT HERE]
+![Screenshot showing the existing ‘Manage training for early career teachers’ lead provider guidance landing page. The left-hand navigation dropdowns have been highlighted](/manage-cpd-delivery/create-a-clear-navigation-structure-for-lead-provider-guidance/screenshot-current-guidance-navigation.png). 
 
 ## What we’ve changed 
 
@@ -51,9 +51,9 @@ Problems we’ve found include:
 | Reference navigation | In-site endpoint lists (v1 to v3) alongside guidance     | Defer endpoint navigation to “Swagger” as the single source of truth        | Less duplication. Fewer mismatches between guidance and schemas           | 
 | Conceptual vs technical documentation      | Conceptual guidance and examples mixed with reference | Separate pathways: “Guidance” (concepts/how-to) vs “Swagger” (tech docs) | Clear mental model. Easier for non-technical readers to find explanations | 
 | Change awareness     | Long archive of release notes buried in navigation    | Latest release note previewed on the landing with link to full list | Users notice changes earlier                                              | 
-| Support links        | Compliance links in footer   | Prominent "Accessibility", "Cookies", "Privacy", "Contact support" links    | Clearer routes to help and mandatory information                | ## What we’ve changed 
+| Support links        | Compliance links in footer   | Prominent "Accessibility", "Cookies", "Privacy", "Contact support" links    | Clearer routes to help and mandatory information | 
 
-[INSERT SCREENSHOT HERE]
+![Screenshot with the new lead provider guidance primary navigation and release notes links highlighted](/manage-cpd-delivery/create-a-clear-navigation-structure-for-lead-provider-guidance/screenshot-new-guidance-navigation.png).
 
 ## Primary navigation flows we’re optimising 
 
