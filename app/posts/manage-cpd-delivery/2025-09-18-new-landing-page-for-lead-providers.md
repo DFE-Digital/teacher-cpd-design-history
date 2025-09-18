@@ -1,5 +1,5 @@
 ---  
-title: New landing page for lead provider guidance 
+title: New landing page for lead providers
 description: Restructuring the way we present information to lead providers 
 date: 2025-09-18  
 --- 
