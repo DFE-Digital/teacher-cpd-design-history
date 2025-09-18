@@ -1,11 +1,7 @@
 ---  
-
 title: Create a clear navigation structure for lead provider guidance 
-
 description: Designing navigation that helps providers find what they need with as few steps as possible 
-
 date: 2025-09-18  
-
 --- 
 
 ## Background 
