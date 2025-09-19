@@ -32,7 +32,7 @@ We'll do this by:
 
 ## Main issues with the current landing page 
 
-![Screenshot showing how content is hidden behind dropdowns in the existing left-hand landing page navigation](/new-landing-page-for-lead-providers/screenshot-content-hidden-by-dropdowns.png)  
+![Screenshot showing how content is hidden behind dropdowns in the existing left-hand landing page navigation](../../images/manage-cpd-delivery/new-landing-page-for-lead-providers/screenshot-content-hidden-by-dropdowns.png)
 
 ### No clear content hierarchy 
 
@@ -72,7 +72,7 @@ We’ve used a grid design to split up content sections. This can be expanded if
 
 We’ve added semantic landmarks for fast keyboard/screen-reader use, made secondary links descriptive with clear page titles, and written everything in plain English with short, scannable sections. 
 
-![Screenshot showing the new landing page design](/new-landing-page-for-lead-providers/screenshot-new-landing-page-design.png) 
+![Screenshot showing the new landing page design](../../images/manage-cpd-delivery/new-landing-page-for-lead-providers/screenshot-new-landing-page-design.png) 
 
 ## Next steps 
 
