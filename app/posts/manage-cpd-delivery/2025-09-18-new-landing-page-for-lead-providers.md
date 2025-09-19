@@ -6,7 +6,7 @@ date: 2025-09-18
 
 ## Background 
 
-The existing ‘Manage training for early career teachers’ service’s landing page for lead providers melds general programme guidance with technical information about integrating with the service’s API.  
+The existing ‘Manage training for early career teachers’ service’s [landing page for lead providers](https://manage-training-for-early-career-teachers.education.gov.uk/api-reference/) melds general programme guidance with technical information about integrating with the service’s API.  
 
 Evidence from research and from support queries shows that providers: 
 
@@ -51,6 +51,8 @@ Latest changes are not visible at a glance.
 Endpoint details sometimes repeated in guidance and technical documentation.   
 
 ## What we’ve done 
+
+We've designed a [new landing page for lead providers](https://sandbox.register-early-career-teachers.education.gov.uk/api/guidance).  
 
 ### Primary calls to action 
  
