@@ -32,11 +32,11 @@ We'll do this by:
 
 ## Main issues with the current landing page 
 
-![Screenshot showing how content is hidden behind dropdowns in the existing left-hand landing page navigation](/ecf-v2/new-landing-page-for-lead-providers/screenshot-content-hidden-by-dropdowns.png)
-
 ### No clear content hierarchy 
 
 There are many links presented at the same level in the left-hand navigation with equal weight, so it’s hard to know where to start.  
+
+![Screenshot showing how content is hidden behind dropdowns in the existing left-hand landing page navigation](/ecf-v2/new-landing-page-for-lead-providers/screenshot-content-hidden-by-dropdowns.png)
 
 ### Technical and programme information not clearly separated  
 
