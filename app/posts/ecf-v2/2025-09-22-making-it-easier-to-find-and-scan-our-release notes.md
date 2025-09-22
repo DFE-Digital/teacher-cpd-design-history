@@ -10,7 +10,7 @@ The goal of this design work was to improve the findability and scannability of 
  
 In the existing [‘Manage training for early career teachers’ API guidance](https://manage-training-for-early-career-teachers.education.gov.uk/api-reference/release-notes.html), the release notes are hard to find because they’re buried within a long single navigation structure and then hidden behind a dropdown menu. The notes are listed in date order, but a lack of descriptive headings makes it difficult to scan and gauge for relevance.   
 
-![Screenshot showing a dropdown list of the latest API release notes for lead providers](/ecf-v2/how-we-have-made-it-easier-to-find-and-scan-our-api-release-notes/screenshot-release-notes-dropdown-list.png)
+![Screenshot showing a dropdown list of the latest API release notes for lead providers](/ecf-v2/how-we-made-it-easier-to-find-and-scan-our-api-release-notes/screenshot-release-notes-dropdown-list.png)
 
 ## What we’ve changed 
 
@@ -22,7 +22,7 @@ As part of our wider work into improving both general guidance and technical doc
 | Visibility | Release notes live deep within a large guidance hub | We've put a release notes link in the landing page’s primary navigation, and a preview section situated towards the top of the page | Users see recency cues earlier and reach notes faster |
 | Headings | Date of publication | Concise, action-oriented (what changed, who it affects, what to do next) headings | Quicker to see what’s relevant | 
 
-![Screenshot of the new landing page for lead providers. The highlighted areas shows the prominence of the release notes section on the page](/ecf-v2/how-we-have-made-it-easier-to-find-and-scan-our-api-release-notes/screenshot-new-landing-page.png)  
+![Screenshot of the new landing page for lead providers. The highlighted areas shows the prominence of the release notes section on the page](/ecf-v2/how-we-made-it-easier-to-find-and-scan-our-api-release-notes/screenshot-new-landing-page.png)  
 
 ## Next steps 
  
