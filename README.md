@@ -4,25 +4,31 @@ A history of the designs for the Get teacher CPD services
 
 This repository makes it easy to:
 
-* screenshot your designs
-* create pages of screenshots to document designs
-* document designs using the [GOV.UK Design System](https://design-system.service.gov.uk/)
-* print pages of designs
-* make designs shareable and linkable
+- screenshot your designs
+- create pages of screenshots to document designs
+- document designs using the [GOV.UK Design System](https://design-system.service.gov.uk/)
+- print pages of designs
+- make designs shareable and linkable
 
-## Installation
+## Getting setup
 
-* Clone this repository to a folder on your computer
-* Open Terminal
-* In Terminal, change the path to the repository
-* Type `npm install` to install the dependencies
+1. Install [GitHub Desktop](https://github.com/apps/desktop)
+2. [Clone] this repository
+3. Open Terminal
+4. Install [node.js](https://nodejs.org/en/download)
+5. In Terminal, `cd /path/to/repository` to navigate to the repository folder
+6. Type and run `npm install` to install dependencies
+7. Type and run `npm start`
+8. Open a browser and go to `http://localhost:8080`
+
+[clone]: https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop#cloning-a-repository
 
 ## Working locally
 
 Most of the time you'll be adding new posts. If you're just doing this then:
 
-* Open Terminal
-* Type `npm start`
+- Open Terminal
+- Type `npm start`
 
 This will automatically restart the application with any changes to your posts an any images applied.
 
