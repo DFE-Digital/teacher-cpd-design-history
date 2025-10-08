@@ -2,7 +2,7 @@
 title: Redesigning the NPQ admin console 
 description: We've improved the admin interface to give users greater control and functionality, enabling them to make changes that previously required developer support.
 author: 
-date: 2025-10-06
+date: 2025-10-08
 ---
 
 ## Context
