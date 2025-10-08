@@ -28,7 +28,6 @@ Admin users can now:
 
 ## What admins can now do
 
-
 ### Search and filter applications and registration
 
 Admins users can now search and filter by:
@@ -42,21 +41,16 @@ Admins users can now search and filter by:
 * funding decision status
 
 
-![Screenshot showing how admins can search and filter for applications](/register-for-an-npq/2025-10-06-redesigning-admin-console/applications.png)
+![Screenshot showing how admins can search and filter for applications](/register-for-an-npq/2025-10-08-redesigning-admin-console/applications.png)
 
-
-
-![Screenshot showing how admins can search and filter for in review registrations](/register-for-an-npq/2025-10-06-redesigning-admin-console/in-review.png)
-
-
+![Screenshot showing how admins can search and filter for in review registrations](/register-for-an-npq/2025-10-08-redesigning-admin-console/in-review.png)
 
 ### View declaration details and state history 
 
 Details of the declaration are recorded alongside its state history, which captures the date and time of each state change.
 
-![Screenshot showing how admins can view declaration details and their state history](/register-for-an-npq/2025-10-06-redesigning-admin-console/dec-details.png)
+![Screenshot showing how admins can view declaration details and their state history](/register-for-an-npq/2025-10-08-redesigning-admin-console/dec-details.png)
  
-
 ### View course outcome
 
 Course outcomes are now on a dedicated page where admin users can see:
@@ -66,48 +60,41 @@ Course outcomes are now on a dedicated page where admin users can see:
 * award date
 * whether the outcome was submitted by a provider
 
-![Screenshot showing how admins can view course outcomes](/register-for-an-npq/2025-10-06-redesigning-admin-console/course-outcome.png)
+![Screenshot showing how admins can view course outcomes](/register-for-an-npq/2025-10-08-redesigning-admin-console/course-outcome.png)
 
 ### View application history
 
 The application history records the name, date, and time of each task, along with any notes made per application. This includes both the applicant’s name and the names of internal DfE users.
 
-![Screenshot showing how admins can search and filter for in review registrations](/register-for-an-npq/2025-10-06-redesigning-admin-console/app-history.png)
+![Screenshot showing how admins can search and filter for in review registrations](/register-for-an-npq/2025-10-08-redesigning-admin-console/app-history.png)
 
 ### View course details
 
 The course details page displays a list of specialist and leadership courses, including their name, identifier, registration visibility, and a brief description.
 
-![Screenshot showing how admins can search and filter for in review registrations](/register-for-an-npq/2025-10-06-redesigning-admin-console/course-details.png)
+![Screenshot showing how admins can search and filter for in review registrations](/register-for-an-npq/2025-10-08-redesigning-admin-console/course-details.png)
 
 ### Download, freeze or save financial statements
 
 Admin users can download financial statements as CSV files, freeze them, and save them as PDFs to share with providers and internal DfE users.
 
-![Screenshot showing how admins can download, freee or save a statement for providers or for DfE users](/register-for-an-npq/2025-10-06-redesigning-admin-console/download-statements.png)
+![Screenshot showing how admins can download, freee or save a statement for providers or for DfE users](/register-for-an-npq/2025-10-08-redesigning-admin-console/download-statements.png)
 
 ### Make adjustments to financial statements
 
 Admin users can now make adjustments to financial statements and apply multiple adjustments at once.
 
-![Screenshot showing how admins can make an adjustment](/register-for-an-npq/2025-10-06-redesigning-admin-console/adjustment.png)
+![Screenshot showing how admins can make an adjustment](/register-for-an-npq/2025-10-08-redesigning-admin-console/adjustment.png)
 
-
-![Screenshot showing how admins can add another adjustment](/register-for-an-npq/2025-10-06-redesigning-admin-console/another-adjustment.png)
-
-
-
+![Screenshot showing how admins can add another adjustment](/register-for-an-npq/2025-10-08-redesigning-admin-console/another-adjustment.png)
 
 ### Change contract information
 
 Admin users can now change the fee per user within the contract information section. This change will apply across all contract records unless a financial statement has been frozen.
 
-![Screenshot showing how admins contract information](/register-for-an-npq/2025-10-06-redesigning-admin-console/contract.png)
+![Screenshot showing how admins contract information](/register-for-an-npq/2025-10-08-redesigning-admin-console/contract.png)
 
-
-![Screenshot showing how admins contract information](/register-for-an-npq/2025-10-06-redesigning-admin-console/change-fee.png)
-
-
+![Screenshot showing how admins contract information](/register-for-an-npq/2025-10-08-redesigning-admin-console/change-fee.png)
 
 ### Search for workplace details
 Admin users can now search for an applicant’s workplace details such as :
@@ -118,18 +105,13 @@ Admin users can now search for an applicant’s workplace details such as :
 * local authority
 * address
 
-
-![Screenshot showing how admins can find a workplace](/register-for-an-npq/2025-10-06-redesigning-admin-console/workplaces.png)
-
-
+![Screenshot showing how admins can find a workplace](/register-for-an-npq/2025-10-08-redesigning-admin-console/workplaces.png)
 
 ### View provider and delivery partner relationships
 
 Admin users can now check which providers each delivery partner has worked with, and for which cohorts.
 
-
-![Screenshot showing how admins can check delivery partners for a specific provider](/register-for-an-npq/2025-10-06-redesigning-admin-console/provider-dp.png)
-
+![Screenshot showing how admins can check delivery partners for a specific provider](/register-for-an-npq/2025-10-08-redesigning-admin-console/provider-dp.png)
 
 ### Manage delivery partners
 
@@ -141,12 +123,11 @@ Admin users can now:
 * assign providers to delivery partners
 * view provider partnerships and associated cohorts
 
+![Screenshot showing how admins can view all delivery partners](/register-for-an-npq/2025-10-08-redesigning-admin-console/dp.png)
 
-![Screenshot showing how admins can view all delivery partners](/register-for-an-npq/2025-10-06-redesigning-admin-console/dp.png)
+![Screenshot showing how admins can add a delivery partner](/register-for-an-npq/2025-10-08-redesigning-admin-console/add-dp.png)
 
-![Screenshot showing how admins can add a delivery partner](/register-for-an-npq/2025-10-06-redesigning-admin-console/add-dp.png)
-
-![Screenshot showing how admins can view delivery partne details](/register-for-an-npq/2025-10-06-redesigning-admin-console/dp-details.png)
+![Screenshot showing how admins can view delivery partne details](/register-for-an-npq/2025-10-0-redesigning-admin-console/dp-details.png)
 
 
 
@@ -164,23 +145,21 @@ They can now:
 
 #### Revert applications to pending 
 
-![Screenshot showing how admins can revert applications to pending](/register-for-an-npq/2025-10-06-redesigning-admin-console/revert.png)
-
+![Screenshot showing how admins can revert applications to pending](/register-for-an-npq/2025-10-08-redesigning-admin-console/revert.png)
 
 #### Reject applications
 
-
-![Screenshot showing how admins can reject applications ](/register-for-an-npq/2025-10-06-redesigning-admin-console/reject.png)
+![Screenshot showing how admins can reject applications ](/register-for-an-npq/2025-10-08-redesigning-admin-console/reject.png)
 
 #### Update and verify teacher reference numbers (TRNs)
- 
- ![Screenshot showing how admins can Uupdate and verify teacher reference numbers ](/register-for-an-npq/2025-10-06-redesigning-admin-console/trn.png)
+
+ ![Screenshot showing how admins can Uupdate and verify teacher reference numbers ](/register-for-an-npq/2025-10-08-redesigning-admin-console/trn.png)
 
 #### Submit declarations for providers
 
 Super admin users can submit declarations for providers in case there are outstanding declarations once they roll off the NPQ programme. This ensures accurate data for the DfE and enables users to receive their certificates.
 
- ![Screenshot showing how admins can submit declarations for providers ](/register-for-an-npq/2025-10-06-redesigning-admin-console/decs-providers.png)
+ ![Screenshot showing how admins can submit declarations for providers ](/register-for-an-npq/2025-10-08-redesigning-admin-console/decs-providers.png)
 
 
 
