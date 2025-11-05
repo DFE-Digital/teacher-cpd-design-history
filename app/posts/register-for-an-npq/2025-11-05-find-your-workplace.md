@@ -2,6 +2,10 @@
 title: Making it easier to find your workplace
 description: Replacing a two-step journey with just one step.
 date: 2025-11-05
+related:
+    items:
+    - text: See how we’re building this 
+      href: https://github.com/DFE-Digital/npq-registration/pull/3002
 ---
 
 ## User need
@@ -12,9 +16,9 @@ I need to find my workplace easily so that I can register for an NPQ without con
 
 Users need to answer 2 questions to find their workplace. 
 
-![Alt text](/register-for-an-npq/2025-11-05-find-your-workplace/question-one.png "We ask for your postcode in the first question.")
+![Screenshot showing the first question.](/register-for-an-npq/2025-11-05-find-your-workplace/question-one.png "We ask for your postcode in the first question.")
 
-![Alt text](/register-for-an-npq/2025-11-05-find-your-workplace/question-two.png "The second question has a drop-down list filtered based on the postcode you entered.")
+![Screenshot showing the second question.](/register-for-an-npq/2025-11-05-find-your-workplace/question-two.png "The second question has a drop-down list filtered based on the postcode you entered.")
 
 ## Problem
 
@@ -32,11 +36,17 @@ This could be caused by issues such as typos or the fact that some schools have 
 
 ## New journey
 
-![Alt text](/register-for-an-npq/2025-11-05-find-your-workplace/new-question.png "We're replacing 2 questions with just one.")
-
+![Screenshot showing how we’re replacing 2 questions with just one.](/register-for-an-npq/2025-11-05-find-your-workplace/new-question.png "We're replacing 2 questions with just one.")
 
 This approach is tried and tested, as other services in Schools Digital ask the same type of question using the same school data.
 
+### New journey with Javascript disabled 
+
+The workplace question uses Javascript, but users do not need to have Javascript enabled to complete the journey.
+
+![Screenshot showing how we ask for your workplace without Javascript.](/register-for-an-npq/2025-11-05-find-your-workplace/workplace-question-javascript-disabled.png "Users with Javascript disabled enter their workplace name.")
+
+![Screenshot showing how we use radio buttons instead of a drop-down.](/register-for-an-npq/2025-11-05-find-your-workplace/radio-buttons-javascript-disabled.png "Users select the school they’re searching for.")
 
 ## Considerations
 
@@ -48,8 +58,7 @@ We’ve also enabled searching by URN, giving users more flexibility in how they
 
 We think users will be familiar with this type of pattern where you need to keep typing to narrow down a search.
 
-![Alt text](/register-for-an-npq/2025-11-05-find-your-workplace/find-school-help.png "We’ve kept some of the extra help text on the page for now, but we’ll review this later.")
-
+![Screenshot showing the content in the details component](/register-for-an-npq/2025-11-05-find-your-workplace/find-school-help.png "We’ve kept some of the extra help text on the page for now, but we’ll review this later.")
 
 ## Next steps
 
