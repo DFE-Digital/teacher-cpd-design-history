@@ -28,7 +28,7 @@ The most common issue reported to the support desk is that users cannot find the
 
 > If we remove the first question, users will be able to find their workplace more easily.
 
-Users cannot find their workplace from the drop-down list because they did not enter their postcode correctly.
+There’s evidence to suggest that users cannot find their workplace from the drop-down list because they did not enter their postcode correctly.
 
 12% of users go back to the first question, suggesting that the postcode they provided did not return the desired results.
 
@@ -40,25 +40,25 @@ This could be caused by issues such as typos or the fact that some schools have 
 
 This approach is tried and tested, as other services in Schools Digital ask the same type of question using the same school data.
 
-### New journey with Javascript disabled 
+### Journey without JavaScript 
 
-The workplace question uses Javascript, but users do not need to have Javascript enabled to complete the journey.
+The drop-down list uses JavaScript, but users can still find their workplace if they have Javascript disabled.
 
-![Screenshot showing how we ask for your workplace without Javascript.](/register-for-an-npq/2025-11-05-find-your-workplace/workplace-question-javascript-disabled.png "Users with Javascript disabled enter their workplace name.")
+![Screenshot showing how we ask for your workplace without JavaScript.](/register-for-an-npq/2025-11-05-find-your-workplace/workplace-question-javascript-disabled.png "Users with Javascript disabled enter their workplace name.")
 
 ![Screenshot showing how we use radio buttons instead of a drop-down.](/register-for-an-npq/2025-11-05-find-your-workplace/radio-buttons-javascript-disabled.png "Users select the school they’re searching for.")
 
 ## Considerations
 
-In the new user journey, some users may end up with a longer drop-down list to choose from. For example, there are many schools with ‘St Mary’s’ in the name.
+Because we no longer ask users to filter by postcode first, some people may see a longer drop-down list in the new user journey.
 
-However, users can narrow down their search by using any combination of postcode, workplace name, URN or street name.
+For example, there are many schools with names like ‘St Mary’s’ which could make the list appear long or harder to scan at first.
 
-We’ve also enabled searching by URN, giving users more flexibility in how they search.
+To help with this, users can narrow down the results using any combination of postcode, workplace name, URN, or street name. We’ve also added the option to search by URN, giving users more flexibility in how they find the correct school.
 
-We think users will be familiar with this type of pattern where you need to keep typing to narrow down a search.
+This approach follows a familiar pattern where users begin typing and the list refines as they go, so we expect most users will understand how to interact with it.
 
-![Screenshot showing the content in the details component](/register-for-an-npq/2025-11-05-find-your-workplace/find-school-help.png "We’ve kept some of the extra help text on the page for now, but we’ll review this later.")
+![Screenshot showing the content in the details component](/register-for-an-npq/2025-11-05-find-your-workplace/find-school-help.png "We’re keeping some extra help text on the page for now, but we’ll review this later.")
 
 ## Next steps
 
@@ -66,7 +66,7 @@ We plan to:
 
 * work with internal teams to quality assure the updated service
 * deploy this change during a quiet period so that we can monitor any issues with minimal user impact
-* start monitoring how people search
+* start monitoring how people search in the drop-down box
 * work with the support team to identify patterns in reported issues
 * improve the content and design patterns based on findings
 * improve how users can search — for example using 'st' and 'saint' interchangeably
