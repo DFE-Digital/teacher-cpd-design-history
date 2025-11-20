@@ -1,6 +1,6 @@
 ---
 title: Service questions
-description: See what questions we ask once users are signed in to the NPQ service
+description: See what questions we ask users once signed in to the NPQ service
 date: 2025-11-20
 ---
 
