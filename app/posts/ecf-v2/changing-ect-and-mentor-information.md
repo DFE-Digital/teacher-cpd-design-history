@@ -6,12 +6,19 @@ date: 2025-11-26
 
 ## What we've designed
 
-We have designed and tested journeys to update personal information for an ECT or mentor. This includes changing their name for use in our service (but not updating the teacher record), updating their email address, changing the mentor assigned to an ECT, and changing the working pattern (for example from full-time to part-time).
+We have designed and tested journeys to update personal information for an ECT or mentor. This includes changing their name for use in our service (but not updating their record held in the Teaching Record System), updating their email address, changing the mentor assigned to an ECT, and changing the working pattern (for example from full-time to part-time).
 
 We have also designed and tested journeys to change induction and training details held about an ECT or mentor for their ECTE training. These include changing appropriate body, switching programme type (for example from provider-led to school-led) and changing the lead provider when the training is provider-led. The content in these journeys explains the impact of changes, such as clarifying that switching lead provider will stop the current training.
 
 As we've tested these journeys, we've made some iterations and changes to content to ensure we're being as clear as possible to users about the impact of changes.
+### Why we did this
 
+In the existing service Manage training for ECTs, it is often very difficult to make changes to an ECT or mentor's details. Changes often require contacting support. We wanted to:
+
+- improve the flexibility of changes on the service to better meet our users needs
+- reduce support tickets and the time taken to resolve changes
+
+We hope by introducing these change journeys that that we'll reduce workload for schools, lead providers and internal users.
 ### Changing name
 
 <figure>

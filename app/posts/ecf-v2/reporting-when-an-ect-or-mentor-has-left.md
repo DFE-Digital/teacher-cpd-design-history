@@ -6,9 +6,17 @@ date: 2025-12-02
 
 ## Context
 
-In the existing ECF1 service there is no way for schools to tell us an ECT or mentor has left unless they are transferring to another school. We identified that gap and designed a journey where schools can report when an ECT or mentor is leaving or has left, regardless of whether they are moving elsewhere.
+In the existing Manage training for ECTs service there is no way for schools to tell us an ECT or mentor has left unless they are transferring to another school. This causes difficulties because:
 
-It was important to distinguish temporary absences from permanent leavers. If someone is away on long-term leave, we do not need to capture this information from the school user, and instead they may just need to notify the organisations they work with. We only want to capture information in the service for ECTs or mentors who are leaving and not expected to return.
+- school users want to be able to report when someone has left their school for any reason - it causes support tickets and frustration that they can't
+- it means the data we hold is less accurate, as we don't know for example as quickly when someone has left their school
+- it increases the time it takes and workload required for lead providers to report a withdrawal over the API
+- it means often schools are having to pass on when someone leaves in multiple places, but not in the DfE service, which ideally we want to be the one source of truth
+
+
+As a result, we designed a journey where schools can report when an ECT or mentor is leaving or has left, regardless of whether they are moving elsewhere.
+
+It was important to distinguish temporary absences from permanent leavers. If someone is away on long-term leave, we do not need to capture this information from the school user, and instead they may just need to notify the organisations providing training. We only want to capture information in the service for ECTs or mentors who are leaving and not expected to return. However, in future we might introduce a way for schools to tell us about pauses in induction or training, such as due to maternity leave or long-term illness.
 
 ## What we've designed
 

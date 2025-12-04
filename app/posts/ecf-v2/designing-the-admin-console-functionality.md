@@ -6,8 +6,9 @@ date: 2025-12-01
 
 ## What we needed to design
 
-We needed to design an admin console that lets us add, delete, and update RECT data, including information supplied by schools, appropriate bodies, and lead providers. A lot of similar capability exists in the previous ECF1 admin console, so we've reused what works well while improving areas that were inefficient or unclear.
+We needed to design an admin console that lets us add, delete, and update Register ECTs data. This includes information supplied by schools, appropriate bodies, and lead providers. A lot of similar capability exists in the previous ECF1 admin console, so we've reused what works well while improving areas that were inefficient or unclear.
 
+We also decided to merge the finance and admin tooling. Previously, these had to be signed into separately, which caused friction and annoyance for users of both. Now, we'll have permissions for users that need access to both, and they can more easily navigate between the two.
 ## How we've designed and ensured we're meeting needs
 
 We approached the design by taking learnings from the ECF1 admin console, and creating a shared library of patterns for the new console. Related admin journeys sit close together so navigation feels intuitive rather than fragmented. We tested with the teams who will use the console, gathering early input on their needs and expected outcomes and then reviewing designs with them to validate the improvements.
