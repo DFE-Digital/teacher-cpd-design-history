@@ -8,9 +8,11 @@ date: 2025-11-25
 
 In the existing Manage training for early career teachers service, schools had to supply the name and email address for their induction tutor (SIT) before accessing the service. We used those details to send a link to the SIT and grant them access to register new early career teachers and mentors.
 
-This approach assumed the SIT would be the only person from the school who needed to use the service, and we didn't allow for multiple users. In practice, more than one person might need access, and while the SIT is the main early career teacher training entitlement (ECTE) contact, they are not always the person registering new early career teachers and mentors.
+This approach assumed the SIT would be the only person from the school who needed to use the service, and we didn't allow for multiple users. In practice, more than one person might need access, and while the SIT is the main early career teacher training entitlement (ECTE) contact, they are not always the person registering new early career teachers and mentors. 
 
 We also did not ask schools to reconfirm SIT details at the start of a contract period, so we relied on SITs to proactively update their own information when it changed.
+
+We've already written a previous post about how we've since [designed for allowing multiple school accounts](https://teacher-cpd.design-history.education.gov.uk/ecf-v2/allowing-multiple-school-accounts/).
 
 ## What we've designed for RECT
 
@@ -41,8 +43,7 @@ In the first version of the design we asked whether the current SIT would contin
   <figcaption>The iterated version makes the confirmation question clearer and more natural.</figcaption>
 </figure>
 
-Another reason we tweaked the language in the question was because asking, "Will (SIT name) continue as your school induction tutor?" felt odd when the person answering was that named SIT. Showing the existing name and email address and asking, "Are these details correct?" reads more naturally in that scenario. We will test this iteration next, alongside the new "induction tutor" area that lets users proactively view and update SIT details.
-
+Another reason we tweaked the language in the question was because asking, "Will (SIT name) continue as your school induction tutor?" felt odd when the person answering was that named SIT. Showing the existing name and email address and asking, "Are these details correct?" reads more naturally in that scenario.
 <figure>
   <img src="/ecf-v2/capturing-sit-information/image-3.png" alt="Induction tutor area." />
   <figcaption>The "induction tutor" we've designed for users to update details in the service.</figcaption>
