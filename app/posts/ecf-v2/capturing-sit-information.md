@@ -6,9 +6,9 @@ date: 2025-11-25
 
 ## How we used to collect SIT information in ECF1
 
-In the existing ECF1 service, schools had to supply the name and email address for their induction tutor (SIT) before accessing the service. We used those details to send a link to the SIT and grant them access to register new early career teachers and mentors.
+In the existing Manage training for early career teachers service, schools had to supply the name and email address for their induction tutor (SIT) before accessing the service. We used those details to send a link to the SIT and grant them access to register new early career teachers and mentors.
 
-This approach assumed the SIT would be the only person from the school who needed to use the service, and we didn't allow for multiple users. In practice, more than one person might need access, and while the SIT is the main ECTE contact, they are not always the person registering new early career teachers and mentors.
+This approach assumed the SIT would be the only person from the school who needed to use the service, and we didn't allow for multiple users. In practice, more than one person might need access, and while the SIT is the main early career teacher training entitlement (ECTE) contact, they are not always the person registering new early career teachers and mentors.
 
 We also did not ask schools to reconfirm SIT details at the start of a contract period, so we relied on SITs to proactively update their own information when it changed.
 
@@ -16,9 +16,14 @@ We also did not ask schools to reconfirm SIT details at the start of a contract 
 
 When a user from a school logs into the service and we do not have SIT details, we now ask for the SIT's name and email address and explain that this contact will be used as the main point of contact for ECTE.
 
-At the start of a new contract period, a school user sees the SIT details we currently hold and is asked to confirm they are correct or update them if the SIT or their details have changed.
+At the start of a new contract period, a school user sees the SIT details we currently hold and is asked to confirm they are correct or update them if the SIT details have changed.
 
 We have also added an "induction tutor" area in the service where a user can proactively view and update the SIT details for the school they are signed in as.
+
+In future, we'd like to allow schools to tell us when they have multiple SITs. This is because following policy this can happen. Schools have also stated that being able to tell us about multiple SITs will reduce the risk if the one SIT currently reported leaves or goes on long-term leave. 
+
+However, we haven't done this yet for two reasons. One is because it is still relatively rare to have multiple SITs. The second is it would've been a breaking change to GET partnerships over the API. This would've been difficult for lead providers to adapt their systems to. 
+
 
 ## User research
 
