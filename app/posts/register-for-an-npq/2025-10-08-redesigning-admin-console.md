@@ -127,7 +127,7 @@ Admin users can now:
 
 ![Screenshot showing how admins can add a delivery partner](/register-for-an-npq/2025-10-08-redesigning-admin-console/add-dp.png)
 
-![Screenshot showing how admins can view delivery partner details](/register-for-an-npq/2025-10-0-redesigning-admin-console/delivery-partner-deets.png)
+![Screenshot showing how admins can view delivery partner details](/register-for-an-npq/2025-10-0-redesigning-admin-console/delivery-partner-details.png)
 
 
 
