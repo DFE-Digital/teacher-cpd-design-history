@@ -48,4 +48,4 @@ Once the user has confirmed their answers, we will show them a confirmation bann
 
 ![A screenshot of the journey where a user is shown a confirmation banner.](/ecf-v2/changing-contract-period-in-admin-console/image6.png)
 
-We've confirmed that this is the expected behaviour.
+We've confirmed that this is the expected behaviour with admin users.

@@ -13,6 +13,9 @@ Possible reasons for withdrawal include:
 - ECT or mentor has moved school and is no longer being trained by the same lead provider
 - ECT has moved to school-led training
 
+Possible reasons for deferral include:
+- ECT or mentor is on long term leave such as maternity leave or illness leave
+
 We've designed functionality in the school service so that a school user is able to see when this has happened. This will help them to then take any relevant actions, such as changing the lead provider or changing the training programme type to school-led.
 
 ## What we've designed
@@ -33,4 +36,8 @@ Finally, a school user is also able to report that the ECT or mentor has left th
 
 ![A screenshot of the journey where a school user is able to report that the ECT or mentor has left the school and are not expected to return.](/ecf-v2/ect-or-mentor-withdrawn-from-training/image3.png)
 
-We tested this journey with schools in a recent round of user research. We found it was well understood by users and they were able to understand the different options and what to do next.
+When an ECT or mentor is deferred from training, we show a slightly different variation of the journey with differing content. This is shown below.
+
+![A screenshot of the journey where a school user is able to report that the ECT or mentor has been deferred from training.](/ecf-v2/ect-or-mentor-withdrawn-from-training/image4.png)
+
+We tested these journeys with schools in a recent round of user research. We found it was well understood by users and they were able to understand the different options and what to do next.
