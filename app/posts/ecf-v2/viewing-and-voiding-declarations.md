@@ -24,7 +24,7 @@ One of the key things we'd learnt from speaking to users is that they wanted to 
 
 ![A screenshot of the journey where an admin has opened a declaration to view the details.](/ecf-v2/viewing-and-voiding-declarations/image1.png)
 
-From here, an admin is able to void a declaration if it is incorrect by selecting the 'Void declaration' button. They will then be prompted to confirm their action.
+From here, an admin, with elevated permissions for finance, is able to void a declaration if it is incorrect by selecting the 'Void declaration' button. They will then be prompted to confirm their action. We've limited this action to finance users as they will be responsible for handling these queries, which are a higher risk action that impacts payments.
 
 ![A screenshot of the journey where an admin is able to void a declaration if it is incorrect.](/ecf-v2/viewing-and-voiding-declarations/image2.png)
 
