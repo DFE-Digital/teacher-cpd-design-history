@@ -34,6 +34,7 @@ DfE checks if they are eligible for funding and then a registration is submitted
 
 It is only after successfully completing the application that the user is told if a funded place is available or not. 
 
+
 ## The problem we had 
 
 We had to decide how much to tell people about this as it was seen as a ‘low risk’ problem. 
@@ -42,7 +43,66 @@ We tried to:
 
 - warn people right at the start that being eligible for funding did not mean they would get a funded place 
 
-- tell them they might need to try a different provider if this happened 
+- tell them they might need to try a different provider if this happened
+
+But in user research, we saw that: 
+
+- people felt worried 
+
+- it made the registration process feel harder than it is 
+ 
+
+## What we decided to do 
+
+We chose to make the design feel simple. 
+
+- we removed warning messages at the start  
+
+- we assumed most people will get a place with their first-choice provider 
+
+- we only explain the problem later, if it happens 
+
+ 
+This is because there should be enough places overall. 
+
+ 
+
+## What happens if a funded place is not available 
+
+If a provider doesn’t have any funded places left: 
+
+- they will communicate this to the user and direct them back to our service 
+
+- our service helps them choose another provider by signposting them to ‘register with a different provider’ 
+
+ 
+
+So, the problem is handled, if needed. 
+
+ 
+## What we’ll do next 
+
+The service went live on 6 July 2026. We will now: 
+
+- watch what happens – review the distribution of course places 
+
+- see if any problems arise – how many people do not get a place with their first choice of provider 
+
+- monitor how successful the ‘choose a different provider’ journey is 
+
+- make changes if we need to 
+
+ 
+We are plannings ome user research to test the live service and this will help to give us some inital insights. We will also use the service data to determine how many funded places are available versus demand. 
+ 
+
+## What we might do in the future 
+
+We’ve run a couple of workshops where we explored how we could improve this process overall.  
+
+Our existing user research showed us that users would like to know upfront if a funded place is available.  
+
+We have documented the challenges around this, as well as the opportunities, and will continue to explore this as we work on the next NPD course which is dure to be delivered in 2027. 
 
 
 
