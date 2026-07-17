@@ -45,7 +45,8 @@ We tried to:
 
 - tell them they might need to try a different provider if this happened
 
-  ![Eligibility warning message](../images/Eligibility%20message%20start%20page.png)
+  ![Eligibility warning message](/npd-courses/2026_07_17_Eligibility_message_start_page.png)
+
 
 But in user research, we saw that: 
 
