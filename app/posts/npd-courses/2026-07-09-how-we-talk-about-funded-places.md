@@ -45,6 +45,8 @@ We tried to:
 
 - tell them they might need to try a different provider if this happened
 
+  ![Eligibility warning message](../images/Eligibility%20message%20start%20page.png)
+
 But in user research, we saw that: 
 
 - people felt worried 
@@ -93,7 +95,7 @@ The service went live on 6 July 2026. We will now:
 - make changes if we need to 
 
  
-We are plannings ome user research to test the live service and this will help to give us some inital insights. We will also use the service data to determine how many funded places are available versus demand. 
+We are planning more user research to test the live service and this will help to give us some inital insights. We will also use the service data to determine how many funded places are available versus demand. 
  
 
 ## What we might do in the future 
