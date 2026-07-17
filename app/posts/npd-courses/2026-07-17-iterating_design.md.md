@@ -1,10 +1,11 @@
-title	How we iterated the design from Alpha to Beta  
-description	Using insights to make improvements to the content, design and user journey
-date	2026-07-17
-tags	
-Reception
-SEND
-------------------------------
+---
+title: How we iterated the design from Alpha to Beta 
+description: Using insights to make improvements to the content, design and user journey.
+date: 2026-07-17
+tags:
+  - Reception
+  - SEND
+---
 
 Throughout the Beta phase, we continuously iterated the registration journey to improve the user experience. Changes were informed by multiple sources, including: 
 
