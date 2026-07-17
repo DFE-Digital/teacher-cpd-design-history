@@ -32,7 +32,7 @@
     "sass": "^1.77.8"
   },
   "devDependencies": {
-    "standard": "^17.1.0",
+    "standard": "^17.1.2",
     "webshot-node": "^0.18.3"
   },
   "standard": {
