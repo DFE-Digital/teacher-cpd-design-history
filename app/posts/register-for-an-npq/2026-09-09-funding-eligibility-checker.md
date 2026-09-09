@@ -1,7 +1,7 @@
 ---
 title: Making it easier to check funding eligibility
 description: Replacing the need to register before finding out if funding is available
-date: 2025-09-09
+date: 2026-09-09
 ---
 
 ## Context
