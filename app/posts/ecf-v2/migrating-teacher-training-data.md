@@ -7,7 +7,7 @@ author: Peter Yates
 
 In April 2026 [Register early career teachers](https://www.register-early-career-teachers.education.gov.uk/) replaced the Manage early career teachers service.
 
-The Manage early career teachers service had private beta and the service was released to all schools in England in July 2021.
+The Manage early career teachers service had no private beta and the service was released to all schools in England in July 2021.
 
 The lack of a private beta meant the system wasn't tested with real data before release.
 
@@ -27,12 +27,12 @@ In ECF1 a teacher's training and induction history was recorded as a series of `
 * mentor
 * school
 
-When any of these things changes a new `InductionRecord` is written. The intent was that a teacher's current state could be found by retrieving their latest `InductionRecord`
+When any of these things changes a new `InductionRecord` is written. The intent was that a teacher's current state could be found by retrieving their latest `InductionRecord`.
 
 But, it's not that easy:
 
 * some events are recorded before they happen, so we need to exclude any records with a `start_date` later than today
-* A teacher's history will look different to each training provider, so we need to filter by provider
+* a teacher's history will look different to each training provider, so we need to filter by provider
 * the teacher might have been marked as leaving soon, so we need to ensure we include records where the `end_date` is in the future
 * the teacher might have been claimed by another school, but we don't want the current school to know they're leaving as they might not yet have handed in their notice, so we need to account for that too 🫠️
 
@@ -128,7 +128,7 @@ This segregation of responsibility had several benefits:
 * the **transform** step no longer needed to touch the database, making them easy to write and fast to run
 * a [test generator](https://github.com/DFE-Digital/register-early-career-teachers-public/blob/7f18f9d2064f3f280cc42e49e368a9a65e8504f4/app/migration/spec_generator.rb) could be used to convert real data from ECF1 to an test case, ensuring when we addressed a problem future changes wouldn't break it. We ended up with more than [30 real examples](https://github.com/DFE-Digital/register-early-career-teachers-public/tree/7f18f9d2064f3f280cc42e49e368a9a65e8504f4/spec/migration/teacher_history_converter/real_examples)
 * only a small number of true end-to-end tests were needed to ensure the entire process worked as expected
-* allowed us to add a data cleaning stage fixes were applied, including:
+* allowed us to add a data cleaning stage where fixes were applied, including:
   - removing records from British oversea schools
   - closing ECT induction records that continued after the teacher's induction completion date
   - fixing records where the `end_date` was before the `start_date`
@@ -148,7 +148,7 @@ The number crept up towards the 99.99% target.
 
 ![Final stats](/ecf-v2/migrating-teacher-training-data/final-stats.png)
 
-The production data migration was run on Register early career teachers' launch day and was a success. It took. The remaining broken records were manually fixed and added post-launch.
+The production data migration was run on Register early career teachers' launch day and was a success. It took less than an hour. The remaining broken records were manually fixed and added post-launch.
 
 [^history-of-data-management]: Keith D. Foote (2022) [A Brief History of Data Management](https://www.dataversity.net/articles/brief-history-data-management/#extract-transform-and-load)
 [^append-only]: Induction records were originally intended to be append-only but under certain circumstances they were updated. This made reconstructing the timeline for ECF2 conversion even more complicated.
