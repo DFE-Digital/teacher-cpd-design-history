@@ -5,7 +5,7 @@ date: 2026-09-21
 author: Peter Yates
 ---
 
-In April 2026 [Register early career teachers](https://www.register-early-career-teachers.education.gov.uk/) replaced the Manage early career teachers service.
+In April 2026 [Register early career teachers](https://www.register-early-career-teachers.education.gov.uk/) (ECF2) replaced the Manage early career teachers service (ECF1).
 
 The Manage early career teachers service had no private beta and the service was released to all schools in England in July 2021.
 
@@ -40,9 +40,9 @@ This example query shows how complex it is to find a current induction record:
 
 ![A screenshot of a SQL query that retrieves the current induction record. It's spread over 7 lines and has lots of conditions grouped by 'or' and 'and'](/ecf-v2/migrating-teacher-training-data/current-induction-record-where-clause.png)
 
-Over the years the service ran, the accidental complexity lead to many bugs. They were introduced, existed for a while, reported, diagnosed and fixed. All the records written between a bug's introduction and its fix being deployed are potentially affected.
+Over the years the service ran, the accidental complexity led to many bugs. They were introduced, existed for a while, reported, diagnosed and fixed. All the records written between a bug's introduction and its fix being deployed are potentially affected.
 
-There was no guarantee that once the fixes were deployed the broken data was fixed, so **building an 100% accurate history is impossible**.
+There was no guarantee that once the fixes were deployed the broken data was fixed, so **building a 100% accurate history is impossible**.
 
 In addition to migrating the records the migrator also needs to:
 
@@ -51,13 +51,19 @@ In addition to migrating the records the migrator also needs to:
 
 ### ECF2 periods
 
-We solved the `InductionRecord` problems by splitting the different kinds of data up into their own tables. This means only the necessary record needs to be changes when a teacher changes school, mentor or training provider.
+We solved the `InductionRecord` problems by splitting the different kinds of data up into their own tables. This means only the necessary record needs to be changed when a teacher changes school, mentor or training provider.
 
 ![An ERD diagram showing the relationship between teachers, schools and various period types. At school periods represent the time a teacher is an ECT or mentor at a school, mentorship periods represent the time a mentor was mentoring an ECT, and training periods the time an ECT or mentor was being trained](/ecf-v2/migrating-teacher-training-data/ecf2-periods.png)
 
 The data model redesign is covered in [Designing the database first](/ecf-v2/designing-the-database-first/).
 
 ### The migration process
+
+The scope of the migration is all data required for ECF2 to run, including:
+
+* **provider data** (lead providers, delivery partners, partnerships)
+* **financial data** (declarations, schedules, milestones, contracts)
+* **teacher data** (teachers, schools, training)
 
 When migrating data from ECF1 to ECF2 we chose to connect ECF2 to ECF1's database and let it pull records from ECF1, transform them if necessary and insert them into ECF2.
 
@@ -67,7 +73,7 @@ It works nicely for simple 1:1 record transfers because little translation is ne
 
 ![A diagram showing a straightforward one to one copy of a delivery partner from ECF1 to ECF2](/ecf-v2/migrating-teacher-training-data/migration-easy.png)
 
-However, it doesn't work for `InductionRecord` because it's an [append only](https://en.wikipedia.org/wiki/Append-only) table[^append-only]. Each record holds the current state, but to work out what it changed you need to compare it to the previous record.
+However, it doesn't work for `InductionRecord` because it's an [append-only](https://en.wikipedia.org/wiki/Append-only) table[^append-only]. Each record holds the current state, but to work out what it changed you need to compare it to the previous record.
 
 A change of mentor is recorded with a new `InductionRecord` row where all the attributes are the same as the current one except the `mentor`.
 
@@ -75,7 +81,7 @@ To work out the full history of a teacher, including the history of the schools 
 
 This diagram shows how stepping through a series of induction records allows a training history to be pieced together:
 
-![A diagram the complexity of migrating induction records where each one can affect the others around it](/ecf-v2/migrating-teacher-training-data/migration-hard.png)
+![A diagram showing the complexity of migrating induction records where each one can affect the others around it](/ecf-v2/migrating-teacher-training-data/migration-hard.png)
 
 Processing one `InductionRecord` at a time would be extremely slow because the migrator would need to retrieve all ECF2 data in order to work out how the current `InductionRecord` might affect it.
 
@@ -83,19 +89,19 @@ Processing one `InductionRecord` at a time would be extremely slow because the m
 
 The initial approach attempted to transfer one teacher at a time in a long, multi-step process. It looped through every:
 
-1. teacher profile, user and participant profile and combines them into a `Teacher` record
-2. ECT induction record creating `ECTAtSchoolPeriod` records
-3. mentor induction record creating `MentorAtSchoolPeriod` records
-4. induction record creating `TrainingPeriod` records
-5. ECT induction record creating `MentorshipPeriod` records
+1. teacher profile, user and participant profile and combined them into a `Teacher` record
+2. ECT induction record, creating `ECTAtSchoolPeriod` records
+3. mentor induction record, creating `MentorAtSchoolPeriod` records
+4. induction record, creating `TrainingPeriod` records
+5. ECT induction record, creating `MentorshipPeriod` records
 
 With the number of broken records in ECF1 this process was extremely problematic.
 
-Inaccuracies found in later `InductionRecord` records sometimes needs data from previous steps needs to be adjusted.
+Inaccuracies found in later `InductionRecord` records sometimes meant data from previous steps had to be adjusted.
 
-In order to test these complicated scenarios all the necessary data needs to be written to both ECF1's database and ECF2's database.
+In order to test these complicated scenarios all the necessary data needs to be written, for every test, to both ECF1's database and ECF2's database.
 
-The `TrainingPeriod` sits at the centre of the data model, it depends on teacher and training provider data.
+The `TrainingPeriod` sits at the centre of the data model. It depends on teacher and training provider data.
 
 ![Training period dependencies](/ecf-v2/migrating-teacher-training-data/training-period-dependencies.png)
 
@@ -109,7 +115,7 @@ The three steps in the process are:
 
 1. **extract** data from ECF1
 2. **transform** it to an ECF2 format
-3. **load** it into to ECF2
+3. **load** it into ECF2
 
 In data engineering, [extract, transform, load](https://en.wikipedia.org/wiki/Extract,_transform,_load) is an approach that's been around since the 1970s[^history-of-data-management]. While it's usually used for data warehousing, it's a great fit for our needs now.
 
@@ -125,11 +131,11 @@ This segregation of responsibility had several benefits:
 
 * the code for extracting, transforming and loading was now separate and testing them in isolation was easy
 * the **extract** and **load** sections were both completed in a matter of days
-* the **transform** step no longer needed to touch the database, making them easy to write and fast to run
-* a [test generator](https://github.com/DFE-Digital/register-early-career-teachers-public/blob/7f18f9d2064f3f280cc42e49e368a9a65e8504f4/app/migration/spec_generator.rb) could be used to convert real data from ECF1 to an test case, ensuring when we addressed a problem future changes wouldn't break it. We ended up with more than [30 real examples](https://github.com/DFE-Digital/register-early-career-teachers-public/tree/7f18f9d2064f3f280cc42e49e368a9a65e8504f4/spec/migration/teacher_history_converter/real_examples)
+* the **transform** step no longer needed to touch the database, making transformations easy to write and fast to run
+* a [test generator](https://github.com/DFE-Digital/register-early-career-teachers-public/blob/7f18f9d2064f3f280cc42e49e368a9a65e8504f4/app/migration/spec_generator.rb) could be used to convert real data from ECF1 into a test case, ensuring when we addressed a problem future changes wouldn't break it. We ended up with more than [30 real examples](https://github.com/DFE-Digital/register-early-career-teachers-public/tree/7f18f9d2064f3f280cc42e49e368a9a65e8504f4/spec/migration/teacher_history_converter/real_examples)
 * only a small number of true end-to-end tests were needed to ensure the entire process worked as expected
-* allowed us to add a data cleaning stage where fixes were applied, including:
-  - removing records from British oversea schools
+* it allowed us to add a data cleaning stage where fixes were applied, including:
+  - removing records from British overseas schools
   - closing ECT induction records that continued after the teacher's induction completion date
   - fixing records where the `end_date` was before the `start_date`
   - trimming impossibly-early dates
@@ -138,14 +144,14 @@ This segregation of responsibility had several benefits:
 
 The new teacher history converter unblocked the teacher history migration.
 
-By the launch of Register early career teachers we aimed for 99.99% of records to be migrated via either method, and we'd manually fix anything that was too broken to migrate automatically.
+By the launch of Register early career teachers we aimed for 99.99% of participants to be migrated via either method, and we'd manually fix anything that was too broken to migrate automatically.
 
 We used two migration strategies:
 
 * **economy** migrated the minimum data we need and overwrote some dates to ensure validity
-* **premium** migrated all data and applied lots of corrections to make it valid in ECF2
+* **premium** migrated all data and applied corrections like removing overlaps from the timeline
 
-Economy was the fallback, we didn't intend for it to be widely used but some histories were so broken we couldn't reassemble them. We built economy before premium and this chart shows how as the premium.
+Economy was the fallback. We didn't intend for it to be widely used but some histories were so broken we couldn't reassemble them.
 
 This chart shows how the economy route reduced from 91% of all participants in February 2026 to just 2% of all participants in April 2026, while premium rose from 0% to 97.88%.
 
@@ -157,7 +163,7 @@ Our migration tooling gave us reports on which records had failed and why. Some 
 
 We hit our target of 99.99% comfortably before the launch of Register early career teachers.
 
-The production data migration was run on Register early career teachers' launch day and was a success. It took less than an hour. The remaining broken records were manually fixed and added post-launch.
+The production data migration was run on Register early career teachers' launch day and was a success. It took less than an hour and the service launched on time. The remaining broken records were manually fixed and added to ECF2 after launch.
 
 This is the output of the production migration from 27 April 2026.
 
