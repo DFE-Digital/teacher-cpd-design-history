@@ -38,7 +38,7 @@ But, it's not that easy:
 
 This example query shows how complex it is to find a current induction record:
 
-![The SQL conditions needed to find the current induction record](/ecf-v2/migrating-teacher-training-data/current-induction-record-where-clause.png)
+![A screenshot of a SQL query that retrieves the current induction record. It's spread over 7 lines and has lots of conditions grouped by 'or' and 'and'](/ecf-v2/migrating-teacher-training-data/current-induction-record-where-clause.png)
 
 Over the years the service ran, the accidental complexity lead to many bugs. They were introduced, existed for a while, reported, diagnosed and fixed. All the records written between a bug's introduction and its fix being deployed are potentially affected.
 
@@ -53,7 +53,7 @@ In addition to migrating the records the migrator also needs to:
 
 We solved the `InductionRecord` problems by splitting the different kinds of data up into their own tables. This means only the necessary record needs to be changes when a teacher changes school, mentor or training provider.
 
-![ECF2 period data structure](/ecf-v2/migrating-teacher-training-data/ecf2-periods.png)
+![An ERD diagram showing the relationship between teachers, schools and various period types. At school periods represent the time a teacher is an ECT or mentor at a school, mentorship periods represent the time a mentor was mentoring an ECT, and training periods the time an ECT or mentor was being trained](/ecf-v2/migrating-teacher-training-data/ecf2-periods.png)
 
 The data model redesign is covered in [Designing the database first](/ecf-v2/designing-the-database-first/).
 
@@ -65,7 +65,7 @@ These processes take place in background jobs so we're able to split all the rec
 
 It works nicely for simple 1:1 record transfers because little translation is needed and the input is directly comparable to the output.
 
-![Simple model migration](/ecf-v2/migrating-teacher-training-data/migration-easy.png)
+![A diagram showing a straightforward one to one copy of a delivery partner from ECF1 to ECF2](/ecf-v2/migrating-teacher-training-data/migration-easy.png)
 
 However, it doesn't work for `InductionRecord` because it's an [append only](https://en.wikipedia.org/wiki/Append-only) table[^append-only]. Each record holds the current state, but to work out what it changed you need to compare it to the previous record.
 
@@ -75,7 +75,7 @@ To work out the full history of a teacher, including the history of the schools 
 
 This diagram shows how stepping through a series of induction records allows a training history to be pieced together:
 
-![Difficult model migration](/ecf-v2/migrating-teacher-training-data/migration-hard.png)
+![A diagram the complexity of migrating induction records where each one can affect the others around it](/ecf-v2/migrating-teacher-training-data/migration-hard.png)
 
 Processing one `InductionRecord` at a time would be extremely slow because the migrator would need to retrieve all ECF2 data in order to work out how the current `InductionRecord` might affect it.
 
