@@ -134,21 +134,35 @@ This segregation of responsibility had several benefits:
   - fixing records where the `end_date` was before the `start_date`
   - trimming impossibly-early dates
 
-### What happened next
+### The home straight
 
 The new teacher history converter unblocked the teacher history migration.
 
-Within weeks it surpassed the previous version and we reached our 99% goal more than a month ahead of the [Register early career teachers launch](https://dfedigital.blog.gov.uk/2026/06/05/move-fast-then-fix-things-what-we-learned-building-register-early-career-teachers/).
+By the launch of Register early career teachers we aimed for 99.99% of records to be migrated via either method, and we'd manually fix anything that was too broken to migrate automatically.
 
-We ran the full migration every night and discussed the results the following morning.
+We used two migration strategies:
+
+* **economy** migrated the minimum data we need and overwrote some dates to ensure validity
+* **premium** migrated all data and applied lots of corrections to make it valid in ECF2
+
+Economy was the fallback, we didn't intend for it to be widely used but some histories were so broken we couldn't reassemble them. We built economy before premium and this chart shows how as the premium.
+
+This chart shows how the economy route reduced from 91% of all participants in February 2026 to just 2% of all participants in April 2026, while premium rose from 0% to 97.88%.
+
+![A chart showing the timespan from February 2026 to April 2026 where the economy percentage (orange) drops from 91% to 2% and the premium percentage (purple) rises from 0% to 97.88%](/ecf-v2/migrating-teacher-training-data/rise-of-premium.png)
+
+We ran the full migration every night in a test environment and the team discussed the results the following morning and decided how to improve them. Running repeatedly increased our confidence that the process would work in production and got us used to the process of running it.
 
 Our migration tooling gave us reports on which records had failed and why. Some fixes were applied in the ECF1 database and some needed amendments to be made to the converter.
 
-The number crept up towards the 99.99% target.
-
-![Final stats](/ecf-v2/migrating-teacher-training-data/final-stats.png)
+We hit our target of 99.99% comfortably before the launch of Register early career teachers.
 
 The production data migration was run on Register early career teachers' launch day and was a success. It took less than an hour. The remaining broken records were manually fixed and added post-launch.
+
+This is the output of the production migration from 27 April 2026.
+
+![A table listing the various kinds of data held in RECT and the success rate. The lowest is 99%](/ecf-v2/migrating-teacher-training-data/final-stats.png)
+
 
 [^history-of-data-management]: Keith D. Foote (2022) [A Brief History of Data Management](https://www.dataversity.net/articles/brief-history-data-management/#extract-transform-and-load)
 [^append-only]: Induction records were originally intended to be append-only but under certain circumstances they were updated. This made reconstructing the timeline for ECF2 conversion even more complicated.
